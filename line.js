@@ -18,7 +18,7 @@ const svg = d3
   .append("g")
   .attr("transform", `translate(${margin.left},${margin.top})`);
 //Read the data
-d3.csv("data/Female_line.csv").then(function (data) {
+d3.csv("data/Total_line.csv").then(function (data) {
   //console.log(data.slice(0,-1))
 
   // group the data: I want to draw one line per group

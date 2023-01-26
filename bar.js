@@ -14,9 +14,10 @@ const svg3 = d3
   .attr("transform", `translate(${margin.left},${margin.top})`);
 
 // Parse the Data
-d3.csv("data/Female_line.csv").then(function (data) {
+d3.csv("data/Merge_line.csv").then(function (data) {
   // List of subgroups = header of the csv files = soil condition here
   const subgroups = data.columns.slice(1);
+  console.log(subgroups)
 
   // List of groups = species here = value of the first column called group -> I show them on the X axis
   const groups = data.map((d) => d.CC);
