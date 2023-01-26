@@ -66,7 +66,8 @@ d3.csv("data/Female_line.csv").then(function (data) {
     ]);
 
   // Draw the line
-  svg
+  // add the lines
+  const lines = svg
     .selectAll(".line")
     .data(sumstat)
     .join("path")
@@ -84,5 +85,15 @@ d3.csv("data/Female_line.csv").then(function (data) {
         .y(function (d) {
           return y(+d.LE);
         })(d[1]);
+    })
+    .on("mouseover", function (d) {
+      d3.select(this).attr("stroke-width", 3).attr("stroke", "black");
+    })
+    .on("mouseout", function (d) {
+      d3.select(this)
+        .attr("stroke-width", 1.5)
+        .attr("stroke", function (d) {
+          return color(d[0]);
+        });
     });
 });
