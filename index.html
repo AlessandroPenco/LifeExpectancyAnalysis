@@ -6,11 +6,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <script src="./js/commons.js"></script>
   </head>
   <body>
     <!-- include navbar start -->
@@ -20,38 +24,154 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 text-center">
-          <img src="./images/agg img.jpg" class="img-fluid">
-<!--
-        <div class="col-md-8">
-          <div id="graph1"></div>
-        </div>
-        <div class="col-md-4">
-          <div id="data-table"></div>
--->
-        </div>
+          <h1>Life Expectancy Analysis</h1>
+          <h1>!!! SLIDER HERE!!!</h1>
       </div>
     </div>
-    <!-- introduction end -->
-    <!-- plot 1 start -->
+  </div>
+  <!-- introduction end -->
+  <!-- plot 1 start -->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6">
-          <div id="plot"></div>
+        <div class="col-lg-6 blocked-image-container">
+          <div class="section-container">
+            <g class="plot" data-aos="fade-up" data-aos-duration="1000" id="plot-1">
+              <p>This is section for plot 1</p>
+            </g>
+          </div>
         </div>
-        <div class="col-lg-4">
-          <h2>Life Expectancy Analysis</h2>
-          <p>The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
-          <p>Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
-          <p>By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
+        <div class="col-lg-4 scrollable-text-container">
+          <h2>Map chart</h2>
+          <p class="text-explanation">The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
+          <p class="text-explanation">Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
+          <p class="text-explanation">By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
+          <p class="text-explanation">The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
+          <p class="text-explanation">Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
+          <p class="text-explanation">By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
         </div>
       </div>
     </div>
     <!-- plot 1 end -->
+    <!-- plot 2 start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 scrollable-text-container">
+          <h2>Line chart</h2>
+          <p class="text-explanation">The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
+          <p class="text-explanation">Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
+          <p class="text-explanation">By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
+          <p class="text-explanation">The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
+          <p class="text-explanation">Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
+          <p class="text-explanation">By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
+        </div>
+        <div class="col-lg-6 blocked-image-container">
+          <div class="section-container">
+            <g class="plot" data-aos="fade-up" data-aos-duration="1000" id="plot-2">
+              <p>This is section for plot 2</p>
+            </g>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- plot 2 end -->
+    <!-- plot 3 start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 blocked-image-container">
+          <div class="section-container">
+            <g class="plot" data-aos="fade-up" data-aos-duration="1000" id="plot-3">
+              <p>This is section for plot 3</p>
+            </g>
+          </div>
+        </div>
+        <div class="col-lg-4 scrollable-text-container">
+          <h2>Bar chart</h2>
+          <p class="text-explanation">The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
+          <p class="text-explanation">Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
+          <p class="text-explanation">By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
+          <p class="text-explanation">The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
+          <p class="text-explanation">Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
+          <p class="text-explanation">By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
+        </div>
+      </div>
+    </div>
+    <!-- plot 3 end -->
+    <!-- plot 4 start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 scrollable-text-container">
+          <h2>Box chart</h2>
+          <p class="text-explanation">The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
+          <p class="text-explanation">Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
+          <p class="text-explanation">By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
+          <p class="text-explanation">The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
+          <p class="text-explanation">Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
+          <p class="text-explanation">By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
+        </div>
+        <div class="col-lg-6 blocked-image-container">
+          <div class="section-container">
+            <g class="plot" data-aos="fade-up" data-aos-duration="1000" id="plot-4">
+              <p>This is section for plot 4</p>
+            </g>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- plot 4 end -->
+    <!-- plot 5 start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 blocked-image-container">
+          <div class="section-container">
+            <g class="plot" data-aos="fade-up" data-aos-duration="1000" id="plot-5">
+              <p>This is section for plot 5</p>
+            </g>
+          </div>
+        </div>
+        <div class="col-lg-4 scrollable-text-container">
+          <h2>Scatter plot chart</h2>
+          <p class="text-explanation">The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
+          <p class="text-explanation">Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
+          <p class="text-explanation">By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
+          <p class="text-explanation">The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
+          <p class="text-explanation">Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
+          <p class="text-explanation">By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
+        </div>
+      </div>
+    </div>
+    <!-- plot 5 end -->
+    <!-- plot 6 start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 scrollable-text-container">
+          <h2>Bubble chart</h2>
+          <p class="text-explanation">The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
+          <p class="text-explanation">Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
+          <p class="text-explanation">By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
+          <p class="text-explanation">The life expectancy rate is a measure of the average number of years that a person is expected to live. It is an important indicator of a population's overall health and well-being.</p>
+          <p class="text-explanation">Our plot shows the life expectancy rate for several countries around the world. As you can see, there is a wide range of rates, with some countries having much higher rates than others.</p>
+          <p class="text-explanation">By analyzing this data, we can gain insight into factors that contribute to higher life expectancy rates, such as access to healthcare, education, and economic stability. We can also identify areas where improvement is needed in order to increase the life expectancy rate for all.</p>
+        </div>
+        <div class="col-lg-6 blocked-image-container">
+          <div class="section-container">
+            <g class="plot" data-aos="fade-up" data-aos-duration="1000" id="plot-6">
+              <p>This is section for plot 6</p>
+            </g>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- plot 2 end -->
+
     <script>
       // JavaScript code for chart and data table goes here
     </script>
     <!-- include footer start -->
     <iframe src="./footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
     <!-- include footer end -->
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
