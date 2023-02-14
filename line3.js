@@ -1,11 +1,6 @@
-// set the dimensions and margins of the graph
-const margin = { top: 10, right: 30, bottom: 30, left: 60 },
-  width = 460 - margin.left - margin.right,
-  height = 400 - margin.top - margin.bottom;
-
 // append the svg object to the body of the page
-const svg = d3
-  .select("#line")
+const svgline3 = d3
+  .select("#line3")
   .append("svg")
   .attr(
     "viewBox",
@@ -33,7 +28,7 @@ d3.csv("data/Total_line.csv").then(function (data) {
       })
     )
     .range([0, width]);
-  svg
+    svgline3
     .append("g")
     .attr("transform", `translate(0, ${height})`)
     .call(d3.axisBottom(x).ticks(5));
@@ -48,7 +43,7 @@ d3.csv("data/Total_line.csv").then(function (data) {
       }),
     ])
     .range([height, 0]);
-  svg.append("g").call(d3.axisLeft(y));
+    svgline3.append("g").call(d3.axisLeft(y));
 
   // color palette
   const color = d3
@@ -67,7 +62,7 @@ d3.csv("data/Total_line.csv").then(function (data) {
 
   // Draw the line
   // add the lines
-  const lines = svg
+  const lines = svgline3
     .selectAll(".line")
     .data(sumstat)
     .join("path")
