@@ -16,7 +16,7 @@ Chart.defaults.global.defaultFontFamily = "'Open Sans', sans-serif";
 Chart.defaults.global.defaultFontColor = '#333';
 Chart.defaults.global.animation.duration = 0;
 
-var startYear = 1800, endYear = 2018, chosenYear = 1800;
+var startYear = 1800, endYear = 2018, chosenYear = 2018;
 
 
 var yearLabelPlugin = {

@@ -1,6 +1,6 @@
 
 // append the svg object to the body of the page
-var svgmapchart1 = d3.select("#mapchart1")
+var svgmapchart2 = d3.select("#mapchart2")
 .append("svg")
   .attr(
     "viewBox",
@@ -59,7 +59,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/wo
   }
 
   // Draw the map
-  svgmapchart1.append("g")
+  svgmapchart2.append("g")
     .selectAll("path")
     .data(topo.features)
     .enter()
