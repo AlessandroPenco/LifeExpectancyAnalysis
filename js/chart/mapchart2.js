@@ -1,4 +1,3 @@
-
 // append the svg object to the body of the page
 var svgmapchart2 = d3.select("#mapchart2")
 .append("svg")
@@ -15,11 +14,11 @@ var svgmapchart2 = d3.select("#mapchart2")
 
 
 // Map and projection
-const path = d3.geoPath();
-const projection = d3.geoMercator()
-  .scale(70)
-  .center([0,20])
-  .translate([width / 2, height / 2]);
+// const path = d3.geoPath();
+// const projection = d3.geoMercator()
+//   .scale(70)
+//   .center([0,20])
+//   .translate([width / 2, height / 2]);
 
 // Data and color scale
 const data = new Map();
