@@ -16,7 +16,7 @@ const svgline2 = d3
   .attr("transform", `translate(${margin.left-20},${margin.top})`);
 
 //Read the data
-d3.csv("../../data/myLE-UN-Projections.csv").then(function (data) {
+d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/myLE-UN-Projections.csv").then(function (data) {
   //console.log(data.slice(0,-1))
 
   // group the data: I want to draw one line per group
@@ -75,6 +75,7 @@ d3.csv("../../data/myLE-UN-Projections.csv").then(function (data) {
 const lineChart = svgline2.append('g')
 .attr("clip-path", "url(#clip)")
 
+
   // Draw the line
   // add the lines
   lineChart
@@ -84,15 +85,15 @@ const lineChart = svgline2.append('g')
     .attr("fill", "none")
     .style("stroke", function (d) { return colors[d[0]] })
     .attr("class", d => "lowOpacityOnHover "+d[0])
-    .style("stroke-dasharray", d => (d => (console.log(d))))//(d.LE!="") ? "none" : "5" )))
     .style("stroke-width", 1.5)
     .attr("d", function (d) {
       return d3.line()
         .x(d => x(d.YY))
         .y(d => (d.LE!="" ? y(+d.LE) :  y(+d.LEPred)))
+        .curve(d3.curveBasis)
         (d[1]);
-
     })
+
     .on("mouseover", function (event, d) {
       // make all regions' color duller and delete stroke
       svgline2.selectAll(`.lowOpacityOnHover`)
@@ -113,6 +114,15 @@ const lineChart = svgline2.append('g')
       .style("stroke-width", "1px")
     });
 
+    lineChart.append('line') 
+    .style("stroke", "gray")
+    .style("stroke-dasharray", "5")
+    .style("stroke-width", 1)
+    .attr("x1", x(2021))
+    .attr("y1", 0)
+    .attr("x2", x(2021))
+    .attr("y2", height);
+   
 
     let continents = [["AF", "Africa"], ["NA", "North America"], ["SA", "South America"], ["EU", "Europe"], ["AS", "Asia"], ["OC", "Oceania"], ["AllWorld", "World"]];
 
