@@ -1,3 +1,5 @@
+
+
 // append the svg object to the body of the page
 const svgline1 = d3
   .select("#line1")
@@ -12,6 +14,14 @@ const svgline1 = d3
   .attr("width", "100%")
   .append("g")
   .attr("transform", `translate(${margin.left-20},${margin.top})`);
+
+  const clip = svgline1.append("defs").append("svg:clipPath")
+  .attr("id", "clip")
+  .append("svg:rect")
+  .attr("width", width )
+  .attr("height", height )
+  .attr("x", 0)
+  .attr("y", 0);
 //Read the data
 d3.csv("../../data/Total_line.csv").then(function (data) {
   //console.log(data.slice(0,-1))
@@ -28,7 +38,7 @@ d3.csv("../../data/Total_line.csv").then(function (data) {
       })
     )
     .range([0, width]);
-  svgline1
+    const xAxis = svgline1
     .append("g")
     .attr("transform", `translate(0, ${height})`)
     .call(d3.axisBottom(x).ticks(5));
@@ -69,9 +79,12 @@ d3.csv("../../data/Total_line.csv").then(function (data) {
     'World': '#fc5be2'
 };
 
+const lineChart = svgline1.append('g')
+.attr("clip-path", "url(#clip)")
+
   // Draw the line
   // add the lines
-  svgline1
+  lineChart
     .selectAll(".line")
     .data(sumstat)
     .join("path")
@@ -163,6 +176,53 @@ d3.csv("../../data/Total_line.csv").then(function (data) {
     .attr("transform", "rotate(-90)")
     .style("font-size", "9px")
     .text("Life expectancy at birth (YY)");
+
+    
+
+    // Add brushing
+    const brush = d3.brushX()                 // Add the brush feature using the d3.brush function
+      .extent( [ [0,0], [width,height] ] ) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
+      .on("end", updateChart)
+
+    // Add the brushing
+    lineChart
+      .append("g")
+        .attr("class", "brush")
+        .call(brush);
+        
+        
+    let idleTimeout
+    function idled() { idleTimeout = null; }
+    
+          // A function that update the chart for given boundaries
+  function updateChart(event,d) {
+
+    extent = event.selection
+
+    // If no selection, back to initial coordinate. Otherwise, update X axis domain
+    if(!extent){
+      if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // This allows to wait a little bit
+      x.domain(d3.extent(data, function(d) { return d.YY; }))
+    }else{
+      x.domain([ x.invert(extent[0]), x.invert(extent[1]) ])
+      lineChart.select(".brush").call(brush.move, null) // This remove the grey brush area as soon as the selection has been done
+    }
+
+    // Update axis and area position
+    xAxis.transition().duration(1000).call(d3.axisBottom(x).ticks(5))
+    lineChart
+      .selectAll("path")
+      .transition().duration(1000)
+      .attr("d", function (d) {
+        return d3.line()
+          .x(function (d) {
+            return x(d.YY);
+          })
+          .y(function (d) {
+            return y(+d.LE);
+          })(d[1]);
+      })
+    }
 
 });
 
