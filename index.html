@@ -28,6 +28,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
+    <!-- <script src="js/topojson.js"></script> -->
 
     <link
       rel="icon"
@@ -50,8 +51,8 @@
         <div class="col-12 text-center">
           <h1>Life Expectancy Analysis</h1>
           <div id="year-slider-wrapper">
-            <label>1800</label>
-            <input id="year-slider" type="range" min="1800" max="2018" style="width: 800px;" value="2018" />
+            <label>1950</label>
+            <input id="year-slider" type="range" min="1950" max="2018" style="width: 800px;" value="2018" />
             <label>2018</label>
           </div>
         </div>
@@ -611,7 +612,7 @@
      <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 scrollable-text-container">
-          <h2>Parallel line chart</h2>
+          <h2>Waffle chart</h2>
           <p class="text-explanation">
             The life expectancy rate is a measure of the average number of years
             that a person is expected to live. It is an important indicator of a
@@ -719,18 +720,18 @@
     <!-- plot 12 end -->
 
     <script src="https://d3js.org/d3.v6.js"></script>
-    <script src="/js/chart/mapchart1.js"></script>
-    <script src="/js/chart/bubble.js"></script>
-    <script src="/js/chart/line1.js"></script>
-    <script src="/js/chart/bar.js"></script>
-    <script src="/js/chart/box.js"></script>
-    <script src="/js/chart/multipleScatter.js"></script>
-    <script src="/js/chart/line2.js"></script>
-    <script src="/js/chart/stackedArea.js"></script>
-    <script src="/js/chart/mapchart2.js"></script>
-    <script src="/js/chart/line3.js"></script>
-    <script src="/js/chart/parallelChart.js"></script>
-    <script src="/js/chart/radarChart.js"></script>
+    <script src="./js/chart/mapchart1.js"></script>
+    <script src="./js/chart/bubble.js"></script>
+    <script src="./js/chart/line1.js"></script>
+    <script src="./js/chart/mapchart2.js"></script>
+    <script src="./js/chart/bar.js"></script>
+    <script src="./js/chart/box.js"></script>
+    <script src="./js/chart/multipleScatter.js"></script>
+    <script src="./js/chart/line2.js"></script>
+    <script src="./js/chart/stackedArea.js"></script>
+    <script src="./js/chart/line3.js"></script>
+    <script src="./js/chart/parallelChart.js"></script>
+    <script src="./js/chart/radarChart.js"></script>
 
     
     <!-- include footer start -->
@@ -742,6 +743,12 @@
 
     <script>
       AOS.init();
+      var slider = d3.select("#year-slider");
+      slider.on("input", function() {
+        mapChart1(this.value)
+        mapChart2(this.value)
+        barChart1(this.value)
+      });
     </script>
   </body>
 </html>

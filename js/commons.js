@@ -152,4 +152,3 @@ svg5.append("g")
   return svg5.node();
 
 }
-

@@ -129,7 +129,3 @@ Promise.all([
   
 }
 mapChart1("2018");
-
-var slider = d3.select("#year-slider");
-
-slider.on("input", function() {mapChart1(this.value)});
