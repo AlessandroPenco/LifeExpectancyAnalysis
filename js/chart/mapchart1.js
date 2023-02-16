@@ -34,14 +34,14 @@ Promise.all([
   });
 
   // Set up the color scale for life expectancy
-  var colorScale = d3.scaleSequential(d3.interpolateYlGn)
+  var colorScale = d3.scaleSequential(d3.interpolateSpectral)
     .domain(d3.extent(mappedData, function(d) { return d.lifeExpectancy}));
     
   var step = [];
   for (let index = 1; index <= 8; index++) {
     step.push((Math.round((d3.extent(mappedData, function(d) { return d.lifeExpectancy})[1]*index/8 + Number.EPSILON) * 100) / 100))
   }
-  Legend(d3.scaleThreshold(step, d3.schemeGreens[8]), "#mapchart1")
+  Legend(d3.scaleThreshold(step, d3.schemeSpectral[8]), "#mapchart1")
   
   // Set up the SVG elements for the map
   var svgmapchart1 = d3.select("#mapchart1")

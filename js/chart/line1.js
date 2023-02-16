@@ -11,7 +11,7 @@ const svgline1 = d3
   .attr("preserveAspectRatio", "xMinYMin meet")
   .attr("width", "100%")
   .append("g")
-  .attr("transform", `translate(${margin.left},${margin.top+10})`);
+  .attr("transform", `translate(${margin.left-20},${margin.top})`);
 //Read the data
 d3.csv("../../data/Total_line.csv").then(function (data) {
   //console.log(data.slice(0,-1))
@@ -46,19 +46,29 @@ d3.csv("../../data/Total_line.csv").then(function (data) {
   svgline1.append("g").call(d3.axisLeft(y));
 
   // color palette
-  var color = d3
-    .scaleOrdinal()
-    .range([
-      "#e41a1c",
-      "#377eb8",
-      "#4daf4a",
-      "#984ea3",
-      "#ff7f00",
-      "#ffff33",
-      "#a65628",
-      "#f781bf",
-      "#999999",
-    ]);
+  const colors = {
+    'AF': '#fc7979',
+    'Africa': '#fc7979',
+
+    'AS': '#fae078',
+    'Asia': '#fae078',
+
+    'EU': '#80fc79',
+    'Europe': '#80fc79',
+
+    'NA': '#77f7ea',
+    'NNorth AmericaA': '#77f7ea',
+
+    'OC': '#6380f2',
+    'Oceania': '#6380f2',
+
+    'SA': '#955ffa',
+    'South America': '#955ffa',
+
+    'AllWorld': '#fc5be2',
+    'World': '#fc5be2'
+};
+
   // Draw the line
   // add the lines
   svgline1
@@ -66,12 +76,11 @@ d3.csv("../../data/Total_line.csv").then(function (data) {
     .data(sumstat)
     .join("path")
     .attr("fill", "none")
-    .style("stroke", function (d) {
-      return color(d[0]);
-    })
-    .attr("class", function(d){ 
-      return "line"+((d+"").split(",")[0]);
-    })
+    .style("stroke", function (d) { return colors[d[0]] })
+    // .attr("class", function(d){
+    //   return "line"+d[0];
+    // })
+    .attr("class", d => "lowOpacityOnHover "+d[0])
     .style("stroke-width", 1.5)
     .attr("d", function (d) {
       return d3.line()
@@ -84,40 +93,76 @@ d3.csv("../../data/Total_line.csv").then(function (data) {
     })
     .on("mouseover", function (event, d) {
       // make all regions' color duller and delete stroke
-      svgline1.selectAll("path")
-          .style("stroke", "grey")
+      svgline1.selectAll(`.lowOpacityOnHover`)
+          // .style("stroke", "grey")
           .style("fill-opacity", "0.5")
+          .style("stroke-width", ".7px")
+
 
       // make hovered ragion (id corresponding to hovered element) color normal
-      svgline1.selectAll(`.line${((d+"").split(",")[0])}`)
+      svgline1.selectAll(`.lowOpacityOnHover.${d[0]}`)
           .style("fill-opacity", "1")
-          .style("stroke", "black")
-          .style("stroke-width", "2px")
+          .style("stroke-width", "5px")
     })
     .on("mouseout", function (event, d) {
       // make hovered ragion (id corresponding to hovered element) color normal
-      svgline1.selectAll("path")
-      .style("stroke", function (d) {
-        return color(d[0]);
-      })
-        .style("fill-opacity", "1")
+      svgline1.selectAll(`.lowOpacityOnHover`)
+      .style("fill-opacity", "1")
+      .style("stroke-width", "1px")
     });
 
-    
-    let continents = ["Africa", "America", "Europe", "Asia", "Australia"]
-     // legend
-     for (let i = 0; i < continents.length; i++) {
-      svgline1.append("circle")
-          .attr("cx", (width/5)*(i))
-          .attr("cy", -10)
-          .attr("r", 6)
-          .style("fill", color(i))
-          svgline1.append("text")
-          .attr("x", (width/5)*(i)+10)
-          .attr("y", -10)
-          .text(continents[i])
-          .style("font-size", "15px")
-          .attr("alignment-baseline", "middle")
-     }
+
+    let continents = [["AF", "Africa"], ["NA", "North America"], ["SA", "South America"], ["EU", "Europe"], ["AS", "Asia"], ["OC", "Oceania"], ["AllWorld", "World"]];
+
+    function onMouseOverLegend(event) {
+      var lineClass = event.target.classList[1];
+      d3.selectAll(".lowOpacityOnHover")
+          .style("opacity", "0.1")
+      d3.selectAll("." + lineClass)
+          .style("opacity", "1")
+  };
+
+  function onMouseOutLegend(event) {
+      d3.selectAll(".lowOpacityOnHover")
+          .style("opacity", "1")
+  };
+    // legend
+    for (let i = 0; i < continents.length; i++) {
+    svgline1.append("circle")
+        .attr("cx", width+ margin.left + margin.right-60)
+        .attr("cy", 100 + i * 18)
+        .attr("r", 6)
+        .style("fill", colors[continents[i][0]])
+        .attr("class", "lowOpacityOnHover " + continents[i][0])
+        .on("mouseover", onMouseOverLegend)
+        .on("mouseout", onMouseOutLegend);
+        svgline1.append("text")
+        .attr("x", width+ margin.left + margin.right-50)
+        .attr("y", 100 + i * 18)
+        .text(continents[i][1])
+        .style("font-size", "9px")
+        .attr("alignment-baseline", "middle")
+        .attr("class", "lowOpacityOnHover " + continents[i][0])
+        .on("mouseover", onMouseOverLegend)
+        .on("mouseout", onMouseOutLegend);
+    };
+
+    svgline1.append("text")
+    .attr("class", "x label")
+    .attr("text-anchor", "end")
+    .style("font-size", "9px")
+    .attr("y", height-5)
+    .text("Time (YY)");
+
+    svgline1.append("text")
+    .attr("class", "y label")
+    .attr("text-anchor", "end")
+    .attr("y", -36)
+    .attr("x", width)
+    .attr("dy", ".75em")
+    .attr("transform", "rotate(-90)")
+    .style("font-size", "9px")
+    .text("Life expectancy at birth (YY)");
+
 });
 
