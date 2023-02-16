@@ -15,18 +15,11 @@ const svgline1 = d3
   .append("g")
   .attr("transform", `translate(${margin.left-20},${margin.top})`);
 
-  const clip = svgline1.append("defs").append("svg:clipPath")
-  .attr("id", "clip")
-  .append("svg:rect")
-  .attr("width", width )
-  .attr("height", height )
-  .attr("x", 0)
-  .attr("y", 0);
 //Read the data
-d3.csv("../../data/Total_line.csv").then(function (data) {
+d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/Total_line.csv").then(function (data) {
   //console.log(data.slice(0,-1))
 
-  // group the data: I want to draw one line per group
+  // group the data: I want to draw one line per grou p
   const sumstat = d3.group(data, (d) => d.CC); // nest function allows to group the calculation per level of a factor
   console.log(sumstat);
   // Add X axis --> it is a date format
@@ -177,7 +170,13 @@ const lineChart = svgline1.append('g')
     .style("font-size", "9px")
     .text("Life expectancy at birth (YY)");
 
-    
+    const clip = svgline1.append("defs").append("svg:clipPath")
+  .attr("id", "clip")
+  .append("svg:rect")
+  .attr("width", width )
+  .attr("height", height )
+  .attr("x", 0)
+  .attr("y", 0);
 
     // Add brushing
     const brush = d3.brushX()                 // Add the brush feature using the d3.brush function
