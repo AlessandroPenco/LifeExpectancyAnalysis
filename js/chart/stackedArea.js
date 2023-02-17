@@ -26,7 +26,7 @@ d3.csv("../../data/healthy-life-expectancy-and-years-lived-with-disability.csv")
   // List of groups = header of the csv files
   const keys = data.columns.slice(1).slice(1).reverse();
   
-  console.log(keys)
+  // console.log(keys)
   // color palette
   const color = d3.scaleOrdinal()
     .domain(keys)
@@ -34,11 +34,11 @@ d3.csv("../../data/healthy-life-expectancy-and-years-lived-with-disability.csv")
 
 
   var entityData = data.filter((d) => d.Entity==entity)
-  console.log(entityData)
+  // console.log(entityData)
   //stack the data?
   const stackedData = d3.stack().keys(keys)(entityData)
 
-  console.log(stackedData)
+  // console.log(stackedData)
 
 
   //////////

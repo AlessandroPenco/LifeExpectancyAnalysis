@@ -23,14 +23,14 @@ function barChart1(yy) {
   d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/Merge_line.csv").then(function (myData) {
     // List of subgroups = header of the csv files = soil condition here
     data = myData.filter((d) => d["YY"]==yy)
-    console.log(data)
+    // console.log(data)
     
     // const subgroups = myData.columns.slice(1);
     const subgroups = ["M", "F", "T"]
-    console.log(subgroups)
+    // console.log(subgroups)
     // List of groups = species here = value of the first column called group -> I show them on the X axis
     const groups = data.map((d) => d.CC);
-    console.log(groups)
+    // console.log(groups)
     
     // console.log(groups);
     
