@@ -10,6 +10,38 @@ const projection = d3.geoMercator()
 .translate([width / 2, height / 2]);
 const path = d3.geoPath().projection(projection);
 
+var legendMapchart1 = d3.select("#mapchart1")
+    .append("svg")
+    .attr(
+      "viewBox",
+      `0 0 ${width + margin.left + margin.right-170} ${
+        height + margin.top + margin.bottom-350
+      }`
+      )
+      .attr("preserveAspectRatio", "xMinYMin meet")
+      .attr("width", "100%")
+      .append("g")
+      .attr("transform", `translate(${margin.left},${margin.top})`);  
+
+  // Set up the SVG elements for the map
+  var svgmapchart1 = d3.select("#mapchart1")
+  .append("svg")
+  .attr(
+    "viewBox",
+    `0 0 ${width + margin.left + margin.right} ${
+      height + margin.top + margin.bottom
+    }`
+    )
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("width", "100%")
+    .append("g")
+    .attr("transform", `translate(${margin.left},${margin.top+10})`);
+    
+    var par = "Year: " + yy;
+    svgmapchart1.append("text").text(par);
+
+    
+
 // Load the world map data and life expectancy data
 Promise.all([
   d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
@@ -41,25 +73,7 @@ Promise.all([
   for (let index = 1; index <= 8; index++) {
     step.push((Math.round((d3.extent(mappedData, function(d) { return d.lifeExpectancy})[1]*index/8 + Number.EPSILON) * 100) / 100))
   }
-  Legend(d3.scaleThreshold(step, d3.schemeSpectral[8]), "#mapchart1")
-  
-  // Set up the SVG elements for the map
-  var svgmapchart1 = d3.select("#mapchart1")
-  .append("svg")
-  .attr(
-    "viewBox",
-    `0 0 ${width + margin.left + margin.right} ${
-      height + margin.top + margin.bottom
-    }`
-    )
-    .attr("preserveAspectRatio", "xMinYMin meet")
-    .attr("width", "100%")
-    .append("g")
-    .attr("transform", `translate(${margin.left},${margin.top+10})`);
-    
-    var par = "Year: " + yy;
-    svgmapchart1.append("text").text(par);
-
+  Legend(d3.scaleThreshold(step, d3.schemeSpectral[8]), legendMapchart1)
   
   const tooltip = d3.select("body")
     .append("div")

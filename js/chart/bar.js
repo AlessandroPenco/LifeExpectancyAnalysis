@@ -42,7 +42,7 @@ function barChart1(yy) {
     .call(d3.axisBottom(x).tickSize(0));
     
     // Add Y axis
-    const y = d3.scaleLinear().domain([40, 80]).range([height, 0]);
+    const y = d3.scaleLinear().domain([0, 100]).range([height, 0]);
     svgbar.append("g").call(d3.axisLeft(y));
 
     // Another scale for subgroup position?

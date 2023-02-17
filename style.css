@@ -160,7 +160,7 @@ input[type=range]:focus::-ms-fill-lower {
 input[type=range]:focus::-ms-fill-upper {
   background: rgba(223, 223, 223, 0.78);
 }
-
+/* 
 .radar-chart .area {
   fill-opacity: 0.7;
 }
@@ -177,4 +177,4 @@ input[type=range]:focus::-ms-fill-upper {
 .area.argentina, .argentina .circle {
   fill: #ADD8E6;
   stroke: none;
-}
+} */

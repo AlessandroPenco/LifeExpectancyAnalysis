@@ -4,7 +4,7 @@ const margin = { top: 10, right: 30, bottom: 30, left: 60 },
   width = 460 - margin.left - margin.right,
   height = 400 - margin.top - margin.bottom;
 
-function Legend(color, id, {
+function Legend(color, svg5, {
   title,
   tickSize = 1,
   width = 200,
@@ -30,12 +30,6 @@ function ramp(color, n = 256) {
   return canvas;
 }
 
-const svg5 = d3.select(id)
-            .append("svg")
-            .attr("viewBox", '0 0 ' + (width + marginLeft + marginRight) +
-                ' ' + (height + marginTop + marginBottom))
-            .append("g")
-            .attr("transform", `translate(${marginLeft}, ${marginTop})`);
 
 let tickAdjust = g => g.selectAll(".tick line").attr("y1", marginTop + marginBottom - height);
 let x;
