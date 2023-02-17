@@ -114,7 +114,8 @@ const lineChart = svgline2.append('g')
       .style("stroke-width", "1px")
     });
 
-    lineChart.append('line') 
+    lineChart.append('line')
+    .attr("class", "2020line")
     .style("stroke", "gray")
     .style("stroke-dasharray", "5")
     .style("stroke-width", 1)
@@ -215,6 +216,7 @@ const lineChart = svgline2.append('g')
 
     // Update axis and area position
     xAxis.transition().duration(1000).call(d3.axisBottom(x).ticks(5))
+    
     lineChart
       .selectAll("path")
       .transition().duration(1000)
@@ -227,6 +229,19 @@ const lineChart = svgline2.append('g')
             return (d.LE!="" ? y(+d.LE) :  y(+d.LEPred));
           })(d[1]);
       })
+    
+    d3.select("#line2").selectAll('line').remove()
+  
+    lineChart.append('line')
+    .transition().duration(1000)
+    .style('class', 'line2020')
+    .style("stroke", "gray")
+    .style("stroke-dasharray", "5")
+    .style("stroke-width", 1)
+    .attr("x1", x(2021))
+    .attr("y1", 0)
+    .attr("x2", x(2021))
+    .attr("y2", height);
     }
 
 });
