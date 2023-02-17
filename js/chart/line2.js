@@ -92,27 +92,26 @@ const lineChart = svgline2.append('g')
         .y(d => (d.LE!="" ? y(+d.LE) :  y(+d.LEPred)))
         .curve(d3.curveBasis)
         (d[1]);
-    })
-
-    .on("mouseover", function (event, d) {
-      // make all regions' color duller and delete stroke
-      svgline2.selectAll(`.lowOpacityOnHover`)
-          // .style("stroke", "grey")
-          .style("fill-opacity", "0.5")
-          .style("stroke-width", ".7px")
-
-
-      // make hovered ragion (id corresponding to hovered element) color normal
-      svgline2.selectAll(`.lowOpacityOnHover.${d[0]}`)
-          .style("fill-opacity", "1")
-          .style("stroke-width", "5px")
-    })
-    .on("mouseout", function (event, d) {
-      // make hovered ragion (id corresponding to hovered element) color normal
-      svgline2.selectAll(`.lowOpacityOnHover`)
-      .style("fill-opacity", "1")
-      .style("stroke-width", "1px")
     });
+    // .on("mouseover", function (event, d) {
+    //   // make all regions' color duller and delete stroke
+    //   svgline2.selectAll(`.lowOpacityOnHover`)
+    //       // .style("stroke", "grey")
+    //       .style("fill-opacity", "0.5")
+    //       .style("stroke-width", ".7px")
+
+
+    //   // make hovered ragion (id corresponding to hovered element) color normal
+    //   svgline2.selectAll(`.lowOpacityOnHover.${d[0]}`)
+    //       .style("fill-opacity", "1")
+    //       .style("stroke-width", "5px")
+    // })
+    // .on("mouseout", function (event, d) {
+    //   // make hovered ragion (id corresponding to hovered element) color normal
+    //   svgline2.selectAll(`.lowOpacityOnHover`)
+    //   .style("fill-opacity", "1")
+    //   .style("stroke-width", "1px")
+    // });
 
     lineChart.append('line')
     .attr("class", "2020line")

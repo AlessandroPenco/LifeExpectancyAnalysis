@@ -8,7 +8,7 @@ function barChart1(yy) {
     .append("svg")
     .attr(
       "viewBox",
-      `0 0 ${width + margin.left + margin.right} ${
+      `0 0 ${width + margin.left + margin.right+30} ${
         height + margin.top + margin.bottom
       }`
     )
@@ -78,8 +78,44 @@ function barChart1(yy) {
       .attr("width", xSubgroup.bandwidth())
       .attr("height", (d) => height - y(d.value))
       .attr("fill", (d) => color(d.key))
-      .attr("class", (d) => d.key);
+      .attr("class", d => "lowOpacityOnHover "+d.key);
+
+      function onMouseOverLegend(event) {
+        var lineClass = event.target.classList[1];
+        d3.selectAll(".lowOpacityOnHover")
+            .style("opacity", "0.1")
+        d3.selectAll("." + lineClass)
+            .style("opacity", "1")
+    };
+    
+    function onMouseOutLegend(event) {
+        d3.selectAll(".lowOpacityOnHover")
+            .style("opacity", "1")
+    }
+    
+    var longSubgroups = ["Male", "Female", "Total"]
+        // legend
+        for (let i = 0; i < subgroups.length; i++) {
+          svgbar.append("circle")
+              .attr("cx", width+ margin.left + margin.right-70)
+              .attr("cy", 100 + i * 18)
+              .attr("r", 6)
+              .style("fill", color(subgroups[i]))
+              .attr("class", "lowOpacityOnHover " + subgroups[i])
+              .on("mouseover", onMouseOverLegend)
+              .on("mouseout", onMouseOutLegend);
+              svgbar.append("text")
+              .attr("x", width+ margin.left + margin.right-60)
+              .attr("y", 100 + i * 18)
+              .text(longSubgroups[i])
+              .style("font-size", "9px")
+              .attr("alignment-baseline", "middle")
+              .attr("class", "lowOpacityOnHover " + subgroups[i])
+              .on("mouseover", onMouseOverLegend)
+              .on("mouseout", onMouseOutLegend);
+          };
   });
+  
 }
  barChart1("2018");
 
