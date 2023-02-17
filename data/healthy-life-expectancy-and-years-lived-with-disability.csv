@@ -1,0 +1,6103 @@
+Entity,Year,disability,healthy
+Afghanistan,1990,8.03,43.57
+Afghanistan,1991,7.91,43.37
+Afghanistan,1992,7.9,43.5
+Afghanistan,1993,7.85,43.48
+Afghanistan,1994,7.7,42.98
+Afghanistan,1995,7.77,43.28
+Afghanistan,1996,7.78,43.6
+Afghanistan,1997,7.69,43.41
+Afghanistan,1998,7.48,42.6
+Afghanistan,1999,7.73,43.79
+Afghanistan,2000,7.74,43.87
+Afghanistan,2001,7.68,43.99
+Afghanistan,2002,7.77,44.64
+Afghanistan,2003,7.85,45.16
+Afghanistan,2004,7.9,45.58
+Afghanistan,2005,7.94,45.91
+Afghanistan,2006,7.95,46.17
+Afghanistan,2007,8.01,46.53
+Afghanistan,2008,8.11,47.07
+Afghanistan,2009,8.19,47.47
+Afghanistan,2010,8.25,47.91
+Afghanistan,2011,8.34,48.33
+Afghanistan,2012,8.42,48.78
+Afghanistan,2013,8.49,49.18
+Afghanistan,2014,8.49,49.3
+Afghanistan,2015,8.48,49.36
+Afghanistan,2016,8.46,49.49
+Albania,1990,9.32,64.41
+Albania,1991,9.29,64.42
+Albania,1992,9.3,64.47
+Albania,1993,9.31,64.5
+Albania,1994,9.32,64.57
+Albania,1995,9.32,64.73
+Albania,1996,9.34,64.87
+Albania,1997,9,63.33
+Albania,1998,9.29,64.9
+Albania,1999,9.29,64.95
+Albania,2000,9.24,65.02
+Albania,2001,9.24,65.06
+Albania,2002,9.23,65.12
+Albania,2003,9.22,65.2
+Albania,2004,9.23,65.33
+Albania,2005,9.21,65.55
+Albania,2006,9.26,65.76
+Albania,2007,9.38,65.89
+Albania,2008,9.42,66.03
+Albania,2009,9.49,66.26
+Albania,2010,9.51,66.67
+Albania,2011,9.68,66.87
+Albania,2012,9.75,67.09
+Albania,2013,9.8,67.27
+Albania,2014,9.84,67.43
+Albania,2015,9.89,67.55
+Albania,2016,9.83,67.77
+Algeria,1990,10.44,60.55
+Algeria,1991,10.46,60.93
+Algeria,1992,10.5,61.22
+Algeria,1993,10.51,61.44
+Algeria,1994,10.52,61.58
+Algeria,1995,10.54,61.74
+Algeria,1996,10.6,62.17
+Algeria,1997,10.59,62.33
+Algeria,1998,10.6,62.49
+Algeria,1999,10.66,62.86
+Algeria,2000,10.7,63.15
+Algeria,2001,10.74,63.36
+Algeria,2002,10.79,63.63
+Algeria,2003,10.81,63.72
+Algeria,2004,10.91,64.13
+Algeria,2005,10.94,64.41
+Algeria,2006,10.99,64.63
+Algeria,2007,11.09,64.77
+Algeria,2008,11.16,64.96
+Algeria,2009,11.21,65.1
+Algeria,2010,11.23,65.32
+Algeria,2011,11.29,65.41
+Algeria,2012,11.3,65.54
+Algeria,2013,11.32,65.66
+Algeria,2014,11.34,65.75
+Algeria,2015,11.37,65.9
+Algeria,2016,11.34,66.07
+American Samoa,1990,9.28,61.2
+American Samoa,1991,9.26,61.2
+American Samoa,1992,9.26,61.23
+American Samoa,1993,9.29,61.34
+American Samoa,1994,9.3,61.39
+American Samoa,1995,9.32,61.42
+American Samoa,1996,9.34,61.45
+American Samoa,1997,9.37,61.49
+American Samoa,1998,9.43,61.61
+American Samoa,1999,9.52,61.77
+American Samoa,2000,9.59,61.94
+American Samoa,2001,9.61,62.01
+American Samoa,2002,9.59,62.01
+American Samoa,2003,9.53,61.8
+American Samoa,2004,9.56,61.96
+American Samoa,2005,9.57,62.05
+American Samoa,2006,9.58,62.15
+American Samoa,2007,9.64,62.27
+American Samoa,2008,9.7,62.5
+American Samoa,2009,9.46,61.43
+American Samoa,2010,9.71,62.66
+American Samoa,2011,9.68,62.51
+American Samoa,2012,9.69,62.52
+American Samoa,2013,9.69,62.46
+American Samoa,2014,9.71,62.5
+American Samoa,2015,9.73,62.52
+American Samoa,2016,9.75,62.64
+Andorra,1990,10.84,68.8
+Andorra,1991,10.83,68.86
+Andorra,1992,10.83,68.91
+Andorra,1993,10.86,69.08
+Andorra,1994,10.89,69.23
+Andorra,1995,10.97,69.48
+Andorra,1996,11.03,69.75
+Andorra,1997,11.09,70.02
+Andorra,1998,11.15,70.26
+Andorra,1999,11.21,70.48
+Andorra,2000,11.27,70.67
+Andorra,2001,11.32,70.87
+Andorra,2002,11.37,71.06
+Andorra,2003,11.38,71.12
+Andorra,2004,11.35,71.08
+Andorra,2005,11.38,71.16
+Andorra,2006,11.4,71.23
+Andorra,2007,11.42,71.29
+Andorra,2008,11.42,71.31
+Andorra,2009,11.41,71.28
+Andorra,2010,11.43,71.27
+Andorra,2011,11.39,71.24
+Andorra,2012,11.37,71.22
+Andorra,2013,11.36,71.22
+Andorra,2014,11.34,71.21
+Andorra,2015,11.33,71.19
+Andorra,2016,11.33,71.2
+Angola,1990,6.5,43.68
+Angola,1991,6.58,44.19
+Angola,1992,6.6,44.35
+Angola,1993,6.32,43.34
+Angola,1994,6.59,44.52
+Angola,1995,6.71,45.24
+Angola,1996,6.74,45.56
+Angola,1997,6.79,45.88
+Angola,1998,6.8,46
+Angola,1999,6.81,46.07
+Angola,2000,6.87,46.45
+Angola,2001,6.89,46.71
+Angola,2002,7,47.43
+Angola,2003,7.06,47.97
+Angola,2004,7.14,48.52
+Angola,2005,7.21,49.19
+Angola,2006,7.27,49.63
+Angola,2007,7.43,50.36
+Angola,2008,7.54,50.99
+Angola,2009,7.65,51.59
+Angola,2010,7.74,52.3
+Angola,2011,7.89,52.97
+Angola,2012,7.99,53.69
+Angola,2013,8.1,54.37
+Angola,2014,8.21,55.06
+Angola,2015,8.31,55.67
+Angola,2016,8.34,56.29
+Antigua and Barbuda,1990,9,64.83
+Antigua and Barbuda,1991,9.05,64.98
+Antigua and Barbuda,1992,9.1,65.06
+Antigua and Barbuda,1993,9.14,65.1
+Antigua and Barbuda,1994,9.19,65.16
+Antigua and Barbuda,1995,9.25,65.19
+Antigua and Barbuda,1996,9.24,65.2
+Antigua and Barbuda,1997,9.33,65.5
+Antigua and Barbuda,1998,9.37,65.66
+Antigua and Barbuda,1999,9.35,65.62
+Antigua and Barbuda,2000,9.32,65.51
+Antigua and Barbuda,2001,9.4,65.76
+Antigua and Barbuda,2002,9.46,65.94
+Antigua and Barbuda,2003,9.5,66.09
+Antigua and Barbuda,2004,9.53,66.16
+Antigua and Barbuda,2005,9.58,66.38
+Antigua and Barbuda,2006,9.59,66.48
+Antigua and Barbuda,2007,9.69,66.77
+Antigua and Barbuda,2008,9.73,66.93
+Antigua and Barbuda,2009,9.78,67.13
+Antigua and Barbuda,2010,9.74,67.17
+Antigua and Barbuda,2011,9.78,67.21
+Antigua and Barbuda,2012,9.8,67.3
+Antigua and Barbuda,2013,9.86,67.48
+Antigua and Barbuda,2014,9.81,67.36
+Antigua and Barbuda,2015,9.84,67.44
+Antigua and Barbuda,2016,9.83,67.53
+Argentina,1990,8.73,63.35
+Argentina,1991,8.76,63.53
+Argentina,1992,8.79,63.65
+Argentina,1993,8.84,63.85
+Argentina,1994,8.9,64.06
+Argentina,1995,8.92,64.15
+Argentina,1996,8.94,64.31
+Argentina,1997,8.97,64.5
+Argentina,1998,8.99,64.69
+Argentina,1999,9.03,64.88
+Argentina,2000,9.07,65.12
+Argentina,2001,9.1,65.27
+Argentina,2002,9.1,65.37
+Argentina,2003,9.12,65.51
+Argentina,2004,9.17,65.75
+Argentina,2005,9.19,65.98
+Argentina,2006,9.21,66.1
+Argentina,2007,9.23,66.11
+Argentina,2008,9.27,66.28
+Argentina,2009,9.31,66.39
+Argentina,2010,9.32,66.55
+Argentina,2011,9.38,66.66
+Argentina,2012,9.41,66.75
+Argentina,2013,9.44,66.84
+Argentina,2014,9.48,67.01
+Argentina,2015,9.5,67.1
+Argentina,2016,9.48,67.22
+Armenia,1990,8.7,61.64
+Armenia,1991,8.6,61.47
+Armenia,1992,8.36,60.74
+Armenia,1993,8.24,60.42
+Armenia,1994,8.26,60.6
+Armenia,1995,8.34,60.96
+Armenia,1996,8.33,61.29
+Armenia,1997,8.45,61.89
+Armenia,1998,8.52,62.32
+Armenia,1999,8.59,62.69
+Armenia,2000,8.73,63.23
+Armenia,2001,8.76,63.42
+Armenia,2002,8.84,63.72
+Armenia,2003,8.84,63.79
+Armenia,2004,8.85,63.86
+Armenia,2005,8.78,63.75
+Armenia,2006,8.72,63.71
+Armenia,2007,8.81,64.03
+Armenia,2008,8.77,63.97
+Armenia,2009,8.81,64.11
+Armenia,2010,8.86,64.41
+Armenia,2011,8.99,64.76
+Armenia,2012,9.11,65.19
+Armenia,2013,9.28,65.79
+Armenia,2014,9.38,66.12
+Armenia,2015,9.39,66.16
+Armenia,2016,9.38,66.47
+Australasia,1990,9.86,66.93
+Australasia,1991,9.94,67.21
+Australasia,1992,9.99,67.39
+Australasia,1993,10.06,67.6
+Australasia,1994,10.11,67.73
+Australasia,1995,10.19,67.89
+Australasia,1996,10.19,68.09
+Australasia,1997,10.23,68.36
+Australasia,1998,10.27,68.64
+Australasia,1999,10.31,68.89
+Australasia,2000,10.37,69.16
+Australasia,2001,10.41,69.39
+Australasia,2002,10.45,69.59
+Australasia,2003,10.5,69.82
+Australasia,2004,10.56,70.04
+Australasia,2005,10.63,70.26
+Australasia,2006,10.67,70.39
+Australasia,2007,10.72,70.51
+Australasia,2008,10.77,70.61
+Australasia,2009,10.84,70.76
+Australasia,2010,10.92,70.9
+Australasia,2011,10.93,71.04
+Australasia,2012,10.95,71.21
+Australasia,2013,10.99,71.38
+Australasia,2014,10.98,71.43
+Australasia,2015,10.96,71.42
+Australasia,2016,10.94,71.41
+Australia,1990,9.92,67.1
+Australia,1991,10,67.39
+Australia,1992,10.06,67.56
+Australia,1993,10.13,67.76
+Australia,1994,10.18,67.87
+Australia,1995,10.26,68.04
+Australia,1996,10.26,68.24
+Australia,1997,10.29,68.5
+Australia,1998,10.33,68.78
+Australia,1999,10.36,69.04
+Australia,2000,10.41,69.3
+Australia,2001,10.46,69.56
+Australia,2002,10.5,69.75
+Australia,2003,10.55,69.99
+Australia,2004,10.61,70.2
+Australia,2005,10.68,70.41
+Australia,2006,10.73,70.54
+Australia,2007,10.78,70.65
+Australia,2008,10.83,70.74
+Australia,2009,10.91,70.88
+Australia,2010,10.99,71
+Australia,2011,11,71.16
+Australia,2012,11.01,71.32
+Australia,2013,11.05,71.49
+Australia,2014,11.04,71.54
+Australia,2015,11.01,71.54
+Australia,2016,10.99,71.53
+Austria,1990,9.48,66.21
+Austria,1991,9.51,66.38
+Austria,1992,9.55,66.52
+Austria,1993,9.6,66.71
+Austria,1994,9.66,66.9
+Austria,1995,9.73,67.11
+Austria,1996,9.75,67.36
+Austria,1997,9.78,67.61
+Austria,1998,9.82,67.86
+Austria,1999,9.86,68.08
+Austria,2000,9.93,68.33
+Austria,2001,10,68.62
+Austria,2002,10.03,68.81
+Austria,2003,10.07,68.97
+Austria,2004,10.13,69.22
+Austria,2005,10.19,69.4
+Austria,2006,10.24,69.63
+Austria,2007,10.29,69.81
+Austria,2008,10.34,69.95
+Austria,2009,10.37,70.02
+Austria,2010,10.43,70.15
+Austria,2011,10.46,70.33
+Austria,2012,10.48,70.45
+Austria,2013,10.52,70.61
+Austria,2014,10.58,70.8
+Austria,2015,10.59,70.88
+Austria,2016,10.6,70.94
+Azerbaijan,1990,7.88,58.43
+Azerbaijan,1991,7.79,58.18
+Azerbaijan,1992,7.45,56.77
+Azerbaijan,1993,7.44,56.91
+Azerbaijan,1994,7.33,56.51
+Azerbaijan,1995,7.52,57.34
+Azerbaijan,1996,7.55,57.76
+Azerbaijan,1997,7.59,58.04
+Azerbaijan,1998,7.59,58.22
+Azerbaijan,1999,7.6,58.49
+Azerbaijan,2000,7.66,58.88
+Azerbaijan,2001,7.75,59.45
+Azerbaijan,2002,7.78,59.7
+Azerbaijan,2003,7.72,59.58
+Azerbaijan,2004,7.74,59.67
+Azerbaijan,2005,7.78,59.83
+Azerbaijan,2006,7.83,60.13
+Azerbaijan,2007,7.87,60.43
+Azerbaijan,2008,7.87,60.48
+Azerbaijan,2009,7.95,60.82
+Azerbaijan,2010,8,61.09
+Azerbaijan,2011,8.2,61.69
+Azerbaijan,2012,8.27,61.94
+Azerbaijan,2013,8.44,62.51
+Azerbaijan,2014,8.55,62.86
+Azerbaijan,2015,8.62,63.1
+Azerbaijan,2016,8.63,63.4
+Bahamas,1990,8.47,62.06
+Bahamas,1991,8.5,62.3
+Bahamas,1992,8.49,62.28
+Bahamas,1993,8.5,62.39
+Bahamas,1994,8.47,62.17
+Bahamas,1995,8.45,62.1
+Bahamas,1996,8.45,62.23
+Bahamas,1997,8.47,62.34
+Bahamas,1998,8.48,62.47
+Bahamas,1999,8.51,62.6
+Bahamas,2000,8.54,62.76
+Bahamas,2001,8.57,62.94
+Bahamas,2002,8.61,63.08
+Bahamas,2003,8.71,63.51
+Bahamas,2004,8.83,63.97
+Bahamas,2005,8.88,64.16
+Bahamas,2006,8.93,64.46
+Bahamas,2007,9.01,64.69
+Bahamas,2008,9.02,64.76
+Bahamas,2009,9.04,64.82
+Bahamas,2010,9,64.87
+Bahamas,2011,9,64.83
+Bahamas,2012,8.99,64.77
+Bahamas,2013,8.99,64.77
+Bahamas,2014,9,64.82
+Bahamas,2015,8.99,64.69
+Bahamas,2016,8.98,64.88
+Bahrain,1990,9.94,59.65
+Bahrain,1991,9.9,59.55
+Bahrain,1992,9.91,59.55
+Bahrain,1993,10,59.73
+Bahrain,1994,10.09,59.95
+Bahrain,1995,10.13,60.06
+Bahrain,1996,10.21,60.42
+Bahrain,1997,10.31,60.71
+Bahrain,1998,10.39,60.94
+Bahrain,1999,10.49,61.18
+Bahrain,2000,10.44,60.97
+Bahrain,2001,10.59,61.48
+Bahrain,2002,10.65,61.76
+Bahrain,2003,10.7,62.02
+Bahrain,2004,10.75,62.25
+Bahrain,2005,10.81,62.65
+Bahrain,2006,10.83,62.84
+Bahrain,2007,11.04,63.39
+Bahrain,2008,11.17,63.86
+Bahrain,2009,11.28,64.26
+Bahrain,2010,11.3,64.65
+Bahrain,2011,11.39,64.73
+Bahrain,2012,11.4,64.84
+Bahrain,2013,11.44,65.05
+Bahrain,2014,11.44,65.14
+Bahrain,2015,11.45,65.22
+Bahrain,2016,11.41,65.36
+Bangladesh,1990,8.06,50.03
+Bangladesh,1991,7.76,48.65
+Bangladesh,1992,8.3,51.43
+Bangladesh,1993,8.43,52.08
+Bangladesh,1994,8.55,52.71
+Bangladesh,1995,8.6,53.1
+Bangladesh,1996,8.73,53.85
+Bangladesh,1997,8.87,54.58
+Bangladesh,1998,9,55.28
+Bangladesh,1999,9.14,55.95
+Bangladesh,2000,9.15,56.27
+Bangladesh,2001,9.23,56.72
+Bangladesh,2002,9.3,57.15
+Bangladesh,2003,9.38,57.6
+Bangladesh,2004,9.47,58.08
+Bangladesh,2005,9.5,58.43
+Bangladesh,2006,9.5,58.87
+Bangladesh,2007,9.56,59.21
+Bangladesh,2008,9.63,59.79
+Bangladesh,2009,9.68,60.25
+Bangladesh,2010,9.64,60.62
+Bangladesh,2011,9.75,61.09
+Bangladesh,2012,9.74,61.35
+Bangladesh,2013,9.78,61.69
+Bangladesh,2014,9.83,62.04
+Bangladesh,2015,9.87,62.38
+Bangladesh,2016,9.85,62.77
+Barbados,1990,8.96,64.75
+Barbados,1991,8.95,64.78
+Barbados,1992,8.95,64.73
+Barbados,1993,8.96,64.74
+Barbados,1994,8.96,64.66
+Barbados,1995,9.02,64.81
+Barbados,1996,9.09,65.04
+Barbados,1997,9.16,65.26
+Barbados,1998,9.23,65.48
+Barbados,1999,9.31,65.66
+Barbados,2000,9.31,65.65
+Barbados,2001,9.41,65.96
+Barbados,2002,9.46,66.13
+Barbados,2003,9.5,66.28
+Barbados,2004,9.53,66.35
+Barbados,2005,9.55,66.46
+Barbados,2006,9.56,66.56
+Barbados,2007,9.62,66.7
+Barbados,2008,9.69,66.89
+Barbados,2009,9.73,67
+Barbados,2010,9.73,67.05
+Barbados,2011,9.75,67.04
+Barbados,2012,9.79,67.14
+Barbados,2013,9.79,67.13
+Barbados,2014,9.76,67.04
+Barbados,2015,9.74,66.95
+Barbados,2016,9.7,66.92
+Belarus,1990,9.09,61.65
+Belarus,1991,8.95,61.33
+Belarus,1992,8.83,60.93
+Belarus,1993,8.62,60.33
+Belarus,1994,8.53,60.07
+Belarus,1995,8.45,59.78
+Belarus,1996,8.43,59.82
+Belarus,1997,8.39,59.75
+Belarus,1998,8.37,59.69
+Belarus,1999,8.34,59.61
+Belarus,2000,8.43,59.91
+Belarus,2001,8.38,59.79
+Belarus,2002,8.32,59.64
+Belarus,2003,8.39,59.91
+Belarus,2004,8.45,60.12
+Belarus,2005,8.47,60.26
+Belarus,2006,8.58,60.65
+Belarus,2007,8.75,61.08
+Belarus,2008,8.82,61.27
+Belarus,2009,8.86,61.35
+Belarus,2010,8.85,61.49
+Belarus,2011,8.96,61.66
+Belarus,2012,9.23,62.63
+Belarus,2013,9.36,63.13
+Belarus,2014,9.51,63.63
+Belarus,2015,9.57,63.85
+Belarus,2016,9.51,64.09
+Belgium,1990,9.68,66.31
+Belgium,1991,9.71,66.44
+Belgium,1992,9.77,66.62
+Belgium,1993,9.8,66.67
+Belgium,1994,9.86,66.83
+Belgium,1995,9.92,66.97
+Belgium,1996,9.97,67.16
+Belgium,1997,10.03,67.34
+Belgium,1998,10.08,67.44
+Belgium,1999,10.13,67.55
+Belgium,2000,10.19,67.64
+Belgium,2001,10.25,67.79
+Belgium,2002,10.31,67.94
+Belgium,2003,10.4,68.13
+Belgium,2004,10.52,68.38
+Belgium,2005,10.61,68.54
+Belgium,2006,10.65,68.77
+Belgium,2007,10.65,68.9
+Belgium,2008,10.65,69.01
+Belgium,2009,10.66,69.16
+Belgium,2010,10.7,69.33
+Belgium,2011,10.72,69.51
+Belgium,2012,10.73,69.63
+Belgium,2013,10.77,69.82
+Belgium,2014,10.84,70.07
+Belgium,2015,10.81,70.09
+Belgium,2016,10.8,70.11
+Belize,1990,8.8,62.77
+Belize,1991,8.73,62.54
+Belize,1992,8.69,62.53
+Belize,1993,8.61,62.3
+Belize,1994,8.54,62.05
+Belize,1995,8.52,61.92
+Belize,1996,8.49,61.8
+Belize,1997,8.34,61.17
+Belize,1998,8.31,61
+Belize,1999,8.27,60.74
+Belize,2000,8.23,60.4
+Belize,2001,8.18,60.27
+Belize,2002,8.26,60.64
+Belize,2003,8.32,60.88
+Belize,2004,8.4,61.14
+Belize,2005,8.47,61.36
+Belize,2006,8.52,61.64
+Belize,2007,8.58,61.88
+Belize,2008,8.63,62.05
+Belize,2009,8.69,62.18
+Belize,2010,8.76,62.38
+Belize,2011,8.77,62.51
+Belize,2012,8.77,62.64
+Belize,2013,8.77,62.73
+Belize,2014,8.78,62.83
+Belize,2015,8.79,62.94
+Belize,2016,8.79,63.05
+Benin,1990,8.02,47.49
+Benin,1991,7.98,47.68
+Benin,1992,8,48.04
+Benin,1993,8.02,48.37
+Benin,1994,7.98,48.43
+Benin,1995,7.96,48.55
+Benin,1996,7.88,48.58
+Benin,1997,7.92,48.97
+Benin,1998,7.92,49.19
+Benin,1999,7.93,49.45
+Benin,2000,7.94,49.67
+Benin,2001,7.9,49.9
+Benin,2002,7.93,50.34
+Benin,2003,7.95,50.66
+Benin,2004,8,51.04
+Benin,2005,8.07,51.43
+Benin,2006,8.08,51.8
+Benin,2007,8.11,52.17
+Benin,2008,8.16,52.63
+Benin,2009,8.24,53.14
+Benin,2010,8.29,53.54
+Benin,2011,8.28,53.97
+Benin,2012,8.3,54.33
+Benin,2013,8.33,54.69
+Benin,2014,8.36,55.05
+Benin,2015,8.42,55.47
+Benin,2016,8.48,55.95
+Bermuda,1990,8.08,61.61
+Bermuda,1991,8.08,61.71
+Bermuda,1992,8.06,61.66
+Bermuda,1993,8.04,61.66
+Bermuda,1994,8.12,62
+Bermuda,1995,8.32,62.84
+Bermuda,1996,8.29,62.92
+Bermuda,1997,8.46,63.7
+Bermuda,1998,8.51,64.05
+Bermuda,1999,8.52,64.17
+Bermuda,2000,8.45,64.07
+Bermuda,2001,8.67,64.84
+Bermuda,2002,8.72,65.11
+Bermuda,2003,8.79,65.32
+Bermuda,2004,8.9,65.81
+Bermuda,2005,8.97,66.22
+Bermuda,2006,8.99,66.35
+Bermuda,2007,9.12,66.67
+Bermuda,2008,9.21,67.01
+Bermuda,2009,9.29,67.31
+Bermuda,2010,9.32,67.65
+Bermuda,2011,9.45,67.97
+Bermuda,2012,9.51,68.27
+Bermuda,2013,9.58,68.54
+Bermuda,2014,9.62,68.75
+Bermuda,2015,9.72,69.12
+Bermuda,2016,9.67,69.25
+Bhutan,1990,8.58,51.34
+Bhutan,1991,8.64,51.83
+Bhutan,1992,8.72,52.4
+Bhutan,1993,8.81,52.92
+Bhutan,1994,8.86,53.27
+Bhutan,1995,8.98,53.95
+Bhutan,1996,9.16,54.78
+Bhutan,1997,9.22,55.23
+Bhutan,1998,9.34,55.79
+Bhutan,1999,9.53,56.54
+Bhutan,2000,9.4,56.22
+Bhutan,2001,9.69,57.52
+Bhutan,2002,9.81,58.13
+Bhutan,2003,9.87,58.58
+Bhutan,2004,9.94,59.06
+Bhutan,2005,9.95,59.51
+Bhutan,2006,10.05,59.99
+Bhutan,2007,10.19,60.38
+Bhutan,2008,10.3,60.81
+Bhutan,2009,10.34,61.05
+Bhutan,2010,10.36,61.54
+Bhutan,2011,10.49,61.81
+Bhutan,2012,10.53,62.09
+Bhutan,2013,10.56,62.34
+Bhutan,2014,10.6,62.59
+Bhutan,2015,10.65,62.84
+Bhutan,2016,10.61,63.18
+Bolivia,1990,7.77,53.56
+Bolivia,1991,7.81,54.07
+Bolivia,1992,7.85,54.46
+Bolivia,1993,7.91,55
+Bolivia,1994,8.01,55.64
+Bolivia,1995,8.1,56.19
+Bolivia,1996,8.19,56.82
+Bolivia,1997,8.27,57.34
+Bolivia,1998,8.37,57.93
+Bolivia,1999,8.47,58.52
+Bolivia,2000,8.56,59.09
+Bolivia,2001,8.68,59.63
+Bolivia,2002,8.73,60.01
+Bolivia,2003,8.82,60.43
+Bolivia,2004,8.88,60.81
+Bolivia,2005,8.91,61.16
+Bolivia,2006,8.96,61.49
+Bolivia,2007,9.01,61.7
+Bolivia,2008,9.05,61.99
+Bolivia,2009,9.09,62.26
+Bolivia,2010,9.09,62.55
+Bolivia,2011,9.15,62.75
+Bolivia,2012,9.19,63.02
+Bolivia,2013,9.21,63.27
+Bolivia,2014,9.24,63.49
+Bolivia,2015,9.28,63.73
+Bolivia,2016,9.24,64
+Bosnia and Herzegovina,1990,9.01,63.13
+Bosnia and Herzegovina,1991,9,63.26
+Bosnia and Herzegovina,1992,8.61,61.29
+Bosnia and Herzegovina,1993,8.4,60.23
+Bosnia and Herzegovina,1994,8.66,61.5
+Bosnia and Herzegovina,1995,8.46,60.28
+Bosnia and Herzegovina,1996,9.14,63.76
+Bosnia and Herzegovina,1997,9.22,64.16
+Bosnia and Herzegovina,1998,9.31,64.54
+Bosnia and Herzegovina,1999,9.44,64.99
+Bosnia and Herzegovina,2000,9.49,65.38
+Bosnia and Herzegovina,2001,9.6,65.56
+Bosnia and Herzegovina,2002,9.63,65.66
+Bosnia and Herzegovina,2003,9.67,65.75
+Bosnia and Herzegovina,2004,9.73,65.88
+Bosnia and Herzegovina,2005,9.72,66.06
+Bosnia and Herzegovina,2006,9.76,66.19
+Bosnia and Herzegovina,2007,9.9,66.22
+Bosnia and Herzegovina,2008,9.98,66.37
+Bosnia and Herzegovina,2009,10.07,66.52
+Bosnia and Herzegovina,2010,10.02,66.75
+Bosnia and Herzegovina,2011,10.17,66.71
+Bosnia and Herzegovina,2012,10.21,66.83
+Bosnia and Herzegovina,2013,10.24,66.91
+Bosnia and Herzegovina,2014,10.25,66.92
+Bosnia and Herzegovina,2015,10.31,67.04
+Bosnia and Herzegovina,2016,10.25,67.3
+Botswana,1990,8.15,56.28
+Botswana,1991,8.03,55.64
+Botswana,1992,7.81,54.56
+Botswana,1993,7.52,53.17
+Botswana,1994,7.18,51.41
+Botswana,1995,6.98,49.22
+Botswana,1996,6.58,47.29
+Botswana,1997,6.23,45.44
+Botswana,1998,5.94,43.7
+Botswana,1999,5.74,42.2
+Botswana,2000,5.64,40.92
+Botswana,2001,5.47,40.21
+Botswana,2002,5.35,39.79
+Botswana,2003,5.39,39.85
+Botswana,2004,5.58,40.47
+Botswana,2005,5.99,41.71
+Botswana,2006,6.2,43.26
+Botswana,2007,6.41,44.66
+Botswana,2008,6.66,46.05
+Botswana,2009,7.03,47.76
+Botswana,2010,7.41,49.43
+Botswana,2011,7.56,51.12
+Botswana,2012,7.73,52.5
+Botswana,2013,8.03,54.05
+Botswana,2014,8.26,55.12
+Botswana,2015,8.46,55.92
+Botswana,2016,8.63,56.6
+Brazil,1990,8.64,59.78
+Brazil,1991,8.66,60.07
+Brazil,1992,8.67,60.24
+Brazil,1993,8.69,60.43
+Brazil,1994,8.73,60.65
+Brazil,1995,8.78,60.88
+Brazil,1996,8.84,61.13
+Brazil,1997,8.93,61.42
+Brazil,1998,9.01,61.67
+Brazil,1999,9.09,61.89
+Brazil,2000,9.19,62.17
+Brazil,2001,9.27,62.49
+Brazil,2002,9.33,62.73
+Brazil,2003,9.39,62.94
+Brazil,2004,9.45,63.16
+Brazil,2005,9.51,63.42
+Brazil,2006,9.53,63.67
+Brazil,2007,9.58,63.88
+Brazil,2008,9.61,64.11
+Brazil,2009,9.64,64.3
+Brazil,2010,9.63,64.52
+Brazil,2011,9.69,64.69
+Brazil,2012,9.73,64.9
+Brazil,2013,9.76,65.08
+Brazil,2014,9.79,65.22
+Brazil,2015,9.8,65.34
+Brazil,2016,9.76,65.48
+Brunei,1990,9.05,64.29
+Brunei,1991,9,64.29
+Brunei,1992,9.01,64.42
+Brunei,1993,9.04,64.6
+Brunei,1994,9.09,64.83
+Brunei,1995,9.14,65.07
+Brunei,1996,9.2,65.28
+Brunei,1997,9.28,65.64
+Brunei,1998,9.35,65.99
+Brunei,1999,9.41,66.27
+Brunei,2000,9.41,66.42
+Brunei,2001,9.47,66.63
+Brunei,2002,9.49,66.83
+Brunei,2003,9.51,66.99
+Brunei,2004,9.52,67.09
+Brunei,2005,9.48,67.16
+Brunei,2006,9.46,67.17
+Brunei,2007,9.48,67.14
+Brunei,2008,9.49,67.24
+Brunei,2009,9.49,67.3
+Brunei,2010,9.47,67.48
+Brunei,2011,9.47,67.36
+Brunei,2012,9.45,67.31
+Brunei,2013,9.45,67.34
+Brunei,2014,9.43,67.32
+Brunei,2015,9.44,67.36
+Brunei,2016,9.4,67.48
+Bulgaria,1990,8.94,62.42
+Bulgaria,1991,8.9,62.34
+Bulgaria,1992,8.85,62.27
+Bulgaria,1993,8.81,62.25
+Bulgaria,1994,8.73,62.04
+Bulgaria,1995,8.72,62.14
+Bulgaria,1996,8.66,62.08
+Bulgaria,1997,8.58,61.93
+Bulgaria,1998,8.64,62.38
+Bulgaria,1999,8.7,62.72
+Bulgaria,2000,8.71,62.96
+Bulgaria,2001,8.76,63.15
+Bulgaria,2002,8.81,63.37
+Bulgaria,2003,8.85,63.53
+Bulgaria,2004,8.87,63.61
+Bulgaria,2005,8.86,63.71
+Bulgaria,2006,8.88,63.82
+Bulgaria,2007,8.97,64.01
+Bulgaria,2008,9.05,64.23
+Bulgaria,2009,9.12,64.41
+Bulgaria,2010,9.17,64.63
+Bulgaria,2011,9.31,64.95
+Bulgaria,2012,9.4,65.24
+Bulgaria,2013,9.45,65.41
+Bulgaria,2014,9.47,65.46
+Bulgaria,2015,9.48,65.5
+Bulgaria,2016,9.43,65.6
+Burkina Faso,1990,7.51,43.14
+Burkina Faso,1991,7.47,43.26
+Burkina Faso,1992,7.42,43.25
+Burkina Faso,1993,7.4,43.32
+Burkina Faso,1994,7.38,43.36
+Burkina Faso,1995,7.38,43.36
+Burkina Faso,1996,7.27,43.17
+Burkina Faso,1997,7.31,43.61
+Burkina Faso,1998,7.35,44.06
+Burkina Faso,1999,7.39,44.46
+Burkina Faso,2000,7.43,44.79
+Burkina Faso,2001,7.31,45.38
+Burkina Faso,2002,7.36,45.82
+Burkina Faso,2003,7.44,46.41
+Burkina Faso,2004,7.51,46.91
+Burkina Faso,2005,7.6,47.5
+Burkina Faso,2006,7.59,48.05
+Burkina Faso,2007,7.62,48.6
+Burkina Faso,2008,7.66,49.22
+Burkina Faso,2009,7.7,49.73
+Burkina Faso,2010,7.72,50.19
+Burkina Faso,2011,7.7,50.75
+Burkina Faso,2012,7.71,51.19
+Burkina Faso,2013,7.74,51.64
+Burkina Faso,2014,7.78,52.06
+Burkina Faso,2015,7.83,52.51
+Burkina Faso,2016,7.86,52.93
+Burundi,1990,5.46,42.53
+Burundi,1991,5.44,42.43
+Burundi,1992,5.43,42.32
+Burundi,1993,4.54,37.13
+Burundi,1994,5.43,42.13
+Burundi,1995,5.38,41.57
+Burundi,1996,5.29,41.29
+Burundi,1997,5.35,41.64
+Burundi,1998,5.4,41.87
+Burundi,1999,5.49,42.29
+Burundi,2000,5.53,42.36
+Burundi,2001,5.68,43.33
+Burundi,2002,5.78,44.06
+Burundi,2003,5.91,44.93
+Burundi,2004,6.06,45.92
+Burundi,2005,6.19,46.9
+Burundi,2006,6.3,47.99
+Burundi,2007,6.45,48.95
+Burundi,2008,6.54,49.76
+Burundi,2009,6.63,50.5
+Burundi,2010,6.64,51.07
+Burundi,2011,6.7,51.49
+Burundi,2012,6.74,52
+Burundi,2013,6.77,52.43
+Burundi,2014,6.8,52.78
+Burundi,2015,6.84,53.14
+Burundi,2016,6.83,53.51
+Cambodia,1990,7.53,49.86
+Cambodia,1991,7.55,50.19
+Cambodia,1992,7.59,50.49
+Cambodia,1993,7.58,50.55
+Cambodia,1994,7.55,50.48
+Cambodia,1995,7.6,50.59
+Cambodia,1996,7.61,50.74
+Cambodia,1997,7.66,50.96
+Cambodia,1998,7.7,51.18
+Cambodia,1999,7.76,51.46
+Cambodia,2000,7.84,51.69
+Cambodia,2001,7.88,52.26
+Cambodia,2002,7.94,52.81
+Cambodia,2003,8.01,53.4
+Cambodia,2004,8.1,54.02
+Cambodia,2005,8.2,54.75
+Cambodia,2006,8.24,55.59
+Cambodia,2007,8.32,56.26
+Cambodia,2008,8.38,56.87
+Cambodia,2009,8.43,57.34
+Cambodia,2010,8.43,57.77
+Cambodia,2011,8.5,58.2
+Cambodia,2012,8.56,58.69
+Cambodia,2013,8.6,59.06
+Cambodia,2014,8.64,59.41
+Cambodia,2015,8.67,59.74
+Cambodia,2016,8.63,60.12
+Cameroon,1990,8.15,50.3
+Cameroon,1991,8.08,50.07
+Cameroon,1992,8.01,49.85
+Cameroon,1993,7.91,49.43
+Cameroon,1994,7.84,49.12
+Cameroon,1995,7.78,48.7
+Cameroon,1996,7.68,48.37
+Cameroon,1997,7.56,47.95
+Cameroon,1998,7.44,47.55
+Cameroon,1999,7.4,47.37
+Cameroon,2000,7.34,47.1
+Cameroon,2001,7.31,47.11
+Cameroon,2002,7.3,47.15
+Cameroon,2003,7.29,47.21
+Cameroon,2004,7.3,47.33
+Cameroon,2005,7.34,47.52
+Cameroon,2006,7.34,47.93
+Cameroon,2007,7.34,48.25
+Cameroon,2008,7.4,48.77
+Cameroon,2009,7.47,49.3
+Cameroon,2010,7.5,49.73
+Cameroon,2011,7.51,50.16
+Cameroon,2012,7.54,50.7
+Cameroon,2013,7.56,51.16
+Cameroon,2014,7.58,51.55
+Cameroon,2015,7.62,52.01
+Cameroon,2016,7.65,52.49
+Canada,1990,9.64,67.8
+Canada,1991,9.67,67.94
+Canada,1992,9.71,68.05
+Canada,1993,9.73,68.09
+Canada,1994,9.76,68.16
+Canada,1995,9.81,68.26
+Canada,1996,9.85,68.46
+Canada,1997,9.9,68.67
+Canada,1998,9.94,68.84
+Canada,1999,10,69.02
+Canada,2000,10.07,69.19
+Canada,2001,10.09,69.4
+Canada,2002,10.1,69.56
+Canada,2003,10.12,69.72
+Canada,2004,10.15,69.9
+Canada,2005,10.18,70.06
+Canada,2006,10.24,70.23
+Canada,2007,10.29,70.36
+Canada,2008,10.36,70.51
+Canada,2009,10.44,70.68
+Canada,2010,10.53,70.81
+Canada,2011,10.57,70.96
+Canada,2012,10.6,71.06
+Canada,2013,10.63,71.12
+Canada,2014,10.64,71.16
+Canada,2015,10.63,71.14
+Canada,2016,10.66,71.2
+Cape Verde,1990,8.94,59.03
+Cape Verde,1991,8.91,59.02
+Cape Verde,1992,8.93,59.15
+Cape Verde,1993,8.95,59.27
+Cape Verde,1994,8.98,59.42
+Cape Verde,1995,8.83,58.45
+Cape Verde,1996,9.02,59.74
+Cape Verde,1997,9.04,59.94
+Cape Verde,1998,9.07,60.16
+Cape Verde,1999,9.08,60.32
+Cape Verde,2000,9.15,60.66
+Cape Verde,2001,9.16,60.9
+Cape Verde,2002,9.18,61.12
+Cape Verde,2003,9.2,61.34
+Cape Verde,2004,9.22,61.55
+Cape Verde,2005,9.24,61.76
+Cape Verde,2006,9.24,62.02
+Cape Verde,2007,9.23,61.98
+Cape Verde,2008,9.31,62.52
+Cape Verde,2009,9.34,62.72
+Cape Verde,2010,9.33,62.93
+Cape Verde,2011,9.37,63.13
+Cape Verde,2012,9.38,63.3
+Cape Verde,2013,9.4,63.53
+Cape Verde,2014,9.42,63.75
+Cape Verde,2015,9.42,63.89
+Cape Verde,2016,9.41,64.18
+Caribbean,1990,8.35,59.34
+Caribbean,1991,8.34,59.45
+Caribbean,1992,8.35,59.56
+Caribbean,1993,8.34,59.53
+Caribbean,1994,8.36,59.63
+Caribbean,1995,8.43,59.86
+Caribbean,1996,8.45,60.07
+Caribbean,1997,8.51,60.33
+Caribbean,1998,8.56,60.56
+Caribbean,1999,8.6,60.77
+Caribbean,2000,8.66,61.01
+Caribbean,2001,8.69,61.18
+Caribbean,2002,8.73,61.36
+Caribbean,2003,8.75,61.45
+Caribbean,2004,8.7,61.14
+Caribbean,2005,8.79,61.56
+Caribbean,2006,8.8,61.73
+Caribbean,2007,8.86,61.92
+Caribbean,2008,8.91,62.11
+Caribbean,2009,8.97,62.39
+Caribbean,2010,6.7,51.42
+Caribbean,2011,9.02,62.62
+Caribbean,2012,9.07,63.03
+Caribbean,2013,9.11,63.34
+Caribbean,2014,9.15,63.61
+Caribbean,2015,9.2,63.83
+Caribbean,2016,9.19,63.97
+Central African Republic,1990,6.67,41.42
+Central African Republic,1991,6.61,41.25
+Central African Republic,1992,6.56,41.1
+Central African Republic,1993,6.45,40.64
+Central African Republic,1994,6.37,40.25
+Central African Republic,1995,6.31,39.76
+Central African Republic,1996,6.2,39.3
+Central African Republic,1997,6.09,38.89
+Central African Republic,1998,6.05,38.75
+Central African Republic,1999,6.01,38.57
+Central African Republic,2000,5.99,38.38
+Central African Republic,2001,5.95,38.35
+Central African Republic,2002,5.94,38.49
+Central African Republic,2003,5.94,38.61
+Central African Republic,2004,5.95,38.75
+Central African Republic,2005,5.99,38.95
+Central African Republic,2006,5.99,39.26
+Central African Republic,2007,6.02,39.64
+Central African Republic,2008,6.09,40.18
+Central African Republic,2009,6.17,40.73
+Central African Republic,2010,6.22,41.18
+Central African Republic,2011,6.28,41.69
+Central African Republic,2012,6.34,42.21
+Central African Republic,2013,6.19,41.67
+Central African Republic,2014,6.23,42.02
+Central African Republic,2015,6.44,43.19
+Central African Republic,2016,6.51,43.65
+Central Asia,1990,8.31,58.96
+Central Asia,1991,8.23,58.82
+Central Asia,1992,8.04,58.15
+Central Asia,1993,7.95,57.91
+Central Asia,1994,7.83,57.57
+Central Asia,1995,7.81,57.44
+Central Asia,1996,7.76,57.42
+Central Asia,1997,7.79,57.65
+Central Asia,1998,7.81,57.82
+Central Asia,1999,7.84,58.07
+Central Asia,2000,7.87,58.26
+Central Asia,2001,7.88,58.48
+Central Asia,2002,7.88,58.59
+Central Asia,2003,7.87,58.65
+Central Asia,2004,7.87,58.74
+Central Asia,2005,7.89,58.87
+Central Asia,2006,7.95,59.15
+Central Asia,2007,8.04,59.55
+Central Asia,2008,8.13,59.92
+Central Asia,2009,8.24,60.34
+Central Asia,2010,8.32,60.69
+Central Asia,2011,8.42,61.05
+Central Asia,2012,8.49,61.39
+Central Asia,2013,8.59,61.79
+Central Asia,2014,8.68,62.13
+Central Asia,2015,8.73,62.37
+Central Asia,2016,8.73,62.58
+Central Europe,1990,9.06,61.87
+Central Europe,1991,8.99,61.82
+Central Europe,1992,8.98,61.87
+Central Europe,1993,9,62.05
+Central Europe,1994,9,62.11
+Central Europe,1995,8.97,62.11
+Central Europe,1996,9.03,62.48
+Central Europe,1997,9.05,62.64
+Central Europe,1998,9.12,62.96
+Central Europe,1999,9.17,63.21
+Central Europe,2000,9.23,63.65
+Central Europe,2001,9.31,63.83
+Central Europe,2002,9.37,64.03
+Central Europe,2003,9.42,64.23
+Central Europe,2004,9.48,64.41
+Central Europe,2005,9.48,64.64
+Central Europe,2006,9.53,64.84
+Central Europe,2007,9.67,64.95
+Central Europe,2008,9.73,65.11
+Central Europe,2009,9.8,65.28
+Central Europe,2010,9.81,65.62
+Central Europe,2011,9.98,65.84
+Central Europe,2012,10.01,66.01
+Central Europe,2013,10.07,66.22
+Central Europe,2014,10.12,66.42
+Central Europe,2015,10.17,66.57
+Central Europe,2016,10.09,66.78
+"Central Europe, Eastern Europe, and Central Asia",1990,8.9,60.28
+"Central Europe, Eastern Europe, and Central Asia",1991,8.81,60.09
+"Central Europe, Eastern Europe, and Central Asia",1992,8.65,59.55
+"Central Europe, Eastern Europe, and Central Asia",1993,8.37,58.66
+"Central Europe, Eastern Europe, and Central Asia",1994,8.2,58.07
+"Central Europe, Eastern Europe, and Central Asia",1995,8.23,58.12
+"Central Europe, Eastern Europe, and Central Asia",1996,8.35,58.7
+"Central Europe, Eastern Europe, and Central Asia",1997,8.48,59.24
+"Central Europe, Eastern Europe, and Central Asia",1998,8.56,59.54
+"Central Europe, Eastern Europe, and Central Asia",1999,8.48,59.22
+"Central Europe, Eastern Europe, and Central Asia",2000,8.46,59.15
+"Central Europe, Eastern Europe, and Central Asia",2001,8.44,59.32
+"Central Europe, Eastern Europe, and Central Asia",2002,8.42,59.38
+"Central Europe, Eastern Europe, and Central Asia",2003,8.43,59.49
+"Central Europe, Eastern Europe, and Central Asia",2004,8.45,59.67
+"Central Europe, Eastern Europe, and Central Asia",2005,8.43,59.78
+"Central Europe, Eastern Europe, and Central Asia",2006,8.58,60.39
+"Central Europe, Eastern Europe, and Central Asia",2007,8.7,60.7
+"Central Europe, Eastern Europe, and Central Asia",2008,8.77,60.95
+"Central Europe, Eastern Europe, and Central Asia",2009,8.96,61.57
+"Central Europe, Eastern Europe, and Central Asia",2010,9.01,61.95
+"Central Europe, Eastern Europe, and Central Asia",2011,9.19,62.34
+"Central Europe, Eastern Europe, and Central Asia",2012,9.26,62.67
+"Central Europe, Eastern Europe, and Central Asia",2013,9.32,62.93
+"Central Europe, Eastern Europe, and Central Asia",2014,9.37,63.15
+"Central Europe, Eastern Europe, and Central Asia",2015,9.38,63.26
+"Central Europe, Eastern Europe, and Central Asia",2016,9.3,63.43
+Central Sub-Saharan Africa,1990,7.53,45.08
+Central Sub-Saharan Africa,1991,7.51,45.1
+Central Sub-Saharan Africa,1992,7.5,45.13
+Central Sub-Saharan Africa,1993,7.41,44.79
+Central Sub-Saharan Africa,1994,7.43,44.88
+Central Sub-Saharan Africa,1995,7.44,44.96
+Central Sub-Saharan Africa,1996,7.16,43.93
+Central Sub-Saharan Africa,1997,7.29,44.46
+Central Sub-Saharan Africa,1998,7.34,44.73
+Central Sub-Saharan Africa,1999,7.39,45.05
+Central Sub-Saharan Africa,2000,7.45,45.32
+Central Sub-Saharan Africa,2001,7.44,45.59
+Central Sub-Saharan Africa,2002,7.48,45.9
+Central Sub-Saharan Africa,2003,7.5,46.23
+Central Sub-Saharan Africa,2004,7.59,46.88
+Central Sub-Saharan Africa,2005,7.67,47.35
+Central Sub-Saharan Africa,2006,7.71,47.84
+Central Sub-Saharan Africa,2007,7.74,48.24
+Central Sub-Saharan Africa,2008,7.77,48.67
+Central Sub-Saharan Africa,2009,7.83,49.14
+Central Sub-Saharan Africa,2010,7.9,49.74
+Central Sub-Saharan Africa,2011,7.96,50.28
+Central Sub-Saharan Africa,2012,8,50.81
+Central Sub-Saharan Africa,2013,8.07,51.43
+Central Sub-Saharan Africa,2014,8.16,52.1
+Central Sub-Saharan Africa,2015,8.26,52.8
+Central Sub-Saharan Africa,2016,8.32,53.38
+Chad,1990,7.37,45.89
+Chad,1991,7.39,46.06
+Chad,1992,7.37,46.08
+Chad,1993,7.39,46.23
+Chad,1994,7.34,46.08
+Chad,1995,7.37,46.08
+Chad,1996,7.27,45.72
+Chad,1997,7.22,45.5
+Chad,1998,7.17,45.26
+Chad,1999,7.16,45.2
+Chad,2000,7.17,44.98
+Chad,2001,7.2,45.23
+Chad,2002,7.21,45.37
+Chad,2003,7.24,45.52
+Chad,2004,7.29,45.82
+Chad,2005,7.44,46.41
+Chad,2006,7.41,46.64
+Chad,2007,7.51,47.37
+Chad,2008,7.52,47.66
+Chad,2009,7.61,48.3
+Chad,2010,7.68,48.8
+Chad,2011,7.72,49.24
+Chad,2012,7.79,49.73
+Chad,2013,7.88,50.28
+Chad,2014,7.95,50.73
+Chad,2015,8.02,51.16
+Chad,2016,8.11,51.72
+Chile,1990,9.26,64.24
+Chile,1991,9.39,64.87
+Chile,1992,9.5,65.44
+Chile,1993,9.52,65.65
+Chile,1994,9.54,65.79
+Chile,1995,9.53,65.88
+Chile,1996,9.61,66.1
+Chile,1997,9.73,66.46
+Chile,1998,9.83,66.74
+Chile,1999,9.91,66.98
+Chile,2000,10.01,67.26
+Chile,2001,10.06,67.41
+Chile,2002,10.09,67.61
+Chile,2003,10.11,67.79
+Chile,2004,10.14,67.97
+Chile,2005,10.17,68.26
+Chile,2006,10.23,68.51
+Chile,2007,10.31,68.67
+Chile,2008,10.38,68.88
+Chile,2009,10.38,68.88
+Chile,2010,10.32,68.87
+Chile,2011,10.4,69.12
+Chile,2012,10.42,69.25
+Chile,2013,10.45,69.41
+Chile,2014,10.49,69.61
+Chile,2015,10.49,69.72
+Chile,2016,10.42,69.9
+China,1990,7.11,59.85
+China,1991,7.11,60.13
+China,1992,7.11,60.33
+China,1993,7.12,60.55
+China,1994,7.15,60.79
+China,1995,7.21,61.08
+China,1996,7.24,61.38
+China,1997,7.27,61.65
+China,1998,7.31,61.94
+China,1999,7.36,62.25
+China,2000,7.4,62.55
+China,2001,7.42,62.8
+China,2002,7.44,63.08
+China,2003,7.57,63.65
+China,2004,7.66,64.12
+China,2005,7.71,64.55
+China,2006,7.84,65.05
+China,2007,7.98,65.4
+China,2008,8.04,65.56
+China,2009,8.14,65.97
+China,2010,8.17,66.25
+China,2011,8.3,66.57
+China,2012,8.36,66.88
+China,2013,8.41,67.11
+China,2014,8.43,67.25
+China,2015,8.51,67.53
+China,2016,8.51,67.85
+Colombia,1990,8.22,63.1
+Colombia,1991,8.12,62.87
+Colombia,1992,8.11,62.93
+Colombia,1993,8.14,63.16
+Colombia,1994,8.18,63.37
+Colombia,1995,8.25,63.68
+Colombia,1996,8.27,63.84
+Colombia,1997,8.36,64.28
+Colombia,1998,8.42,64.57
+Colombia,1999,8.42,64.59
+Colombia,2000,8.44,64.76
+Colombia,2001,8.46,64.87
+Colombia,2002,8.49,65.05
+Colombia,2003,8.61,65.7
+Colombia,2004,8.63,65.9
+Colombia,2005,8.67,66.31
+Colombia,2006,8.67,66.52
+Colombia,2007,8.81,66.98
+Colombia,2008,8.84,67.18
+Colombia,2009,8.85,67.29
+Colombia,2010,8.86,67.59
+Colombia,2011,9.01,68.03
+Colombia,2012,9.06,68.27
+Colombia,2013,9.13,68.56
+Colombia,2014,9.17,68.73
+Colombia,2015,9.19,68.88
+Colombia,2016,9.17,69.09
+Comoros,1990,7.43,51.17
+Comoros,1991,7.44,51.45
+Comoros,1992,7.46,51.75
+Comoros,1993,7.48,52.03
+Comoros,1994,7.49,52.21
+Comoros,1995,7.51,52.45
+Comoros,1996,7.36,51.87
+Comoros,1997,7.5,52.65
+Comoros,1998,7.5,52.65
+Comoros,1999,7.69,53.54
+Comoros,2000,7.73,53.73
+Comoros,2001,7.84,54.52
+Comoros,2002,7.85,54.83
+Comoros,2003,7.95,55.55
+Comoros,2004,7.99,55.96
+Comoros,2005,7.98,56.29
+Comoros,2006,7.98,56.55
+Comoros,2007,8.01,56.68
+Comoros,2008,8.08,57.21
+Comoros,2009,7.99,56.91
+Comoros,2010,8.11,57.81
+Comoros,2011,8.05,57.56
+Comoros,2012,8.13,58.07
+Comoros,2013,8.16,58.36
+Comoros,2014,8.21,58.73
+Comoros,2015,8.25,59
+Comoros,2016,8.25,59.29
+Congo,1990,7.21,46.82
+Congo,1991,7.22,46.88
+Congo,1992,7.23,46.9
+Congo,1993,7.07,46.2
+Congo,1994,7.04,46.04
+Congo,1995,6.98,45.67
+Congo,1996,6.9,45.39
+Congo,1997,5.86,40.68
+Congo,1998,6.54,43.62
+Congo,1999,6.86,45.08
+Congo,2000,7.03,45.72
+Congo,2001,7.16,46.5
+Congo,2002,7.27,47.11
+Congo,2003,7.33,47.57
+Congo,2004,7.43,48.29
+Congo,2005,7.55,48.94
+Congo,2006,7.66,49.68
+Congo,2007,7.73,50.1
+Congo,2008,7.83,50.73
+Congo,2009,7.97,51.47
+Congo,2010,8.09,52.18
+Congo,2011,8.18,52.78
+Congo,2012,8.21,53.19
+Congo,2013,8.24,53.6
+Congo,2014,8.27,54
+Congo,2015,8.27,54.26
+Congo,2016,8.25,54.63
+Costa Rica,1990,8.93,67.59
+Costa Rica,1991,8.9,67.63
+Costa Rica,1992,8.91,67.76
+Costa Rica,1993,8.92,67.85
+Costa Rica,1994,8.93,67.93
+Costa Rica,1995,8.97,67.99
+Costa Rica,1996,8.98,68.07
+Costa Rica,1997,9.02,68.21
+Costa Rica,1998,9.07,68.41
+Costa Rica,1999,9.13,68.59
+Costa Rica,2000,9.19,68.77
+Costa Rica,2001,9.24,68.97
+Costa Rica,2002,9.3,69.18
+Costa Rica,2003,9.36,69.38
+Costa Rica,2004,9.43,69.61
+Costa Rica,2005,9.47,69.84
+Costa Rica,2006,9.54,70.05
+Costa Rica,2007,9.64,70.28
+Costa Rica,2008,9.69,70.43
+Costa Rica,2009,9.74,70.54
+Costa Rica,2010,9.74,70.63
+Costa Rica,2011,9.79,70.71
+Costa Rica,2012,9.8,70.77
+Costa Rica,2013,9.81,70.86
+Costa Rica,2014,9.83,70.94
+Costa Rica,2015,9.85,71.04
+Costa Rica,2016,9.82,71.16
+Cote d'Ivoire,1990,7.67,47.09
+Cote d'Ivoire,1991,7.56,46.92
+Cote d'Ivoire,1992,7.44,46.61
+Cote d'Ivoire,1993,7.29,46.18
+Cote d'Ivoire,1994,7.2,45.87
+Cote d'Ivoire,1995,7.09,45.45
+Cote d'Ivoire,1996,7.01,45.44
+Cote d'Ivoire,1997,7,45.54
+Cote d'Ivoire,1998,6.95,45.53
+Cote d'Ivoire,1999,6.92,45.53
+Cote d'Ivoire,2000,6.9,45.52
+Cote d'Ivoire,2001,6.72,45.75
+Cote d'Ivoire,2002,6.76,45.96
+Cote d'Ivoire,2003,6.79,46.13
+Cote d'Ivoire,2004,6.83,46.3
+Cote d'Ivoire,2005,6.9,46.61
+Cote d'Ivoire,2006,6.94,46.98
+Cote d'Ivoire,2007,7.03,47.46
+Cote d'Ivoire,2008,7.11,47.93
+Cote d'Ivoire,2009,7.2,48.42
+Cote d'Ivoire,2010,7.28,48.92
+Cote d'Ivoire,2011,7.33,49.45
+Cote d'Ivoire,2012,7.36,49.86
+Cote d'Ivoire,2013,7.45,50.5
+Cote d'Ivoire,2014,7.51,50.97
+Cote d'Ivoire,2015,7.6,51.49
+Cote d'Ivoire,2016,7.72,52.15
+Croatia,1990,9.03,63.18
+Croatia,1991,8.7,61.84
+Croatia,1992,8.81,62.47
+Croatia,1993,8.96,63.3
+Croatia,1994,9.01,63.69
+Croatia,1995,8.93,63.36
+Croatia,1996,9.02,63.96
+Croatia,1997,9.05,64.15
+Croatia,1998,9.08,64.34
+Croatia,1999,9.11,64.52
+Croatia,2000,9.14,64.77
+Croatia,2001,9.22,64.95
+Croatia,2002,9.29,65.15
+Croatia,2003,9.35,65.35
+Croatia,2004,9.41,65.52
+Croatia,2005,9.44,65.7
+Croatia,2006,9.49,65.87
+Croatia,2007,9.58,66
+Croatia,2008,9.65,66.19
+Croatia,2009,9.72,66.37
+Croatia,2010,9.75,66.61
+Croatia,2011,9.85,66.77
+Croatia,2012,9.9,66.98
+Croatia,2013,9.96,67.16
+Croatia,2014,10,67.3
+Croatia,2015,10,67.35
+Croatia,2016,9.94,67.42
+Cuba,1990,9.13,65.64
+Cuba,1991,9.1,65.73
+Cuba,1992,9.09,65.78
+Cuba,1993,9.07,65.8
+Cuba,1994,9.08,65.87
+Cuba,1995,9.12,66.03
+Cuba,1996,9.14,66.27
+Cuba,1997,9.16,66.48
+Cuba,1998,9.2,66.74
+Cuba,1999,9.23,66.99
+Cuba,2000,9.27,67.26
+Cuba,2001,9.32,67.49
+Cuba,2002,9.36,67.7
+Cuba,2003,9.39,67.86
+Cuba,2004,9.41,67.99
+Cuba,2005,9.42,68.14
+Cuba,2006,9.45,68.31
+Cuba,2007,9.51,68.42
+Cuba,2008,9.55,68.53
+Cuba,2009,9.59,68.63
+Cuba,2010,9.59,68.75
+Cuba,2011,9.66,68.83
+Cuba,2012,9.67,68.89
+Cuba,2013,9.69,68.95
+Cuba,2014,9.71,69.01
+Cuba,2015,9.74,69.09
+Cuba,2016,9.73,69.19
+Cyprus,1990,9.28,65.64
+Cyprus,1991,9.27,65.68
+Cyprus,1992,9.33,65.91
+Cyprus,1993,9.39,66.08
+Cyprus,1994,9.37,66.03
+Cyprus,1995,9.45,66.25
+Cyprus,1996,9.54,66.56
+Cyprus,1997,9.56,66.66
+Cyprus,1998,9.58,66.78
+Cyprus,1999,9.64,66.98
+Cyprus,2000,9.67,67.15
+Cyprus,2001,9.76,67.48
+Cyprus,2002,9.79,67.67
+Cyprus,2003,9.84,67.9
+Cyprus,2004,9.86,68.04
+Cyprus,2005,9.87,68.16
+Cyprus,2006,10,68.66
+Cyprus,2007,10.07,68.86
+Cyprus,2008,10.13,69.11
+Cyprus,2009,10.2,69.35
+Cyprus,2010,10.26,69.62
+Cyprus,2011,10.33,69.89
+Cyprus,2012,10.4,70.17
+Cyprus,2013,10.39,70.25
+Cyprus,2014,10.34,70.18
+Cyprus,2015,10.31,70.17
+Cyprus,2016,10.28,70.2
+Czechia,1990,9.34,62.46
+Czechia,1991,9.36,62.65
+Czechia,1992,9.42,62.94
+Czechia,1993,9.48,63.22
+Czechia,1994,9.54,63.46
+Czechia,1995,9.58,63.78
+Czechia,1996,9.67,64.1
+Czechia,1997,9.73,64.39
+Czechia,1998,9.79,64.69
+Czechia,1999,9.82,64.92
+Czechia,2000,9.81,65.22
+Czechia,2001,9.95,65.33
+Czechia,2002,10.01,65.41
+Czechia,2003,10.09,65.54
+Czechia,2004,10.2,65.71
+Czechia,2005,10.27,65.96
+Czechia,2006,10.36,66.19
+Czechia,2007,10.52,66.34
+Czechia,2008,10.6,66.52
+Czechia,2009,10.65,66.62
+Czechia,2010,10.66,66.84
+Czechia,2011,10.78,67
+Czechia,2012,10.82,67.2
+Czechia,2013,10.88,67.42
+Czechia,2014,10.96,67.67
+Czechia,2015,11.04,67.92
+Czechia,2016,11,68.1
+Democratic Republic of Congo,1990,8.02,45.81
+Democratic Republic of Congo,1991,7.95,45.66
+Democratic Republic of Congo,1992,7.93,45.64
+Democratic Republic of Congo,1993,7.9,45.57
+Democratic Republic of Congo,1994,7.84,45.35
+Democratic Republic of Congo,1995,7.82,45.31
+Democratic Republic of Congo,1996,7.39,43.69
+Democratic Republic of Congo,1997,7.66,44.78
+Democratic Republic of Congo,1998,7.68,44.93
+Democratic Republic of Congo,1999,7.75,45.29
+Democratic Republic of Congo,2000,7.8,45.55
+Democratic Republic of Congo,2001,7.78,45.8
+Democratic Republic of Congo,2002,7.78,45.96
+Democratic Republic of Congo,2003,7.78,46.23
+Democratic Republic of Congo,2004,7.89,46.96
+Democratic Republic of Congo,2005,7.97,47.37
+Democratic Republic of Congo,2006,8,47.87
+Democratic Republic of Congo,2007,7.98,48.15
+Democratic Republic of Congo,2008,7.97,48.48
+Democratic Republic of Congo,2009,8,48.88
+Democratic Republic of Congo,2010,8.07,49.44
+Democratic Republic of Congo,2011,8.09,49.92
+Democratic Republic of Congo,2012,8.11,50.4
+Democratic Republic of Congo,2013,8.2,51.11
+Democratic Republic of Congo,2014,8.29,51.81
+Democratic Republic of Congo,2015,8.38,52.52
+Democratic Republic of Congo,2016,8.45,53.11
+Denmark,1990,9.61,65.59
+Denmark,1991,9.64,65.68
+Denmark,1992,9.67,65.73
+Denmark,1993,9.69,65.75
+Denmark,1994,9.72,65.77
+Denmark,1995,9.77,65.81
+Denmark,1996,9.81,66.09
+Denmark,1997,9.84,66.38
+Denmark,1998,9.86,66.61
+Denmark,1999,9.86,66.73
+Denmark,2000,9.93,67.02
+Denmark,2001,9.97,67.18
+Denmark,2002,10.02,67.29
+Denmark,2003,10.09,67.46
+Denmark,2004,10.16,67.65
+Denmark,2005,10.26,67.85
+Denmark,2006,10.32,68.04
+Denmark,2007,10.4,68.24
+Denmark,2008,10.48,68.46
+Denmark,2009,10.55,68.65
+Denmark,2010,10.65,68.86
+Denmark,2011,10.72,69.14
+Denmark,2012,10.79,69.37
+Denmark,2013,10.85,69.56
+Denmark,2014,10.91,69.76
+Denmark,2015,10.93,69.83
+Denmark,2016,10.95,69.88
+Djibouti,1990,7.45,53.73
+Djibouti,1991,7.41,53.7
+Djibouti,1992,7.36,53.56
+Djibouti,1993,7.38,53.72
+Djibouti,1994,7.31,53.39
+Djibouti,1995,7.41,53.88
+Djibouti,1996,7.4,53.91
+Djibouti,1997,7.38,53.79
+Djibouti,1998,7.4,53.89
+Djibouti,1999,7.41,53.84
+Djibouti,2000,7.45,53.84
+Djibouti,2001,7.45,54
+Djibouti,2002,7.44,54.07
+Djibouti,2003,7.45,54.17
+Djibouti,2004,7.44,54.18
+Djibouti,2005,7.51,54.46
+Djibouti,2006,7.46,54.39
+Djibouti,2007,7.55,54.94
+Djibouti,2008,7.59,55.25
+Djibouti,2009,7.65,55.62
+Djibouti,2010,7.71,55.92
+Djibouti,2011,7.76,56.33
+Djibouti,2012,7.81,56.74
+Djibouti,2013,7.87,57.17
+Djibouti,2014,7.94,57.62
+Djibouti,2015,8.01,58
+Djibouti,2016,8.1,58.58
+Dominica,1990,8.52,63.52
+Dominica,1991,8.43,63.36
+Dominica,1992,8.4,63.26
+Dominica,1993,8.4,63.18
+Dominica,1994,8.41,63.15
+Dominica,1995,8.45,63.17
+Dominica,1996,8.45,63.24
+Dominica,1997,8.5,63.39
+Dominica,1998,8.91,63.19
+Dominica,1999,8.62,63.76
+Dominica,2000,8.74,64.12
+Dominica,2001,8.76,64.24
+Dominica,2002,8.75,64.26
+Dominica,2003,8.75,64.26
+Dominica,2004,8.81,64.44
+Dominica,2005,8.82,64.5
+Dominica,2006,8.82,64.52
+Dominica,2007,8.83,64.49
+Dominica,2008,8.86,64.53
+Dominica,2009,8.87,64.49
+Dominica,2010,8.83,64.13
+Dominica,2011,8.83,64.1
+Dominica,2012,8.82,64.03
+Dominica,2013,8.78,63.86
+Dominica,2014,8.79,63.84
+Dominica,2015,8.64,62.95
+Dominica,2016,8.86,64.07
+Dominican Republic,1990,8.39,62.34
+Dominican Republic,1991,8.42,62.61
+Dominican Republic,1992,8.46,62.83
+Dominican Republic,1993,8.5,63.01
+Dominican Republic,1994,8.54,63.18
+Dominican Republic,1995,8.61,63.36
+Dominican Republic,1996,8.62,63.44
+Dominican Republic,1997,8.68,63.71
+Dominican Republic,1998,8.72,63.78
+Dominican Republic,1999,8.79,64.06
+Dominican Republic,2000,8.83,64.22
+Dominican Republic,2001,8.89,64.35
+Dominican Republic,2002,8.91,64.42
+Dominican Republic,2003,8.93,64.44
+Dominican Republic,2004,8.89,64.23
+Dominican Republic,2005,8.94,64.38
+Dominican Republic,2006,8.95,64.54
+Dominican Republic,2007,9.03,64.74
+Dominican Republic,2008,9.09,65
+Dominican Republic,2009,9.12,65.18
+Dominican Republic,2010,9.13,65.34
+Dominican Republic,2011,9.18,65.42
+Dominican Republic,2012,9.19,65.62
+Dominican Republic,2013,9.21,65.8
+Dominican Republic,2014,9.23,65.99
+Dominican Republic,2015,9.25,66.18
+Dominican Republic,2016,9.22,66.41
+East Asia,1990,7.15,60.01
+East Asia,1991,7.14,60.29
+East Asia,1992,7.14,60.48
+East Asia,1993,7.16,60.7
+East Asia,1994,7.19,60.94
+East Asia,1995,7.22,61.03
+East Asia,1996,7.25,61.32
+East Asia,1997,7.28,61.57
+East Asia,1998,7.32,61.84
+East Asia,1999,7.37,62.13
+East Asia,2000,7.41,62.42
+East Asia,2001,7.43,62.65
+East Asia,2002,7.45,62.92
+East Asia,2003,7.6,63.68
+East Asia,2004,7.69,64.13
+East Asia,2005,7.74,64.55
+East Asia,2006,7.86,65.03
+East Asia,2007,8,65.38
+East Asia,2008,8.06,65.53
+East Asia,2009,8.16,65.94
+East Asia,2010,8.18,66.21
+East Asia,2011,8.31,66.52
+East Asia,2012,8.37,66.83
+East Asia,2013,8.42,67.05
+East Asia,2014,8.44,67.19
+East Asia,2015,8.51,67.46
+East Asia,2016,8.51,67.78
+Eastern Europe,1990,9.01,60.45
+Eastern Europe,1991,8.92,60.19
+Eastern Europe,1992,8.69,59.43
+Eastern Europe,1993,8.24,57.91
+Eastern Europe,1994,7.98,56.97
+Eastern Europe,1995,8.05,57.08
+Eastern Europe,1996,8.23,57.88
+Eastern Europe,1997,8.44,58.66
+Eastern Europe,1998,8.52,58.95
+Eastern Europe,1999,8.36,58.2
+Eastern Europe,2000,8.3,57.8
+Eastern Europe,2001,8.21,57.94
+Eastern Europe,2002,8.15,57.92
+Eastern Europe,2003,8.15,57.98
+Eastern Europe,2004,8.14,58.16
+Eastern Europe,2005,8.11,58.19
+Eastern Europe,2006,8.31,59.03
+Eastern Europe,2007,8.43,59.38
+Eastern Europe,2008,8.5,59.63
+Eastern Europe,2009,8.75,60.47
+Eastern Europe,2010,8.81,60.88
+Eastern Europe,2011,9,61.34
+Eastern Europe,2012,9.09,61.72
+Eastern Europe,2013,9.14,61.96
+Eastern Europe,2014,9.18,62.14
+Eastern Europe,2015,9.16,62.21
+Eastern Europe,2016,9.06,62.36
+Eastern Sub-Saharan Africa,1990,6.34,44.83
+Eastern Sub-Saharan Africa,1991,6.34,45.02
+Eastern Sub-Saharan Africa,1992,6.33,45.02
+Eastern Sub-Saharan Africa,1993,6.28,44.75
+Eastern Sub-Saharan Africa,1994,5.65,41.46
+Eastern Sub-Saharan Africa,1995,6.32,44.64
+Eastern Sub-Saharan Africa,1996,6.3,44.73
+Eastern Sub-Saharan Africa,1997,6.29,44.78
+Eastern Sub-Saharan Africa,1998,6.31,44.92
+Eastern Sub-Saharan Africa,1999,6.3,44.88
+Eastern Sub-Saharan Africa,2000,6.35,45.12
+Eastern Sub-Saharan Africa,2001,6.46,45.88
+Eastern Sub-Saharan Africa,2002,6.52,46.38
+Eastern Sub-Saharan Africa,2003,6.58,46.88
+Eastern Sub-Saharan Africa,2004,6.68,47.41
+Eastern Sub-Saharan Africa,2005,6.78,48.04
+Eastern Sub-Saharan Africa,2006,6.82,48.79
+Eastern Sub-Saharan Africa,2007,6.94,49.56
+Eastern Sub-Saharan Africa,2008,7.06,50.39
+Eastern Sub-Saharan Africa,2009,7.16,51.08
+Eastern Sub-Saharan Africa,2010,7.25,51.72
+Eastern Sub-Saharan Africa,2011,7.33,52.41
+Eastern Sub-Saharan Africa,2012,7.41,53.16
+Eastern Sub-Saharan Africa,2013,7.5,53.87
+Eastern Sub-Saharan Africa,2014,7.6,54.54
+Eastern Sub-Saharan Africa,2015,7.69,55.11
+Eastern Sub-Saharan Africa,2016,7.74,55.65
+Ecuador,1990,8.72,62.66
+Ecuador,1991,8.71,62.78
+Ecuador,1992,8.76,63.13
+Ecuador,1993,8.79,63.28
+Ecuador,1994,8.87,63.65
+Ecuador,1995,8.91,63.84
+Ecuador,1996,8.96,64.12
+Ecuador,1997,9,64.42
+Ecuador,1998,9.03,64.61
+Ecuador,1999,9.09,64.89
+Ecuador,2000,9.11,65.1
+Ecuador,2001,9.18,65.34
+Ecuador,2002,9.22,65.55
+Ecuador,2003,9.25,65.77
+Ecuador,2004,9.3,66
+Ecuador,2005,9.31,66.24
+Ecuador,2006,9.32,66.45
+Ecuador,2007,9.39,66.6
+Ecuador,2008,9.42,66.81
+Ecuador,2009,9.45,67.01
+Ecuador,2010,9.44,67.24
+Ecuador,2011,9.53,67.42
+Ecuador,2012,9.58,67.64
+Ecuador,2013,9.62,67.85
+Ecuador,2014,9.67,68.06
+Ecuador,2015,9.7,68.21
+Ecuador,2016,9.63,68.2
+Egypt,1990,9.37,55.95
+Egypt,1991,9.37,56.17
+Egypt,1992,9.47,56.7
+Egypt,1993,9.52,57.17
+Egypt,1994,9.54,57.47
+Egypt,1995,9.65,58.02
+Egypt,1996,9.67,58.41
+Egypt,1997,9.7,58.73
+Egypt,1998,9.8,59.2
+Egypt,1999,9.86,59.49
+Egypt,2000,9.94,59.91
+Egypt,2001,9.89,59.81
+Egypt,2002,9.9,59.89
+Egypt,2003,9.92,59.96
+Egypt,2004,9.96,60.1
+Egypt,2005,9.98,60.24
+Egypt,2006,9.94,60.29
+Egypt,2007,10,60.49
+Egypt,2008,9.97,60.51
+Egypt,2009,9.93,60.45
+Egypt,2010,9.91,60.55
+Egypt,2011,9.95,60.85
+Egypt,2012,9.94,61
+Egypt,2013,10.04,61.41
+Egypt,2014,10.07,61.62
+Egypt,2015,10.08,61.76
+Egypt,2016,10.09,62.04
+El Salvador,1990,8,60.12
+El Salvador,1991,8.01,60.43
+El Salvador,1992,8.09,61.07
+El Salvador,1993,8.13,61.4
+El Salvador,1994,8.17,61.66
+El Salvador,1995,8.24,62.04
+El Salvador,1996,8.29,62.35
+El Salvador,1997,8.37,62.74
+El Salvador,1998,8.42,62.93
+El Salvador,1999,8.51,63.41
+El Salvador,2000,8.53,63.71
+El Salvador,2001,8.51,63.47
+El Salvador,2002,8.63,64.1
+El Salvador,2003,8.65,64.21
+El Salvador,2004,8.69,64.34
+El Salvador,2005,8.69,64.51
+El Salvador,2006,8.72,64.76
+El Salvador,2007,8.8,64.87
+El Salvador,2008,8.85,65.07
+El Salvador,2009,8.88,65.11
+El Salvador,2010,8.87,65.41
+El Salvador,2011,8.97,65.56
+El Salvador,2012,8.97,65.73
+El Salvador,2013,8.95,65.86
+El Salvador,2014,8.98,66.04
+El Salvador,2015,9.02,66.21
+El Salvador,2016,8.99,66.48
+England,1990,9.92,66.05
+England,1991,9.94,66.24
+England,1992,9.99,66.44
+England,1993,10.02,66.53
+England,1994,10.08,66.72
+England,1995,10.13,66.82
+England,1996,10.15,67.01
+England,1997,10.17,67.21
+England,1998,10.2,67.38
+England,1999,10.22,67.56
+England,2000,10.29,67.8
+England,2001,10.34,68
+England,2002,10.39,68.16
+England,2003,10.38,68.31
+England,2004,10.53,68.55
+England,2005,10.61,68.75
+England,2006,10.66,68.99
+England,2007,10.71,69.21
+England,2008,10.75,69.41
+England,2009,10.81,69.64
+England,2010,10.86,69.81
+England,2011,10.9,69.97
+England,2012,10.91,70.06
+England,2013,10.93,70.13
+England,2014,10.93,70.18
+England,2015,10.93,70.2
+England,2016,10.94,70.24
+Equatorial Guinea,1990,6.29,41.8
+Equatorial Guinea,1991,6.24,41.62
+Equatorial Guinea,1992,6.23,41.66
+Equatorial Guinea,1993,6.22,41.64
+Equatorial Guinea,1994,6.2,41.57
+Equatorial Guinea,1995,6.21,41.61
+Equatorial Guinea,1996,6.26,42.15
+Equatorial Guinea,1997,6.6,44
+Equatorial Guinea,1998,6.81,45.12
+Equatorial Guinea,1999,6.98,46.07
+Equatorial Guinea,2000,7.19,47.12
+Equatorial Guinea,2001,7.42,48.35
+Equatorial Guinea,2002,7.61,49.32
+Equatorial Guinea,2003,7.69,49.75
+Equatorial Guinea,2004,7.79,50.2
+Equatorial Guinea,2005,7.78,50.28
+Equatorial Guinea,2006,7.88,51.08
+Equatorial Guinea,2007,7.96,51.4
+Equatorial Guinea,2008,8.01,51.76
+Equatorial Guinea,2009,8.09,52.16
+Equatorial Guinea,2010,8.15,52.78
+Equatorial Guinea,2011,8.26,53.15
+Equatorial Guinea,2012,8.4,53.86
+Equatorial Guinea,2013,8.62,55.03
+Equatorial Guinea,2014,8.78,55.88
+Equatorial Guinea,2015,8.85,56.32
+Equatorial Guinea,2016,8.81,56.66
+Eritrea,1990,6.29,46.01
+Eritrea,1991,6.34,46.59
+Eritrea,1992,6.48,47.49
+Eritrea,1993,6.62,48.34
+Eritrea,1994,6.71,49
+Eritrea,1995,6.8,49.67
+Eritrea,1996,6.86,50.24
+Eritrea,1997,6.93,50.83
+Eritrea,1998,6.99,51.31
+Eritrea,1999,5.62,43.75
+Eritrea,2000,6.91,51.17
+Eritrea,2001,7.11,52.32
+Eritrea,2002,7.13,52.6
+Eritrea,2003,7.14,52.82
+Eritrea,2004,7.16,53.03
+Eritrea,2005,7.17,53.22
+Eritrea,2006,7.2,53.51
+Eritrea,2007,7.25,53.73
+Eritrea,2008,7.27,53.91
+Eritrea,2009,7.3,54.12
+Eritrea,2010,7.31,54.3
+Eritrea,2011,7.35,54.59
+Eritrea,2012,7.37,54.9
+Eritrea,2013,7.4,55.17
+Eritrea,2014,7.44,55.52
+Eritrea,2015,7.48,55.82
+Eritrea,2016,7.5,56.16
+Estonia,1990,9.29,60.88
+Estonia,1991,9.12,60.52
+Estonia,1992,9.05,60.28
+Estonia,1993,8.76,59.48
+Estonia,1994,8.43,58.4
+Estonia,1995,8.63,59.07
+Estonia,1996,9.03,60.86
+Estonia,1997,9.07,61.06
+Estonia,1998,8.94,60.79
+Estonia,1999,9.12,61.43
+Estonia,2000,9.15,61.69
+Estonia,2001,9.08,61.54
+Estonia,2002,9.21,62.17
+Estonia,2003,9.32,62.62
+Estonia,2004,9.41,63.02
+Estonia,2005,9.45,63.44
+Estonia,2006,9.5,63.69
+Estonia,2007,9.59,63.67
+Estonia,2008,9.86,64.51
+Estonia,2009,10.05,65.09
+Estonia,2010,10.26,65.97
+Estonia,2011,10.37,66.13
+Estonia,2012,10.36,66.17
+Estonia,2013,10.53,66.85
+Estonia,2014,10.48,66.81
+Estonia,2015,10.49,66.95
+Estonia,2016,10.41,67.16
+Eswatini,1990,7.82,54.54
+Eswatini,1991,7.83,54.57
+Eswatini,1992,7.88,54.54
+Eswatini,1993,7.94,54.43
+Eswatini,1994,7.83,53.42
+Eswatini,1995,7.66,51.66
+Eswatini,1996,7.25,49.61
+Eswatini,1997,6.94,47.88
+Eswatini,1998,6.52,45.63
+Eswatini,1999,6.2,43.62
+Eswatini,2000,6.04,41.36
+Eswatini,2001,5.71,39.75
+Eswatini,2002,5.5,38.7
+Eswatini,2003,5.38,37.86
+Eswatini,2004,5.32,37.3
+Eswatini,2005,5.39,36.93
+Eswatini,2006,5.46,37.47
+Eswatini,2007,5.6,38.2
+Eswatini,2008,5.73,38.74
+Eswatini,2009,5.92,39.59
+Eswatini,2010,6.23,40.68
+Eswatini,2011,6.34,42.45
+Eswatini,2012,6.49,43.85
+Eswatini,2013,6.69,45.11
+Eswatini,2014,7,46.59
+Eswatini,2015,7.5,48.61
+Eswatini,2016,7.82,49.62
+Ethiopia,1990,5.47,41.1
+Ethiopia,1991,5.67,42.51
+Ethiopia,1992,5.76,43.13
+Ethiopia,1993,5.81,43.5
+Ethiopia,1994,5.83,43.77
+Ethiopia,1995,5.87,44
+Ethiopia,1996,5.95,44.57
+Ethiopia,1997,6,45.01
+Ethiopia,1998,6.05,45.4
+Ethiopia,1999,5.98,45.09
+Ethiopia,2000,5.97,45.13
+Ethiopia,2001,6.25,46.82
+Ethiopia,2002,6.34,47.5
+Ethiopia,2003,6.42,48.09
+Ethiopia,2004,6.52,48.76
+Ethiopia,2005,6.6,49.46
+Ethiopia,2006,6.69,50.33
+Ethiopia,2007,6.86,51.31
+Ethiopia,2008,7.02,52.34
+Ethiopia,2009,7.16,53.22
+Ethiopia,2010,7.25,54.03
+Ethiopia,2011,7.39,54.83
+Ethiopia,2012,7.48,55.58
+Ethiopia,2013,7.57,56.28
+Ethiopia,2014,7.66,56.97
+Ethiopia,2015,7.72,57.42
+Ethiopia,2016,7.72,57.91
+Federated States of Micronesia,1990,7.67,55.54
+Federated States of Micronesia,1991,7.66,55.71
+Federated States of Micronesia,1992,7.68,55.86
+Federated States of Micronesia,1993,7.71,56.03
+Federated States of Micronesia,1994,7.74,56.18
+Federated States of Micronesia,1995,7.79,56.36
+Federated States of Micronesia,1996,7.81,56.54
+Federated States of Micronesia,1997,7.84,56.68
+Federated States of Micronesia,1998,7.89,56.85
+Federated States of Micronesia,1999,7.93,57.02
+Federated States of Micronesia,2000,7.92,56.79
+Federated States of Micronesia,2001,8.02,57.37
+Federated States of Micronesia,2002,7.86,56.57
+Federated States of Micronesia,2003,8.06,57.56
+Federated States of Micronesia,2004,8.08,57.61
+Federated States of Micronesia,2005,8.05,57.53
+Federated States of Micronesia,2006,8,57.59
+Federated States of Micronesia,2007,7.97,57.61
+Federated States of Micronesia,2008,7.94,57.64
+Federated States of Micronesia,2009,7.91,57.59
+Federated States of Micronesia,2010,7.85,57.47
+Federated States of Micronesia,2011,7.88,57.51
+Federated States of Micronesia,2012,7.91,57.59
+Federated States of Micronesia,2013,7.94,57.62
+Federated States of Micronesia,2014,7.92,57.47
+Federated States of Micronesia,2015,7.92,57.35
+Federated States of Micronesia,2016,7.99,57.51
+Fiji,1990,8.21,56.99
+Fiji,1991,8.18,56.94
+Fiji,1992,8.17,56.85
+Fiji,1993,8.14,56.61
+Fiji,1994,8.13,56.51
+Fiji,1995,8.13,56.36
+Fiji,1996,8.11,56.21
+Fiji,1997,8.08,56
+Fiji,1998,8.09,56.01
+Fiji,1999,8.09,55.92
+Fiji,2000,8.16,56.02
+Fiji,2001,8.17,56.2
+Fiji,2002,8.19,56.35
+Fiji,2003,8.2,56.41
+Fiji,2004,8.21,56.49
+Fiji,2005,8.21,56.54
+Fiji,2006,8.18,56.55
+Fiji,2007,8.16,56.58
+Fiji,2008,8.15,56.62
+Fiji,2009,8.17,56.71
+Fiji,2010,8.24,56.93
+Fiji,2011,8.24,57.12
+Fiji,2012,8.2,57.1
+Fiji,2013,8.18,57.18
+Fiji,2014,8.17,57.19
+Fiji,2015,8.17,57.2
+Fiji,2016,8.17,57.21
+Finland,1990,9.95,65.11
+Finland,1991,10,65.35
+Finland,1992,10.07,65.64
+Finland,1993,10.14,65.94
+Finland,1994,10.23,66.22
+Finland,1995,10.29,66.41
+Finland,1996,10.31,66.55
+Finland,1997,10.36,66.73
+Finland,1998,10.4,66.89
+Finland,1999,10.44,67.05
+Finland,2000,10.53,67.28
+Finland,2001,10.6,67.54
+Finland,2002,10.67,67.73
+Finland,2003,10.72,67.84
+Finland,2004,10.79,67.95
+Finland,2005,10.87,68.11
+Finland,2006,10.87,68.3
+Finland,2007,10.89,68.5
+Finland,2008,10.91,68.71
+Finland,2009,10.92,68.89
+Finland,2010,10.93,69.09
+Finland,2011,10.97,69.34
+Finland,2012,11.01,69.56
+Finland,2013,11.07,69.86
+Finland,2014,11.13,70.13
+Finland,2015,11.17,70.36
+Finland,2016,11.21,70.53
+France,1990,9.77,67.39
+France,1991,9.78,67.57
+France,1992,9.8,67.77
+France,1993,9.81,67.93
+France,1994,9.83,68.12
+France,1995,9.84,68.28
+France,1996,9.86,68.48
+France,1997,9.9,68.75
+France,1998,9.91,68.86
+France,1999,9.92,69
+France,2000,9.96,69.16
+France,2001,9.99,69.37
+France,2002,10.01,69.58
+France,2003,10.03,69.74
+France,2004,10.1,70.05
+France,2005,10.14,70.26
+France,2006,10.22,70.45
+France,2007,10.29,70.61
+France,2008,10.36,70.72
+France,2009,10.44,70.85
+France,2010,10.52,70.97
+France,2011,10.55,71.16
+France,2012,10.56,71.28
+France,2013,10.59,71.42
+France,2014,10.63,71.59
+France,2015,10.63,71.64
+France,2016,10.64,71.71
+Gabon,1990,7.87,51.52
+Gabon,1991,7.93,51.82
+Gabon,1992,7.98,52.08
+Gabon,1993,7.94,52
+Gabon,1994,7.89,51.84
+Gabon,1995,7.87,51.73
+Gabon,1996,7.79,51.47
+Gabon,1997,7.86,51.77
+Gabon,1998,7.86,51.75
+Gabon,1999,7.82,51.55
+Gabon,2000,7.78,51.32
+Gabon,2001,7.7,51.12
+Gabon,2002,7.77,51.4
+Gabon,2003,7.76,51.45
+Gabon,2004,7.73,51.51
+Gabon,2005,7.91,52.01
+Gabon,2006,7.98,52.46
+Gabon,2007,8.12,53.01
+Gabon,2008,8.14,53.26
+Gabon,2009,8.24,53.72
+Gabon,2010,8.39,54.41
+Gabon,2011,8.45,54.77
+Gabon,2012,8.53,55.3
+Gabon,2013,8.63,55.85
+Gabon,2014,8.76,56.49
+Gabon,2015,8.87,57.04
+Gabon,2016,8.94,57.58
+Gambia,1990,8.37,53.21
+Gambia,1991,8.4,53.42
+Gambia,1992,8.43,53.61
+Gambia,1993,8.46,53.8
+Gambia,1994,8.5,53.98
+Gambia,1995,8.54,54.12
+Gambia,1996,8.55,54.3
+Gambia,1997,8.54,54.3
+Gambia,1998,8.59,54.6
+Gambia,1999,8.57,54.6
+Gambia,2000,8.6,54.7
+Gambia,2001,8.62,54.94
+Gambia,2002,8.59,54.9
+Gambia,2003,8.69,55.26
+Gambia,2004,8.74,55.47
+Gambia,2005,8.75,55.51
+Gambia,2006,8.76,55.72
+Gambia,2007,8.75,55.74
+Gambia,2008,8.81,56.08
+Gambia,2009,8.84,56.26
+Gambia,2010,8.9,56.62
+Gambia,2011,8.96,57
+Gambia,2012,8.99,57.28
+Gambia,2013,9,57.51
+Gambia,2014,9.02,57.71
+Gambia,2015,9.05,57.99
+Gambia,2016,9.07,58.27
+Georgia,1990,8.21,61.49
+Georgia,1991,8.14,61.44
+Georgia,1992,8,60.94
+Georgia,1993,7.93,60.67
+Georgia,1994,8.1,61.68
+Georgia,1995,8.28,62.27
+Georgia,1996,8.39,62.88
+Georgia,1997,8.38,63.03
+Georgia,1998,8.36,63.11
+Georgia,1999,8.35,63.27
+Georgia,2000,8.36,63.46
+Georgia,2001,8.41,63.69
+Georgia,2002,8.37,63.58
+Georgia,2003,8.31,63.51
+Georgia,2004,8.29,63.4
+Georgia,2005,8.41,63.67
+Georgia,2006,8.51,63.95
+Georgia,2007,8.57,64.13
+Georgia,2008,8.53,63.78
+Georgia,2009,8.6,64.06
+Georgia,2010,8.64,64.14
+Georgia,2011,8.66,64.23
+Georgia,2012,8.7,64.37
+Georgia,2013,8.74,64.48
+Georgia,2014,8.79,64.63
+Georgia,2015,8.85,64.79
+Georgia,2016,8.9,65.01
+Germany,1990,9.69,65.77
+Germany,1991,9.74,65.97
+Germany,1992,9.8,66.2
+Germany,1993,9.83,66.34
+Germany,1994,9.88,66.51
+Germany,1995,9.94,66.7
+Germany,1996,9.97,66.92
+Germany,1997,10.01,67.17
+Germany,1998,10.05,67.41
+Germany,1999,10.09,67.64
+Germany,2000,10.14,67.88
+Germany,2001,10.2,68.1
+Germany,2002,10.23,68.28
+Germany,2003,10.27,68.44
+Germany,2004,10.34,68.68
+Germany,2005,10.38,68.87
+Germany,2006,10.42,69.06
+Germany,2007,10.46,69.2
+Germany,2008,10.48,69.35
+Germany,2009,10.51,69.46
+Germany,2010,10.54,69.6
+Germany,2011,10.59,69.74
+Germany,2012,10.61,69.87
+Germany,2013,10.63,69.95
+Germany,2014,10.68,70.11
+Germany,2015,10.69,70.17
+Germany,2016,10.7,70.23
+Ghana,1990,7.59,51.18
+Ghana,1991,7.55,51.32
+Ghana,1992,7.53,51.43
+Ghana,1993,7.59,51.82
+Ghana,1994,7.54,51.69
+Ghana,1995,7.56,51.9
+Ghana,1996,7.52,51.96
+Ghana,1997,7.41,51.65
+Ghana,1998,7.44,51.92
+Ghana,1999,7.4,51.89
+Ghana,2000,7.39,51.92
+Ghana,2001,7.32,51.9
+Ghana,2002,7.31,52
+Ghana,2003,7.34,52.19
+Ghana,2004,7.4,52.44
+Ghana,2005,7.43,52.7
+Ghana,2006,7.45,53
+Ghana,2007,7.51,53.28
+Ghana,2008,7.57,53.7
+Ghana,2009,7.64,54.08
+Ghana,2010,7.68,54.48
+Ghana,2011,7.77,55.14
+Ghana,2012,7.85,55.85
+Ghana,2013,7.92,56.42
+Ghana,2014,7.98,56.89
+Ghana,2015,8.05,57.37
+Ghana,2016,8.08,57.92
+Greece,1990,9.62,67.37
+Greece,1991,9.63,67.49
+Greece,1992,9.64,67.6
+Greece,1993,9.67,67.78
+Greece,1994,9.71,67.93
+Greece,1995,9.74,68.05
+Greece,1996,9.75,68.19
+Greece,1997,9.76,68.34
+Greece,1998,9.78,68.45
+Greece,1999,9.8,68.57
+Greece,2000,9.85,68.77
+Greece,2001,9.9,68.99
+Greece,2002,9.95,69.14
+Greece,2003,9.99,69.27
+Greece,2004,10.05,69.39
+Greece,2005,10.1,69.5
+Greece,2006,10.17,69.68
+Greece,2007,10.19,69.73
+Greece,2008,10.26,69.9
+Greece,2009,10.3,69.97
+Greece,2010,10.35,70.05
+Greece,2011,10.34,70.14
+Greece,2012,10.34,70.24
+Greece,2013,10.37,70.44
+Greece,2014,10.38,70.55
+Greece,2015,10.36,70.6
+Greece,2016,10.34,70.63
+Greenland,1990,7.39,54.01
+Greenland,1991,7.46,54.43
+Greenland,1992,7.56,54.86
+Greenland,1993,7.67,55.41
+Greenland,1994,7.77,55.91
+Greenland,1995,7.81,56.17
+Greenland,1996,7.81,56.28
+Greenland,1997,7.82,56.39
+Greenland,1998,7.84,56.62
+Greenland,1999,7.88,56.81
+Greenland,2000,7.94,57.11
+Greenland,2001,7.98,57.24
+Greenland,2002,8.02,57.44
+Greenland,2003,8.04,57.53
+Greenland,2004,8.05,57.67
+Greenland,2005,8.08,57.97
+Greenland,2006,8.22,58.54
+Greenland,2007,8.38,59.07
+Greenland,2008,8.46,59.41
+Greenland,2009,8.51,59.59
+Greenland,2010,8.52,59.78
+Greenland,2011,8.69,60.26
+Greenland,2012,8.84,60.89
+Greenland,2013,8.89,61.19
+Greenland,2014,8.88,61.3
+Greenland,2015,8.84,61.23
+Greenland,2016,8.74,61.26
+Grenada,1990,9.01,61.91
+Grenada,1991,8.96,62.27
+Grenada,1992,8.91,62.38
+Grenada,1993,8.89,62.56
+Grenada,1994,8.86,62.6
+Grenada,1995,8.85,62.63
+Grenada,1996,8.83,62.65
+Grenada,1997,8.81,62.58
+Grenada,1998,8.79,62.52
+Grenada,1999,8.8,62.5
+Grenada,2000,8.79,62.46
+Grenada,2001,8.77,62.38
+Grenada,2002,8.75,62.27
+Grenada,2003,8.75,62.26
+Grenada,2004,8.69,61.89
+Grenada,2005,8.77,62.29
+Grenada,2006,8.77,62.37
+Grenada,2007,8.81,62.49
+Grenada,2008,8.82,62.53
+Grenada,2009,8.85,62.57
+Grenada,2010,8.85,62.46
+Grenada,2011,8.86,62.46
+Grenada,2012,8.85,62.42
+Grenada,2013,8.85,62.43
+Grenada,2014,8.85,62.44
+Grenada,2015,8.85,62.48
+Grenada,2016,8.87,62.69
+Guam,1990,8.82,64.27
+Guam,1991,8.72,64.22
+Guam,1992,8.72,64.23
+Guam,1993,8.74,64.29
+Guam,1994,8.78,64.36
+Guam,1995,8.83,64.5
+Guam,1996,8.88,64.61
+Guam,1997,8.21,61.46
+Guam,1998,8.95,64.74
+Guam,1999,8.99,64.8
+Guam,2000,9.03,64.86
+Guam,2001,9.06,64.86
+Guam,2002,9.08,64.85
+Guam,2003,9.08,64.75
+Guam,2004,9.06,64.58
+Guam,2005,9.03,64.43
+Guam,2006,8.99,64.22
+Guam,2007,8.94,63.9
+Guam,2008,8.89,63.65
+Guam,2009,8.86,63.46
+Guam,2010,8.85,63.29
+Guam,2011,8.86,63.27
+Guam,2012,8.87,63.19
+Guam,2013,8.89,63.16
+Guam,2014,8.92,63.18
+Guam,2015,8.96,63.19
+Guam,2016,9.03,63.31
+Guatemala,1990,7.93,56.69
+Guatemala,1991,7.86,56.82
+Guatemala,1992,7.88,57.12
+Guatemala,1993,7.95,57.55
+Guatemala,1994,8.02,57.93
+Guatemala,1995,8.15,58.46
+Guatemala,1996,8.28,58.92
+Guatemala,1997,8.33,59.24
+Guatemala,1998,8.38,59.42
+Guatemala,1999,8.47,59.8
+Guatemala,2000,8.54,60.1
+Guatemala,2001,8.54,60.41
+Guatemala,2002,8.62,60.69
+Guatemala,2003,8.67,60.91
+Guatemala,2004,8.68,61.04
+Guatemala,2005,8.69,61.14
+Guatemala,2006,8.71,61.48
+Guatemala,2007,8.77,61.77
+Guatemala,2008,8.8,62.04
+Guatemala,2009,8.82,62.26
+Guatemala,2010,8.8,62.5
+Guatemala,2011,8.85,62.71
+Guatemala,2012,8.88,63
+Guatemala,2013,8.91,63.24
+Guatemala,2014,8.92,63.45
+Guatemala,2015,8.93,63.66
+Guatemala,2016,8.89,63.86
+Guinea,1990,7.09,44.85
+Guinea,1991,7.1,45.21
+Guinea,1992,7.09,45.41
+Guinea,1993,7.12,45.77
+Guinea,1994,7.08,45.86
+Guinea,1995,7.13,46.22
+Guinea,1996,7.16,46.67
+Guinea,1997,7.18,46.94
+Guinea,1998,7.15,47.06
+Guinea,1999,7.14,47.17
+Guinea,2000,7.18,47.49
+Guinea,2001,7.12,47.7
+Guinea,2002,7.14,47.96
+Guinea,2003,7.19,48.31
+Guinea,2004,7.23,48.58
+Guinea,2005,7.28,48.89
+Guinea,2006,7.27,49.14
+Guinea,2007,7.3,49.4
+Guinea,2008,7.36,49.8
+Guinea,2009,7.4,50.11
+Guinea,2010,7.46,50.52
+Guinea,2011,7.53,50.96
+Guinea,2012,7.57,51.35
+Guinea,2013,7.62,51.76
+Guinea,2014,7.55,51.59
+Guinea,2015,7.68,52.34
+Guinea,2016,7.76,52.92
+Guinea-Bissau,1990,6.36,42.8
+Guinea-Bissau,1991,6.39,43.16
+Guinea-Bissau,1992,6.42,43.45
+Guinea-Bissau,1993,6.46,43.74
+Guinea-Bissau,1994,6.45,43.7
+Guinea-Bissau,1995,6.54,44.3
+Guinea-Bissau,1996,6.56,44.55
+Guinea-Bissau,1997,6.46,44.05
+Guinea-Bissau,1998,6.42,44.23
+Guinea-Bissau,1999,6.5,44.63
+Guinea-Bissau,2000,6.66,45.55
+Guinea-Bissau,2001,6.65,45.87
+Guinea-Bissau,2002,6.68,46.12
+Guinea-Bissau,2003,6.72,46.36
+Guinea-Bissau,2004,6.72,46.42
+Guinea-Bissau,2005,6.75,46.4
+Guinea-Bissau,2006,6.79,46.96
+Guinea-Bissau,2007,6.84,47.36
+Guinea-Bissau,2008,6.87,47.59
+Guinea-Bissau,2009,6.93,48.07
+Guinea-Bissau,2010,7.03,48.57
+Guinea-Bissau,2011,7.07,49.06
+Guinea-Bissau,2012,7.11,49.49
+Guinea-Bissau,2013,7.16,49.95
+Guinea-Bissau,2014,7.2,50.33
+Guinea-Bissau,2015,7.27,50.83
+Guinea-Bissau,2016,7.37,51.39
+Guyana,1990,7.97,56.21
+Guyana,1991,8,56.37
+Guyana,1992,8.05,56.55
+Guyana,1993,8.07,56.65
+Guyana,1994,8.09,56.67
+Guyana,1995,8.17,56.77
+Guyana,1996,8.13,56.7
+Guyana,1997,8.18,56.79
+Guyana,1998,8.23,56.89
+Guyana,1999,8.31,57.05
+Guyana,2000,8.36,57.07
+Guyana,2001,8.32,57.01
+Guyana,2002,8.26,56.88
+Guyana,2003,8.2,56.69
+Guyana,2004,8.16,56.55
+Guyana,2005,8.16,56.49
+Guyana,2006,8.18,56.72
+Guyana,2007,8.19,56.82
+Guyana,2008,8.18,56.87
+Guyana,2009,8.23,57.07
+Guyana,2010,8.24,57.13
+Guyana,2011,8.26,57.32
+Guyana,2012,8.28,57.55
+Guyana,2013,8.33,57.88
+Guyana,2014,8.38,58.18
+Guyana,2015,8.43,58.44
+Guyana,2016,8.57,59.17
+Haiti,1990,6.92,47.07
+Haiti,1991,6.9,47.25
+Haiti,1992,6.94,47.55
+Haiti,1993,6.86,47.27
+Haiti,1994,6.93,47.61
+Haiti,1995,7.04,48.04
+Haiti,1996,7.07,48.35
+Haiti,1997,7.1,48.55
+Haiti,1998,7.16,48.85
+Haiti,1999,7.21,49.12
+Haiti,2000,7.28,49.47
+Haiti,2001,7.3,49.78
+Haiti,2002,7.34,50.07
+Haiti,2003,7.34,50.22
+Haiti,2004,7.17,49.39
+Haiti,2005,7.38,50.59
+Haiti,2006,7.38,50.91
+Haiti,2007,7.45,51.36
+Haiti,2008,7.52,51.73
+Haiti,2009,7.64,52.35
+Haiti,2010,2.15,29.5
+Haiti,2011,7.67,52.82
+Haiti,2012,7.79,53.79
+Haiti,2013,7.89,54.57
+Haiti,2014,8,55.26
+Haiti,2015,8.08,55.76
+Haiti,2016,8.07,55.9
+High SDI,1990,9.71,66.06
+High SDI,1991,9.73,66.21
+High SDI,1992,9.77,66.39
+High SDI,1993,9.8,66.52
+High SDI,1994,9.84,66.65
+High SDI,1995,9.88,66.78
+High SDI,1996,9.94,67.05
+High SDI,1997,9.99,67.32
+High SDI,1998,10.03,67.48
+High SDI,1999,10.06,67.61
+High SDI,2000,10.12,67.81
+High SDI,2001,10.17,67.98
+High SDI,2002,10.22,68.15
+High SDI,2003,10.26,68.3
+High SDI,2004,10.33,68.51
+High SDI,2005,10.38,68.66
+High SDI,2006,10.44,68.84
+High SDI,2007,10.5,68.98
+High SDI,2008,10.56,69.14
+High SDI,2009,10.62,69.3
+High SDI,2010,10.68,69.45
+High SDI,2011,10.71,69.54
+High SDI,2012,10.74,69.68
+High SDI,2013,10.77,69.78
+High SDI,2014,10.8,69.88
+High SDI,2015,10.81,69.9
+High SDI,2016,10.81,69.94
+High-income,1990,9.73,66.32
+High-income,1991,9.76,66.49
+High-income,1992,9.8,66.67
+High-income,1993,9.83,66.78
+High-income,1994,9.87,66.93
+High-income,1995,9.92,67.05
+High-income,1996,9.96,67.3
+High-income,1997,10.02,67.56
+High-income,1998,10.05,67.71
+High-income,1999,10.08,67.86
+High-income,2000,10.14,68.03
+High-income,2001,10.18,68.2
+High-income,2002,10.22,68.35
+High-income,2003,10.26,68.5
+High-income,2004,10.34,68.72
+High-income,2005,10.39,68.88
+High-income,2006,10.45,69.07
+High-income,2007,10.51,69.22
+High-income,2008,10.56,69.38
+High-income,2009,10.62,69.53
+High-income,2010,10.67,69.66
+High-income,2011,10.7,69.75
+High-income,2012,10.73,69.89
+High-income,2013,10.76,69.98
+High-income,2014,10.78,70.06
+High-income,2015,10.79,70.09
+High-income,2016,10.79,70.12
+High-middle SDI,1990,8.79,61.18
+High-middle SDI,1991,8.78,61.39
+High-middle SDI,1992,8.69,61.25
+High-middle SDI,1993,8.51,60.85
+High-middle SDI,1994,8.41,60.66
+High-middle SDI,1995,8.46,60.85
+High-middle SDI,1996,8.55,61.3
+High-middle SDI,1997,8.66,61.74
+High-middle SDI,1998,8.73,62.06
+High-middle SDI,1999,8.68,61.99
+High-middle SDI,2000,8.7,62.18
+High-middle SDI,2001,8.71,62.39
+High-middle SDI,2002,8.72,62.55
+High-middle SDI,2003,8.73,62.7
+High-middle SDI,2004,8.81,63.11
+High-middle SDI,2005,8.83,63.39
+High-middle SDI,2006,8.97,63.93
+High-middle SDI,2007,9.11,64.26
+High-middle SDI,2008,9.18,64.54
+High-middle SDI,2009,9.32,64.95
+High-middle SDI,2010,9.37,65.29
+High-middle SDI,2011,9.49,65.52
+High-middle SDI,2012,9.58,65.92
+High-middle SDI,2013,9.63,66.15
+High-middle SDI,2014,9.68,66.34
+High-middle SDI,2015,9.71,66.51
+High-middle SDI,2016,9.67,66.73
+Honduras,1990,7.72,59.47
+Honduras,1991,7.73,59.81
+Honduras,1992,7.75,60.04
+Honduras,1993,7.76,60.13
+Honduras,1994,7.82,60.49
+Honduras,1995,7.84,60.66
+Honduras,1996,7.87,60.9
+Honduras,1997,7.89,61.1
+Honduras,1998,7.02,55.97
+Honduras,1999,7.94,61.4
+Honduras,2000,7.96,61.59
+Honduras,2001,7.98,61.74
+Honduras,2002,8,61.89
+Honduras,2003,8.01,62.02
+Honduras,2004,8.05,62.24
+Honduras,2005,8.09,62.48
+Honduras,2006,8.12,62.71
+Honduras,2007,8.17,62.9
+Honduras,2008,8.2,63.06
+Honduras,2009,8.23,63.25
+Honduras,2010,8.23,63.34
+Honduras,2011,8.28,63.52
+Honduras,2012,8.28,63.55
+Honduras,2013,8.33,63.8
+Honduras,2014,8.36,63.95
+Honduras,2015,8.39,64.09
+Honduras,2016,8.4,64.27
+Hungary,1990,9.02,60.47
+Hungary,1991,8.93,60.35
+Hungary,1992,8.9,60.4
+Hungary,1993,8.89,60.52
+Hungary,1994,8.94,60.77
+Hungary,1995,8.99,61.08
+Hungary,1996,9.03,61.36
+Hungary,1997,9.08,61.68
+Hungary,1998,9.13,61.98
+Hungary,1999,9.17,62.27
+Hungary,2000,9.19,62.61
+Hungary,2001,9.3,62.91
+Hungary,2002,9.36,63.17
+Hungary,2003,9.39,63.34
+Hungary,2004,9.42,63.51
+Hungary,2005,9.39,63.74
+Hungary,2006,9.43,63.93
+Hungary,2007,9.56,64.05
+Hungary,2008,9.64,64.29
+Hungary,2009,9.71,64.55
+Hungary,2010,9.7,64.91
+Hungary,2011,9.87,65.12
+Hungary,2012,9.93,65.37
+Hungary,2013,9.99,65.58
+Hungary,2014,10.01,65.69
+Hungary,2015,10.02,65.73
+Hungary,2016,9.92,65.82
+Iceland,1990,10.06,67.96
+Iceland,1991,10.08,68.11
+Iceland,1992,10.13,68.35
+Iceland,1993,10.15,68.49
+Iceland,1994,10.15,68.56
+Iceland,1995,10.13,68.36
+Iceland,1996,10.19,68.81
+Iceland,1997,10.21,68.96
+Iceland,1998,10.26,69.17
+Iceland,1999,10.3,69.34
+Iceland,2000,10.35,69.54
+Iceland,2001,10.41,69.79
+Iceland,2002,10.47,70.01
+Iceland,2003,10.52,70.21
+Iceland,2004,10.57,70.4
+Iceland,2005,10.62,70.58
+Iceland,2006,10.64,70.71
+Iceland,2007,10.68,70.9
+Iceland,2008,10.72,71.06
+Iceland,2009,10.75,71.15
+Iceland,2010,10.8,71.23
+Iceland,2011,10.81,71.34
+Iceland,2012,10.82,71.41
+Iceland,2013,10.81,71.44
+Iceland,2014,10.8,71.43
+Iceland,2015,10.79,71.45
+Iceland,2016,10.79,71.48
+India,1990,8.18,50.77
+India,1991,8.24,51.08
+India,1992,8.3,51.35
+India,1993,8.37,51.64
+India,1994,8.45,51.93
+India,1995,8.53,52.2
+India,1996,8.56,52.46
+India,1997,8.59,52.69
+India,1998,8.64,52.97
+India,1999,8.7,53.24
+India,2000,8.75,53.54
+India,2001,8.8,53.81
+India,2002,8.86,54.14
+India,2003,8.92,54.48
+India,2004,8.98,54.79
+India,2005,9.03,55.13
+India,2006,9.05,55.5
+India,2007,9.11,55.83
+India,2008,9.14,56.18
+India,2009,9.19,56.55
+India,2010,9.2,56.92
+India,2011,9.3,57.21
+India,2012,9.37,57.54
+India,2013,9.44,57.84
+India,2014,9.53,58.19
+India,2015,9.61,58.48
+India,2016,9.66,58.89
+Indonesia,1990,7.48,56.14
+Indonesia,1991,7.52,56.57
+Indonesia,1992,7.56,56.94
+Indonesia,1993,7.6,57.27
+Indonesia,1994,7.65,57.66
+Indonesia,1995,7.72,58.02
+Indonesia,1996,7.76,58.39
+Indonesia,1997,7.81,58.67
+Indonesia,1998,7.85,58.91
+Indonesia,1999,7.88,59.1
+Indonesia,2000,7.94,59.31
+Indonesia,2001,7.96,59.58
+Indonesia,2002,7.98,59.81
+Indonesia,2003,8.02,60.03
+Indonesia,2004,7.77,58.71
+Indonesia,2005,8.1,60.44
+Indonesia,2006,8.14,60.65
+Indonesia,2007,8.2,60.86
+Indonesia,2008,8.26,61.06
+Indonesia,2009,8.31,61.26
+Indonesia,2010,8.36,61.51
+Indonesia,2011,8.42,61.77
+Indonesia,2012,8.48,62.03
+Indonesia,2013,8.54,62.27
+Indonesia,2014,8.6,62.49
+Indonesia,2015,8.67,62.71
+Indonesia,2016,8.71,62.95
+Iran,1990,9.95,57.97
+Iran,1991,10.3,59.79
+Iran,1992,10.32,60.03
+Iran,1993,10.32,60.14
+Iran,1994,10.34,60.28
+Iran,1995,10.35,60.36
+Iran,1996,10.33,60.43
+Iran,1997,10.34,60.58
+Iran,1998,10.36,60.79
+Iran,1999,10.39,61
+Iran,2000,10.34,61.1
+Iran,2001,10.33,61.14
+Iran,2002,10.3,61.26
+Iran,2003,9.98,60.13
+Iran,2004,10.3,61.64
+Iran,2005,10.34,62.04
+Iran,2006,10.44,62.41
+Iran,2007,10.59,62.7
+Iran,2008,10.69,62.99
+Iran,2009,10.78,63.25
+Iran,2010,10.81,63.55
+Iran,2011,10.95,63.76
+Iran,2012,10.95,63.86
+Iran,2013,10.98,63.98
+Iran,2014,11.04,64.18
+Iran,2015,11.18,64.52
+Iran,2016,11.15,64.79
+Iraq,1990,10.26,55.88
+Iraq,1991,9.51,53.21
+Iraq,1992,10.06,55.54
+Iraq,1993,10.03,55.53
+Iraq,1994,10,55.44
+Iraq,1995,9.97,55.28
+Iraq,1996,9.88,55.35
+Iraq,1997,9.77,55.18
+Iraq,1998,9.9,55.8
+Iraq,1999,9.93,56.05
+Iraq,2000,9.9,56.06
+Iraq,2001,9.99,56.55
+Iraq,2002,9.91,56.44
+Iraq,2003,9.61,55.35
+Iraq,2004,9.64,55.55
+Iraq,2005,9.46,55.28
+Iraq,2006,9.36,54.41
+Iraq,2007,9.48,54.74
+Iraq,2008,9.89,56.24
+Iraq,2009,10.05,56.78
+Iraq,2010,10.12,57.08
+Iraq,2011,10.21,57.33
+Iraq,2012,10.27,57.56
+Iraq,2013,10.24,57.44
+Iraq,2014,10.11,56.9
+Iraq,2015,10.18,57.34
+Iraq,2016,10.17,57.43
+Ireland,1990,9.38,65.47
+Ireland,1991,9.42,65.66
+Ireland,1992,9.46,65.83
+Ireland,1993,9.5,65.98
+Ireland,1994,9.55,66.14
+Ireland,1995,9.57,66.18
+Ireland,1996,9.59,66.35
+Ireland,1997,9.6,66.43
+Ireland,1998,9.62,66.55
+Ireland,1999,9.64,66.68
+Ireland,2000,9.72,66.9
+Ireland,2001,9.82,67.3
+Ireland,2002,9.93,67.7
+Ireland,2003,10.04,68.08
+Ireland,2004,10.13,68.39
+Ireland,2005,10.23,68.7
+Ireland,2006,10.3,68.97
+Ireland,2007,10.36,69.22
+Ireland,2008,10.4,69.36
+Ireland,2009,10.44,69.51
+Ireland,2010,10.56,69.84
+Ireland,2011,10.58,69.97
+Ireland,2012,10.63,70.15
+Ireland,2013,10.68,70.3
+Ireland,2014,10.7,70.4
+Ireland,2015,10.7,70.43
+Ireland,2016,10.7,70.45
+Israel,1990,9.4,66.44
+Israel,1991,9.41,66.52
+Israel,1992,9.44,66.6
+Israel,1993,9.52,66.83
+Israel,1994,9.59,67.03
+Israel,1995,9.68,67.34
+Israel,1996,9.76,67.6
+Israel,1997,9.82,67.84
+Israel,1998,9.89,68.11
+Israel,1999,9.96,68.33
+Israel,2000,10,68.52
+Israel,2001,10.04,68.6
+Israel,2002,10.03,68.55
+Israel,2003,10.11,68.96
+Israel,2004,10.18,69.2
+Israel,2005,10.24,69.51
+Israel,2006,10.27,69.58
+Israel,2007,10.37,69.9
+Israel,2008,10.46,70.13
+Israel,2009,10.54,70.38
+Israel,2010,10.65,70.84
+Israel,2011,10.7,71.01
+Israel,2012,10.74,71.22
+Israel,2013,10.75,71.32
+Israel,2014,10.62,70.78
+Israel,2015,10.72,71.36
+Israel,2016,10.7,71.44
+Italy,1990,9.77,67.25
+Italy,1991,9.79,67.4
+Italy,1992,9.83,67.58
+Italy,1993,9.86,67.75
+Italy,1994,9.9,67.94
+Italy,1995,9.97,68.15
+Italy,1996,9.97,68.37
+Italy,1997,10.01,68.69
+Italy,1998,10.03,68.94
+Italy,1999,10.06,69.21
+Italy,2000,10.13,69.48
+Italy,2001,10.18,69.75
+Italy,2002,10.21,69.96
+Italy,2003,10.21,70.07
+Italy,2004,10.3,70.42
+Italy,2005,10.34,70.58
+Italy,2006,10.36,70.73
+Italy,2007,10.39,70.88
+Italy,2008,10.42,71.04
+Italy,2009,10.44,71.13
+Italy,2010,10.48,71.3
+Italy,2011,10.5,71.42
+Italy,2012,10.51,71.51
+Italy,2013,10.56,71.67
+Italy,2014,10.57,71.72
+Italy,2015,10.58,71.75
+Italy,2016,10.59,71.75
+Jamaica,1990,9.4,65.03
+Jamaica,1991,9.41,65.14
+Jamaica,1992,9.39,65.09
+Jamaica,1993,9.38,65.02
+Jamaica,1994,9.36,64.95
+Jamaica,1995,9.36,64.84
+Jamaica,1996,9.33,64.74
+Jamaica,1997,9.31,64.63
+Jamaica,1998,9.32,64.59
+Jamaica,1999,9.34,64.54
+Jamaica,2000,9.34,64.48
+Jamaica,2001,9.3,64.33
+Jamaica,2002,9.36,64.56
+Jamaica,2003,9.4,64.72
+Jamaica,2004,9.46,64.87
+Jamaica,2005,9.55,65.12
+Jamaica,2006,9.53,65.29
+Jamaica,2007,9.5,65.22
+Jamaica,2008,9.48,65.17
+Jamaica,2009,9.46,65.13
+Jamaica,2010,9.48,65.17
+Jamaica,2011,9.51,65.24
+Jamaica,2012,9.53,65.27
+Jamaica,2013,9.54,65.3
+Jamaica,2014,9.55,65.32
+Jamaica,2015,9.56,65.33
+Jamaica,2016,9.55,65.34
+Japan,1990,9.49,69.46
+Japan,1991,9.53,69.61
+Japan,1992,9.57,69.72
+Japan,1993,9.61,69.85
+Japan,1994,9.67,70.03
+Japan,1995,9.72,70.03
+Japan,1996,9.79,70.38
+Japan,1997,9.83,70.55
+Japan,1998,9.87,70.68
+Japan,1999,9.9,70.81
+Japan,2000,9.99,71.04
+Japan,2001,10.06,71.26
+Japan,2002,10.12,71.44
+Japan,2003,10.17,71.57
+Japan,2004,10.22,71.71
+Japan,2005,10.26,71.79
+Japan,2006,10.32,71.93
+Japan,2007,10.37,72.05
+Japan,2008,10.42,72.15
+Japan,2009,10.48,72.29
+Japan,2010,10.54,72.37
+Japan,2011,10.5,72.16
+Japan,2012,10.59,72.63
+Japan,2013,10.64,72.8
+Japan,2014,10.71,72.98
+Japan,2015,10.74,73.08
+Japan,2016,10.78,73.16
+Jordan,1990,10.75,61.02
+Jordan,1991,10.77,61.34
+Jordan,1992,10.82,61.67
+Jordan,1993,10.75,61.7
+Jordan,1994,10.75,61.86
+Jordan,1995,10.71,61.94
+Jordan,1996,10.66,61.98
+Jordan,1997,10.67,62.1
+Jordan,1998,10.66,62.21
+Jordan,1999,10.66,62.31
+Jordan,2000,10.64,62.41
+Jordan,2001,10.64,62.49
+Jordan,2002,10.61,62.54
+Jordan,2003,10.55,62.51
+Jordan,2004,10.49,62.48
+Jordan,2005,10.5,62.6
+Jordan,2006,10.65,63.12
+Jordan,2007,10.84,63.54
+Jordan,2008,10.95,63.87
+Jordan,2009,11.08,64.21
+Jordan,2010,11.17,64.57
+Jordan,2011,11.27,64.78
+Jordan,2012,11.32,64.98
+Jordan,2013,11.33,65.13
+Jordan,2014,11.34,65.26
+Jordan,2015,11.34,65.37
+Jordan,2016,11.19,65.1
+Kazakhstan,1990,8.56,59.36
+Kazakhstan,1991,8.45,59.07
+Kazakhstan,1992,8.29,58.58
+Kazakhstan,1993,8.08,57.89
+Kazakhstan,1994,7.87,57.14
+Kazakhstan,1995,7.73,56.49
+Kazakhstan,1996,7.62,56.3
+Kazakhstan,1997,7.62,56.32
+Kazakhstan,1998,7.65,56.46
+Kazakhstan,1999,7.69,56.61
+Kazakhstan,2000,7.73,56.7
+Kazakhstan,2001,7.72,56.85
+Kazakhstan,2002,7.75,56.96
+Kazakhstan,2003,7.75,57.01
+Kazakhstan,2004,7.73,56.99
+Kazakhstan,2005,7.75,57
+Kazakhstan,2006,7.8,57.25
+Kazakhstan,2007,7.92,57.83
+Kazakhstan,2008,8.13,58.57
+Kazakhstan,2009,8.33,59.28
+Kazakhstan,2010,8.48,59.86
+Kazakhstan,2011,8.61,60.4
+Kazakhstan,2012,8.74,60.97
+Kazakhstan,2013,8.89,61.61
+Kazakhstan,2014,9.05,62.21
+Kazakhstan,2015,9.14,62.58
+Kazakhstan,2016,9.08,62.67
+Kenya,1990,7.33,54.09
+Kenya,1991,7.22,53.51
+Kenya,1992,7.1,52.75
+Kenya,1993,7,51.94
+Kenya,1994,6.91,51.12
+Kenya,1995,6.9,50.34
+Kenya,1996,6.78,49.75
+Kenya,1997,6.68,49.16
+Kenya,1998,6.6,48.67
+Kenya,1999,6.63,48.63
+Kenya,2000,6.65,48.55
+Kenya,2001,6.65,48.8
+Kenya,2002,6.64,49.02
+Kenya,2003,6.67,49.33
+Kenya,2004,6.74,49.82
+Kenya,2005,6.87,50.56
+Kenya,2006,6.98,51.5
+Kenya,2007,7.13,52.49
+Kenya,2008,7.26,53.38
+Kenya,2009,7.42,54.26
+Kenya,2010,7.6,55.15
+Kenya,2011,7.75,56
+Kenya,2012,7.86,56.69
+Kenya,2013,7.95,57.2
+Kenya,2014,8.05,57.69
+Kenya,2015,8.16,58.15
+Kenya,2016,8.25,58.59
+Kiribati,1990,7.09,51.05
+Kiribati,1991,7.09,51.13
+Kiribati,1992,7.11,51.23
+Kiribati,1993,7.11,51.23
+Kiribati,1994,7.15,51.37
+Kiribati,1995,7.18,51.36
+Kiribati,1996,7.23,51.64
+Kiribati,1997,7.27,51.78
+Kiribati,1998,7.29,51.87
+Kiribati,1999,7.32,51.93
+Kiribati,2000,7.36,52.01
+Kiribati,2001,7.4,52.19
+Kiribati,2002,7.43,52.28
+Kiribati,2003,7.46,52.38
+Kiribati,2004,7.49,52.46
+Kiribati,2005,7.53,52.56
+Kiribati,2006,7.53,52.65
+Kiribati,2007,7.54,52.77
+Kiribati,2008,7.55,52.88
+Kiribati,2009,7.57,52.99
+Kiribati,2010,7.57,53.08
+Kiribati,2011,7.59,53.16
+Kiribati,2012,7.61,53.31
+Kiribati,2013,7.65,53.47
+Kiribati,2014,7.68,53.64
+Kiribati,2015,7.72,53.83
+Kiribati,2016,7.77,54.02
+Kuwait,1990,10.67,64.89
+Kuwait,1991,11,66.11
+Kuwait,1992,11.21,66.81
+Kuwait,1993,11.05,66.36
+Kuwait,1994,10.87,65.95
+Kuwait,1995,10.67,65.43
+Kuwait,1996,10.57,65.19
+Kuwait,1997,10.53,65.04
+Kuwait,1998,10.56,65.11
+Kuwait,1999,10.67,65.48
+Kuwait,2000,10.75,65.68
+Kuwait,2001,10.79,65.68
+Kuwait,2002,10.89,66.02
+Kuwait,2003,10.95,66.23
+Kuwait,2004,10.94,66.16
+Kuwait,2005,10.94,66.13
+Kuwait,2006,10.94,66.15
+Kuwait,2007,10.98,66.22
+Kuwait,2008,11,66.25
+Kuwait,2009,11.09,66.42
+Kuwait,2010,11.27,66.95
+Kuwait,2011,11.43,67.47
+Kuwait,2012,11.52,67.82
+Kuwait,2013,11.61,68.13
+Kuwait,2014,11.61,68.26
+Kuwait,2015,11.54,68.24
+Kuwait,2016,11.46,68.24
+Kyrgyzstan,1990,8.33,57.71
+Kyrgyzstan,1991,8.27,57.78
+Kyrgyzstan,1992,8.15,57.56
+Kyrgyzstan,1993,7.94,57.03
+Kyrgyzstan,1994,7.72,56.35
+Kyrgyzstan,1995,7.7,56.31
+Kyrgyzstan,1996,7.78,56.82
+Kyrgyzstan,1997,7.91,57.38
+Kyrgyzstan,1998,7.99,57.76
+Kyrgyzstan,1999,8.06,58.07
+Kyrgyzstan,2000,8.1,58.22
+Kyrgyzstan,2001,8.1,58.45
+Kyrgyzstan,2002,8.04,58.45
+Kyrgyzstan,2003,7.99,58.48
+Kyrgyzstan,2004,7.96,58.6
+Kyrgyzstan,2005,7.9,58.59
+Kyrgyzstan,2006,7.88,58.62
+Kyrgyzstan,2007,7.92,58.87
+Kyrgyzstan,2008,8.01,59.26
+Kyrgyzstan,2009,8.15,59.8
+Kyrgyzstan,2010,8.25,60.12
+Kyrgyzstan,2011,8.38,60.65
+Kyrgyzstan,2012,8.48,61.03
+Kyrgyzstan,2013,8.6,61.48
+Kyrgyzstan,2014,8.71,61.92
+Kyrgyzstan,2015,8.79,62.27
+Kyrgyzstan,2016,8.78,62.45
+Laos,1990,6.37,46.06
+Laos,1991,6.38,46.54
+Laos,1992,6.42,46.89
+Laos,1993,6.46,47.17
+Laos,1994,6.49,47.44
+Laos,1995,6.59,47.9
+Laos,1996,6.62,48.36
+Laos,1997,6.68,48.82
+Laos,1998,6.73,49.21
+Laos,1999,6.8,49.71
+Laos,2000,6.89,50.14
+Laos,2001,6.91,50.62
+Laos,2002,7.03,51.31
+Laos,2003,7.13,51.87
+Laos,2004,7.23,52.46
+Laos,2005,7.32,52.96
+Laos,2006,7.37,53.55
+Laos,2007,7.45,54.21
+Laos,2008,7.52,54.81
+Laos,2009,7.62,55.43
+Laos,2010,7.71,56.08
+Laos,2011,7.83,56.72
+Laos,2012,7.91,57.25
+Laos,2013,7.97,57.72
+Laos,2014,8.06,58.21
+Laos,2015,8.13,58.64
+Laos,2016,8.17,59.08
+Latin America and Caribbean,1990,8.53,60.98
+Latin America and Caribbean,1991,8.53,61.19
+Latin America and Caribbean,1992,8.54,61.37
+Latin America and Caribbean,1993,8.55,61.56
+Latin America and Caribbean,1994,8.59,61.79
+Latin America and Caribbean,1995,8.65,62.05
+Latin America and Caribbean,1996,8.7,62.34
+Latin America and Caribbean,1997,8.76,62.64
+Latin America and Caribbean,1998,8.81,62.8
+Latin America and Caribbean,1999,8.86,63.01
+Latin America and Caribbean,2000,8.96,63.45
+Latin America and Caribbean,2001,9.01,63.7
+Latin America and Caribbean,2002,9.05,63.89
+Latin America and Caribbean,2003,9.08,64.09
+Latin America and Caribbean,2004,9.13,64.28
+Latin America and Caribbean,2005,9.16,64.53
+Latin America and Caribbean,2006,9.18,64.74
+Latin America and Caribbean,2007,9.24,64.93
+Latin America and Caribbean,2008,9.26,65.06
+Latin America and Caribbean,2009,9.28,65.18
+Latin America and Caribbean,2010,9.07,64.29
+Latin America and Caribbean,2011,9.35,65.54
+Latin America and Caribbean,2012,9.38,65.74
+Latin America and Caribbean,2013,9.41,65.9
+Latin America and Caribbean,2014,9.44,66.05
+Latin America and Caribbean,2015,9.47,66.2
+Latin America and Caribbean,2016,9.45,66.36
+Latvia,1990,9.21,60.39
+Latvia,1991,9.08,60.02
+Latvia,1992,8.9,59.5
+Latvia,1993,8.48,58.24
+Latvia,1994,8.2,57.42
+Latvia,1995,8.39,58.04
+Latvia,1996,8.81,59.72
+Latvia,1997,8.94,60.31
+Latvia,1998,8.85,60.14
+Latvia,1999,9.04,60.92
+Latvia,2000,9.13,61.37
+Latvia,2001,8.96,60.96
+Latvia,2002,9.01,61.27
+Latvia,2003,9.06,61.63
+Latvia,2004,9.1,61.94
+Latvia,2005,8.99,61.84
+Latvia,2006,8.9,61.59
+Latvia,2007,9.06,61.87
+Latvia,2008,9.32,62.67
+Latvia,2009,9.52,63.25
+Latvia,2010,9.58,63.65
+Latvia,2011,9.75,64.06
+Latvia,2012,9.82,64.39
+Latvia,2013,9.81,64.48
+Latvia,2014,9.91,64.9
+Latvia,2015,9.92,65.03
+Latvia,2016,9.85,65.21
+Lebanon,1990,10.02,59.07
+Lebanon,1991,10.48,61.19
+Lebanon,1992,10.52,61.48
+Lebanon,1993,10.57,61.77
+Lebanon,1994,10.72,62.4
+Lebanon,1995,10.75,62.79
+Lebanon,1996,10.87,63.2
+Lebanon,1997,10.97,63.75
+Lebanon,1998,11.08,64.23
+Lebanon,1999,11.24,64.79
+Lebanon,2000,11.21,65.26
+Lebanon,2001,11.41,65.57
+Lebanon,2002,11.48,65.89
+Lebanon,2003,11.53,66.17
+Lebanon,2004,11.58,66.43
+Lebanon,2005,11.46,66.8
+Lebanon,2006,11.37,66.58
+Lebanon,2007,11.69,66.95
+Lebanon,2008,11.79,67.33
+Lebanon,2009,11.87,67.58
+Lebanon,2010,11.76,68.05
+Lebanon,2011,11.79,67.2
+Lebanon,2012,12.02,68.13
+Lebanon,2013,11.96,67.96
+Lebanon,2014,11.97,68.03
+Lebanon,2015,11.97,68.07
+Lebanon,2016,11.79,68.28
+Lesotho,1990,7.74,52.69
+Lesotho,1991,7.74,52.67
+Lesotho,1992,7.68,52.36
+Lesotho,1993,7.63,51.94
+Lesotho,1994,7.49,51.06
+Lesotho,1995,7.45,50.23
+Lesotho,1996,7.27,49.2
+Lesotho,1997,7.03,47.83
+Lesotho,1998,6.69,46.02
+Lesotho,1999,6.43,44.43
+Lesotho,2000,6.23,42.6
+Lesotho,2001,6.01,41.49
+Lesotho,2002,5.78,40.27
+Lesotho,2003,5.58,39.15
+Lesotho,2004,5.48,38.34
+Lesotho,2005,5.5,37.77
+Lesotho,2006,5.43,37.81
+Lesotho,2007,5.44,38.23
+Lesotho,2008,5.54,38.82
+Lesotho,2009,5.73,39.71
+Lesotho,2010,6,40.53
+Lesotho,2011,6.1,41.46
+Lesotho,2012,6.1,41.79
+Lesotho,2013,6.1,41.99
+Lesotho,2014,6.16,42.41
+Lesotho,2015,6.32,43.18
+Lesotho,2016,6.49,43.82
+Liberia,1990,7.52,42.31
+Liberia,1991,8.05,44.5
+Liberia,1992,8.09,44.55
+Liberia,1993,7.7,42.82
+Liberia,1994,7.39,41.5
+Liberia,1995,7.7,42.59
+Liberia,1996,7.41,41.8
+Liberia,1997,7.95,44.38
+Liberia,1998,7.93,44.67
+Liberia,1999,8.06,45.54
+Liberia,2000,8.16,46.28
+Liberia,2001,8.28,46.98
+Liberia,2002,8.14,46.7
+Liberia,2003,8.11,46.74
+Liberia,2004,8.6,48.95
+Liberia,2005,8.67,49.47
+Liberia,2006,8.69,49.96
+Liberia,2007,8.73,50.42
+Liberia,2008,8.78,50.96
+Liberia,2009,8.82,51.42
+Liberia,2010,8.85,51.9
+Liberia,2011,8.91,52.46
+Liberia,2012,8.97,53.11
+Liberia,2013,9.02,53.7
+Liberia,2014,8.31,51.05
+Liberia,2015,9.09,54.71
+Liberia,2016,9.11,55.27
+Libya,1990,10.59,62.44
+Libya,1991,10.59,62.69
+Libya,1992,10.58,62.8
+Libya,1993,10.63,63.07
+Libya,1994,10.66,63.24
+Libya,1995,10.69,63.34
+Libya,1996,10.69,63.37
+Libya,1997,10.72,63.58
+Libya,1998,10.71,63.63
+Libya,1999,10.72,63.67
+Libya,2000,10.7,63.63
+Libya,2001,10.74,63.81
+Libya,2002,10.74,63.87
+Libya,2003,10.77,64.01
+Libya,2004,10.8,64.14
+Libya,2005,10.84,64.32
+Libya,2006,10.88,64.51
+Libya,2007,10.93,64.58
+Libya,2008,10.98,64.69
+Libya,2009,11.03,64.8
+Libya,2010,11.07,64.98
+Libya,2011,8.03,52.23
+Libya,2012,10.95,64.55
+Libya,2013,11.03,64.88
+Libya,2014,10.75,63.62
+Libya,2015,10.64,63.44
+Libya,2016,10.85,64.21
+Lithuania,1990,9.48,62.01
+Lithuania,1991,9.24,61.25
+Lithuania,1992,9.19,61.11
+Lithuania,1993,8.85,60.16
+Lithuania,1994,8.71,59.83
+Lithuania,1995,8.79,60.13
+Lithuania,1996,9.02,61.14
+Lithuania,1997,9.24,61.86
+Lithuania,1998,9.29,62.08
+Lithuania,1999,9.4,62.43
+Lithuania,2000,9.46,62.64
+Lithuania,2001,9.33,62.29
+Lithuania,2002,9.4,62.6
+Lithuania,2003,9.39,62.65
+Lithuania,2004,9.39,62.62
+Lithuania,2005,9.19,62.15
+Lithuania,2006,9.13,61.94
+Lithuania,2007,9.1,61.71
+Lithuania,2008,9.27,62.27
+Lithuania,2009,9.65,63.39
+Lithuania,2010,9.64,63.57
+Lithuania,2011,9.75,63.83
+Lithuania,2012,9.82,64.15
+Lithuania,2013,9.83,64.29
+Lithuania,2014,9.99,64.83
+Lithuania,2015,10.01,64.96
+Lithuania,2016,9.96,65.2
+Low SDI,1990,7.15,45.3
+Low SDI,1991,7.19,45.52
+Low SDI,1992,7.22,45.65
+Low SDI,1993,7.21,45.54
+Low SDI,1994,6.87,43.84
+Low SDI,1995,7.29,45.67
+Low SDI,1996,7.27,45.69
+Low SDI,1997,7.33,45.95
+Low SDI,1998,7.35,46.05
+Low SDI,1999,7.39,46.24
+Low SDI,2000,7.45,46.49
+Low SDI,2001,7.51,47.01
+Low SDI,2002,7.56,47.4
+Low SDI,2003,7.62,47.8
+Low SDI,2004,7.7,48.24
+Low SDI,2005,7.78,48.73
+Low SDI,2006,7.8,49.27
+Low SDI,2007,7.88,49.8
+Low SDI,2008,7.95,50.4
+Low SDI,2009,8.03,50.93
+Low SDI,2010,7.96,50.82
+Low SDI,2011,8.15,51.98
+Low SDI,2012,8.21,52.55
+Low SDI,2013,8.29,53.14
+Low SDI,2014,8.34,53.61
+Low SDI,2015,8.37,54.14
+Low SDI,2016,8.38,54.64
+Low-middle SDI,1990,7.67,51.35
+Low-middle SDI,1991,7.66,51.4
+Low-middle SDI,1992,7.73,51.79
+Low-middle SDI,1993,7.76,52
+Low-middle SDI,1994,7.82,52.19
+Low-middle SDI,1995,7.84,52.26
+Low-middle SDI,1996,7.86,52.46
+Low-middle SDI,1997,7.86,52.65
+Low-middle SDI,1998,7.89,52.88
+Low-middle SDI,1999,7.94,53.15
+Low-middle SDI,2000,7.97,53.37
+Low-middle SDI,2001,8.03,53.63
+Low-middle SDI,2002,8.04,53.89
+Low-middle SDI,2003,8.12,54.27
+Low-middle SDI,2004,8.2,54.59
+Low-middle SDI,2005,8.25,54.85
+Low-middle SDI,2006,8.31,55.29
+Low-middle SDI,2007,8.39,55.65
+Low-middle SDI,2008,8.41,55.91
+Low-middle SDI,2009,8.5,56.44
+Low-middle SDI,2010,8.54,56.82
+Low-middle SDI,2011,8.62,57.18
+Low-middle SDI,2012,8.61,57.54
+Low-middle SDI,2013,8.68,57.87
+Low-middle SDI,2014,8.71,58.2
+Low-middle SDI,2015,8.81,58.55
+Low-middle SDI,2016,8.87,58.96
+Luxembourg,1990,9.96,65.23
+Luxembourg,1991,10.03,65.5
+Luxembourg,1992,10.09,65.73
+Luxembourg,1993,10.15,65.97
+Luxembourg,1994,10.24,66.25
+Luxembourg,1995,10.32,66.51
+Luxembourg,1996,10.35,66.72
+Luxembourg,1997,10.38,66.95
+Luxembourg,1998,10.46,67.26
+Luxembourg,1999,10.53,67.57
+Luxembourg,2000,10.62,67.88
+Luxembourg,2001,10.65,68.1
+Luxembourg,2002,10.69,68.32
+Luxembourg,2003,10.68,68.45
+Luxembourg,2004,10.78,68.82
+Luxembourg,2005,10.88,69.17
+Luxembourg,2006,10.95,69.48
+Luxembourg,2007,11.01,69.74
+Luxembourg,2008,11.07,70.01
+Luxembourg,2009,11.1,70.17
+Luxembourg,2010,11.13,70.31
+Luxembourg,2011,11.12,70.43
+Luxembourg,2012,11.16,70.65
+Luxembourg,2013,11.19,70.8
+Luxembourg,2014,11.16,70.79
+Luxembourg,2015,11.15,70.88
+Luxembourg,2016,11.16,70.96
+Madagascar,1990,6.95,48.63
+Madagascar,1991,6.96,48.87
+Madagascar,1992,6.97,49.09
+Madagascar,1993,6.94,49.13
+Madagascar,1994,6.99,49.51
+Madagascar,1995,7.03,49.83
+Madagascar,1996,7.06,50.13
+Madagascar,1997,7.09,50.38
+Madagascar,1998,7.12,50.67
+Madagascar,1999,7.2,51.03
+Madagascar,2000,7.23,51.22
+Madagascar,2001,7.3,51.68
+Madagascar,2002,7.3,51.83
+Madagascar,2003,7.31,52.01
+Madagascar,2004,7.35,52.25
+Madagascar,2005,7.41,52.66
+Madagascar,2006,7.42,52.98
+Madagascar,2007,7.45,53.2
+Madagascar,2008,7.43,53.32
+Madagascar,2009,7.41,53.34
+Madagascar,2010,7.38,53.45
+Madagascar,2011,7.41,53.69
+Madagascar,2012,7.41,53.94
+Madagascar,2013,7.42,54.23
+Madagascar,2014,7.43,54.51
+Madagascar,2015,7.46,54.84
+Madagascar,2016,7.47,55.21
+Malawi,1990,6.23,42.45
+Malawi,1991,6.15,42.15
+Malawi,1992,6.06,41.76
+Malawi,1993,5.98,41.29
+Malawi,1994,5.87,40.65
+Malawi,1995,5.86,40.11
+Malawi,1996,5.72,39.67
+Malawi,1997,5.64,39.36
+Malawi,1998,5.55,38.99
+Malawi,1999,5.53,38.87
+Malawi,2000,5.61,39.11
+Malawi,2001,5.64,39.5
+Malawi,2002,5.68,39.86
+Malawi,2003,5.76,40.44
+Malawi,2004,5.85,40.96
+Malawi,2005,5.99,41.62
+Malawi,2006,6.04,42.41
+Malawi,2007,6.15,43.32
+Malawi,2008,6.28,44.29
+Malawi,2009,6.45,45.36
+Malawi,2010,6.63,46.4
+Malawi,2011,6.76,47.7
+Malawi,2012,6.95,49.1
+Malawi,2013,7.12,50.3
+Malawi,2014,7.24,51.21
+Malawi,2015,7.36,52.01
+Malawi,2016,7.46,52.71
+Malaysia,1990,8.42,63.15
+Malaysia,1991,8.43,63.32
+Malaysia,1992,8.45,63.45
+Malaysia,1993,8.47,63.56
+Malaysia,1994,8.48,63.65
+Malaysia,1995,8.51,63.76
+Malaysia,1996,8.52,63.91
+Malaysia,1997,8.55,64.06
+Malaysia,1998,8.56,64.18
+Malaysia,1999,8.56,64.27
+Malaysia,2000,8.57,64.45
+Malaysia,2001,8.6,64.58
+Malaysia,2002,8.62,64.67
+Malaysia,2003,8.66,64.79
+Malaysia,2004,8.72,64.95
+Malaysia,2005,8.74,65.09
+Malaysia,2006,8.76,65.22
+Malaysia,2007,8.81,65.27
+Malaysia,2008,8.84,65.34
+Malaysia,2009,8.88,65.4
+Malaysia,2010,8.91,65.5
+Malaysia,2011,8.95,65.59
+Malaysia,2012,8.97,65.7
+Malaysia,2013,9.01,65.84
+Malaysia,2014,9.05,66
+Malaysia,2015,9.12,66.2
+Malaysia,2016,9.14,66.42
+Maldives,1990,8.06,54.4
+Maldives,1991,8.19,55.49
+Maldives,1992,8.33,56.46
+Maldives,1993,8.48,57.41
+Maldives,1994,8.61,58.29
+Maldives,1995,8.74,59.11
+Maldives,1996,8.83,59.97
+Maldives,1997,8.96,60.82
+Maldives,1998,9.06,61.59
+Maldives,1999,9.14,62.2
+Maldives,2000,9.22,62.9
+Maldives,2001,9.3,63.49
+Maldives,2002,9.38,64.08
+Maldives,2003,9.49,64.75
+Maldives,2004,9.14,64.56
+Maldives,2005,9.66,65.99
+Maldives,2006,9.77,66.5
+Maldives,2007,9.97,67.04
+Maldives,2008,10.06,67.45
+Maldives,2009,10.06,67.64
+Maldives,2010,9.99,67.81
+Maldives,2011,10.1,68.04
+Maldives,2012,10.14,68.28
+Maldives,2013,10.17,68.47
+Maldives,2014,10.22,68.72
+Maldives,2015,10.24,68.92
+Maldives,2016,10.2,69.13
+Mali,1990,6.86,42.47
+Mali,1991,6.95,43
+Mali,1992,7,43.35
+Mali,1993,7.08,43.77
+Mali,1994,7.08,43.87
+Mali,1995,7.11,44.07
+Mali,1996,7.13,44.33
+Mali,1997,7.19,44.81
+Mali,1998,7,43.95
+Mali,1999,7.4,45.92
+Mali,2000,7.36,45.91
+Mali,2001,7.4,46.43
+Mali,2002,7.46,46.89
+Mali,2003,7.59,47.53
+Mali,2004,7.69,48.11
+Mali,2005,7.78,48.72
+Mali,2006,7.8,49.25
+Mali,2007,7.87,49.8
+Mali,2008,7.94,50.4
+Mali,2009,8,50.95
+Mali,2010,8.01,51.42
+Mali,2011,8.07,51.88
+Mali,2012,8.08,52.24
+Mali,2013,8.06,52.42
+Mali,2014,8.09,52.79
+Mali,2015,8.13,53.21
+Mali,2016,8.15,53.69
+Malta,1990,9.41,66.36
+Malta,1991,9.42,66.54
+Malta,1992,9.44,66.71
+Malta,1993,9.51,67.03
+Malta,1994,9.58,67.28
+Malta,1995,9.63,67.5
+Malta,1996,9.65,67.67
+Malta,1997,9.65,67.74
+Malta,1998,9.64,67.77
+Malta,1999,9.63,67.74
+Malta,2000,9.67,67.84
+Malta,2001,9.72,68.1
+Malta,2002,9.81,68.37
+Malta,2003,9.9,68.71
+Malta,2004,9.98,68.95
+Malta,2005,10.07,69.2
+Malta,2006,10.12,69.4
+Malta,2007,10.15,69.5
+Malta,2008,10.2,69.61
+Malta,2009,10.26,69.83
+Malta,2010,10.33,69.99
+Malta,2011,10.34,70.14
+Malta,2012,10.38,70.34
+Malta,2013,10.44,70.58
+Malta,2014,10.48,70.77
+Malta,2015,10.49,70.85
+Malta,2016,10.5,70.93
+Marshall Islands,1990,8.27,56.23
+Marshall Islands,1991,8.25,56.24
+Marshall Islands,1992,8.24,56.2
+Marshall Islands,1993,8.25,56.18
+Marshall Islands,1994,8.27,56.22
+Marshall Islands,1995,8.27,56.1
+Marshall Islands,1996,8.26,56
+Marshall Islands,1997,8.23,55.77
+Marshall Islands,1998,8.21,55.61
+Marshall Islands,1999,8.2,55.43
+Marshall Islands,2000,8.17,55.04
+Marshall Islands,2001,8.17,55.15
+Marshall Islands,2002,8.16,55.1
+Marshall Islands,2003,8.15,55.04
+Marshall Islands,2004,8.15,54.98
+Marshall Islands,2005,8.15,54.92
+Marshall Islands,2006,8.11,54.86
+Marshall Islands,2007,8.14,55
+Marshall Islands,2008,8.17,55.12
+Marshall Islands,2009,8.21,55.25
+Marshall Islands,2010,8.25,55.39
+Marshall Islands,2011,8.28,55.54
+Marshall Islands,2012,8.32,55.7
+Marshall Islands,2013,8.36,55.85
+Marshall Islands,2014,8.4,55.98
+Marshall Islands,2015,8.45,56.14
+Marshall Islands,2016,8.51,56.4
+Mauritania,1990,7.94,51.97
+Mauritania,1991,8.02,52.55
+Mauritania,1992,8.03,52.79
+Mauritania,1993,8.05,53.05
+Mauritania,1994,8.03,53.11
+Mauritania,1995,8.09,53.46
+Mauritania,1996,8.08,53.6
+Mauritania,1997,8.17,54.08
+Mauritania,1998,8.22,54.39
+Mauritania,1999,8.31,54.81
+Mauritania,2000,8.38,55.19
+Mauritania,2001,8.43,55.47
+Mauritania,2002,8.51,55.9
+Mauritania,2003,8.58,56.28
+Mauritania,2004,8.62,56.59
+Mauritania,2005,8.66,56.9
+Mauritania,2006,8.75,57.53
+Mauritania,2007,8.83,57.94
+Mauritania,2008,8.88,58.37
+Mauritania,2009,8.93,58.74
+Mauritania,2010,8.95,59.16
+Mauritania,2011,9.02,59.47
+Mauritania,2012,9.06,59.79
+Mauritania,2013,9.1,60.08
+Mauritania,2014,9.14,60.39
+Mauritania,2015,9.18,60.68
+Mauritania,2016,9.17,60.99
+Mauritius,1990,8.53,60.72
+Mauritius,1991,8.55,60.97
+Mauritius,1992,8.57,61.15
+Mauritius,1993,8.58,61.28
+Mauritius,1994,8.61,61.44
+Mauritius,1995,8.64,61.63
+Mauritius,1996,8.68,61.8
+Mauritius,1997,8.73,61.98
+Mauritius,1998,8.79,62.2
+Mauritius,1999,8.84,62.38
+Mauritius,2000,8.87,62.52
+Mauritius,2001,8.94,62.69
+Mauritius,2002,8.97,62.77
+Mauritius,2003,9.02,62.87
+Mauritius,2004,9.09,63.03
+Mauritius,2005,9.15,63.18
+Mauritius,2006,9.2,63.28
+Mauritius,2007,9.28,63.4
+Mauritius,2008,9.35,63.53
+Mauritius,2009,9.42,63.7
+Mauritius,2010,9.48,63.86
+Mauritius,2011,9.58,64.12
+Mauritius,2012,9.65,64.35
+Mauritius,2013,9.68,64.47
+Mauritius,2014,9.69,64.57
+Mauritius,2015,9.73,64.72
+Mauritius,2016,9.72,64.86
+Mexico,1990,8.73,62.78
+Mexico,1991,8.76,63.13
+Mexico,1992,8.77,63.32
+Mexico,1993,8.78,63.52
+Mexico,1994,8.83,63.79
+Mexico,1995,8.86,63.98
+Mexico,1996,8.91,64.31
+Mexico,1997,8.92,64.54
+Mexico,1998,8.95,64.76
+Mexico,1999,9.01,65.12
+Mexico,2000,9.08,65.53
+Mexico,2001,9.12,65.75
+Mexico,2002,9.08,65.81
+Mexico,2003,9.05,65.87
+Mexico,2004,9.09,66.12
+Mexico,2005,9.05,66.16
+Mexico,2006,9.1,66.36
+Mexico,2007,9.17,66.49
+Mexico,2008,9.11,66.32
+Mexico,2009,9.1,66.25
+Mexico,2010,9.1,66.34
+Mexico,2011,9.19,66.53
+Mexico,2012,9.23,66.65
+Mexico,2013,9.2,66.59
+Mexico,2014,9.23,66.68
+Mexico,2015,9.3,66.89
+Mexico,2016,9.32,67.06
+Middle SDI,1990,7.96,58.69
+Middle SDI,1991,7.96,58.95
+Middle SDI,1992,7.96,59.17
+Middle SDI,1993,7.98,59.39
+Middle SDI,1994,8,59.63
+Middle SDI,1995,8.04,59.88
+Middle SDI,1996,8.06,60.15
+Middle SDI,1997,8.1,60.35
+Middle SDI,1998,8.13,60.55
+Middle SDI,1999,8.17,60.72
+Middle SDI,2000,8.21,60.94
+Middle SDI,2001,8.21,61.11
+Middle SDI,2002,8.24,61.29
+Middle SDI,2003,8.32,61.63
+Middle SDI,2004,8.34,61.69
+Middle SDI,2005,8.4,62.21
+Middle SDI,2006,8.46,62.55
+Middle SDI,2007,8.55,62.84
+Middle SDI,2008,8.59,63.01
+Middle SDI,2009,8.66,63.33
+Middle SDI,2010,8.68,63.61
+Middle SDI,2011,8.8,63.91
+Middle SDI,2012,8.91,64.14
+Middle SDI,2013,8.95,64.39
+Middle SDI,2014,9.03,64.55
+Middle SDI,2015,9.09,64.81
+Middle SDI,2016,9.09,65.09
+Moldova,1990,8.57,58.7
+Moldova,1991,8.33,58.2
+Moldova,1992,8.34,58.29
+Moldova,1993,8.26,58.3
+Moldova,1994,7.87,57.11
+Moldova,1995,7.79,56.82
+Moldova,1996,7.9,57.45
+Moldova,1997,8.26,58.84
+Moldova,1998,8.37,59.34
+Moldova,1999,8.3,59.24
+Moldova,2000,8.28,59.35
+Moldova,2001,8.35,59.84
+Moldova,2002,8.37,60.17
+Moldova,2003,8.38,60.42
+Moldova,2004,8.44,60.74
+Moldova,2005,8.25,60.3
+Moldova,2006,8.33,60.62
+Moldova,2007,8.42,60.79
+Moldova,2008,8.51,61.08
+Moldova,2009,8.59,61.3
+Moldova,2010,8.5,61.22
+Moldova,2011,8.95,62.55
+Moldova,2012,8.96,62.68
+Moldova,2013,9.17,63.36
+Moldova,2014,9.09,63.14
+Moldova,2015,9.05,63.07
+Moldova,2016,8.97,63.28
+Mongolia,1990,7.37,55.07
+Mongolia,1991,7.32,55.17
+Mongolia,1992,7.27,55.11
+Mongolia,1993,7.2,54.96
+Mongolia,1994,7.14,54.86
+Mongolia,1995,7.05,54.58
+Mongolia,1996,6.98,54.48
+Mongolia,1997,6.99,54.65
+Mongolia,1998,7.02,54.89
+Mongolia,1999,7.09,55.24
+Mongolia,2000,7.17,55.53
+Mongolia,2001,7.21,55.78
+Mongolia,2002,7.22,55.96
+Mongolia,2003,7.25,56.05
+Mongolia,2004,7.28,56.18
+Mongolia,2005,7.31,56.41
+Mongolia,2006,7.41,56.83
+Mongolia,2007,7.59,57.27
+Mongolia,2008,7.72,57.69
+Mongolia,2009,7.8,57.93
+Mongolia,2010,7.82,58.17
+Mongolia,2011,7.94,58.44
+Mongolia,2012,8.04,58.81
+Mongolia,2013,8.15,59.22
+Mongolia,2014,8.27,59.59
+Mongolia,2015,8.28,59.72
+Mongolia,2016,8.21,59.91
+Montenegro,1990,9.62,65.42
+Montenegro,1991,9.56,65.41
+Montenegro,1992,9.48,65.27
+Montenegro,1993,9.39,65.06
+Montenegro,1994,9.3,64.86
+Montenegro,1995,9.26,64.69
+Montenegro,1996,9.2,64.62
+Montenegro,1997,9.18,64.55
+Montenegro,1998,9.15,64.49
+Montenegro,1999,9.15,64.47
+Montenegro,2000,9.2,64.61
+Montenegro,2001,9.23,64.78
+Montenegro,2002,9.29,64.99
+Montenegro,2003,9.34,65.19
+Montenegro,2004,9.39,65.36
+Montenegro,2005,9.43,65.57
+Montenegro,2006,9.49,65.78
+Montenegro,2007,9.62,66.01
+Montenegro,2008,9.71,66.28
+Montenegro,2009,9.78,66.44
+Montenegro,2010,9.78,66.58
+Montenegro,2011,9.81,66.62
+Montenegro,2012,9.82,66.72
+Montenegro,2013,9.85,66.82
+Montenegro,2014,9.88,66.92
+Montenegro,2015,9.92,67.01
+Montenegro,2016,9.91,67.13
+Morocco,1990,9.96,57.25
+Morocco,1991,9.96,57.66
+Morocco,1992,9.97,57.98
+Morocco,1993,9.97,58.24
+Morocco,1994,10.04,58.63
+Morocco,1995,10.09,58.92
+Morocco,1996,10.17,59.35
+Morocco,1997,10.22,59.61
+Morocco,1998,10.3,59.94
+Morocco,1999,10.36,60.18
+Morocco,2000,10.43,60.46
+Morocco,2001,10.48,60.73
+Morocco,2002,10.51,60.96
+Morocco,2003,10.55,61.18
+Morocco,2004,10.58,61.37
+Morocco,2005,10.61,61.63
+Morocco,2006,10.65,61.85
+Morocco,2007,10.73,62.02
+Morocco,2008,10.79,62.24
+Morocco,2009,10.86,62.45
+Morocco,2010,10.9,62.67
+Morocco,2011,10.96,62.87
+Morocco,2012,10.98,63.12
+Morocco,2013,11.01,63.34
+Morocco,2014,11.03,63.54
+Morocco,2015,11.06,63.73
+Morocco,2016,11.03,63.97
+Mozambique,1990,6.72,44
+Mozambique,1991,6.73,44.14
+Mozambique,1992,6.74,44.25
+Mozambique,1993,6.74,44.33
+Mozambique,1994,6.78,44.48
+Mozambique,1995,6.82,44.46
+Mozambique,1996,6.79,44.49
+Mozambique,1997,6.76,44.47
+Mozambique,1998,6.78,44.58
+Mozambique,1999,6.8,44.65
+Mozambique,2000,6.8,44.56
+Mozambique,2001,6.87,44.94
+Mozambique,2002,6.86,45.01
+Mozambique,2003,6.91,45.22
+Mozambique,2004,6.94,45.36
+Mozambique,2005,6.96,45.42
+Mozambique,2006,6.97,45.66
+Mozambique,2007,7.01,45.94
+Mozambique,2008,7.13,46.52
+Mozambique,2009,7.21,46.91
+Mozambique,2010,7.27,47.24
+Mozambique,2011,7.27,47.82
+Mozambique,2012,7.29,48.38
+Mozambique,2013,7.4,49.16
+Mozambique,2014,7.63,50.32
+Mozambique,2015,7.79,51.22
+Mozambique,2016,7.94,52.08
+Myanmar,1990,7.26,51.31
+Myanmar,1991,7.23,51.49
+Myanmar,1992,7.23,51.68
+Myanmar,1993,7.22,51.87
+Myanmar,1994,7.23,52.1
+Myanmar,1995,7.26,52.28
+Myanmar,1996,7.27,52.6
+Myanmar,1997,7.28,52.83
+Myanmar,1998,7.31,53.12
+Myanmar,1999,7.34,53.4
+Myanmar,2000,7.39,53.71
+Myanmar,2001,7.42,54.09
+Myanmar,2002,7.47,54.49
+Myanmar,2003,7.54,54.94
+Myanmar,2004,7.61,55.4
+Myanmar,2005,7.69,55.89
+Myanmar,2006,7.75,56.51
+Myanmar,2007,7.85,57.07
+Myanmar,2008,7.02,52.64
+Myanmar,2009,8.06,58.14
+Myanmar,2010,8.14,58.68
+Myanmar,2011,8.21,59.14
+Myanmar,2012,8.27,59.67
+Myanmar,2013,8.33,60.18
+Myanmar,2014,8.39,60.65
+Myanmar,2015,8.44,61.06
+Myanmar,2016,8.46,61.56
+Namibia,1990,7.6,53.87
+Namibia,1991,7.63,54.01
+Namibia,1992,7.62,53.93
+Namibia,1993,7.61,53.78
+Namibia,1994,7.5,53.05
+Namibia,1995,7.45,52.4
+Namibia,1996,7.26,51.52
+Namibia,1997,7.07,50.57
+Namibia,1998,6.86,49.43
+Namibia,1999,6.67,48.3
+Namibia,2000,6.53,47.05
+Namibia,2001,6.39,46.45
+Namibia,2002,6.25,45.71
+Namibia,2003,6.18,45.26
+Namibia,2004,6.19,45.06
+Namibia,2005,6.35,45.25
+Namibia,2006,6.42,46.08
+Namibia,2007,6.65,47.41
+Namibia,2008,6.91,48.71
+Namibia,2009,7.2,50.01
+Namibia,2010,7.46,51.14
+Namibia,2011,7.66,52.36
+Namibia,2012,7.9,53.73
+Namibia,2013,8.03,54.57
+Namibia,2014,8.16,55.4
+Namibia,2015,8.24,55.97
+Namibia,2016,8.3,56.47
+Nepal,1990,7.83,49.87
+Nepal,1991,7.87,50.38
+Nepal,1992,7.98,51.1
+Nepal,1993,7.96,51.31
+Nepal,1994,8.05,51.96
+Nepal,1995,8.12,52.46
+Nepal,1996,8.24,53.09
+Nepal,1997,8.37,53.71
+Nepal,1998,8.44,54.13
+Nepal,1999,8.55,54.63
+Nepal,2000,8.63,55.1
+Nepal,2001,8.73,55.6
+Nepal,2002,8.72,55.68
+Nepal,2003,8.85,56.39
+Nepal,2004,8.88,56.67
+Nepal,2005,8.91,57.1
+Nepal,2006,8.94,57.53
+Nepal,2007,9.02,57.89
+Nepal,2008,9.06,58.27
+Nepal,2009,9.12,58.67
+Nepal,2010,9.14,59.13
+Nepal,2011,9.25,59.49
+Nepal,2012,9.31,59.91
+Nepal,2013,9.38,60.28
+Nepal,2014,9.43,60.62
+Nepal,2015,9.37,60.33
+Nepal,2016,9.49,61.37
+Netherlands,1990,10.02,67.01
+Netherlands,1991,10.05,67.13
+Netherlands,1992,10.07,67.2
+Netherlands,1993,10.07,67.18
+Netherlands,1994,10.13,67.31
+Netherlands,1995,10.17,67.37
+Netherlands,1996,10.2,67.49
+Netherlands,1997,10.25,67.66
+Netherlands,1998,10.27,67.74
+Netherlands,1999,10.28,67.76
+Netherlands,2000,10.32,67.82
+Netherlands,2001,10.32,67.97
+Netherlands,2002,10.33,68.14
+Netherlands,2003,10.38,68.37
+Netherlands,2004,10.46,68.7
+Netherlands,2005,10.53,68.97
+Netherlands,2006,10.61,69.26
+Netherlands,2007,10.68,69.52
+Netherlands,2008,10.73,69.68
+Netherlands,2009,10.77,69.84
+Netherlands,2010,10.82,69.98
+Netherlands,2011,10.85,70.14
+Netherlands,2012,10.87,70.25
+Netherlands,2013,10.91,70.43
+Netherlands,2014,10.94,70.58
+Netherlands,2015,10.95,70.7
+Netherlands,2016,10.94,70.7
+New Zealand,1990,9.57,66.08
+New Zealand,1991,9.62,66.36
+New Zealand,1992,9.66,66.6
+New Zealand,1993,9.72,66.85
+New Zealand,1994,9.75,67.03
+New Zealand,1995,9.8,67.19
+New Zealand,1996,9.83,67.35
+New Zealand,1997,9.92,67.65
+New Zealand,1998,10.01,67.95
+New Zealand,1999,10.06,68.15
+New Zealand,2000,10.14,68.41
+New Zealand,2001,10.15,68.56
+New Zealand,2002,10.2,68.8
+New Zealand,2003,10.25,69.02
+New Zealand,2004,10.29,69.22
+New Zealand,2005,10.37,69.51
+New Zealand,2006,10.38,69.66
+New Zealand,2007,10.41,69.82
+New Zealand,2008,10.43,69.94
+New Zealand,2009,10.48,70.15
+New Zealand,2010,10.55,70.38
+New Zealand,2011,10.57,70.42
+New Zealand,2012,10.62,70.63
+New Zealand,2013,10.68,70.81
+New Zealand,2014,10.7,70.85
+New Zealand,2015,10.68,70.81
+New Zealand,2016,10.68,70.8
+Nicaragua,1990,9.03,64.61
+Nicaragua,1991,8.99,64.76
+Nicaragua,1992,8.88,64.61
+Nicaragua,1993,8.81,64.56
+Nicaragua,1994,8.8,64.83
+Nicaragua,1995,8.8,64.98
+Nicaragua,1996,8.82,65.25
+Nicaragua,1997,8.87,65.57
+Nicaragua,1998,8.58,64.09
+Nicaragua,1999,9,66.27
+Nicaragua,2000,9.05,66.61
+Nicaragua,2001,9.09,66.84
+Nicaragua,2002,9.09,67
+Nicaragua,2003,9.09,67.1
+Nicaragua,2004,9.1,67.24
+Nicaragua,2005,9.12,67.51
+Nicaragua,2006,9.15,67.77
+Nicaragua,2007,9.21,67.88
+Nicaragua,2008,9.25,68.09
+Nicaragua,2009,9.26,68.15
+Nicaragua,2010,9.23,68.2
+Nicaragua,2011,9.28,68.27
+Nicaragua,2012,9.28,68.32
+Nicaragua,2013,9.29,68.38
+Nicaragua,2014,9.32,68.5
+Nicaragua,2015,9.35,68.67
+Nicaragua,2016,9.35,68.92
+Niger,1990,6.11,41.03
+Niger,1991,6.19,41.52
+Niger,1992,6.21,41.79
+Niger,1993,6.24,42.09
+Niger,1994,6.3,42.52
+Niger,1995,6.3,42.68
+Niger,1996,6.43,43.41
+Niger,1997,6.5,43.94
+Niger,1998,6.57,44.46
+Niger,1999,6.65,44.99
+Niger,2000,6.73,45.44
+Niger,2001,6.76,45.93
+Niger,2002,6.86,46.62
+Niger,2003,6.93,47.2
+Niger,2004,7.03,47.86
+Niger,2005,7.11,48.48
+Niger,2006,7.14,49.06
+Niger,2007,7.21,49.65
+Niger,2008,7.28,50.27
+Niger,2009,7.33,50.78
+Niger,2010,7.39,51.36
+Niger,2011,7.43,51.82
+Niger,2012,7.48,52.28
+Niger,2013,7.52,52.75
+Niger,2014,7.57,53.2
+Niger,2015,7.61,53.58
+Niger,2016,7.66,54.02
+Nigeria,1990,7.61,47.24
+Nigeria,1991,7.55,47.09
+Nigeria,1992,7.52,47.11
+Nigeria,1993,7.49,47.08
+Nigeria,1994,7.52,47.2
+Nigeria,1995,7.52,47.16
+Nigeria,1996,7.47,46.98
+Nigeria,1997,7.49,47.16
+Nigeria,1998,7.48,47.12
+Nigeria,1999,7.53,47.24
+Nigeria,2000,7.57,47.32
+Nigeria,2001,7.57,47.55
+Nigeria,2002,7.54,47.59
+Nigeria,2003,7.59,47.98
+Nigeria,2004,7.67,48.44
+Nigeria,2005,7.78,49.06
+Nigeria,2006,7.85,49.62
+Nigeria,2007,7.95,50.25
+Nigeria,2008,8.08,50.92
+Nigeria,2009,8.19,51.55
+Nigeria,2010,8.29,52.22
+Nigeria,2011,8.38,52.89
+Nigeria,2012,8.44,53.49
+Nigeria,2013,8.49,54.02
+Nigeria,2014,8.52,54.46
+Nigeria,2015,8.65,55.37
+Nigeria,2016,8.74,56.28
+North Africa and Middle East,1990,9.91,57.01
+North Africa and Middle East,1991,9.9,57.33
+North Africa and Middle East,1992,9.94,57.7
+North Africa and Middle East,1993,9.93,57.85
+North Africa and Middle East,1994,9.93,57.95
+North Africa and Middle East,1995,9.96,58.15
+North Africa and Middle East,1996,9.97,58.41
+North Africa and Middle East,1997,9.99,58.6
+North Africa and Middle East,1998,10.04,58.87
+North Africa and Middle East,1999,10.06,59.08
+North Africa and Middle East,2000,10.16,59.56
+North Africa and Middle East,2001,10.19,59.76
+North Africa and Middle East,2002,10.22,59.99
+North Africa and Middle East,2003,10.16,59.85
+North Africa and Middle East,2004,10.26,60.33
+North Africa and Middle East,2005,10.28,60.6
+North Africa and Middle East,2006,10.31,60.78
+North Africa and Middle East,2007,10.43,61.07
+North Africa and Middle East,2008,10.52,61.42
+North Africa and Middle East,2009,10.54,61.54
+North Africa and Middle East,2010,10.55,61.78
+North Africa and Middle East,2011,10.58,61.74
+North Africa and Middle East,2012,10.6,61.9
+North Africa and Middle East,2013,10.63,62.1
+North Africa and Middle East,2014,10.65,62.16
+North Africa and Middle East,2015,10.69,62.32
+North Africa and Middle East,2016,10.66,62.5
+North America,1990,10.14,65.5
+North America,1991,10.16,65.63
+North America,1992,10.2,65.75
+North America,1993,10.21,65.75
+North America,1994,10.24,65.8
+North America,1995,10.28,65.88
+North America,1996,10.34,66.15
+North America,1997,10.42,66.43
+North America,1998,10.45,66.54
+North America,1999,10.47,66.58
+North America,2000,10.52,66.66
+North America,2001,10.55,66.73
+North America,2002,10.58,66.84
+North America,2003,10.62,66.95
+North America,2004,10.69,67.1
+North America,2005,10.74,67.2
+North America,2006,10.81,67.39
+North America,2007,10.87,67.54
+North America,2008,10.93,67.68
+North America,2009,11.01,67.85
+North America,2010,11.07,67.96
+North America,2011,11.1,68.04
+North America,2012,11.12,68.1
+North America,2013,11.12,68.12
+North America,2014,11.12,68.11
+North America,2015,11.11,68.06
+North America,2016,11.12,68.05
+North Korea,1990,7.99,63.96
+North Korea,1991,8.04,63.96
+North Korea,1992,8.11,63.93
+North Korea,1993,8.18,63.86
+North Korea,1994,8.25,63.69
+North Korea,1995,7.12,57.2
+North Korea,1996,7.1,57.17
+North Korea,1997,7.09,57.1
+North Korea,1998,7.08,57
+North Korea,1999,7.06,56.89
+North Korea,2000,7.06,56.76
+North Korea,2001,6.99,56.7
+North Korea,2002,6.95,56.64
+North Korea,2003,7.93,62.03
+North Korea,2004,7.89,62.05
+North Korea,2005,7.88,62.07
+North Korea,2006,7.87,62.12
+North Korea,2007,7.87,62.13
+North Korea,2008,7.88,62.25
+North Korea,2009,7.87,62.31
+North Korea,2010,7.87,62.39
+North Korea,2011,7.86,62.48
+North Korea,2012,7.85,62.58
+North Korea,2013,7.85,62.69
+North Korea,2014,7.85,62.8
+North Korea,2015,7.85,62.91
+North Korea,2016,7.84,63.01
+North Macedonia,1990,8.52,61.98
+North Macedonia,1991,8.51,62.16
+North Macedonia,1992,8.5,62.24
+North Macedonia,1993,8.46,62.28
+North Macedonia,1994,8.49,62.54
+North Macedonia,1995,8.49,62.64
+North Macedonia,1996,8.52,62.9
+North Macedonia,1997,8.53,63.05
+North Macedonia,1998,8.54,63.11
+North Macedonia,1999,8.58,63.31
+North Macedonia,2000,8.61,63.57
+North Macedonia,2001,8.64,63.59
+North Macedonia,2002,8.68,63.77
+North Macedonia,2003,8.71,63.82
+North Macedonia,2004,8.75,63.92
+North Macedonia,2005,8.75,64.1
+North Macedonia,2006,8.8,64.28
+North Macedonia,2007,8.91,64.38
+North Macedonia,2008,8.98,64.52
+North Macedonia,2009,9.03,64.61
+North Macedonia,2010,9.04,64.93
+North Macedonia,2011,9.15,65.01
+North Macedonia,2012,9.16,65.02
+North Macedonia,2013,9.18,65.06
+North Macedonia,2014,9.22,65.17
+North Macedonia,2015,9.27,65.32
+North Macedonia,2016,9.23,65.59
+Northern Ireland,1990,9.41,65.53
+Northern Ireland,1991,9.45,65.74
+Northern Ireland,1992,9.49,65.94
+Northern Ireland,1993,9.53,66.09
+Northern Ireland,1994,9.6,66.33
+Northern Ireland,1995,9.64,66.5
+Northern Ireland,1996,9.67,66.71
+Northern Ireland,1997,9.73,66.9
+Northern Ireland,1998,9.79,67.11
+Northern Ireland,1999,9.83,67.21
+Northern Ireland,2000,9.93,67.52
+Northern Ireland,2001,9.98,67.71
+Northern Ireland,2002,10.03,67.93
+Northern Ireland,2003,10.06,68.05
+Northern Ireland,2004,10.12,68.24
+Northern Ireland,2005,10.18,68.39
+Northern Ireland,2006,10.22,68.54
+Northern Ireland,2007,10.27,68.7
+Northern Ireland,2008,10.31,68.84
+Northern Ireland,2009,10.39,69.03
+Northern Ireland,2010,10.44,69.2
+Northern Ireland,2011,10.47,69.39
+Northern Ireland,2012,10.47,69.5
+Northern Ireland,2013,10.46,69.53
+Northern Ireland,2014,10.46,69.57
+Northern Ireland,2015,10.47,69.64
+Northern Ireland,2016,10.47,69.68
+Northern Mariana Islands,1990,9.03,64.6
+Northern Mariana Islands,1991,9.06,64.98
+Northern Mariana Islands,1992,9.13,65.25
+Northern Mariana Islands,1993,9.2,65.49
+Northern Mariana Islands,1994,9.27,65.71
+Northern Mariana Islands,1995,9.33,65.89
+Northern Mariana Islands,1996,9.38,66.04
+Northern Mariana Islands,1997,9.43,66.17
+Northern Mariana Islands,1998,9.47,66.27
+Northern Mariana Islands,1999,9.51,66.4
+Northern Mariana Islands,2000,9.56,66.58
+Northern Mariana Islands,2001,9.58,66.55
+Northern Mariana Islands,2002,9.6,66.57
+Northern Mariana Islands,2003,9.63,66.62
+Northern Mariana Islands,2004,9.65,66.61
+Northern Mariana Islands,2005,9.6,66.54
+Northern Mariana Islands,2006,9.6,66.58
+Northern Mariana Islands,2007,9.63,66.49
+Northern Mariana Islands,2008,9.63,66.43
+Northern Mariana Islands,2009,9.6,66.31
+Northern Mariana Islands,2010,9.58,66.32
+Northern Mariana Islands,2011,9.59,66.16
+Northern Mariana Islands,2012,9.58,66.05
+Northern Mariana Islands,2013,9.57,65.93
+Northern Mariana Islands,2014,9.57,65.83
+Northern Mariana Islands,2015,9.59,65.77
+Northern Mariana Islands,2016,9.61,65.86
+Norway,1990,9.69,67.12
+Norway,1991,9.74,67.36
+Norway,1992,9.77,67.48
+Norway,1993,9.8,67.59
+Norway,1994,9.88,67.82
+Norway,1995,9.95,67.99
+Norway,1996,9.98,68.23
+Norway,1997,9.99,68.35
+Norway,1998,9.99,68.42
+Norway,1999,10.01,68.52
+Norway,2000,10.06,68.68
+Norway,2001,10.07,68.86
+Norway,2002,10.09,69.05
+Norway,2003,10.16,69.34
+Norway,2004,10.22,69.64
+Norway,2005,10.29,69.87
+Norway,2006,10.34,70.07
+Norway,2007,10.36,70.2
+Norway,2008,10.39,70.34
+Norway,2009,10.44,70.46
+Norway,2010,10.49,70.59
+Norway,2011,10.5,70.76
+Norway,2012,10.53,70.97
+Norway,2013,10.58,71.18
+Norway,2014,10.63,71.4
+Norway,2015,10.62,71.47
+Norway,2016,10.61,71.49
+Oceania,1990,7.2,51.26
+Oceania,1991,7.16,51.21
+Oceania,1992,7.18,51.36
+Oceania,1993,7.22,51.53
+Oceania,1994,7.26,51.72
+Oceania,1995,7.29,51.84
+Oceania,1996,7.32,52
+Oceania,1997,7.32,52.01
+Oceania,1998,7.28,51.67
+Oceania,1999,7.37,52.16
+Oceania,2000,7.4,52.19
+Oceania,2001,7.39,52.2
+Oceania,2002,7.39,52.19
+Oceania,2003,7.39,52.19
+Oceania,2004,7.4,52.19
+Oceania,2005,7.41,52.21
+Oceania,2006,7.41,52.27
+Oceania,2007,7.42,52.37
+Oceania,2008,7.46,52.57
+Oceania,2009,7.49,52.67
+Oceania,2010,7.56,52.9
+Oceania,2011,7.59,53.15
+Oceania,2012,7.62,53.32
+Oceania,2013,7.69,53.62
+Oceania,2014,7.74,53.85
+Oceania,2015,7.8,54.1
+Oceania,2016,7.85,54.34
+Oman,1990,10.33,60.32
+Oman,1991,10.32,60.8
+Oman,1992,10.34,61.25
+Oman,1993,10.34,61.66
+Oman,1994,10.35,61.99
+Oman,1995,10.35,62.32
+Oman,1996,10.37,62.67
+Oman,1997,10.4,63.02
+Oman,1998,10.44,63.34
+Oman,1999,10.48,63.65
+Oman,2000,10.49,63.91
+Oman,2001,10.52,64.1
+Oman,2002,10.53,64.28
+Oman,2003,10.55,64.47
+Oman,2004,10.63,64.8
+Oman,2005,10.66,65.12
+Oman,2006,10.66,65.23
+Oman,2007,10.69,65.21
+Oman,2008,10.76,65.39
+Oman,2009,10.69,65.27
+Oman,2010,10.58,65.17
+Oman,2011,10.63,65.31
+Oman,2012,10.68,65.56
+Oman,2013,10.7,65.7
+Oman,2014,10.72,65.86
+Oman,2015,10.76,66.02
+Oman,2016,10.76,66.2
+Pakistan,1990,8.38,54.05
+Pakistan,1991,8.35,54.17
+Pakistan,1992,8.29,54.13
+Pakistan,1993,8.23,54.07
+Pakistan,1994,8.18,53.99
+Pakistan,1995,8.12,53.84
+Pakistan,1996,8.1,54
+Pakistan,1997,8.07,54
+Pakistan,1998,8.09,54.19
+Pakistan,1999,8.11,54.33
+Pakistan,2000,8.13,54.48
+Pakistan,2001,8.16,54.6
+Pakistan,2002,8.2,54.73
+Pakistan,2003,8.25,54.84
+Pakistan,2004,8.32,55.04
+Pakistan,2005,8.21,54.32
+Pakistan,2006,8.45,55.56
+Pakistan,2007,8.51,55.85
+Pakistan,2008,8.56,56.09
+Pakistan,2009,8.61,56.35
+Pakistan,2010,8.67,56.62
+Pakistan,2011,8.74,56.99
+Pakistan,2012,8.78,57.3
+Pakistan,2013,8.83,57.63
+Pakistan,2014,8.88,57.94
+Pakistan,2015,8.94,58.27
+Pakistan,2016,8.98,58.63
+Palestine,1990,10.08,60.88
+Palestine,1991,10.05,61.01
+Palestine,1992,10.06,61.2
+Palestine,1993,10.07,61.4
+Palestine,1994,10.11,61.72
+Palestine,1995,10.12,61.92
+Palestine,1996,10.11,61.97
+Palestine,1997,10.09,61.98
+Palestine,1998,10.07,61.97
+Palestine,1999,10.03,61.88
+Palestine,2000,9.9,61.5
+Palestine,2001,9.98,61.7
+Palestine,2002,9.92,61.4
+Palestine,2003,9.9,61.33
+Palestine,2004,9.94,61.46
+Palestine,2005,10,61.79
+Palestine,2006,10.02,61.76
+Palestine,2007,10.09,61.82
+Palestine,2008,10.14,61.89
+Palestine,2009,10.12,61.71
+Palestine,2010,10.17,62.05
+Palestine,2011,10.15,61.94
+Palestine,2012,10.14,61.92
+Palestine,2013,10.13,61.91
+Palestine,2014,9.84,60.77
+Palestine,2015,10.06,61.73
+Palestine,2016,10.03,61.79
+Panama,1990,8.73,66.18
+Panama,1991,8.67,66.25
+Panama,1992,8.66,66.26
+Panama,1993,8.65,66.17
+Panama,1994,8.71,66.5
+Panama,1995,8.75,66.62
+Panama,1996,8.8,66.78
+Panama,1997,8.84,66.95
+Panama,1998,8.89,67.16
+Panama,1999,8.98,67.44
+Panama,2000,9.04,67.72
+Panama,2001,9.09,67.87
+Panama,2002,9.1,67.97
+Panama,2003,9.12,68.04
+Panama,2004,9.14,68.14
+Panama,2005,9.14,68.25
+Panama,2006,9.16,68.29
+Panama,2007,9.21,68.3
+Panama,2008,9.23,68.29
+Panama,2009,9.26,68.35
+Panama,2010,9.28,68.45
+Panama,2011,9.32,68.5
+Panama,2012,9.35,68.59
+Panama,2013,9.39,68.74
+Panama,2014,9.44,68.89
+Panama,2015,9.51,69.13
+Panama,2016,9.54,69.38
+Papua New Guinea,1990,6.87,49.06
+Papua New Guinea,1991,6.83,49
+Papua New Guinea,1992,6.86,49.21
+Papua New Guinea,1993,6.91,49.46
+Papua New Guinea,1994,6.95,49.73
+Papua New Guinea,1995,7,49.9
+Papua New Guinea,1996,7.03,50.14
+Papua New Guinea,1997,7.06,50.28
+Papua New Guinea,1998,6.96,49.69
+Papua New Guinea,1999,7.1,50.43
+Papua New Guinea,2000,7.13,50.47
+Papua New Guinea,2001,7.12,50.46
+Papua New Guinea,2002,7.11,50.46
+Papua New Guinea,2003,7.11,50.45
+Papua New Guinea,2004,7.11,50.45
+Papua New Guinea,2005,7.13,50.48
+Papua New Guinea,2006,7.14,50.57
+Papua New Guinea,2007,7.15,50.71
+Papua New Guinea,2008,7.21,50.96
+Papua New Guinea,2009,7.25,51.14
+Papua New Guinea,2010,7.31,51.35
+Papua New Guinea,2011,7.36,51.64
+Papua New Guinea,2012,7.39,51.86
+Papua New Guinea,2013,7.47,52.23
+Papua New Guinea,2014,7.54,52.54
+Papua New Guinea,2015,7.6,52.84
+Papua New Guinea,2016,7.67,53.13
+Paraguay,1990,9.49,65.09
+Paraguay,1991,9.46,65.1
+Paraguay,1992,9.43,65.03
+Paraguay,1993,9.41,65.01
+Paraguay,1994,9.4,65
+Paraguay,1995,9.42,65.04
+Paraguay,1996,9.41,65.02
+Paraguay,1997,9.43,65.04
+Paraguay,1998,9.44,65.02
+Paraguay,1999,9.45,64.99
+Paraguay,2000,9.46,64.92
+Paraguay,2001,9.45,64.85
+Paraguay,2002,9.45,64.79
+Paraguay,2003,9.45,64.73
+Paraguay,2004,9.41,64.51
+Paraguay,2005,9.44,64.64
+Paraguay,2006,9.43,64.63
+Paraguay,2007,9.44,64.63
+Paraguay,2008,9.44,64.61
+Paraguay,2009,9.42,64.55
+Paraguay,2010,9.43,64.56
+Paraguay,2011,9.44,64.59
+Paraguay,2012,9.44,64.59
+Paraguay,2013,9.44,64.62
+Paraguay,2014,9.45,64.68
+Paraguay,2015,9.49,64.82
+Paraguay,2016,9.52,64.96
+Peru,1990,8.53,60.89
+Peru,1991,8.5,60.96
+Peru,1992,8.53,61.45
+Peru,1993,8.52,61.69
+Peru,1994,8.56,62.12
+Peru,1995,8.62,62.59
+Peru,1996,8.72,63.16
+Peru,1997,8.82,63.73
+Peru,1998,8.94,64.34
+Peru,1999,9.08,65.04
+Peru,2000,9.17,65.64
+Peru,2001,9.3,66.09
+Peru,2002,9.38,66.52
+Peru,2003,9.43,66.86
+Peru,2004,9.5,67.21
+Peru,2005,9.51,67.6
+Peru,2006,9.57,67.95
+Peru,2007,9.66,68.06
+Peru,2008,9.68,68.24
+Peru,2009,9.65,68.22
+Peru,2010,9.57,68.37
+Peru,2011,9.69,68.47
+Peru,2012,9.76,68.74
+Peru,2013,9.85,69.06
+Peru,2014,9.95,69.42
+Peru,2015,9.98,69.58
+Peru,2016,9.9,69.84
+Philippines,1990,8.41,58.63
+Philippines,1991,8.4,58.78
+Philippines,1992,8.44,59.14
+Philippines,1993,8.44,59.3
+Philippines,1994,8.45,59.46
+Philippines,1995,8.45,59.54
+Philippines,1996,8.48,59.68
+Philippines,1997,8.5,59.73
+Philippines,1998,8.51,59.69
+Philippines,1999,8.52,59.64
+Philippines,2000,8.53,59.52
+Philippines,2001,8.49,59.58
+Philippines,2002,8.46,59.59
+Philippines,2003,8.44,59.59
+Philippines,2004,8.43,59.6
+Philippines,2005,8.46,59.7
+Philippines,2006,8.38,59.77
+Philippines,2007,8.37,60.02
+Philippines,2008,8.35,60.15
+Philippines,2009,8.35,60.31
+Philippines,2010,8.36,60.51
+Philippines,2011,8.36,60.65
+Philippines,2012,8.37,60.81
+Philippines,2013,8.36,60.88
+Philippines,2014,8.42,61.25
+Philippines,2015,8.45,61.47
+Philippines,2016,8.46,61.64
+Poland,1990,8.99,61.91
+Poland,1991,8.88,61.75
+Poland,1992,8.94,62.1
+Poland,1993,9.04,62.56
+Poland,1994,9.05,62.55
+Poland,1995,9.06,62.76
+Poland,1996,9.15,63.12
+Poland,1997,9.2,63.4
+Poland,1998,9.28,63.7
+Poland,1999,9.3,63.82
+Poland,2000,9.39,64.38
+Poland,2001,9.56,64.69
+Poland,2002,9.65,64.98
+Poland,2003,9.72,65.19
+Poland,2004,9.77,65.28
+Poland,2005,9.73,65.45
+Poland,2006,9.74,65.55
+Poland,2007,9.88,65.5
+Poland,2008,9.95,65.66
+Poland,2009,10.02,65.84
+Poland,2010,10.04,66.27
+Poland,2011,10.2,66.37
+Poland,2012,10.21,66.51
+Poland,2013,10.28,66.77
+Poland,2014,10.4,67.17
+Poland,2015,10.43,67.32
+Poland,2016,10.33,67.6
+Portugal,1990,9.39,64.94
+Portugal,1991,9.4,65.08
+Portugal,1992,9.46,65.32
+Portugal,1993,9.48,65.47
+Portugal,1994,9.54,65.69
+Portugal,1995,9.55,65.76
+Portugal,1996,9.55,65.89
+Portugal,1997,9.59,66.2
+Portugal,1998,9.61,66.44
+Portugal,1999,9.63,66.66
+Portugal,2000,9.69,67
+Portugal,2001,9.78,67.26
+Portugal,2002,9.82,67.52
+Portugal,2003,9.87,67.77
+Portugal,2004,9.97,68.12
+Portugal,2005,9.99,68.38
+Portugal,2006,10.07,68.72
+Portugal,2007,10.16,68.91
+Portugal,2008,10.22,69.13
+Portugal,2009,10.29,69.34
+Portugal,2010,10.32,69.59
+Portugal,2011,10.4,69.8
+Portugal,2012,10.42,69.96
+Portugal,2013,10.46,70.15
+Portugal,2014,10.5,70.33
+Portugal,2015,10.5,70.4
+Portugal,2016,10.47,70.51
+Puerto Rico,1990,9.06,64.9
+Puerto Rico,1991,9.06,64.83
+Puerto Rico,1992,9.07,64.71
+Puerto Rico,1993,9.13,64.78
+Puerto Rico,1994,9.06,64.35
+Puerto Rico,1995,9.18,64.57
+Puerto Rico,1996,9.24,64.81
+Puerto Rico,1997,9.46,65.56
+Puerto Rico,1998,9.6,66
+Puerto Rico,1999,9.64,66.05
+Puerto Rico,2000,9.74,66.32
+Puerto Rico,2001,9.78,66.48
+Puerto Rico,2002,9.86,66.74
+Puerto Rico,2003,9.92,66.96
+Puerto Rico,2004,9.94,66.99
+Puerto Rico,2005,9.96,67.11
+Puerto Rico,2006,10.01,67.33
+Puerto Rico,2007,10.06,67.43
+Puerto Rico,2008,10.09,67.57
+Puerto Rico,2009,10.15,67.75
+Puerto Rico,2010,10.12,67.86
+Puerto Rico,2011,10.18,68.03
+Puerto Rico,2012,10.16,68.14
+Puerto Rico,2013,10.16,68.25
+Puerto Rico,2014,10.12,68.25
+Puerto Rico,2015,10.15,68.41
+Puerto Rico,2016,10.15,68.62
+Qatar,1990,10.99,63.98
+Qatar,1991,10.92,63.94
+Qatar,1992,10.92,63.99
+Qatar,1993,10.89,63.94
+Qatar,1994,10.85,63.87
+Qatar,1995,10.83,63.81
+Qatar,1996,10.84,63.85
+Qatar,1997,10.85,63.91
+Qatar,1998,10.86,63.95
+Qatar,1999,10.86,63.97
+Qatar,2000,10.91,64.1
+Qatar,2001,10.95,64.3
+Qatar,2002,10.94,64.37
+Qatar,2003,10.98,64.57
+Qatar,2004,11.06,64.92
+Qatar,2005,11.1,65.27
+Qatar,2006,11.16,65.62
+Qatar,2007,11.26,66.01
+Qatar,2008,11.37,66.4
+Qatar,2009,11.51,66.82
+Qatar,2010,11.69,67.35
+Qatar,2011,11.81,67.74
+Qatar,2012,11.84,67.97
+Qatar,2013,11.87,68.15
+Qatar,2014,11.84,68.16
+Qatar,2015,11.79,68.16
+Qatar,2016,11.71,68.15
+Romania,1990,9.01,60.83
+Romania,1991,9.05,61.26
+Romania,1992,8.92,60.92
+Romania,1993,8.85,60.78
+Romania,1994,8.78,60.58
+Romania,1995,8.72,60.56
+Romania,1996,8.66,60.4
+Romania,1997,8.68,60.57
+Romania,1998,8.81,61.14
+Romania,1999,8.98,61.81
+Romania,2000,9,62.12
+Romania,2001,8.99,62.06
+Romania,2002,9,62.22
+Romania,2003,9.05,62.48
+Romania,2004,9.16,62.85
+Romania,2005,9.16,63.2
+Romania,2006,9.25,63.54
+Romania,2007,9.4,63.78
+Romania,2008,9.38,63.72
+Romania,2009,9.42,63.84
+Romania,2010,9.41,64.18
+Romania,2011,9.71,64.72
+Romania,2012,9.72,64.83
+Romania,2013,9.75,64.99
+Romania,2014,9.73,65.02
+Romania,2015,9.81,65.28
+Romania,2016,9.69,65.54
+Russia,1990,8.99,60.18
+Russia,1991,8.95,60.02
+Russia,1992,8.67,59.08
+Russia,1993,8.09,57.04
+Russia,1994,7.79,55.96
+Russia,1995,7.96,56.38
+Russia,1996,8.21,57.42
+Russia,1997,8.46,58.35
+Russia,1998,8.53,58.56
+Russia,1999,8.32,57.55
+Russia,2000,8.25,57.03
+Russia,2001,8.11,57.17
+Russia,2002,8.03,57.1
+Russia,2003,8.02,57.16
+Russia,2004,8.03,57.44
+Russia,2005,8.03,57.58
+Russia,2006,8.27,58.58
+Russia,2007,8.43,59.12
+Russia,2008,8.5,59.37
+Russia,2009,8.73,60.12
+Russia,2010,8.77,60.45
+Russia,2011,8.96,60.91
+Russia,2012,9.08,61.37
+Russia,2013,9.13,61.63
+Russia,2014,9.13,61.73
+Russia,2015,9.08,61.76
+Russia,2016,8.96,61.91
+Rwanda,1990,5.72,43.4
+Rwanda,1991,5.61,42.92
+Rwanda,1992,5.55,42.3
+Rwanda,1993,5.53,41.7
+Rwanda,1994,0.06,11.42
+Rwanda,1995,5.42,39.16
+Rwanda,1996,5.56,40.38
+Rwanda,1997,5.42,39.88
+Rwanda,1998,5.62,41.01
+Rwanda,1999,5.84,42.17
+Rwanda,2000,6.11,43.33
+Rwanda,2001,6.25,44.41
+Rwanda,2002,6.52,46.1
+Rwanda,2003,6.73,47.44
+Rwanda,2004,6.98,48.97
+Rwanda,2005,7.2,50.6
+Rwanda,2006,7.36,52.23
+Rwanda,2007,7.64,53.57
+Rwanda,2008,7.8,54.79
+Rwanda,2009,7.9,55.53
+Rwanda,2010,7.96,56.75
+Rwanda,2011,8.14,57.34
+Rwanda,2012,8.21,57.91
+Rwanda,2013,8.27,58.35
+Rwanda,2014,8.32,58.73
+Rwanda,2015,8.37,59.06
+Rwanda,2016,8.3,59.47
+Saint Lucia,1990,9.44,62.44
+Saint Lucia,1991,9.36,62.76
+Saint Lucia,1992,9.31,62.98
+Saint Lucia,1993,9.3,63.27
+Saint Lucia,1994,9.31,63.5
+Saint Lucia,1995,9.36,63.78
+Saint Lucia,1996,9.39,64.09
+Saint Lucia,1997,9.42,64.37
+Saint Lucia,1998,9.44,64.52
+Saint Lucia,1999,9.46,64.66
+Saint Lucia,2000,9.45,64.71
+Saint Lucia,2001,9.41,64.66
+Saint Lucia,2002,9.38,64.7
+Saint Lucia,2003,9.32,64.6
+Saint Lucia,2004,9.29,64.6
+Saint Lucia,2005,9.33,64.8
+Saint Lucia,2006,9.38,65.05
+Saint Lucia,2007,9.47,65.29
+Saint Lucia,2008,9.56,65.58
+Saint Lucia,2009,9.66,65.88
+Saint Lucia,2010,9.65,65.76
+Saint Lucia,2011,9.77,66.13
+Saint Lucia,2012,9.79,66.24
+Saint Lucia,2013,9.81,66.34
+Saint Lucia,2014,9.77,66.27
+Saint Lucia,2015,9.78,66.31
+Saint Lucia,2016,9.75,66.38
+Saint Vincent and the Grenadines,1990,8.67,61.99
+Saint Vincent and the Grenadines,1991,8.64,61.99
+Saint Vincent and the Grenadines,1992,8.64,61.98
+Saint Vincent and the Grenadines,1993,8.65,61.93
+Saint Vincent and the Grenadines,1994,8.65,61.84
+Saint Vincent and the Grenadines,1995,8.68,61.74
+Saint Vincent and the Grenadines,1996,8.65,61.67
+Saint Vincent and the Grenadines,1997,8.7,61.83
+Saint Vincent and the Grenadines,1998,8.71,61.83
+Saint Vincent and the Grenadines,1999,8.68,61.67
+Saint Vincent and the Grenadines,2000,8.66,61.49
+Saint Vincent and the Grenadines,2001,8.72,61.76
+Saint Vincent and the Grenadines,2002,8.71,61.73
+Saint Vincent and the Grenadines,2003,8.77,62
+Saint Vincent and the Grenadines,2004,8.79,62.09
+Saint Vincent and the Grenadines,2005,8.83,62.25
+Saint Vincent and the Grenadines,2006,8.83,62.35
+Saint Vincent and the Grenadines,2007,8.86,62.46
+Saint Vincent and the Grenadines,2008,8.9,62.6
+Saint Vincent and the Grenadines,2009,8.92,62.65
+Saint Vincent and the Grenadines,2010,8.92,62.6
+Saint Vincent and the Grenadines,2011,8.93,62.61
+Saint Vincent and the Grenadines,2012,8.92,62.57
+Saint Vincent and the Grenadines,2013,8.85,62.27
+Saint Vincent and the Grenadines,2014,8.88,62.44
+Saint Vincent and the Grenadines,2015,8.91,62.56
+Saint Vincent and the Grenadines,2016,8.94,62.7
+Samoa,1990,8.52,60.37
+Samoa,1991,8.5,60.34
+Samoa,1992,8.55,60.62
+Samoa,1993,8.58,60.75
+Samoa,1994,8.6,60.85
+Samoa,1995,8.63,60.97
+Samoa,1996,8.65,61.11
+Samoa,1997,8.68,61.25
+Samoa,1998,8.71,61.39
+Samoa,1999,8.72,61.45
+Samoa,2000,8.74,61.55
+Samoa,2001,8.77,61.68
+Samoa,2002,8.8,61.83
+Samoa,2003,8.82,61.95
+Samoa,2004,8.85,62.06
+Samoa,2005,8.87,62.18
+Samoa,2006,8.9,62.3
+Samoa,2007,8.92,62.32
+Samoa,2008,8.95,62.4
+Samoa,2009,8.6,60.66
+Samoa,2010,8.96,62.43
+Samoa,2011,8.96,62.43
+Samoa,2012,8.94,62.36
+Samoa,2013,8.97,62.56
+Samoa,2014,8.97,62.61
+Samoa,2015,8.99,62.67
+Samoa,2016,9.02,62.87
+Sao Tome and Principe,1990,8.16,55.09
+Sao Tome and Principe,1991,8.16,55.28
+Sao Tome and Principe,1992,8.15,55.35
+Sao Tome and Principe,1993,8.14,55.4
+Sao Tome and Principe,1994,8.17,55.55
+Sao Tome and Principe,1995,8.17,55.6
+Sao Tome and Principe,1996,8.1,55.52
+Sao Tome and Principe,1997,8.07,55.58
+Sao Tome and Principe,1998,8.07,55.72
+Sao Tome and Principe,1999,8.12,56.04
+Sao Tome and Principe,2000,8.18,56.36
+Sao Tome and Principe,2001,8.23,56.75
+Sao Tome and Principe,2002,8.26,57.05
+Sao Tome and Principe,2003,8.32,57.42
+Sao Tome and Principe,2004,8.35,57.68
+Sao Tome and Principe,2005,8.38,57.75
+Sao Tome and Principe,2006,8.46,58.38
+Sao Tome and Principe,2007,8.54,58.78
+Sao Tome and Principe,2008,8.6,59.1
+Sao Tome and Principe,2009,8.72,59.73
+Sao Tome and Principe,2010,8.78,60.12
+Sao Tome and Principe,2011,8.84,60.45
+Sao Tome and Principe,2012,8.79,60.5
+Sao Tome and Principe,2013,8.86,60.87
+Sao Tome and Principe,2014,8.9,61.13
+Sao Tome and Principe,2015,8.93,61.38
+Sao Tome and Principe,2016,8.95,61.65
+Saudi Arabia,1990,10.49,61.38
+Saudi Arabia,1991,10.48,61.73
+Saudi Arabia,1992,10.46,61.94
+Saudi Arabia,1993,10.44,62.1
+Saudi Arabia,1994,10.41,62.21
+Saudi Arabia,1995,10.39,62.31
+Saudi Arabia,1996,10.34,62.38
+Saudi Arabia,1997,10.28,62.39
+Saudi Arabia,1998,10.22,62.41
+Saudi Arabia,1999,10.17,62.46
+Saudi Arabia,2000,10.17,62.68
+Saudi Arabia,2001,10.17,62.81
+Saudi Arabia,2002,10.17,62.97
+Saudi Arabia,2003,10.17,63.14
+Saudi Arabia,2004,10.18,63.32
+Saudi Arabia,2005,10.17,63.57
+Saudi Arabia,2006,10.19,63.79
+Saudi Arabia,2007,10.26,64
+Saudi Arabia,2008,10.3,64.23
+Saudi Arabia,2009,10.32,64.4
+Saudi Arabia,2010,10.32,64.64
+Saudi Arabia,2011,10.38,64.8
+Saudi Arabia,2012,10.41,65.01
+Saudi Arabia,2013,10.5,65.4
+Saudi Arabia,2014,10.61,65.77
+Saudi Arabia,2015,10.65,65.88
+Saudi Arabia,2016,10.72,66.38
+Scotland,1990,9.34,64.6
+Scotland,1991,9.37,64.76
+Scotland,1992,9.39,64.88
+Scotland,1993,9.42,65
+Scotland,1994,9.48,65.18
+Scotland,1995,9.51,65.32
+Scotland,1996,9.55,65.52
+Scotland,1997,9.58,65.75
+Scotland,1998,9.61,65.89
+Scotland,1999,9.64,66.06
+Scotland,2000,9.69,66.28
+Scotland,2001,9.73,66.48
+Scotland,2002,9.75,66.6
+Scotland,2003,9.76,66.7
+Scotland,2004,9.83,66.97
+Scotland,2005,9.89,67.17
+Scotland,2006,9.96,67.4
+Scotland,2007,10.03,67.58
+Scotland,2008,10.11,67.79
+Scotland,2009,10.18,67.99
+Scotland,2010,10.24,68.17
+Scotland,2011,10.29,68.31
+Scotland,2012,10.31,68.42
+Scotland,2013,10.34,68.53
+Scotland,2014,10.36,68.6
+Scotland,2015,10.37,68.65
+Scotland,2016,10.37,68.68
+Senegal,1990,7.44,50.1
+Senegal,1991,7.47,50.39
+Senegal,1992,7.46,50.47
+Senegal,1993,7.48,50.65
+Senegal,1994,7.46,50.67
+Senegal,1995,7.51,50.85
+Senegal,1996,7.51,51.06
+Senegal,1997,7.51,51.3
+Senegal,1998,7.51,51.46
+Senegal,1999,7.5,51.6
+Senegal,2000,7.57,52.08
+Senegal,2001,7.61,52.4
+Senegal,2002,7.64,52.58
+Senegal,2003,7.76,53.22
+Senegal,2004,7.82,53.57
+Senegal,2005,7.87,53.87
+Senegal,2006,7.91,54.26
+Senegal,2007,7.99,54.69
+Senegal,2008,8.07,55.13
+Senegal,2009,8.14,55.5
+Senegal,2010,8.19,55.85
+Senegal,2011,8.21,56.22
+Senegal,2012,8.23,56.57
+Senegal,2013,8.26,56.92
+Senegal,2014,8.29,57.25
+Senegal,2015,8.33,57.57
+Senegal,2016,8.35,57.89
+Serbia,1990,9.2,63.38
+Serbia,1991,9,62.65
+Serbia,1992,9.04,62.86
+Serbia,1993,9.08,63.2
+Serbia,1994,9,63.03
+Serbia,1995,8.74,61.92
+Serbia,1996,8.92,62.95
+Serbia,1997,8.95,63.08
+Serbia,1998,8.83,62.57
+Serbia,1999,8.75,62.16
+Serbia,2000,8.96,63.18
+Serbia,2001,9.01,63.37
+Serbia,2002,9.02,63.46
+Serbia,2003,9.05,63.62
+Serbia,2004,9.1,63.79
+Serbia,2005,9.15,64.06
+Serbia,2006,9.23,64.32
+Serbia,2007,9.36,64.53
+Serbia,2008,9.46,64.77
+Serbia,2009,9.52,64.92
+Serbia,2010,9.53,65.11
+Serbia,2011,9.64,65.21
+Serbia,2012,9.69,65.39
+Serbia,2013,9.76,65.58
+Serbia,2014,9.8,65.73
+Serbia,2015,9.86,65.87
+Serbia,2016,9.84,66.07
+Seychelles,1990,7.82,61.21
+Seychelles,1991,7.79,61.22
+Seychelles,1992,7.8,61.29
+Seychelles,1993,7.81,61.28
+Seychelles,1994,7.87,61.61
+Seychelles,1995,7.96,61.96
+Seychelles,1996,7.98,62.03
+Seychelles,1997,8.03,62.19
+Seychelles,1998,8.09,62.35
+Seychelles,1999,8.16,62.55
+Seychelles,2000,8.2,62.71
+Seychelles,2001,8.25,62.86
+Seychelles,2002,8.29,63
+Seychelles,2003,8.32,63.13
+Seychelles,2004,8.37,63.31
+Seychelles,2005,8.41,63.55
+Seychelles,2006,8.46,63.85
+Seychelles,2007,8.55,64.06
+Seychelles,2008,8.61,64.3
+Seychelles,2009,8.64,64.43
+Seychelles,2010,8.64,64.57
+Seychelles,2011,8.7,64.63
+Seychelles,2012,8.73,64.75
+Seychelles,2013,8.74,64.79
+Seychelles,2014,8.72,64.75
+Seychelles,2015,8.74,64.81
+Seychelles,2016,8.73,64.95
+Sierra Leone,1990,6.84,43.68
+Sierra Leone,1991,6.79,43.5
+Sierra Leone,1992,6.87,43.9
+Sierra Leone,1993,6.92,44.12
+Sierra Leone,1994,6.81,43.55
+Sierra Leone,1995,6.72,43.12
+Sierra Leone,1996,6.94,44.26
+Sierra Leone,1997,6.83,43.87
+Sierra Leone,1998,6.55,42.42
+Sierra Leone,1999,6.58,42.46
+Sierra Leone,2000,6.91,43.98
+Sierra Leone,2001,6.93,44.36
+Sierra Leone,2002,6.89,44.46
+Sierra Leone,2003,6.92,44.78
+Sierra Leone,2004,6.96,45.13
+Sierra Leone,2005,7.02,45.42
+Sierra Leone,2006,7.01,45.86
+Sierra Leone,2007,6.99,46.21
+Sierra Leone,2008,7.03,46.79
+Sierra Leone,2009,7.07,47.24
+Sierra Leone,2010,7.15,47.89
+Sierra Leone,2011,7.19,48.52
+Sierra Leone,2012,7.26,49.18
+Sierra Leone,2013,7.36,50.02
+Sierra Leone,2014,6.7,47.17
+Sierra Leone,2015,7.3,50.31
+Sierra Leone,2016,7.52,51.63
+Singapore,1990,8.66,66.75
+Singapore,1991,8.76,67.29
+Singapore,1992,8.85,67.66
+Singapore,1993,8.91,67.99
+Singapore,1994,8.96,68.19
+Singapore,1995,8.98,68.39
+Singapore,1996,9.04,68.66
+Singapore,1997,9.12,69.05
+Singapore,1998,9.18,69.35
+Singapore,1999,9.24,69.69
+Singapore,2000,9.3,70.08
+Singapore,2001,9.39,70.43
+Singapore,2002,9.43,70.72
+Singapore,2003,9.43,70.94
+Singapore,2004,9.46,71.22
+Singapore,2005,9.46,71.51
+Singapore,2006,9.48,71.68
+Singapore,2007,9.64,72
+Singapore,2008,9.75,72.36
+Singapore,2009,9.83,72.61
+Singapore,2010,9.86,72.9
+Singapore,2011,9.95,73.02
+Singapore,2012,10.02,73.2
+Singapore,2013,10.04,73.26
+Singapore,2014,10.08,73.37
+Singapore,2015,10.13,73.52
+Singapore,2016,10.11,73.62
+Slovakia,1990,8.97,61.99
+Slovakia,1991,8.97,62.1
+Slovakia,1992,9.02,62.4
+Slovakia,1993,9.09,62.76
+Slovakia,1994,9.16,63.05
+Slovakia,1995,9.17,63.19
+Slovakia,1996,9.25,63.47
+Slovakia,1997,9.24,63.51
+Slovakia,1998,9.23,63.53
+Slovakia,1999,9.28,63.72
+Slovakia,2000,9.31,63.94
+Slovakia,2001,9.37,64.19
+Slovakia,2002,9.42,64.37
+Slovakia,2003,9.44,64.48
+Slovakia,2004,9.48,64.68
+Slovakia,2005,9.46,64.77
+Slovakia,2006,9.5,64.93
+Slovakia,2007,9.58,64.98
+Slovakia,2008,9.68,65.21
+Slovakia,2009,9.75,65.4
+Slovakia,2010,9.8,65.76
+Slovakia,2011,9.94,65.98
+Slovakia,2012,10,66.22
+Slovakia,2013,10.07,66.46
+Slovakia,2014,10.14,66.67
+Slovakia,2015,10.15,66.75
+Slovakia,2016,10.09,66.88
+Slovenia,1990,9.88,63.76
+Slovenia,1991,9.81,63.78
+Slovenia,1992,9.82,63.95
+Slovenia,1993,9.8,64
+Slovenia,1994,9.86,64.26
+Slovenia,1995,9.95,64.62
+Slovenia,1996,10.02,64.86
+Slovenia,1997,10.06,65.03
+Slovenia,1998,10.11,65.2
+Slovenia,1999,10.18,65.43
+Slovenia,2000,10.27,65.75
+Slovenia,2001,10.38,65.88
+Slovenia,2002,10.48,66.11
+Slovenia,2003,10.55,66.23
+Slovenia,2004,10.69,66.49
+Slovenia,2005,10.79,66.79
+Slovenia,2006,10.89,67.05
+Slovenia,2007,11.02,67.26
+Slovenia,2008,11.15,67.63
+Slovenia,2009,11.25,67.88
+Slovenia,2010,11.31,68.19
+Slovenia,2011,11.42,68.44
+Slovenia,2012,11.44,68.61
+Slovenia,2013,11.49,68.81
+Slovenia,2014,11.6,69.19
+Slovenia,2015,11.56,69.17
+Slovenia,2016,11.51,69.32
+Solomon Islands,1990,7.14,52.93
+Solomon Islands,1991,7.1,52.84
+Solomon Islands,1992,7.17,53.17
+Solomon Islands,1993,7.2,53.32
+Solomon Islands,1994,7.24,53.48
+Solomon Islands,1995,7.29,53.66
+Solomon Islands,1996,7.32,53.81
+Solomon Islands,1997,7.35,53.92
+Solomon Islands,1998,7.37,54.01
+Solomon Islands,1999,7.39,54.06
+Solomon Islands,2000,7.39,54.02
+Solomon Islands,2001,7.38,53.91
+Solomon Islands,2002,7.37,53.79
+Solomon Islands,2003,7.36,53.7
+Solomon Islands,2004,7.37,53.63
+Solomon Islands,2005,7.39,53.61
+Solomon Islands,2006,7.37,53.7
+Solomon Islands,2007,7.35,53.62
+Solomon Islands,2008,7.41,53.95
+Solomon Islands,2009,7.42,53.98
+Solomon Islands,2010,7.47,54.21
+Solomon Islands,2011,7.52,54.41
+Solomon Islands,2012,7.56,54.6
+Solomon Islands,2013,7.6,54.75
+Solomon Islands,2014,7.62,54.77
+Solomon Islands,2015,7.69,55.08
+Solomon Islands,2016,7.74,55.3
+Somalia,1990,6.07,44.53
+Somalia,1991,5.81,43.25
+Somalia,1992,5.95,44.14
+Somalia,1993,6.14,45.3
+Somalia,1994,6.07,44.9
+Somalia,1995,6.12,45.22
+Somalia,1996,6.09,45.12
+Somalia,1997,6.04,44.85
+Somalia,1998,6.15,45.45
+Somalia,1999,6.19,45.56
+Somalia,2000,6.24,45.75
+Somalia,2001,6.26,46.13
+Somalia,2002,6.27,46.39
+Somalia,2003,6.3,46.77
+Somalia,2004,6.3,47.02
+Somalia,2005,6.38,47.45
+Somalia,2006,6.39,47.59
+Somalia,2007,6.42,47.66
+Somalia,2008,6.51,48.19
+Somalia,2009,6.57,48.39
+Somalia,2010,6.34,46.74
+Somalia,2011,6.35,47
+Somalia,2012,6.64,49.15
+Somalia,2013,6.73,49.82
+Somalia,2014,6.75,50.13
+Somalia,2015,6.78,50.41
+Somalia,2016,6.75,50.39
+South Africa,1990,8.59,55.76
+South Africa,1991,8.63,56.04
+South Africa,1992,8.58,55.92
+South Africa,1993,8.68,56.25
+South Africa,1994,8.62,55.93
+South Africa,1995,8.61,55.55
+South Africa,1996,8.34,54.48
+South Africa,1997,7.97,52.92
+South Africa,1998,7.73,51.61
+South Africa,1999,7.48,50.07
+South Africa,2000,7.27,48.13
+South Africa,2001,7.07,47.25
+South Africa,2002,6.87,46.27
+South Africa,2003,6.71,45.44
+South Africa,2004,6.62,44.86
+South Africa,2005,6.65,44.47
+South Africa,2006,6.59,44.46
+South Africa,2007,6.65,44.86
+South Africa,2008,6.76,45.45
+South Africa,2009,6.93,46.21
+South Africa,2010,7.19,47.15
+South Africa,2011,7.4,48.43
+South Africa,2012,7.68,49.88
+South Africa,2013,7.99,51.31
+South Africa,2014,8.25,52.44
+South Africa,2015,8.48,53.35
+South Africa,2016,8.61,53.83
+South Asia,1990,8.18,50.92
+South Asia,1991,8.19,51.04
+South Asia,1992,8.29,51.54
+South Asia,1993,8.35,51.83
+South Asia,1994,8.42,52.12
+South Asia,1995,8.49,52.37
+South Asia,1996,8.52,52.67
+South Asia,1997,8.55,52.92
+South Asia,1998,8.61,53.23
+South Asia,1999,8.66,53.53
+South Asia,2000,8.72,53.82
+South Asia,2001,8.77,54.11
+South Asia,2002,8.83,54.44
+South Asia,2003,8.89,54.77
+South Asia,2004,8.96,55.09
+South Asia,2005,8.98,55.33
+South Asia,2006,9.02,55.79
+South Asia,2007,9.08,56.11
+South Asia,2008,9.12,56.46
+South Asia,2009,9.16,56.82
+South Asia,2010,9.17,57.18
+South Asia,2011,9.27,57.49
+South Asia,2012,9.33,57.81
+South Asia,2013,9.4,58.12
+South Asia,2014,9.48,58.47
+South Asia,2015,9.55,58.76
+South Asia,2016,9.59,59.17
+South Korea,1990,8.6,63.43
+South Korea,1991,8.66,63.83
+South Korea,1992,8.74,64.21
+South Korea,1993,8.81,64.55
+South Korea,1994,8.89,64.89
+South Korea,1995,8.94,65.27
+South Korea,1996,9.05,65.62
+South Korea,1997,9.13,65.97
+South Korea,1998,9.18,66.22
+South Korea,1999,9.23,66.49
+South Korea,2000,9.24,66.81
+South Korea,2001,9.38,67
+South Korea,2002,9.48,67.31
+South Korea,2003,9.61,67.71
+South Korea,2004,9.75,68.16
+South Korea,2005,9.81,68.63
+South Korea,2006,9.9,68.99
+South Korea,2007,10.07,69.23
+South Korea,2008,10.15,69.51
+South Korea,2009,10.23,69.76
+South Korea,2010,10.21,70.03
+South Korea,2011,10.33,70.2
+South Korea,2012,10.35,70.39
+South Korea,2013,10.39,70.57
+South Korea,2014,10.36,70.63
+South Korea,2015,10.34,70.68
+South Korea,2016,10.24,70.76
+South Sudan,1990,7.98,43.56
+South Sudan,1991,7.99,43.83
+South Sudan,1992,8.05,44.24
+South Sudan,1993,7.91,43.58
+South Sudan,1994,8.26,45.16
+South Sudan,1995,8.26,45.08
+South Sudan,1996,8.14,44.97
+South Sudan,1997,8.05,45.03
+South Sudan,1998,8.06,45.24
+South Sudan,1999,8.2,46.37
+South Sudan,2000,8.14,46.36
+South Sudan,2001,8.06,46.56
+South Sudan,2002,8.07,46.9
+South Sudan,2003,8.2,47.81
+South Sudan,2004,8.96,47.06
+South Sudan,2005,9.03,47.56
+South Sudan,2006,8.12,48.63
+South Sudan,2007,8.1,49.02
+South Sudan,2008,8.09,49.43
+South Sudan,2009,8.01,49.47
+South Sudan,2010,8.05,50.07
+South Sudan,2011,7.98,50.08
+South Sudan,2012,7.98,50.41
+South Sudan,2013,7.96,50.6
+South Sudan,2014,7.94,50.78
+South Sudan,2015,7.93,50.95
+South Sudan,2016,8.03,51.67
+Southeast Asia,1990,7.87,57.45
+Southeast Asia,1991,7.88,57.74
+Southeast Asia,1992,7.91,58.02
+Southeast Asia,1993,7.93,58.26
+Southeast Asia,1994,7.97,58.5
+Southeast Asia,1995,8.01,58.7
+Southeast Asia,1996,8.04,58.96
+Southeast Asia,1997,8.07,59.16
+Southeast Asia,1998,8.1,59.36
+Southeast Asia,1999,8.13,59.53
+Southeast Asia,2000,8.18,59.72
+Southeast Asia,2001,8.2,59.99
+Southeast Asia,2002,8.23,60.23
+Southeast Asia,2003,8.26,60.48
+Southeast Asia,2004,8.16,59.95
+Southeast Asia,2005,8.34,60.98
+Southeast Asia,2006,8.36,61.25
+Southeast Asia,2007,8.43,61.53
+Southeast Asia,2008,8.38,61.27
+Southeast Asia,2009,8.53,62.03
+Southeast Asia,2010,8.57,62.33
+Southeast Asia,2011,8.64,62.62
+Southeast Asia,2012,8.68,62.89
+Southeast Asia,2013,8.72,63.12
+Southeast Asia,2014,8.78,63.39
+Southeast Asia,2015,8.83,63.62
+Southeast Asia,2016,8.84,63.87
+Southern Latin America,1990,8.85,63.65
+Southern Latin America,1991,8.9,63.93
+Southern Latin America,1992,8.95,64.17
+Southern Latin America,1993,8.99,64.37
+Southern Latin America,1994,9.04,64.57
+Southern Latin America,1995,9.06,64.66
+Southern Latin America,1996,9.09,64.83
+Southern Latin America,1997,9.14,65.04
+Southern Latin America,1998,9.19,65.24
+Southern Latin America,1999,9.23,65.44
+Southern Latin America,2000,9.29,65.69
+Southern Latin America,2001,9.32,65.83
+Southern Latin America,2002,9.33,65.95
+Southern Latin America,2003,9.35,66.09
+Southern Latin America,2004,9.39,66.32
+Southern Latin America,2005,9.42,66.56
+Southern Latin America,2006,9.45,66.72
+Southern Latin America,2007,9.49,66.76
+Southern Latin America,2008,9.54,66.95
+Southern Latin America,2009,9.57,67.05
+Southern Latin America,2010,9.57,67.16
+Southern Latin America,2011,9.63,67.3
+Southern Latin America,2012,9.66,67.42
+Southern Latin America,2013,9.69,67.53
+Southern Latin America,2014,9.73,67.72
+Southern Latin America,2015,9.75,67.82
+Southern Latin America,2016,9.73,67.96
+Southern Sub-Saharan Africa,1990,8.36,55.39
+Southern Sub-Saharan Africa,1991,8.38,55.46
+Southern Sub-Saharan Africa,1992,8.3,55.06
+Southern Sub-Saharan Africa,1993,8.31,54.92
+Southern Sub-Saharan Africa,1994,8.2,54.25
+Southern Sub-Saharan Africa,1995,8.13,53.44
+Southern Sub-Saharan Africa,1996,7.87,52.32
+Southern Sub-Saharan Africa,1997,7.54,50.84
+Southern Sub-Saharan Africa,1998,7.28,49.47
+Southern Sub-Saharan Africa,1999,7.04,48.02
+Southern Sub-Saharan Africa,2000,6.86,46.32
+Southern Sub-Saharan Africa,2001,6.68,45.55
+Southern Sub-Saharan Africa,2002,6.49,44.69
+Southern Sub-Saharan Africa,2003,6.36,44.02
+Southern Sub-Saharan Africa,2004,6.3,43.56
+Southern Sub-Saharan Africa,2005,6.36,43.35
+Southern Sub-Saharan Africa,2006,6.32,43.49
+Southern Sub-Saharan Africa,2007,6.39,43.99
+Southern Sub-Saharan Africa,2008,6.49,44.52
+Southern Sub-Saharan Africa,2009,6.65,45.3
+Southern Sub-Saharan Africa,2010,6.94,46.4
+Southern Sub-Saharan Africa,2011,7.14,47.81
+Southern Sub-Saharan Africa,2012,7.41,49.31
+Southern Sub-Saharan Africa,2013,7.68,50.67
+Southern Sub-Saharan Africa,2014,7.92,51.8
+Southern Sub-Saharan Africa,2015,8.14,52.76
+Southern Sub-Saharan Africa,2016,8.29,53.33
+Spain,1990,9.47,67.66
+Spain,1991,9.48,67.82
+Spain,1992,9.51,68
+Spain,1993,9.54,68.15
+Spain,1994,9.58,68.35
+Spain,1995,9.63,68.51
+Spain,1996,9.63,68.72
+Spain,1997,9.66,69.04
+Spain,1998,9.66,69.26
+Spain,1999,9.66,69.45
+Spain,2000,9.72,69.68
+Spain,2001,9.77,69.9
+Spain,2002,9.79,70.03
+Spain,2003,9.82,70.16
+Spain,2004,9.87,70.38
+Spain,2005,9.93,70.55
+Spain,2006,10,70.83
+Spain,2007,10.05,71.02
+Spain,2008,10.11,71.25
+Spain,2009,10.19,71.49
+Spain,2010,10.26,71.71
+Spain,2011,10.28,71.9
+Spain,2012,10.28,72.04
+Spain,2013,10.33,72.3
+Spain,2014,10.36,72.49
+Spain,2015,10.35,72.55
+Spain,2016,10.35,72.62
+Sri Lanka,1990,8.85,62.43
+Sri Lanka,1991,8.85,62.5
+Sri Lanka,1992,8.94,62.99
+Sri Lanka,1993,9.04,63.67
+Sri Lanka,1994,9.06,63.75
+Sri Lanka,1995,8.92,63.07
+Sri Lanka,1996,8.88,63
+Sri Lanka,1997,8.86,63.03
+Sri Lanka,1998,8.85,63.13
+Sri Lanka,1999,8.91,63.52
+Sri Lanka,2000,8.92,63.6
+Sri Lanka,2001,8.99,64.07
+Sri Lanka,2002,9.02,64.3
+Sri Lanka,2003,9.12,64.81
+Sri Lanka,2004,8.37,60.96
+Sri Lanka,2005,9.11,64.81
+Sri Lanka,2006,9.15,65.11
+Sri Lanka,2007,9.24,65.39
+Sri Lanka,2008,9.14,64.81
+Sri Lanka,2009,9.15,64.71
+Sri Lanka,2010,9.22,65.16
+Sri Lanka,2011,9.52,66.43
+Sri Lanka,2012,9.57,66.73
+Sri Lanka,2013,9.62,66.99
+Sri Lanka,2014,9.65,67.23
+Sri Lanka,2015,9.71,67.48
+Sri Lanka,2016,9.66,67.75
+Sub-Saharan Africa,1990,7.1,46.59
+Sub-Saharan Africa,1991,7.09,46.68
+Sub-Saharan Africa,1992,7.07,46.67
+Sub-Saharan Africa,1993,7.03,46.51
+Sub-Saharan Africa,1994,6.74,45.06
+Sub-Saharan Africa,1995,7.03,46.32
+Sub-Saharan Africa,1996,6.95,46.11
+Sub-Saharan Africa,1997,6.93,46.1
+Sub-Saharan Africa,1998,6.91,46.02
+Sub-Saharan Africa,1999,6.9,45.96
+Sub-Saharan Africa,2000,6.91,45.93
+Sub-Saharan Africa,2001,6.93,46.26
+Sub-Saharan Africa,2002,6.93,46.44
+Sub-Saharan Africa,2003,6.96,46.72
+Sub-Saharan Africa,2004,7.03,47.09
+Sub-Saharan Africa,2005,7.11,47.55
+Sub-Saharan Africa,2006,7.14,48.1
+Sub-Saharan Africa,2007,7.23,48.72
+Sub-Saharan Africa,2008,7.33,49.39
+Sub-Saharan Africa,2009,7.43,50.02
+Sub-Saharan Africa,2010,7.54,50.69
+Sub-Saharan Africa,2011,7.62,51.42
+Sub-Saharan Africa,2012,7.71,52.16
+Sub-Saharan Africa,2013,7.8,52.87
+Sub-Saharan Africa,2014,7.88,53.46
+Sub-Saharan Africa,2015,8,54.18
+Sub-Saharan Africa,2016,8.07,54.8
+Sudan,1990,8.81,49.74
+Sudan,1991,8.86,50.18
+Sudan,1992,8.87,50.42
+Sudan,1993,8.93,50.83
+Sudan,1994,8.96,51.09
+Sudan,1995,9,51.39
+Sudan,1996,9.02,51.66
+Sudan,1997,9.07,51.99
+Sudan,1998,9.12,52.33
+Sudan,1999,9.17,52.67
+Sudan,2000,9.28,53.29
+Sudan,2001,9.37,53.79
+Sudan,2002,9.44,54.25
+Sudan,2003,9.42,54.31
+Sudan,2004,9.46,54.62
+Sudan,2005,9.58,55.29
+Sudan,2006,9.62,55.55
+Sudan,2007,9.71,55.87
+Sudan,2008,9.76,56.11
+Sudan,2009,9.81,56.3
+Sudan,2010,9.83,56.44
+Sudan,2011,9.88,56.57
+Sudan,2012,9.94,56.86
+Sudan,2013,9.96,57.05
+Sudan,2014,10.05,57.49
+Sudan,2015,10.11,57.86
+Sudan,2016,10.13,58.17
+Suriname,1990,8.76,61.31
+Suriname,1991,8.77,61.42
+Suriname,1992,8.73,61.33
+Suriname,1993,8.69,61.18
+Suriname,1994,8.72,61.24
+Suriname,1995,8.82,61.42
+Suriname,1996,8.83,61.52
+Suriname,1997,8.83,61.5
+Suriname,1998,8.8,61.36
+Suriname,1999,8.75,61.13
+Suriname,2000,8.73,60.92
+Suriname,2001,8.66,60.7
+Suriname,2002,8.64,60.6
+Suriname,2003,8.63,60.56
+Suriname,2004,8.66,60.59
+Suriname,2005,8.71,60.68
+Suriname,2006,8.72,60.8
+Suriname,2007,8.75,60.92
+Suriname,2008,8.78,60.98
+Suriname,2009,8.85,61.23
+Suriname,2010,8.89,61.35
+Suriname,2011,8.93,61.52
+Suriname,2012,8.97,61.69
+Suriname,2013,8.99,61.78
+Suriname,2014,9.02,61.89
+Suriname,2015,9.06,62.06
+Suriname,2016,9.1,62.24
+Sweden,1990,10.14,67.49
+Sweden,1991,10.18,67.62
+Sweden,1992,10.25,67.85
+Sweden,1993,10.3,68.01
+Sweden,1994,10.36,68.12
+Sweden,1995,10.46,68.4
+Sweden,1996,10.49,68.61
+Sweden,1997,10.52,68.79
+Sweden,1998,10.53,68.91
+Sweden,1999,10.55,68.99
+Sweden,2000,10.59,69.11
+Sweden,2001,10.6,69.24
+Sweden,2002,10.62,69.38
+Sweden,2003,10.65,69.5
+Sweden,2004,10.67,69.59
+Sweden,2005,10.74,69.8
+Sweden,2006,10.79,69.98
+Sweden,2007,10.82,70.11
+Sweden,2008,10.86,70.23
+Sweden,2009,10.92,70.38
+Sweden,2010,10.99,70.56
+Sweden,2011,11.03,70.67
+Sweden,2012,11.06,70.73
+Sweden,2013,11.1,70.82
+Sweden,2014,11.16,70.93
+Sweden,2015,11.16,70.92
+Sweden,2016,11.16,70.88
+Switzerland,1990,10.32,67.17
+Switzerland,1991,10.37,67.27
+Switzerland,1992,10.46,67.47
+Switzerland,1993,10.54,67.68
+Switzerland,1994,10.61,67.84
+Switzerland,1995,10.65,67.88
+Switzerland,1996,10.77,68.21
+Switzerland,1997,10.85,68.4
+Switzerland,1998,10.93,68.58
+Switzerland,1999,11.03,68.75
+Switzerland,2000,11.12,68.85
+Switzerland,2001,11.14,69.07
+Switzerland,2002,11.15,69.25
+Switzerland,2003,11.17,69.45
+Switzerland,2004,11.25,69.77
+Switzerland,2005,11.3,69.98
+Switzerland,2006,11.31,70.16
+Switzerland,2007,11.34,70.36
+Switzerland,2008,11.37,70.55
+Switzerland,2009,11.38,70.68
+Switzerland,2010,11.41,70.88
+Switzerland,2011,11.41,71.14
+Switzerland,2012,11.36,71.3
+Switzerland,2013,11.34,71.47
+Switzerland,2014,11.35,71.74
+Switzerland,2015,11.3,71.86
+Switzerland,2016,11.24,71.93
+Syria,1990,10.14,60.75
+Syria,1991,10.13,61.03
+Syria,1992,10.16,61.38
+Syria,1993,10.14,61.56
+Syria,1994,10.13,61.74
+Syria,1995,10.13,61.94
+Syria,1996,10.1,62.15
+Syria,1997,10.08,62.33
+Syria,1998,10.07,62.53
+Syria,1999,10.1,62.8
+Syria,2000,10.12,63.12
+Syria,2001,10.19,63.43
+Syria,2002,10.22,63.68
+Syria,2003,10.26,63.93
+Syria,2004,10.3,64.14
+Syria,2005,10.35,64.44
+Syria,2006,10.4,64.62
+Syria,2007,10.49,64.74
+Syria,2008,10.53,64.85
+Syria,2009,10.6,65.05
+Syria,2010,10.67,65.37
+Syria,2011,10.49,64.36
+Syria,2012,9.17,58.86
+Syria,2013,9.36,59.43
+Syria,2014,8.93,57.79
+Syria,2015,9.21,58.8
+Syria,2016,9.15,58.84
+Taiwan,1990,8.61,65.33
+Taiwan,1991,8.57,65.71
+Taiwan,1992,8.54,65.92
+Taiwan,1993,8.53,66.1
+Taiwan,1994,8.53,66.18
+Taiwan,1995,8.53,66.14
+Taiwan,1996,8.54,66.31
+Taiwan,1997,8.6,66.58
+Taiwan,1998,8.65,66.78
+Taiwan,1999,8.67,66.77
+Taiwan,2000,8.79,67.3
+Taiwan,2001,8.87,67.6
+Taiwan,2002,8.94,67.89
+Taiwan,2003,9.01,68.13
+Taiwan,2004,9.05,68.22
+Taiwan,2005,9.09,68.37
+Taiwan,2006,9.17,68.69
+Taiwan,2007,9.26,68.91
+Taiwan,2008,9.32,69.14
+Taiwan,2009,9.39,69.33
+Taiwan,2010,9.43,69.6
+Taiwan,2011,9.47,69.69
+Taiwan,2012,9.5,69.85
+Taiwan,2013,9.54,70.03
+Taiwan,2014,9.54,70.08
+Taiwan,2015,9.55,70.11
+Taiwan,2016,9.52,70.14
+Tajikistan,1990,7.95,57.01
+Tajikistan,1991,7.91,57.15
+Tajikistan,1992,7.47,54.86
+Tajikistan,1993,7.73,56.34
+Tajikistan,1994,7.65,56.25
+Tajikistan,1995,7.63,56.18
+Tajikistan,1996,7.45,55.47
+Tajikistan,1997,7.65,56.65
+Tajikistan,1998,7.63,56.72
+Tajikistan,1999,7.67,57.17
+Tajikistan,2000,7.71,57.45
+Tajikistan,2001,7.71,57.75
+Tajikistan,2002,7.73,58.1
+Tajikistan,2003,7.77,58.49
+Tajikistan,2004,7.82,58.93
+Tajikistan,2005,7.88,59.37
+Tajikistan,2006,8,59.93
+Tajikistan,2007,8.1,60.35
+Tajikistan,2008,8.13,60.62
+Tajikistan,2009,8.23,61.01
+Tajikistan,2010,8.27,61.24
+Tajikistan,2011,8.29,61.43
+Tajikistan,2012,8.43,61.93
+Tajikistan,2013,8.56,62.38
+Tajikistan,2014,8.62,62.62
+Tajikistan,2015,8.67,62.84
+Tajikistan,2016,8.67,63.09
+Tanzania,1990,6.98,47.88
+Tanzania,1991,6.93,47.67
+Tanzania,1992,6.83,47.21
+Tanzania,1993,6.79,46.93
+Tanzania,1994,6.71,46.45
+Tanzania,1995,6.71,46.18
+Tanzania,1996,6.64,46.01
+Tanzania,1997,6.59,45.89
+Tanzania,1998,6.57,45.9
+Tanzania,1999,6.57,45.96
+Tanzania,2000,6.63,46.23
+Tanzania,2001,6.67,46.68
+Tanzania,2002,6.71,47.12
+Tanzania,2003,6.75,47.55
+Tanzania,2004,6.8,47.99
+Tanzania,2005,6.85,48.45
+Tanzania,2006,6.91,49.1
+Tanzania,2007,7.04,49.94
+Tanzania,2008,7.16,50.82
+Tanzania,2009,7.22,51.36
+Tanzania,2010,7.3,51.99
+Tanzania,2011,7.29,52.64
+Tanzania,2012,7.33,53.34
+Tanzania,2013,7.44,54.28
+Tanzania,2014,7.55,55.05
+Tanzania,2015,7.66,55.79
+Tanzania,2016,7.76,56.53
+Thailand,1990,8.68,61.89
+Thailand,1991,8.65,62.01
+Thailand,1992,8.62,62
+Thailand,1993,8.64,62.03
+Thailand,1994,8.65,62.04
+Thailand,1995,8.69,62.08
+Thailand,1996,8.72,62.21
+Thailand,1997,8.74,62.32
+Thailand,1998,8.77,62.46
+Thailand,1999,8.83,62.66
+Thailand,2000,8.91,62.98
+Thailand,2001,8.97,63.36
+Thailand,2002,9.02,63.75
+Thailand,2003,9.07,64.16
+Thailand,2004,9.06,64.28
+Thailand,2005,9.13,64.98
+Thailand,2006,9.19,65.41
+Thailand,2007,9.31,65.75
+Thailand,2008,9.4,66.15
+Thailand,2009,9.5,66.54
+Thailand,2010,9.56,66.97
+Thailand,2011,9.69,67.17
+Thailand,2012,9.74,67.39
+Thailand,2013,9.76,67.52
+Thailand,2014,9.79,67.65
+Thailand,2015,9.82,67.76
+Thailand,2016,9.77,67.94
+Timor,1990,7.56,50.34
+Timor,1991,7.54,50.62
+Timor,1992,7.65,51.43
+Timor,1993,7.7,51.91
+Timor,1994,7.82,52.69
+Timor,1995,7.86,52.96
+Timor,1996,8.11,54.27
+Timor,1997,7.96,53.52
+Timor,1998,7.99,53.74
+Timor,1999,6.95,48.62
+Timor,2000,8.3,55.34
+Timor,2001,8.37,55.91
+Timor,2002,8.41,56.37
+Timor,2003,8.44,56.75
+Timor,2004,8.62,57.53
+Timor,2005,8.78,58.38
+Timor,2006,8.98,59.33
+Timor,2007,9.19,60.02
+Timor,2008,9.33,60.7
+Timor,2009,9.43,61.17
+Timor,2010,9.43,61.66
+Timor,2011,9.54,62.05
+Timor,2012,9.56,62.47
+Timor,2013,9.56,62.76
+Timor,2014,9.53,62.91
+Timor,2015,9.5,63.04
+Timor,2016,9.38,63.29
+Togo,1990,7.61,49.78
+Togo,1991,7.58,49.84
+Togo,1992,7.59,49.93
+Togo,1993,7.56,49.81
+Togo,1994,7.52,49.66
+Togo,1995,7.55,49.63
+Togo,1996,7.49,49.46
+Togo,1997,7.39,49.08
+Togo,1998,7.34,48.88
+Togo,1999,7.4,49.04
+Togo,2000,7.41,48.92
+Togo,2001,7.33,48.86
+Togo,2002,7.3,48.94
+Togo,2003,7.23,48.79
+Togo,2004,7.29,49.11
+Togo,2005,7.29,49.12
+Togo,2006,7.33,49.66
+Togo,2007,7.29,49.85
+Togo,2008,7.29,50.1
+Togo,2009,7.37,50.68
+Togo,2010,7.46,51.28
+Togo,2011,7.48,52.15
+Togo,2012,7.52,52.84
+Togo,2013,7.55,53.37
+Togo,2014,7.6,53.87
+Togo,2015,7.66,54.4
+Togo,2016,7.72,54.87
+Tonga,1990,8.59,59.28
+Tonga,1991,8.59,59.43
+Tonga,1992,8.59,59.54
+Tonga,1993,8.59,59.6
+Tonga,1994,8.6,59.68
+Tonga,1995,8.61,59.75
+Tonga,1996,8.63,59.82
+Tonga,1997,8.66,59.92
+Tonga,1998,8.69,59.98
+Tonga,1999,8.7,59.97
+Tonga,2000,8.73,59.99
+Tonga,2001,8.75,60.11
+Tonga,2002,8.78,60.2
+Tonga,2003,8.8,60.27
+Tonga,2004,8.84,60.36
+Tonga,2005,8.9,60.53
+Tonga,2006,8.94,60.67
+Tonga,2007,8.96,60.69
+Tonga,2008,8.97,60.72
+Tonga,2009,8.63,59.23
+Tonga,2010,9.01,60.81
+Tonga,2011,9.04,60.88
+Tonga,2012,9.06,60.94
+Tonga,2013,9.09,61
+Tonga,2014,9.11,61.06
+Tonga,2015,9.14,61.13
+Tonga,2016,9.17,61.22
+Trinidad and Tobago,1990,8.51,60.48
+Trinidad and Tobago,1991,8.51,60.58
+Trinidad and Tobago,1992,8.49,60.51
+Trinidad and Tobago,1993,8.52,60.59
+Trinidad and Tobago,1994,8.51,60.56
+Trinidad and Tobago,1995,8.57,60.66
+Trinidad and Tobago,1996,8.55,60.66
+Trinidad and Tobago,1997,8.59,60.75
+Trinidad and Tobago,1998,8.63,60.83
+Trinidad and Tobago,1999,8.59,60.64
+Trinidad and Tobago,2000,8.65,60.76
+Trinidad and Tobago,2001,8.71,60.95
+Trinidad and Tobago,2002,8.77,61.16
+Trinidad and Tobago,2003,8.89,61.51
+Trinidad and Tobago,2004,9.03,61.94
+Trinidad and Tobago,2005,9.11,62.14
+Trinidad and Tobago,2006,9.16,62.4
+Trinidad and Tobago,2007,9.27,62.7
+Trinidad and Tobago,2008,9.33,62.88
+Trinidad and Tobago,2009,9.39,63
+Trinidad and Tobago,2010,9.4,63.04
+Trinidad and Tobago,2011,9.42,63.11
+Trinidad and Tobago,2012,9.45,63.21
+Trinidad and Tobago,2013,9.47,63.3
+Trinidad and Tobago,2014,9.49,63.37
+Trinidad and Tobago,2015,9.51,63.43
+Trinidad and Tobago,2016,9.51,63.51
+Tunisia,1990,10.05,61.57
+Tunisia,1991,10.05,61.92
+Tunisia,1992,10.03,62.07
+Tunisia,1993,9.99,62.16
+Tunisia,1994,10.04,62.42
+Tunisia,1995,10.11,62.69
+Tunisia,1996,10.21,63.13
+Tunisia,1997,10.31,63.53
+Tunisia,1998,10.39,63.86
+Tunisia,1999,10.46,64.14
+Tunisia,2000,10.5,64.37
+Tunisia,2001,10.55,64.58
+Tunisia,2002,10.58,64.75
+Tunisia,2003,10.6,64.9
+Tunisia,2004,10.63,65.13
+Tunisia,2005,10.66,65.32
+Tunisia,2006,10.69,65.48
+Tunisia,2007,10.76,65.59
+Tunisia,2008,10.81,65.73
+Tunisia,2009,10.84,65.84
+Tunisia,2010,10.85,65.99
+Tunisia,2011,10.88,66.02
+Tunisia,2012,10.9,66.17
+Tunisia,2013,10.9,66.28
+Tunisia,2014,10.9,66.37
+Tunisia,2015,10.9,66.43
+Tunisia,2016,10.85,66.61
+Turkey,1990,10.51,59.56
+Turkey,1991,10.37,59.72
+Turkey,1992,10.35,60.02
+Turkey,1993,10.29,60.18
+Turkey,1994,10.27,60.34
+Turkey,1995,10.28,60.55
+Turkey,1996,10.34,61
+Turkey,1997,10.41,61.44
+Turkey,1998,10.54,62.02
+Turkey,1999,10.36,61.54
+Turkey,2000,10.8,63.25
+Turkey,2001,10.97,63.78
+Turkey,2002,11.08,64.28
+Turkey,2003,11.05,64.39
+Turkey,2004,11.23,65.03
+Turkey,2005,11.24,65.42
+Turkey,2006,11.34,65.91
+Turkey,2007,11.63,66.54
+Turkey,2008,11.78,67.04
+Turkey,2009,11.58,66.61
+Turkey,2010,11.5,66.77
+Turkey,2011,11.56,66.74
+Turkey,2012,11.63,67.03
+Turkey,2013,11.55,66.96
+Turkey,2014,11.61,67.23
+Turkey,2015,11.63,67.39
+Turkey,2016,11.56,67.6
+Turkmenistan,1990,7.48,56.25
+Turkmenistan,1991,7.41,56.29
+Turkmenistan,1992,7.35,56.21
+Turkmenistan,1993,7.29,56.1
+Turkmenistan,1994,7.23,55.95
+Turkmenistan,1995,7.23,55.86
+Turkmenistan,1996,7.18,55.85
+Turkmenistan,1997,7.15,55.83
+Turkmenistan,1998,7.15,55.92
+Turkmenistan,1999,7.17,56.08
+Turkmenistan,2000,7.24,56.38
+Turkmenistan,2001,7.26,56.67
+Turkmenistan,2002,7.3,56.91
+Turkmenistan,2003,7.33,57.17
+Turkmenistan,2004,7.38,57.45
+Turkmenistan,2005,7.45,57.81
+Turkmenistan,2006,7.51,58.25
+Turkmenistan,2007,7.6,58.69
+Turkmenistan,2008,7.68,59.13
+Turkmenistan,2009,7.78,59.61
+Turkmenistan,2010,7.85,60.06
+Turkmenistan,2011,7.92,60.45
+Turkmenistan,2012,7.99,60.84
+Turkmenistan,2013,8.04,61.15
+Turkmenistan,2014,8.11,61.47
+Turkmenistan,2015,8.16,61.75
+Turkmenistan,2016,8.18,62.06
+Uganda,1990,6.66,42.44
+Uganda,1991,6.44,41.86
+Uganda,1992,6.32,41.43
+Uganda,1993,6.22,41
+Uganda,1994,6.18,40.74
+Uganda,1995,6.22,40.63
+Uganda,1996,6.17,40.73
+Uganda,1997,6.22,41.08
+Uganda,1998,6.27,41.36
+Uganda,1999,6.36,41.82
+Uganda,2000,6.44,42.22
+Uganda,2001,6.5,42.89
+Uganda,2002,6.57,43.56
+Uganda,2003,6.65,44.24
+Uganda,2004,6.74,44.99
+Uganda,2005,6.91,45.88
+Uganda,2006,6.99,46.7
+Uganda,2007,7.03,47.28
+Uganda,2008,7.11,47.98
+Uganda,2009,7.22,48.79
+Uganda,2010,7.32,49.47
+Uganda,2011,7.35,50.3
+Uganda,2012,7.42,51.19
+Uganda,2013,7.54,52.16
+Uganda,2014,7.66,53.02
+Uganda,2015,7.79,53.8
+Uganda,2016,7.86,54.35
+Ukraine,1990,9.02,61.06
+Ukraine,1991,8.85,60.61
+Ukraine,1992,8.69,60.15
+Ukraine,1993,8.55,59.75
+Ukraine,1994,8.38,59.18
+Ukraine,1995,8.16,58.36
+Ukraine,1996,8.18,58.54
+Ukraine,1997,8.3,59.02
+Ukraine,1998,8.47,59.63
+Ukraine,1999,8.37,59.33
+Ukraine,2000,8.3,59.05
+Ukraine,2001,8.32,59.25
+Ukraine,2002,8.32,59.34
+Ukraine,2003,8.31,59.37
+Ukraine,2004,8.25,59.25
+Ukraine,2005,8.14,58.96
+Ukraine,2006,8.29,59.53
+Ukraine,2007,8.26,59.34
+Ukraine,2008,8.31,59.56
+Ukraine,2009,8.7,60.91
+Ukraine,2010,8.85,61.65
+Ukraine,2011,9.04,62.16
+Ukraine,2012,9.02,62.18
+Ukraine,2013,9.04,62.32
+Ukraine,2014,9.15,62.67
+Ukraine,2015,9.17,62.87
+Ukraine,2016,9.07,63.03
+United Arab Emirates,1990,10.44,62.07
+United Arab Emirates,1991,10.4,62.26
+United Arab Emirates,1992,10.38,62.4
+United Arab Emirates,1993,10.37,62.53
+United Arab Emirates,1994,10.36,62.65
+United Arab Emirates,1995,10.36,62.79
+United Arab Emirates,1996,10.37,62.96
+United Arab Emirates,1997,10.38,63.13
+United Arab Emirates,1998,10.43,63.42
+United Arab Emirates,1999,10.46,63.59
+United Arab Emirates,2000,10.49,63.84
+United Arab Emirates,2001,10.54,64.02
+United Arab Emirates,2002,10.59,64.23
+United Arab Emirates,2003,10.68,64.53
+United Arab Emirates,2004,10.76,64.89
+United Arab Emirates,2005,10.77,65.19
+United Arab Emirates,2006,10.76,65.37
+United Arab Emirates,2007,10.79,65.32
+United Arab Emirates,2008,10.73,65.24
+United Arab Emirates,2009,10.66,65.13
+United Arab Emirates,2010,10.56,65.07
+United Arab Emirates,2011,10.56,64.97
+United Arab Emirates,2012,10.53,64.94
+United Arab Emirates,2013,10.51,64.93
+United Arab Emirates,2014,10.49,64.93
+United Arab Emirates,2015,10.49,64.96
+United Arab Emirates,2016,10.43,65.08
+United Kingdom,1990,9.83,65.89
+United Kingdom,1991,9.86,66.08
+United Kingdom,1992,9.9,66.27
+United Kingdom,1993,9.93,66.37
+United Kingdom,1994,9.99,66.55
+United Kingdom,1995,10.03,66.66
+United Kingdom,1996,10.06,66.85
+United Kingdom,1997,10.09,67.05
+United Kingdom,1998,10.11,67.23
+United Kingdom,1999,10.14,67.4
+United Kingdom,2000,10.2,67.64
+United Kingdom,2001,10.25,67.84
+United Kingdom,2002,10.3,68.01
+United Kingdom,2003,10.3,68.15
+United Kingdom,2004,10.43,68.39
+United Kingdom,2005,10.51,68.59
+United Kingdom,2006,10.56,68.82
+United Kingdom,2007,10.61,69.03
+United Kingdom,2008,10.65,69.23
+United Kingdom,2009,10.72,69.45
+United Kingdom,2010,10.76,69.62
+United Kingdom,2011,10.81,69.78
+United Kingdom,2012,10.82,69.87
+United Kingdom,2013,10.83,69.94
+United Kingdom,2014,10.84,69.98
+United Kingdom,2015,10.84,70.01
+United Kingdom,2016,10.85,70.05
+United States,1990,10.19,65.26
+United States,1991,10.21,65.39
+United States,1992,10.25,65.5
+United States,1993,10.26,65.51
+United States,1994,10.29,65.55
+United States,1995,10.33,65.63
+United States,1996,10.39,65.9
+United States,1997,10.47,66.2
+United States,1998,10.5,66.3
+United States,1999,10.52,66.33
+United States,2000,10.57,66.39
+United States,2001,10.59,66.45
+United States,2002,10.63,66.54
+United States,2003,10.68,66.65
+United States,2004,10.74,66.8
+United States,2005,10.8,66.89
+United States,2006,10.87,67.08
+United States,2007,10.94,67.23
+United States,2008,11,67.37
+United States,2009,11.07,67.53
+United States,2010,11.13,67.65
+United States,2011,11.15,67.72
+United States,2012,11.17,67.77
+United States,2013,11.18,67.78
+United States,2014,11.18,67.76
+United States,2015,11.17,67.71
+United States,2016,11.16,67.69
+Uruguay,1990,8.51,64.24
+Uruguay,1991,8.52,64.34
+Uruguay,1992,8.55,64.51
+Uruguay,1993,8.57,64.57
+Uruguay,1994,8.63,64.79
+Uruguay,1995,8.64,64.82
+Uruguay,1996,8.67,64.99
+Uruguay,1997,8.71,65.2
+Uruguay,1998,8.73,65.42
+Uruguay,1999,8.77,65.64
+Uruguay,2000,8.84,65.99
+Uruguay,2001,8.86,66.07
+Uruguay,2002,8.89,66.17
+Uruguay,2003,8.88,66.15
+Uruguay,2004,8.93,66.38
+Uruguay,2005,8.96,66.66
+Uruguay,2006,9.01,66.83
+Uruguay,2007,9.05,66.8
+Uruguay,2008,9.14,67.01
+Uruguay,2009,9.2,67.19
+Uruguay,2010,9.2,67.22
+Uruguay,2011,9.25,67.24
+Uruguay,2012,9.27,67.31
+Uruguay,2013,9.32,67.48
+Uruguay,2014,9.38,67.7
+Uruguay,2015,9.41,67.8
+Uruguay,2016,9.39,67.93
+Uzbekistan,1990,8.59,59.76
+Uzbekistan,1991,8.49,59.59
+Uzbekistan,1992,8.36,59.22
+Uzbekistan,1993,8.23,58.82
+Uzbekistan,1994,8.11,58.42
+Uzbekistan,1995,8.04,58.12
+Uzbekistan,1996,7.97,58.02
+Uzbekistan,1997,7.95,58.07
+Uzbekistan,1998,7.94,58.16
+Uzbekistan,1999,7.94,58.33
+Uzbekistan,2000,7.93,58.4
+Uzbekistan,2001,7.91,58.49
+Uzbekistan,2002,7.88,58.51
+Uzbekistan,2003,7.86,58.56
+Uzbekistan,2004,7.86,58.66
+Uzbekistan,2005,7.87,58.79
+Uzbekistan,2006,7.94,59.11
+Uzbekistan,2007,8.06,59.49
+Uzbekistan,2008,8.14,59.85
+Uzbekistan,2009,8.23,60.18
+Uzbekistan,2010,8.28,60.48
+Uzbekistan,2011,8.34,60.7
+Uzbekistan,2012,8.38,60.91
+Uzbekistan,2013,8.42,61.14
+Uzbekistan,2014,8.45,61.34
+Uzbekistan,2015,8.49,61.56
+Uzbekistan,2016,8.49,61.8
+Vanuatu,1990,7.54,54.15
+Vanuatu,1991,7.53,54.27
+Vanuatu,1992,7.53,54.37
+Vanuatu,1993,7.53,54.44
+Vanuatu,1994,7.53,54.52
+Vanuatu,1995,7.54,54.58
+Vanuatu,1996,7.54,54.62
+Vanuatu,1997,7.37,53.65
+Vanuatu,1998,7.56,54.69
+Vanuatu,1999,7.48,54.26
+Vanuatu,2000,7.58,54.7
+Vanuatu,2001,7.56,54.7
+Vanuatu,2002,7.55,54.64
+Vanuatu,2003,7.54,54.62
+Vanuatu,2004,7.54,54.62
+Vanuatu,2005,7.54,54.63
+Vanuatu,2006,7.55,54.73
+Vanuatu,2007,7.57,54.84
+Vanuatu,2008,7.6,54.98
+Vanuatu,2009,7.65,55.11
+Vanuatu,2010,7.8,55.16
+Vanuatu,2011,7.81,55.31
+Vanuatu,2012,7.83,55.46
+Vanuatu,2013,7.84,55.59
+Vanuatu,2014,7.84,55.62
+Vanuatu,2015,7.86,55.73
+Vanuatu,2016,7.91,55.99
+Venezuela,1990,8.37,64.25
+Venezuela,1991,8.32,64.2
+Venezuela,1992,8.3,64.18
+Venezuela,1993,8.32,64.3
+Venezuela,1994,8.31,64.25
+Venezuela,1995,8.39,64.55
+Venezuela,1996,8.47,64.91
+Venezuela,1997,8.58,65.33
+Venezuela,1998,8.59,65.41
+Venezuela,1999,8.04,62.49
+Venezuela,2000,8.62,65.56
+Venezuela,2001,8.63,65.62
+Venezuela,2002,8.61,65.62
+Venezuela,2003,8.58,65.51
+Venezuela,2004,8.73,66.04
+Venezuela,2005,8.77,66.28
+Venezuela,2006,8.73,66.16
+Venezuela,2007,8.75,66.07
+Venezuela,2008,8.74,66
+Venezuela,2009,8.77,66.08
+Venezuela,2010,8.84,66.46
+Venezuela,2011,8.87,66.41
+Venezuela,2012,8.84,66.3
+Venezuela,2013,8.88,66.43
+Venezuela,2014,8.89,66.48
+Venezuela,2015,8.9,66.5
+Venezuela,2016,8.87,66.56
+Vietnam,1990,8.08,60.15
+Vietnam,1991,8.08,60.39
+Vietnam,1992,8.1,60.64
+Vietnam,1993,8.12,60.87
+Vietnam,1994,8.14,61.1
+Vietnam,1995,8.18,61.34
+Vietnam,1996,8.21,61.58
+Vietnam,1997,8.22,61.74
+Vietnam,1998,8.26,62.05
+Vietnam,1999,8.29,62.23
+Vietnam,2000,8.31,62.44
+Vietnam,2001,8.32,62.65
+Vietnam,2002,8.33,62.85
+Vietnam,2003,8.35,63.04
+Vietnam,2004,8.38,63.22
+Vietnam,2005,8.39,63.43
+Vietnam,2006,8.38,63.68
+Vietnam,2007,8.43,63.9
+Vietnam,2008,8.46,64.14
+Vietnam,2009,8.49,64.37
+Vietnam,2010,8.5,64.64
+Vietnam,2011,8.56,64.85
+Vietnam,2012,8.58,65.09
+Vietnam,2013,8.6,65.29
+Vietnam,2014,8.63,65.49
+Vietnam,2015,8.66,65.68
+Vietnam,2016,8.64,65.91
+"Virgin Islands, U.S.",1990,8.53,64.07
+"Virgin Islands, U.S.",1991,8.53,64.09
+"Virgin Islands, U.S.",1992,8.55,64.1
+"Virgin Islands, U.S.",1993,8.57,64.1
+"Virgin Islands, U.S.",1994,8.58,64.08
+"Virgin Islands, U.S.",1995,8.6,64.03
+"Virgin Islands, U.S.",1996,8.64,64.25
+"Virgin Islands, U.S.",1997,8.65,64.3
+"Virgin Islands, U.S.",1998,8.68,64.4
+"Virgin Islands, U.S.",1999,8.71,64.49
+"Virgin Islands, U.S.",2000,8.74,64.61
+"Virgin Islands, U.S.",2001,8.77,64.72
+"Virgin Islands, U.S.",2002,8.8,64.78
+"Virgin Islands, U.S.",2003,8.82,64.81
+"Virgin Islands, U.S.",2004,8.84,64.83
+"Virgin Islands, U.S.",2005,8.86,64.92
+"Virgin Islands, U.S.",2006,8.86,64.97
+"Virgin Islands, U.S.",2007,8.89,64.98
+"Virgin Islands, U.S.",2008,8.91,65.03
+"Virgin Islands, U.S.",2009,8.93,65.03
+"Virgin Islands, U.S.",2010,8.91,65.02
+"Virgin Islands, U.S.",2011,8.97,65.11
+"Virgin Islands, U.S.",2012,8.98,65.16
+"Virgin Islands, U.S.",2013,9,65.22
+"Virgin Islands, U.S.",2014,9.03,65.28
+"Virgin Islands, U.S.",2015,9.05,65.36
+"Virgin Islands, U.S.",2016,9.08,65.54
+Wales,1990,9.57,65.94
+Wales,1991,9.59,66.07
+Wales,1992,9.62,66.23
+Wales,1993,9.63,66.35
+Wales,1994,9.68,66.5
+Wales,1995,9.72,66.63
+Wales,1996,9.73,66.81
+Wales,1997,9.76,67.01
+Wales,1998,9.78,67.15
+Wales,1999,9.8,67.32
+Wales,2000,9.86,67.57
+Wales,2001,9.92,67.82
+Wales,2002,9.97,68.03
+Wales,2003,10.01,68.2
+Wales,2004,10.07,68.45
+Wales,2005,10.13,68.64
+Wales,2006,10.19,68.85
+Wales,2007,10.23,68.99
+Wales,2008,10.26,69.12
+Wales,2009,10.3,69.25
+Wales,2010,10.34,69.38
+Wales,2011,10.37,69.48
+Wales,2012,10.38,69.5
+Wales,2013,10.4,69.56
+Wales,2014,10.4,69.56
+Wales,2015,10.42,69.6
+Wales,2016,10.43,69.63
+Western Europe,1990,9.72,66.56
+Western Europe,1991,9.75,66.74
+Western Europe,1992,9.79,66.93
+Western Europe,1993,9.82,67.07
+Western Europe,1994,9.87,67.25
+Western Europe,1995,9.92,67.42
+Western Europe,1996,9.94,67.62
+Western Europe,1997,9.98,67.88
+Western Europe,1998,10,68.07
+Western Europe,1999,10.03,68.25
+Western Europe,2000,10.09,68.47
+Western Europe,2001,10.13,68.69
+Western Europe,2002,10.16,68.87
+Western Europe,2003,10.19,69.03
+Western Europe,2004,10.27,69.3
+Western Europe,2005,10.32,69.5
+Western Europe,2006,10.37,69.71
+Western Europe,2007,10.42,69.88
+Western Europe,2008,10.46,70.05
+Western Europe,2009,10.51,70.2
+Western Europe,2010,10.56,70.36
+Western Europe,2011,10.6,70.52
+Western Europe,2012,10.61,70.64
+Western Europe,2013,10.64,70.78
+Western Europe,2014,10.67,70.9
+Western Europe,2015,10.68,70.96
+Western Europe,2016,10.69,71.01
+Western Sub-Saharan Africa,1990,7.5,46.92
+Western Sub-Saharan Africa,1991,7.46,46.95
+Western Sub-Saharan Africa,1992,7.44,46.99
+Western Sub-Saharan Africa,1993,7.42,47.01
+Western Sub-Saharan Africa,1994,7.41,47
+Western Sub-Saharan Africa,1995,7.41,46.98
+Western Sub-Saharan Africa,1996,7.37,46.93
+Western Sub-Saharan Africa,1997,7.37,47.07
+Western Sub-Saharan Africa,1998,7.35,47.03
+Western Sub-Saharan Africa,1999,7.38,47.23
+Western Sub-Saharan Africa,2000,7.41,47.35
+Western Sub-Saharan Africa,2001,7.39,47.59
+Western Sub-Saharan Africa,2002,7.39,47.75
+Western Sub-Saharan Africa,2003,7.43,48.1
+Western Sub-Saharan Africa,2004,7.5,48.51
+Western Sub-Saharan Africa,2005,7.59,49
+Western Sub-Saharan Africa,2006,7.62,49.48
+Western Sub-Saharan Africa,2007,7.7,50
+Western Sub-Saharan Africa,2008,7.78,50.56
+Western Sub-Saharan Africa,2009,7.86,51.11
+Western Sub-Saharan Africa,2010,7.93,51.66
+Western Sub-Saharan Africa,2011,7.99,52.23
+Western Sub-Saharan Africa,2012,8.04,52.77
+Western Sub-Saharan Africa,2013,8.08,53.27
+Western Sub-Saharan Africa,2014,8.09,53.57
+Western Sub-Saharan Africa,2015,8.2,54.33
+Western Sub-Saharan Africa,2016,8.28,55.03
+World,1990,8.22,56.88
+World,1991,8.21,57.02
+World,1992,8.23,57.19
+World,1993,8.22,57.22
+World,1994,8.19,57.11
+World,1995,8.26,57.42
+World,1996,8.29,57.65
+World,1997,8.34,57.88
+World,1998,8.37,58.07
+World,1999,8.4,58.19
+World,2000,8.44,58.38
+World,2001,8.47,58.61
+World,2002,8.5,58.81
+World,2003,8.56,59.1
+World,2004,8.62,59.34
+World,2005,8.68,59.68
+World,2006,8.75,60.09
+World,2007,8.84,60.41
+World,2008,8.9,60.67
+World,2009,8.99,61.07
+World,2010,9.02,61.31
+World,2011,9.13,61.7
+World,2012,9.18,62.02
+World,2013,9.24,62.31
+World,2014,9.29,62.56
+World,2015,9.35,62.83
+World,2016,9.36,63.12
+Yemen,1990,9.92,48.77
+Yemen,1991,9.94,49.14
+Yemen,1992,9.97,49.46
+Yemen,1993,10.01,49.77
+Yemen,1994,9.99,49.89
+Yemen,1995,10.09,50.38
+Yemen,1996,10.11,50.69
+Yemen,1997,10.17,51.09
+Yemen,1998,10.22,51.45
+Yemen,1999,10.29,51.86
+Yemen,2000,10.35,52.26
+Yemen,2001,10.4,52.66
+Yemen,2002,10.45,53.08
+Yemen,2003,10.51,53.48
+Yemen,2004,10.57,53.93
+Yemen,2005,10.61,54.35
+Yemen,2006,10.71,54.8
+Yemen,2007,10.79,55.04
+Yemen,2008,10.9,55.48
+Yemen,2009,11.03,55.99
+Yemen,2010,11.09,56.39
+Yemen,2011,11.11,56.55
+Yemen,2012,11.12,56.76
+Yemen,2013,11.18,57.15
+Yemen,2014,11.16,57.26
+Yemen,2015,10.85,56.29
+Yemen,2016,10.68,56
+Zambia,1990,6.33,45.79
+Zambia,1991,6.09,44.61
+Zambia,1992,5.89,43.54
+Zambia,1993,5.76,42.74
+Zambia,1994,5.61,41.79
+Zambia,1995,5.57,40.82
+Zambia,1996,5.42,40.2
+Zambia,1997,5.34,39.76
+Zambia,1998,5.28,39.34
+Zambia,1999,5.25,39
+Zambia,2000,5.27,38.87
+Zambia,2001,5.19,38.68
+Zambia,2002,5.23,39.17
+Zambia,2003,5.24,39.37
+Zambia,2004,5.34,39.93
+Zambia,2005,5.46,40.52
+Zambia,2006,5.5,41.21
+Zambia,2007,5.61,42.18
+Zambia,2008,5.84,43.53
+Zambia,2009,6.04,44.65
+Zambia,2010,6.27,45.71
+Zambia,2011,6.37,46.76
+Zambia,2012,6.53,47.86
+Zambia,2013,6.7,48.93
+Zambia,2014,6.88,49.97
+Zambia,2015,7.06,50.89
+Zambia,2016,7.16,51.46
+Zimbabwe,1990,7.54,54.07
+Zimbabwe,1991,7.48,53.47
+Zimbabwe,1992,7.24,52.07
+Zimbabwe,1993,7,50.47
+Zimbabwe,1994,6.79,48.86
+Zimbabwe,1995,6.61,46.92
+Zimbabwe,1996,6.35,45.73
+Zimbabwe,1997,6.11,44.48
+Zimbabwe,1998,5.86,43.12
+Zimbabwe,1999,5.68,42.02
+Zimbabwe,2000,5.56,41.03
+Zimbabwe,2001,5.46,40.66
+Zimbabwe,2002,5.34,40.17
+Zimbabwe,2003,5.3,39.98
+Zimbabwe,2004,5.26,39.76
+Zimbabwe,2005,5.34,39.91
+Zimbabwe,2006,5.32,40.32
+Zimbabwe,2007,5.37,40.95
+Zimbabwe,2008,5.39,41.26
+Zimbabwe,2009,5.51,42
+Zimbabwe,2010,5.87,43.63
+Zimbabwe,2011,6.07,45.73
+Zimbabwe,2012,6.33,47.64
+Zimbabwe,2013,6.52,48.99
+Zimbabwe,2014,6.72,50.21
+Zimbabwe,2015,6.92,51.27
+Zimbabwe,2016,7.13,52.08

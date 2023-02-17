@@ -1,3 +1,6 @@
+
+function myAreaChart(entity){
+d3.select("#stackedArea").selectAll('svg').remove()
 // append the svg object to the body of the page
 const svgStaked = d3.select("#stackedArea")
   .append("svg")
@@ -13,7 +16,7 @@ const svgStaked = d3.select("#stackedArea")
   .attr("transform", `translate(${margin.left},${margin.top+40})`);
 
 // Parse the Data
-d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/5_OneCatSevNumOrdered_wide.csv").then( function(data) {
+d3.csv("../../data/healthy-life-expectancy-and-years-lived-with-disability.csv").then( function(data) {
 
 
   //////////
@@ -21,18 +24,21 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
   //////////
 
   // List of groups = header of the csv files
-  const keys = data.columns.slice(1)
-
+  const keys = data.columns.slice(1).slice(1).reverse();
+  
+  console.log(keys)
   // color palette
   const color = d3.scaleOrdinal()
     .domain(keys)
     .range(d3.schemeSet2);
 
-  //stack the data?
-  const stackedData = d3.stack()
-    .keys(keys)
-    (data)
 
+  var entityData = data.filter((d) => d.Entity==entity)
+  console.log(entityData)
+  //stack the data?
+  const stackedData = d3.stack().keys(keys)(entityData)
+
+  console.log(stackedData)
 
 
   //////////
@@ -41,7 +47,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
 
   // Add X axis
   const x = d3.scaleLinear()
-    .domain(d3.extent(data, function(d) { return d.year; }))
+    .domain(d3.extent(entityData, function(d) { return d.Year; }))
     .range([ 0, width ]);
   const xAxis = svgStaked.append("g")
     .attr("transform", `translate(0, ${height})`)
@@ -59,12 +65,12 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
       .attr("text-anchor", "end")
       .attr("x", 0)
       .attr("y", -20 )
-      .text("# of baby born")
+      .text("# of years lived")
       .attr("text-anchor", "start")
 
   // Add Y axis
   const y = d3.scaleLinear()
-    .domain([0, 200000])
+    .domain([0, 100])
     .range([ height, 0 ]);
   svgStaked.append("g")
     .call(d3.axisLeft(y).ticks(5))
@@ -95,7 +101,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
 
   // Area generator
   const area = d3.area()
-    .x(function(d) { return x(d.data.year); })
+    .x(function(d) { return x(d.data.Year); })
     .y0(function(d) { return y(d[0]); })
     .y1(function(d) { return y(d[1]); })
 
@@ -125,7 +131,7 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
     // If no selection, back to initial coordinate. Otherwise, update X axis domain
     if(!extent){
       if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // This allows to wait a little bit
-      x.domain(d3.extent(data, function(d) { return d.year; }))
+      x.domain(d3.extent(data, function(d) { return d.Year; }))
     }else{
       x.domain([ x.invert(extent[0]), x.invert(extent[1]) ])
       areaChart.select(".brush").call(brush.move, null) // This remove the grey brush area as soon as the selection has been done
@@ -190,4 +196,9 @@ d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_data
         .on("mouseover", highlight)
         .on("mouseleave", noHighlight)
 
+    svgStaked.append('text').text(entity).attr("x", width/2)
+
 })
+
+}
+myAreaChart("Afghanistan")
