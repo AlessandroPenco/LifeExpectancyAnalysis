@@ -802,9 +802,9 @@
               class="plot"
               data-aos="fade-up"
               data-aos-duration="1000"
-              id="parallelChart"
+              id="waffleChart"
             >
-              <p>This is section for plot 11</p>
+              <p id="wafflePar"></p>
             </g>
           </div>
         </div>
@@ -874,10 +874,10 @@
     <script src="./js/chart/mapchart2.js"></script>
     <script src="./js/chart/bar.js"></script>
     <script src="./js/chart/box.js"></script>
-    <script src="./js/chart/multipleScatter.js"></script>
+    <script src="./js/chart/multipleBarChart.js"></script>
     <script src="./js/chart/line2.js"></script>
     <script src="./js/chart/stackedArea.js"></script>
-    <script src="./js/chart/line3.js"></script>
+    <script src="./js/chart/waffleChart.js"></script>
     <script src="./js/chart/parallelChart.js"></script>
     <script src="./js/chart/radarChart.js"></script>
 
@@ -897,6 +897,7 @@
         mapChart2(this.value)
         barChart1(this.value)
         myBox(this.value, document.getElementById('boxviz').value)
+        waffleChart(this.value)
       });
       var dropdown = d3.select("#country");
       dropdown.on("input", function() {
