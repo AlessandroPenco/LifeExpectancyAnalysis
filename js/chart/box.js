@@ -17,7 +17,7 @@ function myBox(YY){
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
 
-  d3.json("../../data/box2.json").then(function (sumstat) {
+  d3.json("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/box2.json").then(function (sumstat) {
 
       const xMax = 100
 

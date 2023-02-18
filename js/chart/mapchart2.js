@@ -43,7 +43,7 @@ function mapChart2(yy) {
   // Load the world map data and life expectancy data
   Promise.all([
     d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"),
-    d3.csv("../../data/median-age.csv")
+    d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/median-age.csv")
   ]).then(function([world, data]) {
     // Map the life expectancy data to the world map features
     var mappedData = world.objects.countries.geometries.map(function(d) {

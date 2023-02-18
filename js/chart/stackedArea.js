@@ -16,7 +16,7 @@ const svgStaked = d3.select("#stackedArea")
   .attr("transform", `translate(${margin.left},${margin.top+40})`);
 
 // Parse the Data
-d3.csv("../../data/healthy-life-expectancy-and-years-lived-with-disability.csv").then( function(data) {
+d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/healthy-life-expectancy-and-years-lived-with-disability.csv").then( function(data) {
 
 
   //////////
