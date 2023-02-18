@@ -121,7 +121,7 @@ function myBox(YY, version){
           .style("width", 80)
 
       // add individual points (outliers) with jitter: we need non-aggregated data
-      d3.csv("../../data/box.csv").then(function (data) {
+      d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/box.csv").then(function (data) {
 
         data = data.filter(d => d.Year == YY)
           // keep only the outliers
