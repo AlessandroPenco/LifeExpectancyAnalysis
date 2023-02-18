@@ -33,6 +33,7 @@ d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis
     .range([0, width]);
     const xAxis = svgline2
     .append("g")
+    .attr("class", "xAxis")
     .attr("transform", `translate(0, ${height})`)
     .call(d3.axisBottom(x).ticks(5));
 
@@ -46,7 +47,7 @@ d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis
       }),
     ])
     .range([height, 0]);
-  svgline2.append("g").call(d3.axisLeft(y));
+  svgline2.append("g").attr("class", "yAxis").call(d3.axisLeft(y));
 
   // color palette
   const colors = {
@@ -115,8 +116,8 @@ const lineChart = svgline2.append('g')
 
     lineChart.append('line')
     .attr("class", "2020line")
-    .style("stroke", "gray")
-    .style("stroke-dasharray", "5")
+    .style("stroke", "black")
+    .style("stroke-dasharray", "10")
     .style("stroke-width", 1)
     .attr("x1", x(2021))
     .attr("y1", 0)
@@ -234,14 +235,55 @@ const lineChart = svgline2.append('g')
     lineChart.append('line')
     .transition().duration(1000)
     .style('class', 'line2020')
-    .style("stroke", "gray")
-    .style("stroke-dasharray", "5")
-    .style("stroke-width", 1)
+    .style("stroke", "black")
+    .style("stroke-dasharray", "10")
+    .style("stroke-width", 3)
     .attr("x1", x(2021))
     .attr("y1", 0)
     .attr("x2", x(2021))
     .attr("y2", height);
+
+    d3.selectAll("g.yAxis g.tick")
+    .append("line")
+    .attr("class", "gridline")
+    .attr("x1", 0)
+    .attr("y1", 0)
+    .attr("x2", width)
+    .attr("y2", 0)
+    .attr("stroke", "#9ca5aecf") // line color
+    .attr("stroke-dasharray","4") // make it dashed;;
+
+  d3.selectAll("g.xAxis g.tick")
+    .append("line")
+    .attr("class", "gridline")
+    .attr("x1", 0)
+    .attr("y1", -height)
+    .attr("x2", 0)
+    .attr("y2", 0)
+    .attr("stroke", "#9ca5aecf") // line color
+    .attr("stroke-dasharray","4") // make it dashed;
     }
+
+  d3.selectAll("g.yAxis g.tick")
+    .append("line")
+    .attr("class", "gridline")
+    .attr("x1", 0)
+    .attr("y1", 0)
+    .attr("x2", width)
+    .attr("y2", 0)
+    .attr("stroke", "#9ca5aecf") // line color
+    .attr("stroke-dasharray","4") // make it dashed;;
+
+  d3.selectAll("g.xAxis g.tick")
+    .append("line")
+    .attr("class", "gridline")
+    .attr("x1", 0)
+    .attr("y1", -height)
+    .attr("x2", 0)
+    .attr("y2", 0)
+    .attr("stroke", "#9ca5aecf") // line color
+    .attr("stroke-dasharray","4") // make it dashed;
+
 
 });
 

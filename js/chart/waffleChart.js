@@ -1,7 +1,7 @@
 
 
 
-  
+
 function waffleChart(YY){
   d3.select("#waffleChart").selectAll('g').remove();
   d3.select("#wafflePar").selectAll('text').remove();
@@ -9,17 +9,16 @@ function waffleChart(YY){
   var par = "Year: " + YY;
   d3.select("#wafflePar").append("text").text(par).style("font-size", "28px");
   const myWaffleChart = d3.select("#waffleChart").append("g");
-  
 
-// d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/number-of-deaths-by-age-group.csv").then(function (data) {
-d3.csv("../../data/number-of-deaths-by-age-group.csv").then(function (data) {
+
+d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/number-of-deaths-by-age-group.csv").then(function (data) {
     widthSquares = 20;
     heightSquares = 5;
     data = data.filter(d => d.Year==YY)
 
     const continents = data.map(d => d.continent);
     const datum = Object.keys(data[0]).filter(d => d != "continent" & d != "Year");
-    
+
     for (let continent = 0; continent < continents.length; continent++) {
 
         var values = Object.values(data[continent]).splice(1);
@@ -45,8 +44,8 @@ d3.csv("../../data/number-of-deaths-by-age-group.csv").then(function (data) {
           .append("g")
           .attr("transform", `translate(${margin.left},${margin.top+20})`);
 
-        
-  
+
+
         svgWaffle.append("text")
             .attr("transform", "translate(" + (sm_width / 2) + " ," + -10 + ")")
             .style("text-anchor", "middle")

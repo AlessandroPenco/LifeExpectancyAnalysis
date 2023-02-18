@@ -43,7 +43,7 @@ function barChart1(yy) {
     
     // Add Y axis
     const y = d3.scaleLinear().domain([0, 100]).range([height, 0]);
-    svgbar.append("g").call(d3.axisLeft(y));
+    svgbar.append("g").attr("class", "yAxis").call(d3.axisLeft(y));
 
     // Another scale for subgroup position?
     const xSubgroup = d3
@@ -79,6 +79,16 @@ function barChart1(yy) {
       .attr("height", (d) => height - y(d.value))
       .attr("fill", (d) => color(d.key))
       .attr("class", d => "lowOpacityOnHover "+d.key);
+
+    d3.selectAll("g.yAxis g.tick")
+      .append("line")
+      .attr("class", "gridline")
+      .attr("x1", 0)
+      .attr("y1", 0)
+      .attr("x2", width)
+      .attr("y2", 0)
+      .attr("stroke", "#9ca5aecf") // line color
+      .attr("stroke-dasharray","4") // make it dashed;;
 
       function onMouseOverLegend(event) {
         var lineClass = event.target.classList[1];

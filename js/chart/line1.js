@@ -34,6 +34,7 @@ d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis
     const xAxis = svgline1
     .append("g")
     .attr("transform", `translate(0, ${height})`)
+    .attr("class", "xAxis")
     .call(d3.axisBottom(x).ticks(5));
 
   // Add Y axis
@@ -46,7 +47,7 @@ d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis
       }),
     ])
     .range([height, 0]);
-  svgline1.append("g").call(d3.axisLeft(y));
+  svgline1.append("g").attr("class", "yAxis").call(d3.axisLeft(y));
 
   // color palette
   const colors = {
@@ -70,10 +71,10 @@ d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis
 
     'AllWorld': '#fc5be2',
     'World': '#fc5be2'
-};
+  };
 
-const lineChart = svgline1.append('g')
-.attr("clip-path", "url(#clip)")
+  const lineChart = svgline1.append('g')
+  .attr("clip-path", "url(#clip)")
 
   // Draw the line
   // add the lines
@@ -221,7 +222,47 @@ const lineChart = svgline1.append('g')
             return y(+d.LE);
           })(d[1]);
       })
+      d3.selectAll("g.yAxis g.tick")
+      .append("line")
+      .attr("class", "gridline")
+      .attr("x1", 0)
+      .attr("y1", 0)
+      .attr("x2", width)
+      .attr("y2", 0)
+      .attr("stroke", "#9ca5aecf") // line color
+      .attr("stroke-dasharray","4") // make it dashed;;
+  
+    d3.selectAll("g.xAxis g.tick")
+      .append("line")
+      .attr("class", "gridline")
+      .attr("x1", 0)
+      .attr("y1", -height)
+      .attr("x2", 0)
+      .attr("y2", 0)
+      .attr("stroke", "#9ca5aecf") // line color
+      .attr("stroke-dasharray","4") // make it dashed;
     }
+
+  d3.selectAll("g.yAxis g.tick")
+    .append("line")
+    .attr("class", "gridline")
+    .attr("x1", 0)
+    .attr("y1", 0)
+    .attr("x2", width)
+    .attr("y2", 0)
+    .attr("stroke", "#9ca5aecf") // line color
+    .attr("stroke-dasharray","4") // make it dashed;;
+
+  d3.selectAll("g.xAxis g.tick")
+    .append("line")
+    .attr("class", "gridline")
+    .attr("x1", 0)
+    .attr("y1", -height)
+    .attr("x2", 0)
+    .attr("y2", 0)
+    .attr("stroke", "#9ca5aecf") // line color
+    .attr("stroke-dasharray","4") // make it dashed;
+
 
 });
 
