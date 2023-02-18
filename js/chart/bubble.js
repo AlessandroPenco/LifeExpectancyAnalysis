@@ -163,6 +163,34 @@ d3.json('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2814973/gapminder.json')
 
   initChart();
   update();
+  svgBubble = d3.select("#bubble")
+  .append("svg")
+  .attr(
+    "viewBox",
+    `0 0 ${width + margin.left + margin.right-70} ${
+      height + margin.top + margin.bottom-350
+    }`
+    )
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("width", "100%")
+    .append("g")
+    .attr("transform", `translate(${margin.left},${margin.top})`);
+
+var regions = ["asia", "europe", "africa", "americas"]
+    // legend
+    for (let i = 0; i < regions.length; i++) {
+      svgBubble.append("circle")
+          .attr("cx", ((width)/4)*i)
+          .attr("cy", 10)
+          .attr("r", 6)
+          .style("fill", regionColor[regions[i]]);
+      svgBubble.append("text")
+          .attr("x", (((width)/4)*i)+10)
+          .attr("y", 10)
+          .text(regions[i])
+          .style("font-size", "9px")
+          .attr("alignment-baseline", "middle");
+      };
 });
 
 document.getElementById('year-slider').addEventListener('input', function(e) {
@@ -180,3 +208,4 @@ WebFont.load({
   },
   active: update
 });
+
