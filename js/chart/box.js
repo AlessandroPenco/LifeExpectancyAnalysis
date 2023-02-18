@@ -124,9 +124,6 @@ function myBox(YY, version){
       d3.csv("../../data/box.csv").then(function (data) {
 
         data = data.filter(d => d.Year == YY)
-        console.log(data)
-        console.log(sumstat[sumstat.findIndex(t => t.key == 'AF')].value.max)
-        console.log(sumstat[sumstat.findIndex(t => t.key == 'AF')].value.min)
           // keep only the outliers
           data = data.filter(d => {
             if (d.continent != ''){
@@ -147,4 +144,4 @@ function myBox(YY, version){
       });
   });
 }
-myBox("2018", "box2v2")
+myBox("2018", "V1")
