@@ -16,7 +16,7 @@ function myBox(YY, version){
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top+10})`);
 
-    var par = "Year: " + YY;
+    var par = "Year: " + YY + ", Version: " + version;
     svgBox.append("text").text(par);
 
   if(version=="V1"){
