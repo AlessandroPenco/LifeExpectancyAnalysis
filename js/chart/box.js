@@ -1,23 +1,30 @@
 
 
-function myBox(YY){
+function myBox(YY, version){
   d3.select("#box").selectAll("svg").remove();
   // append the svg object to the body of the page
   var svgBox = d3.select("#box")
   .append("svg")
     .attr(
     "viewBox",
-    `0 0 ${width + margin.left + margin.right+0} ${
+    `0 0 ${width + margin.left + margin.right+30} ${
     height + margin.top + margin.bottom
     }`
     )
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("width", "100%")
     .append("g")
-    .attr("transform", `translate(${margin.left},${margin.top})`);
+    .attr("transform", `translate(${margin.left},${margin.top+10})`);
 
+    var par = "Year: " + YY;
+    svgBox.append("text").text(par);
 
-  d3.json("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/box2.json").then(function (sumstat) {
+  if(version=="V1"){
+    var path = 'https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/box2.json'
+  } else {
+    var path = 'https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/box2v2.json'
+  }
+  d3.json(path).then(function (sumstat) {
 
       const xMax = 100
 
@@ -114,23 +121,30 @@ function myBox(YY){
           .style("width", 80)
 
       // add individual points (outliers) with jitter: we need non-aggregated data
-      // d3.csv("../../assets/data5.csv").then(function (data) {
-      //     // keep only the outliers
-      //     data = data.filter(d => {
-      //         return parseFloat(d.height) > sumstat[sumstat.findIndex(t => t.key == d.name)].value.max ||
-      //             parseFloat(d.height) < sumstat[sumstat.findIndex(t => t.key == d.name)].value.min
-      //     })
-      //     const jitterWidth = 10
-      //     svgBox.selectAll("indPoints")
-      //         .data(data)
-      //         .enter()
-      //         .append("circle")
-      //         .attr("cx", function (d) { return (x(d.height)) })
-      //         .attr("cy", function (d) { return (y(d.name) + (y.bandwidth() / 2) - jitterWidth / 2 + Math.random() * jitterWidth) })
-      //         .attr("r", 2)
-      //         .style("fill", "white")
-      //         .attr("stroke", "black")
-      // });
+      d3.csv("../../data/box.csv").then(function (data) {
+
+        data = data.filter(d => d.Year == YY)
+        console.log(data)
+        console.log(sumstat[sumstat.findIndex(t => t.key == 'AF')].value.max)
+        console.log(sumstat[sumstat.findIndex(t => t.key == 'AF')].value.min)
+          // keep only the outliers
+          data = data.filter(d => {
+            if (d.continent != ''){
+              return parseFloat(+d.LE) > sumstat[sumstat.findIndex(t => t.key == d.continent)].value.max ||
+                  parseFloat(+d.LE) < sumstat[sumstat.findIndex(t => t.key == d.continent)].value.min
+            }
+          })
+          const jitterWidth = 10
+          svgBox.selectAll("indPoints")
+              .data(data)
+              .enter()
+              .append("circle")
+              .attr("cx", function (d) { return (x(+d.LE)) })
+              .attr("cy", function (d) { return (y(d.continent) + (y.bandwidth() / 2) - jitterWidth / 2 + Math.random() * jitterWidth) })
+              .attr("r", 2)
+              .style("fill", "white")
+              .attr("stroke", "black")
+      });
   });
 }
-myBox("2018")
+myBox("2018", "box2v2")

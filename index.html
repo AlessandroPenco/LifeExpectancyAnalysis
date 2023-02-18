@@ -466,6 +466,11 @@
               id="box"
             >
               <p>This is section for plot 5</p>
+              <select name="boxviz" class="form-control" id="boxviz">
+                <option value="Select a visualization ... " selected="selected">Select a visualization ... </option>
+                  <option value="V1">V1</option>
+                  <option value="V2">V2</option>
+              </select>
             </g>
           </div>
         </div>
@@ -889,12 +894,16 @@
         mapChart1(this.value)
         mapChart2(this.value)
         barChart1(this.value)
-        myBox(this.value)
+        myBox(this.value, document.getElementById('boxviz').value)
       });
       var dropdown = d3.select("#country");
       dropdown.on("input", function() {
         myAreaChart(this.value)
       });
+      var boxviz = d3.select('#boxviz');
+      boxviz.on("input", function() {
+        myBox(document.getElementById('year-slider').value, this.value)
+      })
     </script>
   </body>
 </html>
