@@ -1,123 +1,19 @@
-// // append the svg object to the body of the page
-// const svgParallel = d3.select("#parallelChart")
-// .append("svg")
-// .attr(
-//   "viewBox",
-//   `0 0 ${width + margin.left + margin.right+0} ${
-//     height + margin.top + margin.bottom+0
-//   }`
-// )
-// .attr("preserveAspectRatio", "xMinYMin meet")
-// .attr("width", "100%")
-// .append("g")
-// .attr("transform", `translate(${margin.left+0},${margin.top+10})`);
-
-// // Parse the Data
-// d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/iris.csv").then( function(data) {
-//   console.log(data)
-
-//   // Color scale: give me a specie name, I return a color
-//   const color = d3.scaleOrdinal()
-//     .domain(["setosa", "versicolor", "virginica" ])
-//     .range([ "#440154ff", "#21908dff", "#fde725ff"])
-
-//   // Here I set the list of dimension manually to control the order of axis:
-//   dimensions = ["Petal_Length", "Petal_Width", "Sepal_Length", "Sepal_Width"]
-
-//   // For each dimension, I build a linear scale. I store all in a y object
-//   const y = {}
-//   for (i in dimensions) {
-//     name = dimensions[i]
-//     y[name] = d3.scaleLinear()
-//       .domain( [0,8] ) // --> Same axis range for each group
-//       // --> different axis range for each group --> .domain( [d3.extent(data, function(d) { return +d[name]; })] )
-//       .range([height, 0])
-//   }
-
-//   // Build the X scale -> it find the best position for each Y axis
-//   x = d3.scalePoint()
-//     .range([0, width])
-//     .domain(dimensions);
-
-//   // Highlight the specie that is hovered
-//   const highlight = function(event, d){
-
-//     selected_specie = d.Species
-//     console.log(selected_specie)
-//     // first every group turns grey
-//     d3.selectAll(".line")
-//       .transition().duration(200)
-//       .style("stroke", "lightgrey")
-//       .style("opacity", "0.2")
-//     // Second the hovered specie takes its color
-//     d3.selectAll("." + selected_specie)
-//       .transition().duration(200)
-//       .style("stroke", color(selected_specie))
-//       .style("opacity", "1")
-//   }
-
-//   // Unhighlight
-//   const doNotHighlight = function(event, d){
-//     d3.selectAll(".line")
-//       .transition().duration(200).delay(1000)
-//       .style("stroke", function(d){ return( color(d.Species))} )
-//       .style("opacity", "1")
-//   }
-
-//   // The path function take a row of the csv as input, and return x and y coordinates of the line to draw for this raw.
-//   function path(d) {
-//       return d3.line()(dimensions.map(function(p) { return [x(p), y[p](d[p])]; }));
-//   }
-
-//   // Draw the lines
-//   svgParallel
-//     .selectAll("myPath")
-//     .data(data)
-//     .join("path")
-//       .attr("class", function (d) { return "line " + d.Species } ) // 2 class for each line: 'line' and the group name
-//       .attr("d",  path)
-//       .style("fill", "none" )
-//       .style("stroke", function(d){ return( color(d.Species))} )
-//       .style("opacity", 0.5)
-//       .on("mouseover", highlight)
-//       .on("mouseleave", doNotHighlight )
-
-//   // Draw the axis:
-//   svgParallel.selectAll("myAxis")
-//     // For each dimension of the dataset I add a 'g' element:
-//     .data(dimensions).enter()
-//     .append("g")
-//     .attr("class", "axis")
-//     // I translate this element to its right position on the x axis
-//     .attr("transform", function(d) { return `translate(${x(d)})`})
-//     // And I build the axis with the call function
-//     .each(function(d) { d3.select(this).call(d3.axisLeft().ticks(5).scale(y[d])); })
-//     // Add axis title
-//     .append("text")
-//       .style("text-anchor", "middle")
-//       .attr("y", -9)
-//       .text(function(d) { return d; })
-//       .style("fill", "black")
-
-// })
-
 // append the svg object to the body of the page
 const svgParallel = d3.select("#parallelChart")
 .append("svg")
 .attr(
   "viewBox",
   `0 0 ${width + margin.left + margin.right+0} ${
-    height + margin.top + margin.bottom+0
+    height + margin.top + margin.bottom
   }`
 )
 .attr("preserveAspectRatio", "xMinYMin meet")
 .attr("width", "100%")
 .append("g")
-.attr("transform", `translate(${margin.left+0},${margin.top+10})`);
+.attr("transform", `translate(${margin.left-10},${margin.top+10})`);
 
 // Parse the Data
 d3.csv("../../data/parallelData.csv").then( function(data) {
-  console.log(data)
   // color palette
   const colors = {
     'AF': '#fc7979',
@@ -150,7 +46,7 @@ d3.csv("../../data/parallelData.csv").then( function(data) {
   for (i in dimensions) {
     nome = dimensions[i]
     y[nome] = d3.scaleLinear()
-      .domain( [40, 100] ) // --> Same axis range for each group
+      .domain( [20, 100] ) // --> Same axis range for each group
       // --> different axis range for each group --> .domain( [d3.extent(data, function(d) { return +d[name]; })] )
       .range([height, 0])
   }
@@ -164,38 +60,35 @@ d3.csv("../../data/parallelData.csv").then( function(data) {
   const highlight = function(event, d){
 
     selected_continent = d.continent
-
+    console.log(selected_continent)
     // first every group turns grey
     d3.selectAll(".line")
-      .transition().duration(200)
-      .style("stroke", "lightgrey")
-      .style("opacity", "0.2")
-    // Second the hovered specie takes its color
-    d3.selectAll("." + selected_continent)
-      .transition().duration(200)
-      .style("stroke", color(selected_continent))
-      .style("opacity", "1")
+    .transition().duration(200)
+    // .style("stroke", "lightgrey")
+    .style("stroke-width", ".2")
+    .style("opacity", "0.1")
+    if(selected_continent!=""){
+      // Second the hovered specie takes its color
+      d3.selectAll("." + selected_continent)
+        .transition().duration(200)
+        // .style("stroke", colors[selected_continent])
+        .style("opacity", "1")
+        .style("stroke-width", "2")
+
+    }
   }
 
   // Unhighlight
   const doNotHighlight = function(event, d){
     d3.selectAll(".line")
       .transition().duration(200).delay(1000)
-      .style("stroke", function(d){ return( color(d.continent))} )
+      // .style("stroke", function(d){ return( colors[d.continent])} )
       .style("opacity", "1")
+      .style("stroke-width", "1")
   }
-  console.log(y[60])
-  console.log(d3.line()(dimensions.map(function(p) { return [x(p), y[p](data[0][p])]; })))
   // The path function take a row of the csv as input, and return x and y coordinates of the line to draw for this raw.
   function path(d) {
-    if (d.Year=="2010") {
-      var x2010 = +d.LE
-    }
-    if (d.Year=="2000") {
-      var x2000 = +d.LE
-    }
-    d3.line().x(x2010).y()
-    d3.line()(dimensions.map(function(p) { return [x(p), y[p](d[p])]; }));
+    return d3.line()(dimensions.map(function(p) { return [x(p), y[p](d[p])]; }));
   }
 
   // Draw the lines
@@ -203,13 +96,13 @@ d3.csv("../../data/parallelData.csv").then( function(data) {
     .selectAll("myPath")
     .data(data)
     .join("path")
-      .attr("class", function (d) { return "line " + d.Entity } ) // 2 class for each line: 'line' and the group name
+      .attr("class", function (d) { return "line " + d.continent } ) // 2 class for each line: 'line' and the group name
       .attr("d",  path)
       .style("fill", "none" )
       .style("stroke", function(d){ return( colors[d.continent])} )
       .style("opacity", 0.5)
       .on("mouseover", highlight)
-      .on("mouseleave", doNotHighlight )
+      .on("mouseleave", doNotHighlight)
 
   // Draw the axis:
   svgParallel.selectAll("myAxis")
@@ -224,8 +117,58 @@ d3.csv("../../data/parallelData.csv").then( function(data) {
     // Add axis title
     .append("text")
       .style("text-anchor", "middle")
+      .style("font-size", "12px")
       .attr("y", -9)
       .text(function(d) { return d; })
       .style("fill", "black")
 
+      let continents = [["AF", "Africa"], ["NA", "North America"], ["SA", "South America"], ["EU", "Europe"], ["AS", "Asia"], ["OC", "Oceania"]];
+
+
+      function onMouseOverLegend(event) {
+        var lineClass = event.target.classList[1];
+        d3.selectAll(".line ")
+        .style("stroke-width", ".2")
+        .style("opacity", "0.1")
+        d3.selectAll("." + lineClass)
+        .style("opacity", "1")
+        .style("stroke-width", "2")
+    };
+  
+    function onMouseOutLegend(event) {
+        d3.selectAll(".line ")
+        .style("opacity", "1")
+        .style("stroke-width", "1")
+    };
+      // legend
+    for (let i = 0; i < continents.length; i++) {
+      svgParallel.append("circle")
+          .attr("cx", ((width)/5)*i)
+          .attr("cy", height + 12)
+          .attr("r", 6)
+          .style("fill", colors[continents[i][0]])
+          .attr("class", "line " + continents[i][0])
+          .on("mouseover", onMouseOverLegend)
+          .on("mouseout", onMouseOutLegend);
+          svgParallel.append("text")
+          .attr("x", (((width)/5)*i)+10)
+          .attr("y", height + 12)
+          .text(continents[i][1])
+          .style("font-size", "7px")
+          .attr("alignment-baseline", "middle")
+          .attr("class", "line " + continents[i][0])
+          .on("mouseover", onMouseOverLegend)
+          .on("mouseout", onMouseOutLegend);
+      };
+
+      svgParallel.append("text")
+      .attr("class", "y label")
+      .attr("text-anchor", "end")
+      .attr("y", -36)
+      .attr("x", 0)
+      .attr("dy", ".75em")
+      .attr("transform", "rotate(-90)")
+      .style("font-size", "9px")
+      .text("Life expectancy at birth (YY)");
+      
 })

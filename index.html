@@ -16,13 +16,13 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"></script>
@@ -55,14 +55,23 @@
       <div class="container-fluid bg-light">
         <div class="row">
           <div id="year-slider-wrapper">
-          <div class="col-lg-9">
+            <div class="col-lg-9">
               <label>1950</label>
-              <input id="year-slider" type="range" min="1950" max="2018" style="width: 800px;" value="2018" />
+              <input
+                id="year-slider"
+                type="range"
+                min="1950"
+                max="2018"
+                style="width: 800px"
+                value="2018"
+              />
               <label>2018</label>
             </div>
             <div class="col-lg-3">
               <select name="country" class="form-control" id="country">
-                <option value="Select a country ... " selected="selected">Select a country ... </option>
+                <option value="Select a country ... " selected="selected">
+                  Select a country ...
+                </option>
                 <optgroup id="country-optgroup-Africa" label="Africa">
                   <option value="Algeria">Algeria</option>
                   <option value="Angola">Angola</option>
@@ -72,10 +81,14 @@
                   <option value="Burundi">Burundi</option>
                   <option value="Cameroon">Cameroon</option>
                   <option value="Cape Verde">Cape Verde</option>
-                  <option value="Central African Republic">Central African Republic</option>
+                  <option value="Central African Republic">
+                    Central African Republic
+                  </option>
                   <option value="Chad">Chad</option>
                   <option value="Comoros">Comoros</option>
-                  <option value="Congo - Brazzaville">Congo - Brazzaville</option>
+                  <option value="Congo - Brazzaville">
+                    Congo - Brazzaville
+                  </option>
                   <option value="Congo - Kinshasa">Congo - Kinshasa</option>
                   <option value="Côte d’Ivoire">Côte d’Ivoire</option>
                   <option value="Djibouti">Djibouti</option>
@@ -113,7 +126,9 @@
                   <option value="South Africa">South Africa</option>
                   <option value="Sudan">Sudan</option>
                   <option value="Swaziland">Swaziland</option>
-                  <option value="São Tomé and Príncipe">São Tomé and Príncipe</option>
+                  <option value="São Tomé and Príncipe">
+                    São Tomé and Príncipe
+                  </option>
                   <option value="Tanzania">Tanzania</option>
                   <option value="Togo">Togo</option>
                   <option value="Tunisia">Tunisia</option>
@@ -121,10 +136,12 @@
                   <option value="Western Sahara">Western Sahara</option>
                   <option value="Zambia">Zambia</option>
                   <option value="Zimbabwe">Zimbabwe</option>
-              </optgroup>
-              <optgroup id="country-optgroup-Americas" label="Americas">
+                </optgroup>
+                <optgroup id="country-optgroup-Americas" label="Americas">
                   <option value="Anguilla">Anguilla</option>
-                  <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                  <option value="Antigua and Barbuda">
+                    Antigua and Barbuda
+                  </option>
                   <option value="Argentina">Argentina</option>
                   <option value="Aruba">Aruba</option>
                   <option value="Bahamas">Bahamas</option>
@@ -133,7 +150,9 @@
                   <option value="Bermuda">Bermuda</option>
                   <option value="Bolivia">Bolivia</option>
                   <option value="Brazil">Brazil</option>
-                  <option value="British Virgin Islands">British Virgin Islands</option>
+                  <option value="British Virgin Islands">
+                    British Virgin Islands
+                  </option>
                   <option value="Canada">Canada</option>
                   <option value="Cayman Islands">Cayman Islands</option>
                   <option value="Chile">Chile</option>
@@ -157,27 +176,41 @@
                   <option value="Martinique">Martinique</option>
                   <option value="Mexico">Mexico</option>
                   <option value="Montserrat">Montserrat</option>
-                  <option value="Netherlands Antilles">Netherlands Antilles</option>
+                  <option value="Netherlands Antilles">
+                    Netherlands Antilles
+                  </option>
                   <option value="Nicaragua">Nicaragua</option>
                   <option value="Panama">Panama</option>
                   <option value="Paraguay">Paraguay</option>
                   <option value="Peru">Peru</option>
                   <option value="Puerto Rico">Puerto Rico</option>
                   <option value="Saint Barthélemy">Saint Barthélemy</option>
-                  <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                  <option value="Saint Kitts and Nevis">
+                    Saint Kitts and Nevis
+                  </option>
                   <option value="Saint Lucia">Saint Lucia</option>
                   <option value="Saint Martin">Saint Martin</option>
-                  <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
-                  <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                  <option value="Saint Pierre and Miquelon">
+                    Saint Pierre and Miquelon
+                  </option>
+                  <option value="Saint Vincent and the Grenadines">
+                    Saint Vincent and the Grenadines
+                  </option>
                   <option value="Suriname">Suriname</option>
-                  <option value="Trinidad and Tobago">Trinidad and Tobago</option>
-                  <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
-                  <option value="U.S. Virgin Islands">U.S. Virgin Islands</option>
+                  <option value="Trinidad and Tobago">
+                    Trinidad and Tobago
+                  </option>
+                  <option value="Turks and Caicos Islands">
+                    Turks and Caicos Islands
+                  </option>
+                  <option value="U.S. Virgin Islands">
+                    U.S. Virgin Islands
+                  </option>
                   <option value="United States">United States</option>
                   <option value="Uruguay">Uruguay</option>
                   <option value="Venezuela">Venezuela</option>
-              </optgroup>
-              <optgroup id="country-optgroup-Asia" label="Asia">
+                </optgroup>
+                <optgroup id="country-optgroup-Asia" label="Asia">
                   <option value="Afghanistan">Afghanistan</option>
                   <option value="Armenia">Armenia</option>
                   <option value="Azerbaijan">Azerbaijan</option>
@@ -188,7 +221,9 @@
                   <option value="Cambodia">Cambodia</option>
                   <option value="China">China</option>
                   <option value="Georgia">Georgia</option>
-                  <option value="Hong Kong SAR China">Hong Kong SAR China</option>
+                  <option value="Hong Kong SAR China">
+                    Hong Kong SAR China
+                  </option>
                   <option value="India">India</option>
                   <option value="Indonesia">Indonesia</option>
                   <option value="Iran">Iran</option>
@@ -211,8 +246,12 @@
                   <option value="North Korea">North Korea</option>
                   <option value="Oman">Oman</option>
                   <option value="Pakistan">Pakistan</option>
-                  <option value="Palestinian Territories">Palestinian Territories</option>
-                  <option value="People's Democratic Republic of Yemen">People's Democratic Republic of Yemen</option>
+                  <option value="Palestinian Territories">
+                    Palestinian Territories
+                  </option>
+                  <option value="People's Democratic Republic of Yemen">
+                    People's Democratic Republic of Yemen
+                  </option>
                   <option value="Philippines">Philippines</option>
                   <option value="Qatar">Qatar</option>
                   <option value="Saudi Arabia">Saudi Arabia</option>
@@ -226,18 +265,22 @@
                   <option value="Timor-Leste">Timor-Leste</option>
                   <option value="Turkey">Turkey</option>
                   <option value="Turkmenistan">Turkmenistan</option>
-                  <option value="United Arab Emirates">United Arab Emirates</option>
+                  <option value="United Arab Emirates">
+                    United Arab Emirates
+                  </option>
                   <option value="Uzbekistan">Uzbekistan</option>
                   <option value="Vietnam">Vietnam</option>
                   <option value="Yemen">Yemen</option>
-              </optgroup>
-              <optgroup id="country-optgroup-Europe" label="Europe">
+                </optgroup>
+                <optgroup id="country-optgroup-Europe" label="Europe">
                   <option value="Albania">Albania</option>
                   <option value="Andorra">Andorra</option>
                   <option value="Austria">Austria</option>
                   <option value="Belarus">Belarus</option>
                   <option value="Belgium">Belgium</option>
-                  <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                  <option value="Bosnia and Herzegovina">
+                    Bosnia and Herzegovina
+                  </option>
                   <option value="Bulgaria">Bulgaria</option>
                   <option value="Croatia">Croatia</option>
                   <option value="Cyprus">Cyprus</option>
@@ -264,7 +307,9 @@
                   <option value="Luxembourg">Luxembourg</option>
                   <option value="Macedonia">Macedonia</option>
                   <option value="Malta">Malta</option>
-                  <option value="Metropolitan France">Metropolitan France</option>
+                  <option value="Metropolitan France">
+                    Metropolitan France
+                  </option>
                   <option value="Moldova">Moldova</option>
                   <option value="Monaco">Monaco</option>
                   <option value="Montenegro">Montenegro</option>
@@ -276,33 +321,47 @@
                   <option value="Russia">Russia</option>
                   <option value="San Marino">San Marino</option>
                   <option value="Serbia">Serbia</option>
-                  <option value="Serbia and Montenegro">Serbia and Montenegro</option>
+                  <option value="Serbia and Montenegro">
+                    Serbia and Montenegro
+                  </option>
                   <option value="Slovakia">Slovakia</option>
                   <option value="Slovenia">Slovenia</option>
                   <option value="Spain">Spain</option>
-                  <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                  <option value="Svalbard and Jan Mayen">
+                    Svalbard and Jan Mayen
+                  </option>
                   <option value="Sweden">Sweden</option>
                   <option value="Switzerland">Switzerland</option>
                   <option value="Ukraine">Ukraine</option>
-                  <option value="Union of Soviet Socialist Republics">Union of Soviet Socialist Republics</option>
+                  <option value="Union of Soviet Socialist Republics">
+                    Union of Soviet Socialist Republics
+                  </option>
                   <option value="United Kingdom">United Kingdom</option>
                   <option value="Vatican City">Vatican City</option>
                   <option value="Åland Islands">Åland Islands</option>
-              </optgroup>
-              <optgroup id="country-optgroup-Oceania" label="Oceania">
+                </optgroup>
+                <optgroup id="country-optgroup-Oceania" label="Oceania">
                   <option value="American Samoa">American Samoa</option>
                   <option value="Antarctica">Antarctica</option>
                   <option value="Australia">Australia</option>
                   <option value="Bouvet Island">Bouvet Island</option>
-                  <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                  <option value="British Indian Ocean Territory">
+                    British Indian Ocean Territory
+                  </option>
                   <option value="Christmas Island">Christmas Island</option>
-                  <option value="Cocos [Keeling] Islands">Cocos [Keeling] Islands</option>
+                  <option value="Cocos [Keeling] Islands">
+                    Cocos [Keeling] Islands
+                  </option>
                   <option value="Cook Islands">Cook Islands</option>
                   <option value="Fiji">Fiji</option>
                   <option value="French Polynesia">French Polynesia</option>
-                  <option value="French Southern Territories">French Southern Territories</option>
+                  <option value="French Southern Territories">
+                    French Southern Territories
+                  </option>
                   <option value="Guam">Guam</option>
-                  <option value="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option>
+                  <option value="Heard Island and McDonald Islands">
+                    Heard Island and McDonald Islands
+                  </option>
                   <option value="Kiribati">Kiribati</option>
                   <option value="Marshall Islands">Marshall Islands</option>
                   <option value="Micronesia">Micronesia</option>
@@ -311,27 +370,33 @@
                   <option value="New Zealand">New Zealand</option>
                   <option value="Niue">Niue</option>
                   <option value="Norfolk Island">Norfolk Island</option>
-                  <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                  <option value="Northern Mariana Islands">
+                    Northern Mariana Islands
+                  </option>
                   <option value="Palau">Palau</option>
                   <option value="Papua New Guinea">Papua New Guinea</option>
                   <option value="Pitcairn Islands">Pitcairn Islands</option>
                   <option value="Samoa">Samoa</option>
                   <option value="Solomon Islands">Solomon Islands</option>
-                  <option value="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+                  <option value="South Georgia and the South Sandwich Islands">
+                    South Georgia and the South Sandwich Islands
+                  </option>
                   <option value="Tokelau">Tokelau</option>
                   <option value="Tonga">Tonga</option>
                   <option value="Tuvalu">Tuvalu</option>
-                  <option value="U.S. Minor Outlying Islands">U.S. Minor Outlying Islands</option>
+                  <option value="U.S. Minor Outlying Islands">
+                    U.S. Minor Outlying Islands
+                  </option>
                   <option value="Vanuatu">Vanuatu</option>
                   <option value="Wallis and Futuna">Wallis and Futuna</option>
-              </optgroup>
-            </select>
+                </optgroup>
+              </select>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
+
     <!-- introduction end -->
     <!-- plot 1 start -->
     <div class="container-fluid">
@@ -339,15 +404,38 @@
         <div class="col-lg-4 scrollable-text-container">
           <h2>Map chart</h2>
           <p class="text-explanation">
-            Life expectancy is a critical metric used to determine the average length of time a person is expected to live. The value of this metric varies widely across the world, with different countries and regions experiencing different trends in life expectancy. In developed nations, life expectancy is generally higher due to factors such as access to healthcare, better nutrition, and overall higher standards of living. However, in developing nations, life expectancy can be much lower, with many factors such as disease, poor nutrition, and lack of access to healthcare playing a role.
+            Life expectancy is a critical metric used to determine the average
+            length of time a person is expected to live. The value of this
+            metric varies widely across the world, with different countries and
+            regions experiencing different trends in life expectancy. In
+            developed nations, life expectancy is generally higher due to
+            factors such as access to healthcare, better nutrition, and overall
+            higher standards of living. However, in developing nations, life
+            expectancy can be much lower, with many factors such as disease,
+            poor nutrition, and lack of access to healthcare playing a role.
           </p>
           <p class="text-explanation">
-            A map chart is an effective way to visualize life expectancy across the world. This type of chart displays data by assigning different colors or shades to different regions of the world. The resulting image can be used to quickly see trends in life expectancy across different countries and regions. For example, a map chart can show that life expectancy is higher in developed regions such as Europe, North America, and parts of Asia, while it is lower in regions such as Africa and South Asia. This type of chart can also be useful in identifying countries or regions where life expectancy is lower than expected, which can help policymakers and healthcare professionals to develop targeted interventions to improve health outcomes.
+            A map chart is an effective way to visualize life expectancy across
+            the world. This type of chart displays data by assigning different
+            colors or shades to different regions of the world. The resulting
+            image can be used to quickly see trends in life expectancy across
+            different countries and regions. For example, a map chart can show
+            that life expectancy is higher in developed regions such as Europe,
+            North America, and parts of Asia, while it is lower in regions such
+            as Africa and South Asia. This type of chart can also be useful in
+            identifying countries or regions where life expectancy is lower than
+            expected, which can help policymakers and healthcare professionals
+            to develop targeted interventions to improve health outcomes.
           </p>
         </div>
         <div class="col-lg-6 blocked-image-container">
           <div class="section-container">
-            <g class="plot" data-aos="fade-up" data-aos-duration="1000" id="mapchart1">
+            <g
+              class="plot"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              id="mapchart1"
+            >
               <p id="mapchart1P"></p>
             </g>
           </div>
@@ -361,10 +449,23 @@
         <div class="col-lg-4 scrollable-text-container">
           <h2>Line chart</h2>
           <p class="text-explanation">
-            In addition to a map chart, a subsequent line chart that displays the life expectancy during the years for each continent and the world as a whole can provide a deeper understanding of life expectancy trends over time. By using a line chart, we can see how life expectancy has changed in each continent and the world as a whole over a period of time, giving us a better understanding of how healthcare interventions and other factors have affected life expectancy in different regions of the world.
+            In addition to a map chart, a subsequent line chart that displays
+            the life expectancy during the years for each continent and the
+            world as a whole can provide a deeper understanding of life
+            expectancy trends over time. By using a line chart, we can see how
+            life expectancy has changed in each continent and the world as a
+            whole over a period of time, giving us a better understanding of how
+            healthcare interventions and other factors have affected life
+            expectancy in different regions of the world.
           </p>
           <p class="text-explanation">
-            For example, a line chart could show that life expectancy has steadily increased over the past few decades in developed regions such as Europe and North America, with a more gradual increase in other regions such as Asia and Latin America. It could also show that there has been a significant increase in life expectancy in certain countries in Africa in recent years, due to improved healthcare and increased access to medicines.
+            For example, a line chart could show that life expectancy has
+            steadily increased over the past few decades in developed regions
+            such as Europe and North America, with a more gradual increase in
+            other regions such as Asia and Latin America. It could also show
+            that there has been a significant increase in life expectancy in
+            certain countries in Africa in recent years, due to improved
+            healthcare and increased access to medicines.
           </p>
         </div>
         <div class="col-lg-6 blocked-image-container">
@@ -388,10 +489,21 @@
         <div class="col-lg-4 scrollable-text-container">
           <h2>Bar chart</h2>
           <p class="text-explanation">
-            A subsequent bar chart that displays the life expectancy during the years (between 1960 and 2018) for each continent can provide even further insights into life expectancy trends. By comparing life expectancy between different continents and between men and women, we can gain a deeper understanding of the factors that contribute to life expectancy differences.
+            A subsequent bar chart that displays the life expectancy during the
+            years (between 1960 and 2018) for each continent can provide even
+            further insights into life expectancy trends. By comparing life
+            expectancy between different continents and between men and women,
+            we can gain a deeper understanding of the factors that contribute to
+            life expectancy differences.
           </p>
           <p class="text-explanation">
-            The bar chart highlight the impact of healthcare interventions on life expectancy, by showing the difference in life expectancy between earlier years and more recent years. For instance, we could see that life expectancy has improved significantly in certain regions in Africa in recent years due to improved healthcare, but there is still a significant gap between developed and developing regions.
+            The bar chart highlight the impact of healthcare interventions on
+            life expectancy, by showing the difference in life expectancy
+            between earlier years and more recent years. For instance, we could
+            see that life expectancy has improved significantly in certain
+            regions in Africa in recent years due to improved healthcare, but
+            there is still a significant gap between developed and developing
+            regions.
           </p>
         </div>
         <div class="col-lg-6 blocked-image-container">
@@ -415,13 +527,27 @@
         <div class="col-lg-4 scrollable-text-container">
           <h2>Bubble chart</h2>
           <p class="text-explanation">
-            A subsequent bubble chart that displays the relation between GDP per capita and life expectancy for each country can provide further insights into the relationship between economic development and health outcomes. This type of chart can help us to understand how improvements in economic development can lead to better health outcomes and vice versa.
+            A subsequent bubble chart that displays the relation between GDP per
+            capita and life expectancy for each country can provide further
+            insights into the relationship between economic development and
+            health outcomes. This type of chart can help us to understand how
+            improvements in economic development can lead to better health
+            outcomes and vice versa.
           </p>
           <p class="text-explanation">
-            The bubble chart is grouped by continent and for each year, allowing us to see how the relationship between GDP per capita and life expectancy has changed over time in different regions of the world. Ee could see that in some regions, such as Europe and North America, there is a strong positive correlation between GDP per capita and life expectancy, while in other regions, such as Africa, the correlation is weaker.
+            The bubble chart is grouped by continent and for each year, allowing
+            us to see how the relationship between GDP per capita and life
+            expectancy has changed over time in different regions of the world.
+            Ee could see that in some regions, such as Europe and North America,
+            there is a strong positive correlation between GDP per capita and
+            life expectancy, while in other regions, such as Africa, the
+            correlation is weaker.
           </p>
           <p class="text-explanation">
-            The size of the bubbles in the chart represent the size of each country's population, allowing us to see which countries have the most significant impact on global trends. We could also use color coding to represent the different continents.
+            The size of the bubbles in the chart represent the size of each
+            country's population, allowing us to see which countries have the
+            most significant impact on global trends. We could also use color
+            coding to represent the different continents.
           </p>
         </div>
         <div class="col-lg-6 blocked-image-container">
@@ -431,8 +557,7 @@
               data-aos="fade-up"
               data-aos-duration="1000"
               id="bubble"
-              >
-              
+            >
               <p>This is section for plot 4</p>
             </g>
             <div id="chart-wrapper">
@@ -449,14 +574,22 @@
         <div class="col-lg-4 scrollable-text-container">
           <h2>Box chart</h2>
           <p class="text-explanation">
-            A subsequent box chart that displays life expectancy grouped by continent and for each year can provide even more detailed insights into the distribution of life expectancy across different regions of the world. Box charts are especially useful for showing the range and distribution of a dataset, allowing us to see how life expectancy varies across different countries and regions.
+            A subsequent box chart that displays life expectancy grouped by
+            continent and for each year can provide even more detailed insights
+            into the distribution of life expectancy across different regions of
+            the world. Box charts are especially useful for showing the range
+            and distribution of a dataset, allowing us to see how life
+            expectancy varies across different countries and regions.
           </p>
+          <p class="text-explanation"></p>
           <p class="text-explanation">
-            
-          </p>
-          <p class="text-explanation">
-            The box chart in its V2 version is used to identify outliers, which are countries that have significantly higher or lower life expectancy than the rest of the region. This information can be used to inform policy decisions and interventions, such as identifying countries that might benefit from additional healthcare resources or public health campaigns.
-            While the V1 version compute the extrema of the box as the minimun and the maximun of the data.
+            The box chart in its V2 version is used to identify outliers, which
+            are countries that have significantly higher or lower life
+            expectancy than the rest of the region. This information can be used
+            to inform policy decisions and interventions, such as identifying
+            countries that might benefit from additional healthcare resources or
+            public health campaigns. While the V1 version compute the extrema of
+            the box as the minimun and the maximun of the data.
           </p>
         </div>
         <div class="col-lg-6 blocked-image-container">
@@ -469,9 +602,11 @@
             >
               <p>This is section for plot 5</p>
               <select name="boxviz" class="form-control" id="boxviz">
-                <option value="Select a visualization ... " selected="selected">Select a visualization ... </option>
-                  <option value="V1">V1</option>
-                  <option value="V2">V2</option>
+                <option value="Select a visualization ... " selected="selected">
+                  Select a visualization ...
+                </option>
+                <option value="V1">V1</option>
+                <option value="V2">V2</option>
               </select>
             </g>
           </div>
@@ -583,7 +718,6 @@
               id="line2"
             >
               <p>This is section for plot 7</p>
-              
             </g>
           </div>
         </div>
@@ -639,7 +773,6 @@
               id="stackedArea"
             >
               <p>This is section for plot 8</p>
-              
             </g>
           </div>
         </div>
@@ -756,8 +889,8 @@
       </div>
     </div>
     <!-- plot 10 end -->
-     <!-- plot 11 start -->
-     <div class="container-fluid">
+    <!-- plot 11 start -->
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 scrollable-text-container">
           <h2>Waffle chart</h2>
@@ -881,7 +1014,6 @@
     <script src="./js/chart/parallelChart.js"></script>
     <script src="./js/chart/radarChart.js"></script>
 
-    
     <!-- include footer start -->
     <iframe
       src="./footer.html"
@@ -892,21 +1024,22 @@
     <script>
       AOS.init();
       var slider = d3.select("#year-slider");
-      slider.on("input", function() {
-        mapChart1(this.value)
-        mapChart2(this.value)
-        barChart1(this.value)
-        myBox(this.value, document.getElementById('boxviz').value)
-        waffleChart(this.value)
+      slider.on("input", function () {
+        mapChart1(this.value);
+        mapChart2(this.value);
+        barChart1(this.value);
+        radarChart(this.value);
+        myBox(this.value, document.getElementById("boxviz").value);
+        waffleChart(this.value);
       });
       var dropdown = d3.select("#country");
-      dropdown.on("input", function() {
-        myAreaChart(this.value)
+      dropdown.on("input", function () {
+        myAreaChart(this.value);
       });
-      var boxviz = d3.select('#boxviz');
-      boxviz.on("input", function() {
-        myBox(document.getElementById('year-slider').value, this.value)
-      })
+      var boxviz = d3.select("#boxviz");
+      boxviz.on("input", function () {
+        myBox(document.getElementById("year-slider").value, this.value);
+      });
     </script>
   </body>
 </html>
