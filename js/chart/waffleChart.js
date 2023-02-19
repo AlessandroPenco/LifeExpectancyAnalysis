@@ -7,7 +7,7 @@ function waffleChart(YY){
   d3.select("#wafflePar").selectAll('text').remove();
 
   var par = "Year: " + YY;
-  d3.select("#wafflePar").append("text").text(par).style("font-size", "28px");
+  const leg = d3.select("#wafflePar").append("text").text(par).style("font-size", "28px");
   const myWaffleChart = d3.select("#waffleChart").append("g");
 
 
@@ -72,8 +72,8 @@ d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis
         for (let i = 0; i < values.length; i++) {
             for (let n_deaths = 0; n_deaths < values[i]; n_deaths++) {
 
-                let className = "circ" + continent + datum[i].replaceAll(" ", "_");
-
+                let className = "c" + continent + datum[i].replaceAll(" ", "_");
+                console.log(className)
                 svgWaffle.append("rect")
                     .attr("width", squareDimension)
                     .attr("height", squareDimension)
@@ -106,8 +106,70 @@ d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis
                     y += squareDimension + squarePadding
                 x %= (squareDimension + squarePadding) * 10
             }
-        }
+        };
     }
+    let labels = [["70+","deaths_Over_70_years_old"],
+                  ["50-69", "deaths_bewteen_50-69_years_old"],
+                  ["15-49", "deaths_bewteen_15-49_years_old"],
+                  ["5-14", "deaths_bewteen_5-14_years_old"],
+                  ["5-","deaths_Under_5_years_old"]];
+
+    myWaffleChart.append("svg")
+    .attr("class","mySVG")
+    .attr(
+      "viewBox",
+      `0 0 ${300} ${
+        70
+      }`
+      )
+      .attr("preserveAspectRatio", "xMinYMin meet")
+      .attr("width", "70%")
+      .append("g")
+      .attr("transform", `translate(${margin.left},${margin.top+20})`);;
+    for (let i = 0; i < labels.length; i++) {
+      var datumColor = d3.schemeTableau10
+      myWaffleChart.select(".mySVG").append("circle")
+          .attr("cx", 10+((width)/6)*i)
+          .attr("cy", 12)
+          .attr("r", 6)
+          .style("fill", datumColor[i])
+          .attr("class", "line " + (labels[i][0]))
+          .on("mouseover", function (d, j) {
+            d3.selectAll("rect").style("opacity", 0.2);
+            d3.selectAll(".c0" + labels[i][1]).style("opacity", 1);
+            d3.selectAll(".c1" + labels[i][1]).style("opacity", 1);
+            d3.selectAll(".c2" + labels[i][1]).style("opacity", 1);
+            d3.selectAll(".c3" + labels[i][1]).style("opacity", 1);
+            d3.selectAll(".c4" + labels[i][1]).style("opacity", 1);
+            d3.selectAll(".c5" + labels[i][1]).style("opacity", 1);
+            d3.selectAll(".c6" + labels[i][1]).style("opacity", 1);
+          })
+          .on("mouseout", function () {
+            d3.selectAll("rect").style("opacity", 1);
+          });
+      console.log(i)
+      myWaffleChart.select(".mySVG").append("text")
+          .attr("x", 10+(((width)/6)*i)+10)
+          .attr("y", 12)
+          .text(labels[i][0])
+          .style("font-size", "12px")
+          .style("fill", datumColor[i])
+          .attr("alignment-baseline", "middle")
+          .attr("class", "line " + labels[i][0])
+          .on("mouseover", function (d, j) {
+            d3.selectAll("rect").style("opacity", 0.2);
+            d3.selectAll(".c0" + labels[i][1]).style("opacity", 1);
+            d3.selectAll(".c1" + labels[i][1]).style("opacity", 1);
+            d3.selectAll(".c2" + labels[i][1]).style("opacity", 1);
+            d3.selectAll(".c3" + labels[i][1]).style("opacity", 1);
+            d3.selectAll(".c4" + labels[i][1]).style("opacity", 1);
+            d3.selectAll(".c5" + labels[i][1]).style("opacity", 1);
+            d3.selectAll(".c6" + labels[i][1]).style("opacity", 1);
+          })
+          .on("mouseout", function () {
+            d3.selectAll("rect").style("opacity", 1);
+          });
+      };
 });
 
 }
