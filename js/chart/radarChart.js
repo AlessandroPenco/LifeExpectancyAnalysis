@@ -18,7 +18,7 @@ function radarChart(yy) {
     console.log(myData);
     let features = ["All", "Male", "Female", "GDP", "Health"];
 
-    data = myData.filter((d) => d["Year"] == "2000");
+    data = myData.filter((d) => d["Year"] == yy);
 
     console.log(data);
 
@@ -171,7 +171,7 @@ function radarChart(yy) {
       svgRadar
         .append("circle")
         .attr("cx", width + margin.left + margin.right - 60)
-        .attr("cy", 100 + i * 18)
+        .attr("cy", -100 + i * 18)
         .attr("r", 6)
         .style("fill", colors[continents[i][0]])
         .attr("class", ".lowOpacityOnHover " + continents[i][0])
@@ -180,7 +180,7 @@ function radarChart(yy) {
       svgRadar
         .append("text")
         .attr("x", width + margin.left + margin.right - 50)
-        .attr("y", 100 + i * 18)
+        .attr("y", -100 + i * 18)
         .text(continents[i][1])
         .style("font-size", "9px")
         .attr("alignment-baseline", "middle")
