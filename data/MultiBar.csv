@@ -1,0 +1,1179 @@
+continent,Year,life,Entity
+AF,1991,53.035185185185185,
+AF,1992,52.7925925925926,
+AF,1993,53.09444444444444,
+AF,1994,53.233333333333334,
+AF,1995,53.4425925925926,
+AF,1996,53.48518518518519,
+AF,1997,53.5,
+AF,1998,53.135185185185186,
+AF,1999,53.82592592592592,
+AF,2000,54.49074074074074,
+AF,2001,54.80555555555556,
+AF,2002,55.211111111111116,
+AF,2003,55.64074074074074,
+AF,2004,56.14074074074074,
+AF,2005,56.67407407407408,
+AF,2006,57.30185185185186,
+AF,2007,57.870370370370374,
+AF,2008,58.43333333333334,
+AF,2009,59.05555555555556,
+AF,2010,59.672222222222224,
+AF,2011,60.285185185185185,
+AF,2012,60.879629629629626,
+AF,2013,61.41851851851852,
+AF,2014,61.84814814814815,
+AF,2015,62.333333333333336,
+AF,2016,62.861111111111114,
+AF,2017,63.28333333333334,
+AF,2018,63.59444444444444,
+AF,2019,63.93333333333334,
+AF,2020,63.470370370370375,
+AF,2021,62.76851851851852,
+AS,1991,67.8,
+AS,1992,67.82068965517242,
+AS,1993,68.05862068965517,
+AS,1994,68.34137931034483,
+AS,1995,68.59655172413792,
+AS,1996,68.80689655172414,
+AS,1997,68.99655172413793,
+AS,1998,69.22758620689655,
+AS,1999,69.60344827586206,
+AS,2000,69.91034482758621,
+AS,2001,70.25862068965517,
+AS,2002,70.52413793103449,
+AS,2003,70.8,
+AS,2004,71.13448275862069,
+AS,2005,71.34482758620689,
+AS,2006,71.61379310344829,
+AS,2007,71.93793103448276,
+AS,2008,72.26896551724138,
+AS,2009,72.64137931034483,
+AS,2010,73.0,
+AS,2011,73.13793103448276,
+AS,2012,73.2551724137931,
+AS,2013,73.44827586206897,
+AS,2014,73.58275862068966,
+AS,2015,73.85517241379311,
+AS,2016,74.0758620689655,
+AS,2017,74.43103448275862,
+AS,2018,74.60344827586206,
+AS,2019,74.77931034482758,
+AS,2020,73.57241379310345,
+AS,2021,73.2896551724138,
+EU,1991,73.93333333333334,
+EU,1992,73.68461538461538,
+EU,1993,73.53589743589744,
+EU,1994,74.29743589743589,
+EU,1995,74.35897435897436,
+EU,1996,74.76410256410257,
+EU,1997,75.05641025641025,
+EU,1998,75.3,
+EU,1999,75.5051282051282,
+EU,2000,75.75897435897436,
+EU,2001,76.16153846153847,
+EU,2002,76.29230769230769,
+EU,2003,76.49230769230769,
+EU,2004,76.90512820512821,
+EU,2005,77.07435897435897,
+EU,2006,77.46923076923078,
+EU,2007,77.63333333333333,
+EU,2008,77.98717948717949,
+EU,2009,78.25384615384615,
+EU,2010,78.48717948717949,
+EU,2011,78.83333333333333,
+EU,2012,78.90512820512821,
+EU,2013,79.12307692307692,
+EU,2014,79.3923076923077,
+EU,2015,79.38717948717948,
+EU,2016,79.70769230769231,
+EU,2017,79.85897435897436,
+EU,2018,79.98205128205129,
+EU,2019,80.26153846153845,
+EU,2020,79.35641025641026,
+EU,2021,79.08205128205128,
+NA,1991,69.8,
+NA,1992,70.11904761904762,
+NA,1993,70.28095238095239,
+NA,1994,70.42857142857143,
+NA,1995,70.6952380952381,
+NA,1996,70.97142857142858,
+NA,1997,71.20952380952382,
+NA,1998,71.11428571428571,
+NA,1999,71.74761904761905,
+NA,2000,72.02857142857142,
+NA,2001,72.23333333333333,
+NA,2002,72.53809523809524,
+NA,2003,72.70952380952382,
+NA,2004,72.81904761904762,
+NA,2005,73.15238095238095,
+NA,2006,73.41904761904762,
+NA,2007,73.61904761904762,
+NA,2008,73.81904761904762,
+NA,2009,74.12857142857143,
+NA,2010,73.56190476190476,
+NA,2011,74.5142857142857,
+NA,2012,74.7,
+NA,2013,74.87142857142857,
+NA,2014,74.9,
+NA,2015,74.97619047619048,
+NA,2016,75.0142857142857,
+NA,2017,75.0904761904762,
+NA,2018,75.14285714285714,
+NA,2019,75.26190476190476,
+NA,2020,74.64285714285714,
+NA,2021,74.02857142857142,
+OC,1991,67.115,
+OC,1992,67.19500000000001,
+OC,1993,67.465,
+OC,1994,67.705,
+OC,1995,67.935,
+OC,1996,68.16499999999999,
+OC,1997,68.255,
+OC,1998,68.595,
+OC,1999,68.78,
+OC,2000,69.06,
+OC,2001,69.31,
+OC,2002,69.405,
+OC,2003,69.63,
+OC,2004,69.705,
+OC,2005,69.88,
+OC,2006,70.0,
+OC,2007,70.08500000000001,
+OC,2008,70.225,
+OC,2009,70.22999999999999,
+OC,2010,70.365,
+OC,2011,70.60499999999999,
+OC,2012,70.69500000000001,
+OC,2013,70.76,
+OC,2014,70.88,
+OC,2015,70.995,
+OC,2016,71.16,
+OC,2017,71.275,
+OC,2018,71.41,
+OC,2019,71.64,
+OC,2020,71.59,
+OC,2021,71.465,
+SA,1991,68.19999999999999,
+SA,1992,68.48461538461538,
+SA,1993,68.77692307692308,
+SA,1994,69.1076923076923,
+SA,1995,69.25384615384615,
+SA,1996,69.54615384615384,
+SA,1997,69.84615384615384,
+SA,1998,70.0923076923077,
+SA,1999,70.31538461538462,
+SA,2000,70.63076923076923,
+SA,2001,70.76923076923077,
+SA,2002,71.13846153846154,
+SA,2003,71.26153846153846,
+SA,2004,71.63076923076923,
+SA,2005,71.94615384615385,
+SA,2006,72.23846153846154,
+SA,2007,72.41538461538461,
+SA,2008,72.65384615384616,
+SA,2009,72.95384615384616,
+SA,2010,73.1846153846154,
+SA,2011,73.42307692307692,
+SA,2012,73.62307692307692,
+SA,2013,73.83846153846153,
+SA,2014,74.01538461538462,
+SA,2015,74.24615384615385,
+SA,2016,74.33076923076922,
+SA,2017,74.56153846153846,
+SA,2018,74.65384615384616,
+SA,2019,74.75384615384615,
+SA,2020,73.38461538461539,
+SA,2021,72.03846153846153,
+WD,1991,64.1,
+WD,1992,64.3,
+WD,1993,64.4,
+WD,1994,64.5,
+WD,1995,64.9,
+WD,1996,65.1,
+WD,1997,65.5,
+WD,1998,65.7,
+WD,1999,66.1,
+WD,2000,66.5,
+WD,2001,66.8,
+WD,2002,67.1,
+WD,2003,67.5,
+WD,2004,67.8,
+WD,2005,68.2,
+WD,2006,68.7,
+WD,2007,69.1,
+WD,2008,69.3,
+WD,2009,69.8,
+WD,2010,70.1,
+WD,2011,70.5,
+WD,2012,70.9,
+WD,2013,71.2,
+WD,2014,71.6,
+WD,2015,71.8,
+WD,2016,72.1,
+WD,2017,72.3,
+WD,2018,72.6,
+WD,2019,72.8,
+WD,2020,72.0,
+WD,2021,71.0,
+AF,1991,70.5,Tunisia
+AF,1991,70.1,Mauritius
+AF,1991,68.9,Seychelles
+AF,1991,67.7,Algeria
+AF,1991,65.2,Cape Verde
+AF,1992,70.7,Tunisia
+AF,1992,70.3,Mauritius
+AF,1992,69.1,Seychelles
+AF,1992,67.8,Algeria
+AF,1992,65.3,Cape Verde
+AF,1993,71.2,Tunisia
+AF,1993,70.3,Mauritius
+AF,1993,69.0,Seychelles
+AF,1993,67.7,Algeria
+AF,1993,65.5,Egypt
+AF,1994,71.6,Tunisia
+AF,1994,70.3,Mauritius
+AF,1994,69.0,Seychelles
+AF,1994,67.4,Algeria
+AF,1994,65.8,Egypt
+AF,1995,72.0,Tunisia
+AF,1995,70.5,Mauritius
+AF,1995,68.5,Seychelles
+AF,1995,67.5,Algeria
+AF,1995,66.3,Egypt
+AF,1996,72.4,Tunisia
+AF,1996,70.4,Mauritius
+AF,1996,68.9,Seychelles
+AF,1996,68.7,Algeria
+AF,1996,66.7,Egypt
+AF,1997,72.9,Tunisia
+AF,1997,70.6,Mauritius
+AF,1997,69.2,Algeria
+AF,1997,69.0,Seychelles
+AF,1997,67.2,Egypt
+AF,1998,73.2,Tunisia
+AF,1998,70.8,Mauritius
+AF,1998,69.9,Seychelles
+AF,1998,69.5,Algeria
+AF,1998,67.5,Egypt
+AF,1999,73.5,Tunisia
+AF,1999,71.4,Mauritius
+AF,1999,70.0,Algeria
+AF,1999,69.5,Seychelles
+AF,1999,67.7,Egypt
+AF,2000,73.7,Tunisia
+AF,2000,71.6,Mauritius
+AF,2000,70.5,Algeria
+AF,2000,69.7,Seychelles
+AF,2000,68.6,Cape Verde
+AF,2001,73.8,Tunisia
+AF,2001,71.9,Mauritius
+AF,2001,70.8,Algeria
+AF,2001,70.0,Seychelles
+AF,2001,69.9,Cape Verde
+AF,2002,74.1,Tunisia
+AF,2002,72.0,Mauritius
+AF,2002,71.2,Algeria
+AF,2002,70.7,Cape Verde
+AF,2002,70.4,Seychelles
+AF,2003,74.3,Tunisia
+AF,2003,72.3,Mauritius
+AF,2003,71.4,Cape Verde
+AF,2003,71.3,Algeria
+AF,2003,71.0,Seychelles
+AF,2004,74.5,Tunisia
+AF,2004,72.5,Mauritius
+AF,2004,72.0,Cape Verde
+AF,2004,71.8,Algeria
+AF,2004,71.2,Seychelles
+AF,2005,74.8,Tunisia
+AF,2005,72.7,Cape Verde
+AF,2005,72.7,Mauritius
+AF,2005,72.1,Algeria
+AF,2005,71.6,Seychelles
+AF,2006,74.9,Tunisia
+AF,2006,72.9,Mauritius
+AF,2006,72.3,Algeria
+AF,2006,72.2,Cape Verde
+AF,2006,71.8,Seychelles
+AF,2007,75.1,Tunisia
+AF,2007,73.1,Mauritius
+AF,2007,72.8,Cape Verde
+AF,2007,72.6,Algeria
+AF,2007,72.1,Seychelles
+AF,2008,75.2,Tunisia
+AF,2008,73.3,Mauritius
+AF,2008,72.9,Algeria
+AF,2008,72.5,Cape Verde
+AF,2008,72.4,Seychelles
+AF,2009,75.3,Tunisia
+AF,2009,73.6,Algeria
+AF,2009,73.6,Mauritius
+AF,2009,73.1,Cape Verde
+AF,2009,72.7,Seychelles
+AF,2010,75.4,Tunisia
+AF,2010,74.0,Mauritius
+AF,2010,73.8,Algeria
+AF,2010,73.5,Cape Verde
+AF,2010,73.0,Seychelles
+AF,2011,75.5,Tunisia
+AF,2011,74.3,Cape Verde
+AF,2011,74.2,Mauritius
+AF,2011,74.1,Algeria
+AF,2011,73.8,Seychelles
+AF,2012,75.5,Tunisia
+AF,2012,74.5,Cape Verde
+AF,2012,74.4,Mauritius
+AF,2012,74.2,Algeria
+AF,2012,73.6,Seychelles
+AF,2013,75.7,Tunisia
+AF,2013,75.1,Cape Verde
+AF,2013,74.7,Mauritius
+AF,2013,74.6,Algeria
+AF,2013,73.8,Seychelles
+AF,2014,75.6,Tunisia
+AF,2014,75.2,Cape Verde
+AF,2014,75.1,Algeria
+AF,2014,74.9,Mauritius
+AF,2014,73.7,Seychelles
+AF,2015,75.7,Tunisia
+AF,2015,75.6,Algeria
+AF,2015,75.0,Mauritius
+AF,2015,74.6,Cape Verde
+AF,2015,73.7,Seychelles
+AF,2016,75.8,Tunisia
+AF,2016,75.7,Algeria
+AF,2016,75.7,Cape Verde
+AF,2016,75.0,Mauritius
+AF,2016,73.6,Seychelles
+AF,2017,76.6,Cape Verde
+AF,2017,75.8,Tunisia
+AF,2017,75.7,Algeria
+AF,2017,74.9,Mauritius
+AF,2017,73.8,Seychelles
+AF,2018,76.1,Algeria
+AF,2018,76.0,Tunisia
+AF,2018,75.7,Cape Verde
+AF,2018,74.9,Mauritius
+AF,2018,74.0,Morocco
+AF,2019,76.5,Algeria
+AF,2019,76.0,Cape Verde
+AF,2019,76.0,Tunisia
+AF,2019,75.1,Mauritius
+AF,2019,74.3,Morocco
+AF,2020,75.3,Tunisia
+AF,2020,74.8,Cape Verde
+AF,2020,74.5,Algeria
+AF,2020,74.3,Mauritius
+AF,2020,73.9,Morocco
+AF,2021,76.4,Algeria
+AF,2021,74.1,Cape Verde
+AF,2021,74.0,Morocco
+AF,2021,73.8,Tunisia
+AF,2021,73.6,Mauritius
+AS,1991,77.0,Israel
+AS,1991,75.5,Malta
+AS,1991,74.0,Qatar
+AS,1991,73.7,Cyprus
+AS,1991,72.8,Bahrain
+AS,1992,76.9,Israel
+AS,1992,75.4,Malta
+AS,1992,74.2,Cyprus
+AS,1992,74.1,Qatar
+AS,1992,73.0,Bahrain
+AS,1993,77.5,Israel
+AS,1993,76.7,Malta
+AS,1993,74.6,Cyprus
+AS,1993,74.2,Qatar
+AS,1993,73.4,Bahrain
+AS,1994,77.7,Israel
+AS,1994,76.6,Malta
+AS,1994,74.7,Cyprus
+AS,1994,74.3,Qatar
+AS,1994,73.5,Bahrain
+AS,1995,77.6,Israel
+AS,1995,77.1,Malta
+AS,1995,75.1,Cyprus
+AS,1995,74.2,Qatar
+AS,1995,73.8,Bahrain
+AS,1996,78.3,Israel
+AS,1996,76.2,Malta
+AS,1996,75.5,Cyprus
+AS,1996,74.7,Qatar
+AS,1996,74.4,Bahrain
+AS,1997,78.3,Israel
+AS,1997,77.3,Malta
+AS,1997,75.8,Cyprus
+AS,1997,74.8,Qatar
+AS,1997,74.5,Bahrain
+AS,1998,78.4,Israel
+AS,1998,77.7,Malta
+AS,1998,76.2,Cyprus
+AS,1998,74.8,Qatar
+AS,1998,74.6,Bahrain
+AS,1999,78.7,Israel
+AS,1999,77.9,Malta
+AS,1999,76.3,Cyprus
+AS,1999,75.0,Bahrain
+AS,1999,74.8,Qatar
+AS,2000,78.9,Israel
+AS,2000,77.6,Malta
+AS,2000,76.6,Cyprus
+AS,2000,75.5,Bahrain
+AS,2000,74.8,Qatar
+AS,2001,79.3,Israel
+AS,2001,79.0,Malta
+AS,2001,77.0,Cyprus
+AS,2001,75.9,Bahrain
+AS,2001,75.3,Qatar
+AS,2002,79.3,Israel
+AS,2002,78.5,Malta
+AS,2002,77.5,Cyprus
+AS,2002,76.1,Bahrain
+AS,2002,75.4,Qatar
+AS,2003,79.6,Israel
+AS,2003,78.8,Malta
+AS,2003,77.8,Cyprus
+AS,2003,76.3,Bahrain
+AS,2003,76.2,United Arab Emirates
+AS,2004,80.1,Israel
+AS,2004,79.2,Malta
+AS,2004,77.9,Cyprus
+AS,2004,76.6,Bahrain
+AS,2004,76.5,United Arab Emirates
+AS,2005,80.2,Israel
+AS,2005,79.6,Malta
+AS,2005,78.1,Cyprus
+AS,2005,76.9,Bahrain
+AS,2005,76.7,United Arab Emirates
+AS,2006,80.5,Israel
+AS,2006,79.8,Malta
+AS,2006,78.4,Cyprus
+AS,2006,77.2,Bahrain
+AS,2006,76.9,United Arab Emirates
+AS,2007,80.7,Israel
+AS,2007,80.1,Malta
+AS,2007,78.8,Cyprus
+AS,2007,77.6,Bahrain
+AS,2007,77.1,Lebanon
+AS,2008,81.1,Israel
+AS,2008,80.1,Malta
+AS,2008,79.0,Cyprus
+AS,2008,78.1,Bahrain
+AS,2008,77.6,Lebanon
+AS,2009,81.6,Israel
+AS,2009,80.7,Malta
+AS,2009,79.4,Cyprus
+AS,2009,78.5,Bahrain
+AS,2009,78.0,United Arab Emirates
+AS,2010,81.8,Malta
+AS,2010,81.7,Israel
+AS,2010,79.7,Cyprus
+AS,2010,78.7,Bahrain
+AS,2010,78.4,Qatar
+AS,2011,81.7,Israel
+AS,2011,81.1,Malta
+AS,2011,80.0,Cyprus
+AS,2011,78.9,Bahrain
+AS,2011,78.9,Qatar
+AS,2012,81.7,Israel
+AS,2012,81.4,Malta
+AS,2012,80.1,Cyprus
+AS,2012,79.2,Qatar
+AS,2012,79.1,Bahrain
+AS,2013,82.1,Israel
+AS,2013,82.0,Malta
+AS,2013,80.4,Cyprus
+AS,2013,79.5,Qatar
+AS,2013,79.2,Bahrain
+AS,2014,82.7,Malta
+AS,2014,82.2,Israel
+AS,2014,80.8,Cyprus
+AS,2014,79.8,Qatar
+AS,2014,79.3,Bahrain
+AS,2015,83.0,Malta
+AS,2015,82.1,Israel
+AS,2015,81.0,Cyprus
+AS,2015,80.1,Qatar
+AS,2015,79.4,Bahrain
+AS,2016,83.1,Malta
+AS,2016,82.5,Israel
+AS,2016,81.1,Cyprus
+AS,2016,80.4,Qatar
+AS,2016,79.6,Bahrain
+AS,2017,83.6,Malta
+AS,2017,82.7,Israel
+AS,2017,81.3,Cyprus
+AS,2017,80.7,Qatar
+AS,2017,79.7,Bahrain
+AS,2018,83.3,Malta
+AS,2018,82.8,Israel
+AS,2018,81.4,Cyprus
+AS,2018,80.9,Qatar
+AS,2018,79.9,Bahrain
+AS,2019,83.2,Malta
+AS,2019,82.8,Israel
+AS,2019,81.4,Cyprus
+AS,2019,81.0,Qatar
+AS,2019,80.0,Bahrain
+AS,2020,83.4,Malta
+AS,2020,82.4,Israel
+AS,2020,81.4,Cyprus
+AS,2020,79.2,Bahrain
+AS,2020,79.1,Qatar
+AS,2021,83.8,Malta
+AS,2021,82.3,Israel
+AS,2021,81.2,Cyprus
+AS,2021,79.3,Qatar
+AS,2021,78.8,Bahrain
+EU,1991,78.9,San Marino
+EU,1991,78.0,Andorra
+EU,1991,77.8,Iceland
+EU,1991,77.7,Sweden
+EU,1991,77.6,Switzerland
+EU,1992,80.3,Andorra
+EU,1992,78.8,San Marino
+EU,1992,78.6,Iceland
+EU,1992,78.1,Sweden
+EU,1992,77.9,Switzerland
+EU,1993,78.9,San Marino
+EU,1993,78.7,Andorra
+EU,1993,78.7,Iceland
+EU,1993,78.2,Switzerland
+EU,1993,78.1,Sweden
+EU,1994,82.6,Andorra
+EU,1994,79.2,Iceland
+EU,1994,79.2,San Marino
+EU,1994,78.7,Sweden
+EU,1994,78.6,Liechtenstein
+EU,1995,79.6,San Marino
+EU,1995,79.0,Andorra
+EU,1995,78.8,Monaco
+EU,1995,78.8,Sweden
+EU,1995,78.6,Switzerland
+EU,1996,80.3,Andorra
+EU,1996,79.4,Monaco
+EU,1996,79.2,San Marino
+EU,1996,79.0,Sweden
+EU,1996,79.0,Switzerland
+EU,1997,80.9,Andorra
+EU,1997,80.1,Monaco
+EU,1997,79.6,San Marino
+EU,1997,79.3,Sweden
+EU,1997,79.2,Switzerland
+EU,1998,80.6,Monaco
+EU,1998,80.0,San Marino
+EU,1998,79.5,Iceland
+EU,1998,79.5,Switzerland
+EU,1998,79.4,Andorra
+EU,1999,81.3,Andorra
+EU,1999,81.1,Monaco
+EU,1999,80.3,San Marino
+EU,1999,79.7,Switzerland
+EU,1999,79.5,Sweden
+EU,2000,81.6,Monaco
+EU,2000,80.9,Andorra
+EU,2000,79.9,Iceland
+EU,2000,79.9,San Marino
+EU,2000,79.8,Switzerland
+EU,2001,82.1,Monaco
+EU,2001,81.7,Andorra
+EU,2001,80.7,Iceland
+EU,2001,80.4,San Marino
+EU,2001,80.3,Switzerland
+EU,2002,82.5,Monaco
+EU,2002,82.2,Andorra
+EU,2002,80.8,San Marino
+EU,2002,80.5,Iceland
+EU,2002,80.4,Switzerland
+EU,2003,83.9,Andorra
+EU,2003,83.3,Monaco
+EU,2003,80.8,Iceland
+EU,2003,80.7,San Marino
+EU,2003,80.5,Switzerland
+EU,2004,84.2,Monaco
+EU,2004,82.0,Liechtenstein
+EU,2004,81.1,Switzerland
+EU,2004,81.0,Iceland
+EU,2004,81.0,Italy
+EU,2005,84.8,Monaco
+EU,2005,81.8,Andorra
+EU,2005,81.2,Iceland
+EU,2005,81.2,San Marino
+EU,2005,81.2,Switzerland
+EU,2006,84.6,Monaco
+EU,2006,83.0,Andorra
+EU,2006,81.6,San Marino
+EU,2006,81.5,Switzerland
+EU,2006,81.4,Italy
+EU,2007,83.9,Monaco
+EU,2007,82.7,Andorra
+EU,2007,81.9,San Marino
+EU,2007,81.7,Switzerland
+EU,2007,81.5,Italy
+EU,2008,83.2,Monaco
+EU,2008,82.9,Liechtenstein
+EU,2008,82.7,Andorra
+EU,2008,82.2,San Marino
+EU,2008,82.0,Switzerland
+EU,2009,84.2,Monaco
+EU,2009,82.8,Andorra
+EU,2009,82.5,San Marino
+EU,2009,82.0,Switzerland
+EU,2009,81.8,Italy
+EU,2010,84.6,Monaco
+EU,2010,82.8,Andorra
+EU,2010,82.7,San Marino
+EU,2010,82.3,Switzerland
+EU,2010,82.1,Italy
+EU,2011,85.6,Monaco
+EU,2011,82.9,Andorra
+EU,2011,82.8,San Marino
+EU,2011,82.6,Switzerland
+EU,2011,82.2,Iceland
+EU,2012,84.5,Monaco
+EU,2012,82.9,Andorra
+EU,2012,82.6,Iceland
+EU,2012,82.6,San Marino
+EU,2012,82.6,Switzerland
+EU,2013,84.9,Monaco
+EU,2013,82.9,Andorra
+EU,2013,82.7,Italy
+EU,2013,82.7,Spain
+EU,2013,82.7,Switzerland
+EU,2014,84.9,Monaco
+EU,2014,83.1,Switzerland
+EU,2014,82.9,Andorra
+EU,2014,82.9,Italy
+EU,2014,82.9,San Marino
+EU,2015,85.3,Monaco
+EU,2015,83.0,Andorra
+EU,2015,82.9,San Marino
+EU,2015,82.8,Liechtenstein
+EU,2015,82.8,Switzerland
+EU,2016,85.7,Monaco
+EU,2016,83.4,Switzerland
+EU,2016,83.0,Andorra
+EU,2016,83.0,Italy
+EU,2016,83.0,San Marino
+EU,2017,85.7,Monaco
+EU,2017,83.9,Liechtenstein
+EU,2017,83.4,Switzerland
+EU,2017,83.0,Andorra
+EU,2017,83.0,Spain
+EU,2018,86.5,Monaco
+EU,2018,83.6,Switzerland
+EU,2018,83.2,Italy
+EU,2018,83.1,Liechtenstein
+EU,2018,83.1,Spain
+EU,2019,86.5,Monaco
+EU,2019,84.3,Liechtenstein
+EU,2019,83.8,Switzerland
+EU,2019,83.6,Italy
+EU,2019,83.5,Spain
+EU,2020,86.5,Monaco
+EU,2020,83.2,Norway
+EU,2020,83.1,Switzerland
+EU,2020,82.8,Liechtenstein
+EU,2020,82.6,Iceland
+EU,2021,85.9,Monaco
+EU,2021,84.0,Switzerland
+EU,2021,83.3,Liechtenstein
+EU,2021,83.2,Norway
+EU,2021,83.0,Spain
+NA,1991,77.6,Canada
+NA,1991,77.5,Australia
+NA,1991,76.6,Costa Rica
+NA,1991,75.5,United States
+NA,1991,74.1,Cuba
+NA,1992,77.9,Canada
+NA,1992,77.5,Australia
+NA,1992,76.6,Costa Rica
+NA,1992,75.8,United States
+NA,1992,74.2,Cuba
+NA,1993,78.0,Australia
+NA,1993,77.7,Canada
+NA,1993,76.7,Costa Rica
+NA,1993,75.6,United States
+NA,1993,74.3,Cuba
+NA,1994,77.9,Australia
+NA,1994,77.9,Canada
+NA,1994,76.7,Costa Rica
+NA,1994,75.7,United States
+NA,1994,74.4,Cuba
+NA,1995,78.3,Australia
+NA,1995,78.0,Canada
+NA,1995,76.6,Costa Rica
+NA,1995,75.9,United States
+NA,1995,74.6,Cuba
+NA,1996,78.3,Australia
+NA,1996,78.3,Canada
+NA,1996,76.8,Costa Rica
+NA,1996,76.2,United States
+NA,1996,74.9,Cuba
+NA,1997,78.6,Australia
+NA,1997,78.5,Canada
+NA,1997,77.1,Costa Rica
+NA,1997,76.5,United States
+NA,1997,75.2,Cuba
+NA,1998,79.0,Australia
+NA,1998,78.7,Canada
+NA,1998,76.9,Costa Rica
+NA,1998,76.7,United States
+NA,1998,75.6,Cuba
+NA,1999,79.3,Australia
+NA,1999,78.9,Canada
+NA,1999,77.1,Costa Rica
+NA,1999,76.7,United States
+NA,1999,75.9,Cuba
+NA,2000,79.6,Australia
+NA,2000,79.2,Canada
+NA,2000,77.6,Costa Rica
+NA,2000,76.8,United States
+NA,2000,76.2,Cuba
+NA,2001,80.0,Australia
+NA,2001,79.5,Canada
+NA,2001,77.5,Costa Rica
+NA,2001,76.9,United States
+NA,2001,76.4,Cuba
+NA,2002,80.1,Australia
+NA,2002,79.6,Canada
+NA,2002,78.0,Costa Rica
+NA,2002,77.0,United States
+NA,2002,76.6,Cuba
+NA,2003,80.5,Australia
+NA,2003,79.7,Canada
+NA,2003,78.1,Costa Rica
+NA,2003,77.2,United States
+NA,2003,76.8,Cuba
+NA,2004,80.8,Australia
+NA,2004,80.0,Canada
+NA,2004,78.3,Costa Rica
+NA,2004,77.6,United States
+NA,2004,76.9,Cuba
+NA,2005,81.1,Australia
+NA,2005,80.1,Canada
+NA,2005,78.5,Costa Rica
+NA,2005,77.6,United States
+NA,2005,77.0,Cuba
+NA,2006,81.3,Australia
+NA,2006,80.5,Canada
+NA,2006,78.5,Costa Rica
+NA,2006,77.8,United States
+NA,2006,77.2,Cuba
+NA,2007,81.3,Australia
+NA,2007,80.5,Canada
+NA,2007,78.5,Costa Rica
+NA,2007,78.1,United States
+NA,2007,77.3,Cuba
+NA,2008,81.5,Australia
+NA,2008,80.7,Canada
+NA,2008,78.4,Costa Rica
+NA,2008,78.2,United States
+NA,2008,77.4,Cuba
+NA,2009,81.8,Australia
+NA,2009,81.1,Canada
+NA,2009,78.7,Costa Rica
+NA,2009,78.6,United States
+NA,2009,77.5,Cuba
+NA,2010,82.1,Australia
+NA,2010,81.3,Canada
+NA,2010,78.8,United States
+NA,2010,78.7,Costa Rica
+NA,2010,77.7,Cuba
+NA,2011,82.1,Australia
+NA,2011,81.5,Canada
+NA,2011,79.3,Costa Rica
+NA,2011,78.8,United States
+NA,2011,77.8,Cuba
+NA,2012,82.3,Australia
+NA,2012,81.7,Canada
+NA,2012,79.3,Costa Rica
+NA,2012,78.9,United States
+NA,2012,77.8,Cuba
+NA,2013,82.6,Australia
+NA,2013,81.8,Canada
+NA,2013,79.4,Costa Rica
+NA,2013,79.0,United States
+NA,2013,77.9,Cuba
+NA,2014,82.6,Australia
+NA,2014,81.9,Canada
+NA,2014,79.0,United States
+NA,2014,78.8,Costa Rica
+NA,2014,77.9,Cuba
+NA,2015,82.7,Australia
+NA,2015,81.9,Canada
+NA,2015,79.1,Costa Rica
+NA,2015,78.9,United States
+NA,2015,77.8,Cuba
+NA,2016,82.9,Australia
+NA,2016,82.0,Canada
+NA,2016,79.5,Costa Rica
+NA,2016,78.8,United States
+NA,2016,77.7,Panama
+NA,2017,83.0,Australia
+NA,2017,82.0,Canada
+NA,2017,79.4,Costa Rica
+NA,2017,78.8,United States
+NA,2017,77.8,Panama
+NA,2018,83.4,Australia
+NA,2018,82.1,Canada
+NA,2018,79.5,Costa Rica
+NA,2018,79.0,United States
+NA,2018,77.9,Panama
+NA,2019,83.1,Australia
+NA,2019,82.4,Canada
+NA,2019,79.4,Costa Rica
+NA,2019,79.1,United States
+NA,2019,77.8,Panama
+NA,2020,84.3,Australia
+NA,2020,82.0,Canada
+NA,2020,79.3,Costa Rica
+NA,2020,77.6,Cuba
+NA,2020,77.4,Barbados
+NA,2021,84.5,Australia
+NA,2021,82.7,Canada
+NA,2021,77.6,Barbados
+NA,2021,77.2,United States
+NA,2021,77.0,Costa Rica
+OC,1991,76.1,New Zealand
+OC,1991,74.1,French Polynesia
+OC,1991,72.5,Guam
+OC,1991,72.1,Northern Mariana Islands
+OC,1991,70.6,American Samoa
+OC,1992,76.2,New Zealand
+OC,1992,74.4,French Polynesia
+OC,1992,72.7,Guam
+OC,1992,72.4,Northern Mariana Islands
+OC,1992,70.6,American Samoa
+OC,1993,76.5,New Zealand
+OC,1993,74.8,French Polynesia
+OC,1993,73.0,Guam
+OC,1993,72.7,Northern Mariana Islands
+OC,1993,70.8,American Samoa
+OC,1994,76.9,New Zealand
+OC,1994,75.3,French Polynesia
+OC,1994,73.1,Guam
+OC,1994,72.9,Northern Mariana Islands
+OC,1994,71.0,Wallis and Futuna
+OC,1995,76.8,New Zealand
+OC,1995,76.0,French Polynesia
+OC,1995,73.3,Guam
+OC,1995,73.2,Northern Mariana Islands
+OC,1995,71.1,American Samoa
+OC,1996,76.8,French Polynesia
+OC,1996,76.8,New Zealand
+OC,1996,73.4,Northern Mariana Islands
+OC,1996,73.1,Guam
+OC,1996,72.6,Wallis and Futuna
+OC,1997,77.7,French Polynesia
+OC,1997,77.3,New Zealand
+OC,1997,73.6,Northern Mariana Islands
+OC,1997,73.3,Guam
+OC,1997,72.7,Wallis and Futuna
+OC,1998,78.4,French Polynesia
+OC,1998,78.2,New Zealand
+OC,1998,73.8,Northern Mariana Islands
+OC,1998,73.6,Guam
+OC,1998,73.1,Wallis and Futuna
+OC,1999,79.2,French Polynesia
+OC,1999,77.9,New Zealand
+OC,1999,74.3,Wallis and Futuna
+OC,1999,74.2,Northern Mariana Islands
+OC,1999,74.1,Guam
+OC,2000,79.5,French Polynesia
+OC,2000,78.7,New Zealand
+OC,2000,74.9,Northern Mariana Islands
+OC,2000,74.6,Wallis and Futuna
+OC,2000,74.4,Guam
+OC,2001,79.7,French Polynesia
+OC,2001,78.7,New Zealand
+OC,2001,75.5,Northern Mariana Islands
+OC,2001,75.5,Wallis and Futuna
+OC,2001,75.4,Guam
+OC,2002,79.7,French Polynesia
+OC,2002,78.9,New Zealand
+OC,2002,76.1,Northern Mariana Islands
+OC,2002,75.8,Guam
+OC,2002,75.8,Wallis and Futuna
+OC,2003,79.7,French Polynesia
+OC,2003,79.2,New Zealand
+OC,2003,76.5,Guam
+OC,2003,76.4,Northern Mariana Islands
+OC,2003,75.9,Wallis and Futuna
+OC,2004,79.7,French Polynesia
+OC,2004,79.4,New Zealand
+OC,2004,76.9,Guam
+OC,2004,76.5,Northern Mariana Islands
+OC,2004,76.1,Wallis and Futuna
+OC,2005,80.1,New Zealand
+OC,2005,79.7,French Polynesia
+OC,2005,77.2,Guam
+OC,2005,77.0,Northern Mariana Islands
+OC,2005,75.4,Wallis and Futuna
+OC,2006,80.0,New Zealand
+OC,2006,79.8,French Polynesia
+OC,2006,77.2,Northern Mariana Islands
+OC,2006,77.1,Guam
+OC,2006,76.6,Wallis and Futuna
+OC,2007,80.2,New Zealand
+OC,2007,80.0,French Polynesia
+OC,2007,77.4,Northern Mariana Islands
+OC,2007,77.2,Wallis and Futuna
+OC,2007,77.1,Guam
+OC,2008,80.3,French Polynesia
+OC,2008,80.3,New Zealand
+OC,2008,77.5,Northern Mariana Islands
+OC,2008,77.5,Wallis and Futuna
+OC,2008,77.2,Guam
+OC,2009,80.7,French Polynesia
+OC,2009,80.6,New Zealand
+OC,2009,77.5,Northern Mariana Islands
+OC,2009,77.2,Wallis and Futuna
+OC,2009,77.1,Guam
+OC,2010,81.1,New Zealand
+OC,2010,81.0,French Polynesia
+OC,2010,77.4,Northern Mariana Islands
+OC,2010,76.9,Guam
+OC,2010,75.5,Wallis and Futuna
+OC,2011,81.4,French Polynesia
+OC,2011,80.9,New Zealand
+OC,2011,77.6,Wallis and Futuna
+OC,2011,77.3,Northern Mariana Islands
+OC,2011,76.9,Guam
+OC,2012,81.8,French Polynesia
+OC,2012,81.2,New Zealand
+OC,2012,77.5,Wallis and Futuna
+OC,2012,77.1,Northern Mariana Islands
+OC,2012,76.7,Guam
+OC,2013,82.0,French Polynesia
+OC,2013,81.7,New Zealand
+OC,2013,77.0,Northern Mariana Islands
+OC,2013,76.8,Wallis and Futuna
+OC,2013,76.7,Guam
+OC,2014,82.2,French Polynesia
+OC,2014,81.8,New Zealand
+OC,2014,77.6,Wallis and Futuna
+OC,2014,76.9,Northern Mariana Islands
+OC,2014,76.7,Guam
+OC,2015,82.4,French Polynesia
+OC,2015,82.0,New Zealand
+OC,2015,78.0,Wallis and Futuna
+OC,2015,76.8,Northern Mariana Islands
+OC,2015,76.6,Guam
+OC,2016,82.5,French Polynesia
+OC,2016,82.1,New Zealand
+OC,2016,78.3,Wallis and Futuna
+OC,2016,76.9,Guam
+OC,2016,76.8,Northern Mariana Islands
+OC,2017,82.6,French Polynesia
+OC,2017,82.2,New Zealand
+OC,2017,77.5,Wallis and Futuna
+OC,2017,77.2,Guam
+OC,2017,76.8,Northern Mariana Islands
+OC,2018,82.8,French Polynesia
+OC,2018,82.4,New Zealand
+OC,2018,77.9,Wallis and Futuna
+OC,2018,77.4,Guam
+OC,2018,76.8,Northern Mariana Islands
+OC,2019,83.0,French Polynesia
+OC,2019,82.6,New Zealand
+OC,2019,79.6,Wallis and Futuna
+OC,2019,77.7,Guam
+OC,2019,77.1,Northern Mariana Islands
+OC,2020,82.7,New Zealand
+OC,2020,82.2,French Polynesia
+OC,2020,78.8,Wallis and Futuna
+OC,2020,77.2,Northern Mariana Islands
+OC,2020,76.6,Guam
+OC,2021,82.5,New Zealand
+OC,2021,79.5,French Polynesia
+OC,2021,78.4,Wallis and Futuna
+OC,2021,77.2,Northern Mariana Islands
+OC,2021,76.7,Guam
+SA,1991,73.6,Chile
+SA,1991,73.3,Uruguay
+SA,1991,73.1,Aruba
+SA,1991,72.3,Argentina
+SA,1991,71.8,Venezuela
+SA,1992,74.1,Chile
+SA,1992,73.4,Uruguay
+SA,1992,73.2,Aruba
+SA,1992,72.4,Argentina
+SA,1992,71.8,Venezuela
+SA,1993,74.2,Chile
+SA,1993,73.6,Uruguay
+SA,1993,73.2,Aruba
+SA,1993,72.6,Argentina
+SA,1993,71.9,Venezuela
+SA,1994,74.6,Chile
+SA,1994,73.7,Uruguay
+SA,1994,73.3,Aruba
+SA,1994,73.2,Argentina
+SA,1994,71.9,Venezuela
+SA,1995,74.6,Chile
+SA,1995,73.9,Uruguay
+SA,1995,73.3,Aruba
+SA,1995,73.1,Argentina
+SA,1995,72.1,Venezuela
+SA,1996,74.9,Chile
+SA,1996,74.1,Uruguay
+SA,1996,73.4,Aruba
+SA,1996,73.3,Argentina
+SA,1996,72.1,Venezuela
+SA,1997,75.6,Chile
+SA,1997,74.3,Uruguay
+SA,1997,73.5,Aruba
+SA,1997,73.1,Argentina
+SA,1997,72.7,Venezuela
+SA,1998,75.7,Chile
+SA,1998,74.5,Uruguay
+SA,1998,73.5,Argentina
+SA,1998,73.5,Aruba
+SA,1998,72.7,Venezuela
+SA,1999,76.0,Chile
+SA,1999,74.8,Uruguay
+SA,1999,73.7,Argentina
+SA,1999,73.6,Aruba
+SA,1999,72.5,Ecuador
+SA,2000,76.9,Chile
+SA,2000,75.0,Uruguay
+SA,2000,73.9,Argentina
+SA,2000,73.6,Aruba
+SA,2000,72.8,Ecuador
+SA,2001,76.8,Chile
+SA,2001,75.3,Uruguay
+SA,2001,74.2,Argentina
+SA,2001,73.6,Aruba
+SA,2001,73.2,Ecuador
+SA,2002,77.4,Chile
+SA,2002,75.5,Uruguay
+SA,2002,74.4,Argentina
+SA,2002,73.7,Aruba
+SA,2002,73.6,Ecuador
+SA,2003,77.4,Chile
+SA,2003,75.8,Uruguay
+SA,2003,74.1,Argentina
+SA,2003,74.0,Ecuador
+SA,2003,73.8,Aruba
+SA,2004,77.6,Chile
+SA,2004,76.0,Uruguay
+SA,2004,74.9,Argentina
+SA,2004,74.3,Ecuador
+SA,2004,73.6,Aruba
+SA,2005,78.0,Chile
+SA,2005,76.2,Uruguay
+SA,2005,75.1,Argentina
+SA,2005,74.5,Ecuador
+SA,2005,73.8,Aruba
+SA,2006,78.3,Chile
+SA,2006,76.4,Uruguay
+SA,2006,75.4,Argentina
+SA,2006,74.7,Ecuador
+SA,2006,74.0,Aruba
+SA,2007,77.8,Chile
+SA,2007,76.5,Uruguay
+SA,2007,75.0,Argentina
+SA,2007,74.8,Ecuador
+SA,2007,74.2,Aruba
+SA,2008,78.5,Chile
+SA,2008,76.6,Uruguay
+SA,2008,75.6,Argentina
+SA,2008,75.0,Ecuador
+SA,2008,74.3,Colombia
+SA,2009,78.7,Chile
+SA,2009,76.7,Uruguay
+SA,2009,75.9,Argentina
+SA,2009,75.2,Ecuador
+SA,2009,74.7,Colombia
+SA,2010,78.5,Chile
+SA,2010,76.9,Uruguay
+SA,2010,75.7,Argentina
+SA,2010,75.4,Aruba
+SA,2010,75.4,Ecuador
+SA,2011,79.1,Chile
+SA,2011,77.0,Uruguay
+SA,2011,76.1,Argentina
+SA,2011,75.7,Ecuador
+SA,2011,75.5,Aruba
+SA,2012,79.0,Chile
+SA,2012,77.1,Uruguay
+SA,2012,76.5,Argentina
+SA,2012,76.1,Ecuador
+SA,2012,75.6,Colombia
+SA,2013,79.3,Chile
+SA,2013,77.2,Uruguay
+SA,2013,76.5,Argentina
+SA,2013,76.4,Ecuador
+SA,2013,75.8,Colombia
+SA,2014,79.5,Chile
+SA,2014,77.4,Uruguay
+SA,2014,76.8,Argentina
+SA,2014,76.6,Ecuador
+SA,2014,76.0,Colombia
+SA,2015,79.7,Chile
+SA,2015,77.5,Uruguay
+SA,2015,76.8,Argentina
+SA,2015,76.8,Ecuador
+SA,2015,76.3,Colombia
+SA,2016,80.1,Chile
+SA,2016,77.6,Uruguay
+SA,2016,76.8,Ecuador
+SA,2016,76.5,Colombia
+SA,2016,76.3,Argentina
+SA,2017,80.4,Chile
+SA,2017,77.6,Uruguay
+SA,2017,77.0,Ecuador
+SA,2017,76.8,Argentina
+SA,2017,76.6,Colombia
+SA,2018,80.1,Chile
+SA,2018,77.6,Uruguay
+SA,2018,77.1,Ecuador
+SA,2018,77.0,Argentina
+SA,2018,76.7,Colombia
+SA,2019,80.3,Chile
+SA,2019,77.5,Uruguay
+SA,2019,77.3,Argentina
+SA,2019,77.3,Ecuador
+SA,2019,76.8,Colombia
+SA,2020,79.4,Chile
+SA,2020,78.4,Uruguay
+SA,2020,75.9,Argentina
+SA,2020,75.7,Aruba
+SA,2020,74.8,Colombia
+SA,2021,78.9,Chile
+SA,2021,75.4,Argentina
+SA,2021,75.4,Uruguay
+SA,2021,74.6,Aruba
+SA,2021,73.7,Ecuador
+WD,1991,64.1,World
+WD,1992,64.3,World
+WD,1993,64.4,World
+WD,1994,64.5,World
+WD,1995,64.9,World
+WD,1996,65.1,World
+WD,1997,65.5,World
+WD,1998,65.7,World
+WD,1999,66.1,World
+WD,2000,66.5,World
+WD,2001,66.8,World
+WD,2002,67.1,World
+WD,2003,67.5,World
+WD,2004,67.8,World
+WD,2005,68.2,World
+WD,2006,68.7,World
+WD,2007,69.1,World
+WD,2008,69.3,World
+WD,2009,69.8,World
+WD,2010,70.1,World
+WD,2011,70.5,World
+WD,2012,70.9,World
+WD,2013,71.2,World
+WD,2014,71.6,World
+WD,2015,71.8,World
+WD,2016,72.1,World
+WD,2017,72.3,World
+WD,2018,72.6,World
+WD,2019,72.8,World
+WD,2020,72.0,World
+WD,2021,71.0,World
