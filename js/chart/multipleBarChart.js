@@ -1,132 +1,98 @@
-//Scatter plot small multiples
-d3.csv("https://raw.githubusercontent.com/rikyeahh/rikyeahh.github.io/main/assets/data5.csv").then(function (data) {
+d3.csv(
+  "https://raw.githubusercontent.com/rikyeahh/rikyeahh.github.io/main/assets/data3.csv"
+).then(function (data) {
+  // reorganize data
+  other = data.pop();
+  lng = data.length - 5;
+  for (let j = 0; j < lng; j++) {
+    data.pop();
+  }
+  data.push(other);
 
-    // set the dimensions and margins of the graph
-    const margin = { top: 10, right: 20, bottom: 30, left: 30 },
-        width = 300,
-        height = 300;
+  const tree_name = data.map((d) => d["tree_name"]);
 
-    //console.log(data);
-    const names = data.map(d => d.name);
-    const names_uniq = [...new Set(names)];
-    const name_counts = [];
-    const sortable = [];
+  const neighborhood = data.columns.slice(1);
 
-    for (const num of names) { //get the count of trees
-        name_counts[num] = name_counts[num] ? name_counts[num] + 1 : 1;
+  const tooltip3 = d3
+    .select("body")
+    .append("div")
+    .attr("class", "d3-tooltip")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden")
+    .style("padding", "15px")
+    .style("background", "rgba(0,0,0,0.6)")
+    .style("border-radius", "5px")
+    .style("color", "#fff")
+    .text("a simple tooltip");
+
+  const zip = (a, b) => a.map((k, i) => [k, b[i]]);
+
+  const y = d3.scaleBand().domain(neighborhood).range([height, 0]).padding(0.1);
+
+  // build small multiples, 1 for each tree name
+  for (let index = 0; index < tree_name.length; index++) {
+    var sm_margin = index == 0 ? 150 : 0; // to show scale only on the first one
+    var sm_width = 175;
+    const svg3 = d3
+      .select("#multipleScatter")
+      .append("svg")
+      .attr("width", sm_width + sm_margin + 10)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+      .attr("transform", `translate(${sm_margin},${margin.top + 50})`);
+
+    // title of each small multiple, tree name
+    svg3
+      .append("text")
+      .attr("transform", "translate(" + sm_width / 2 + " ," + -margin.top + ")")
+      .style("text-anchor", "middle")
+      .text(tree_name[index]);
+
+    var values = [];
+    for (let i = 0; i < Object.entries(data[index]).length; i++) {
+      values[i] = Object.entries(data[index])[i][1];
     }
-    //Get a sortable version of count of trees
-    names_uniq.forEach(e => {
-        sortable.push([e, name_counts[e]]);
-    });
 
-    const name_count_ordered = sortable.sort((a, b) => b[1] - a[1]).slice(0, 6);
-    const names_ordered = name_count_ordered.sort((a, b) => a[0].localeCompare(b[0]));
+    values = values.slice(1); // without 'circoscrizione'
+    const neighborhood_val = zip(neighborhood, values);
 
-    // Add X axis
-    var x = d3.scaleLinear()
-        .domain([0, Math.max(...data.map(e => parseFloat(e.height)))]) //Math.max(...values) of treeSize
-        .range([0, width]);
+    const x = d3
+      .scaleLinear()
+      .domain([0, Math.max(...values)])
+      .nice()
+      .range([0, sm_width]);
+    svg3.append("g").call(d3.axisTop(x).ticks(5, "~s"));
 
-    // Add Y axis
-    var y = d3.scaleLinear()
-        .domain([0, Math.max(...data.map(e => parseFloat(e.co2_absorption)))]) //Math.max(...values) of CO2
-        .range([height, 0]);
+    if (index >= 0) {
+      svg3.append("g").call(d3.axisLeft(y));
+    }
 
-    const color = d3.scaleOrdinal()
-        .domain(names_ordered)
-        .range(d3.schemeTableau10);
+    var plantColor = d3.schemeTableau10[index];
 
-    // small multiples: for each specie, build a plot
-    names_ordered.map(d => d[0]).forEach(e => {
-        const svg4 = d3.select("#multipleScatter")
-            .append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top * 2 + margin.bottom * 2)
-            .append("g")
-            .attr("transform",
-                "translate(" + margin.left * 2 + "," + margin.top * 3 + ")")
-            .style("margin-bottom", "50px");
-
-        svg4.append("g")
-            .attr("transform", "translate(0," + height + ")")
-            .call(d3.axisBottom(x));
-
-        svg4.append("g")
-            .call(d3.axisLeft(y));
-
-
-        svg4.append("text")
-            .attr("transform", "translate(" + (width / 2) + " ," + (-margin.top) + ")")
-            .style("text-anchor", "middle")
-            .text(e)
-
-        svg4.append('g')
-            .selectAll("dot")
-            .data(data.filter(d => d.name == e))
-            .enter()
-            .append("circle")
-            .attr("cx", function (d) { return x(d.height); })
-            .attr("cy", function (d) { return y(d.co2_absorption); })
-            .attr("r", 1.5)
-            .style("fill", function (d) { return color(d.name) })
-
-        svg4.append("text")
-            .attr("text-anchor", "end")
-            .attr("x", (width / 2) + 50)
-            .attr("y", height + 35)
-            .text("Tree height (m)");
-
-        svg4.append("text")
-            .attr("text-anchor", "end")
-            .attr("x", (width / 2) - 230)
-            .attr("y", height - 330)
-            .text("CO2 absorption (kg/year)")
-            .attr("transform", "rotate(-90)");
-
-
-        // create regression line
-        var yval = data.filter(d => d.name == e).map(function (d) { return parseFloat(d.co2_absorption); });
-        var xval = data.filter(d => d.name == e).map(function (d) { return parseFloat(d.height); });
-
-        var lr = linearRegression(yval, xval);
-
-        var max = d3.max(data, function (d) { return parseFloat(d.height); });
-
-        svg4.append("svg:line")
-            .attr("x1", x(0))
-            .attr("y1", y(lr.intercept))
-            .attr("x2", x(max))
-            .attr("y2", y((max * lr.slope) + lr.intercept))
-            .style("stroke", "gray")
-            .style("opacity", 0.5);
-    });
-
-    // computes the regression line (slope, intercept) from data
-    function linearRegression(y, x) {
-
-        var lr = {};
-        var n = y.length;
-        var sum_x = 0;
-        var sum_y = 0;
-        var sum_xy = 0;
-        var sum_xx = 0;
-        var sum_yy = 0;
-
-        for (var i = 0; i < y.length; i++) {
-
-            sum_x += x[i];
-            sum_y += y[i];
-            sum_xy += (x[i] * y[i]);
-            sum_xx += (x[i] * x[i]);
-            sum_yy += (y[i] * y[i]);
-        }
-
-        lr['slope'] = (n * sum_xy - sum_x * sum_y) / (n * sum_xx - sum_x * sum_x);
-        lr['intercept'] = (sum_y - lr.slope * sum_x) / n;
-        lr['r2'] = Math.pow((n * sum_xy - sum_x * sum_y) / Math.sqrt((n * sum_xx - sum_x * sum_x) * (n * sum_yy - sum_y * sum_y)), 2);
-
-        return lr;
-
-    };
-})
+    svg3
+      .selectAll("myG")
+      .data(neighborhood_val)
+      .join("rect")
+      .attr("x", x)
+      .attr("y", (d) => y(d[0]))
+      .attr("width", (d) => x(d[1]))
+      .attr("height", y.bandwidth())
+      .attr("fill", plantColor)
+      .on("mouseover", function (d, i) {
+        tooltip3.html(`Count : ${i[1]}`).style("visibility", "visible");
+        d3.select(this).attr("fill", "red");
+      })
+      .on("mousemove", function () {
+        tooltip3
+          .style("top", event.pageY - 10 + "px")
+          .style("left", event.pageX + 10 + "px");
+      })
+      .on("mouseout", function () {
+        tooltip3.html(``).style("visibility", "hidden");
+        d3.select(this).attr("fill", function () {
+          return "" + d3.schemeTableau10[index] + "";
+        });
+      });
+  }
+});
