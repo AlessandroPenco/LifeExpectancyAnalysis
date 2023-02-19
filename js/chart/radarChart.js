@@ -1,4 +1,19 @@
 function radarChart(yy) {
+  d3.select("#radarChart").select("svg").remove();
+  var svgRadar = d3
+    .select("#radarChart")
+    .append("svg")
+    .attr(
+      "viewBox",
+      `0 0 ${width + margin.left + margin.right + 200} ${
+        height + margin.top + margin.bottom + 200
+      }`
+    )
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("width", "100%")
+    .append("g")
+    .attr("transform", `translate(${margin.left + 100},${margin.top + 100})`);
+
   d3.csv("../../data/radar.csv").then(function (myData) {
     console.log(myData);
     let features = ["All", "Male", "Female", "GDP", "Health"];
@@ -6,20 +21,6 @@ function radarChart(yy) {
     data = myData.filter((d) => d["Year"] == "2000");
 
     console.log(data);
-
-    var svgRadar = d3
-      .select("#radarChart")
-      .append("svg")
-      .attr(
-        "viewBox",
-        `0 0 ${width + margin.left + margin.right + 200} ${
-          height + margin.top + margin.bottom + 200
-        }`
-      )
-      .attr("preserveAspectRatio", "xMinYMin meet")
-      .attr("width", "100%")
-      .append("g")
-      .attr("transform", `translate(${margin.left + 100},${margin.top + 100})`);
 
     let radialScale = d3.scaleLinear().domain([0, 10]).range([0, 250]);
     let ticks = [2, 4, 6, 8, 10];
