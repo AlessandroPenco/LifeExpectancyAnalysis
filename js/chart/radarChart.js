@@ -15,12 +15,9 @@ function radarChart(yy) {
     .attr("transform", `translate(${margin.left + 100},${margin.top + 100})`);
 
   d3.csv("../../data/radar.csv").then(function (myData) {
-    console.log(myData);
     let features = ["All", "Male", "Female", "GDP", "Health"];
 
     data = myData.filter((d) => d["Year"] == yy);
-
-    console.log(data);
 
     let radialScale = d3.scaleLinear().domain([0, 10]).range([0, 250]);
     let ticks = [2, 4, 6, 8, 10];
