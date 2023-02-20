@@ -150,7 +150,7 @@ function radarChart(yy) {
           .attr("d", line)
           .attr("stroke-width", 3)
           .attr("stroke-opacity", 1)
-          .attr("opacity", 0.5)
+          .attr("opacity", 0.3)
       );
 
     // Legend
@@ -161,7 +161,7 @@ function radarChart(yy) {
     }
 
     function onMouseOutLegend(event) {
-      d3.selectAll(".lowOpacityOnHover").style("opacity", "0.5");
+      d3.selectAll(".lowOpacityOnHover").style("opacity", "0.3");
     }
     // legend
     for (let i = 0; i < continents.length; i++) {
