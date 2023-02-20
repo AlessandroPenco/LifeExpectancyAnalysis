@@ -1,5 +1,8 @@
 function radarChart(yy) {
   d3.select("#radarChart").select("svg").remove();
+  d3.select("#radarChart").select("text").remove();
+  var par = "Year: " + yy;
+  d3.select("#radarChart").append("text").text(par).style("font-size", "28px");
   var svgRadar = d3
     .select("#radarChart")
     .append("svg")
@@ -14,7 +17,8 @@ function radarChart(yy) {
     .append("g")
     .attr("transform", `translate(${margin.left + 100},${margin.top + 100})`);
 
-  d3.csv("../../data/radar.csv").then(function (myData) {
+  d3.csv("../../data/rad.csv").then(function (myData) {
+    console.log(myData);
     let features = ["All", "Male", "Female", "GDP", "Health"];
 
     data = myData.filter((d) => d["Year"] == yy);
@@ -112,9 +116,6 @@ function radarChart(yy) {
 
       SA: "#955ffa",
       "South America": "#955ffa",
-
-      AllWorld: "#fc5be2",
-      World: "#fc5be2",
     };
 
     function getPathCoordinates(data_point) {
@@ -133,7 +134,6 @@ function radarChart(yy) {
       ["EU", "Europe"],
       ["AS", "Asia"],
       ["OC", "Oceania"],
-      ["AllWorld", "World"],
     ];
 
     // draw the path element
