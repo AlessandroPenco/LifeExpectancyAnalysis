@@ -58,6 +58,19 @@ function barChart1(yy) {
       .domain([subgroups])
       .range(["#e41a1c", "#377eb8", "#4daf4a"]);
 
+      // add tooltip
+    const tooltipB = d3.select("body")
+      .append("div")
+      .attr("class", "d3-tooltip")
+      .style("position", "absolute")
+      .style("z-index", "10")
+      .style("visibility", "hidden")
+      .style("padding", "15px")
+      .style("background", "rgba(0,0,0,0.6)")
+      .style("border-radius", "5px")
+      .style("color", "#fff")
+      .text("a simple tooltip");
+
     // Show the bars
     svgbar
       .append("g")
@@ -78,7 +91,21 @@ function barChart1(yy) {
       .attr("width", xSubgroup.bandwidth())
       .attr("height", (d) => height - y(d.value))
       .attr("fill", (d) => color(d.key))
-      .attr("class", d => "lowOpacityOnHover "+d.key);
+      .attr("class", d => "lowOpacityOnHover "+d.key)
+      .on("mouseover", function (d, j) {
+        tooltipB.html(Math.round(j.value*100)/100)
+              .style("visibility", "visible");
+      })
+      // move tooltip on move
+      .on("mousemove", function () {
+        tooltipB
+              .style("top", (event.pageY - 10) + "px")
+              .style("left", (event.pageX + 10) + "px");
+      })
+      // on mouseout: increase opacity and hide tooltip
+      .on("mouseout", function (d,j) {
+        tooltipB.html(``).style("visibility", "hidden");
+      });
 
     d3.selectAll("g.yAxis g.tick")
       .append("line")
