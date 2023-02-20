@@ -171,6 +171,7 @@ d3.csv(
     .attr("class", "x label")
     .attr("text-anchor", "end")
     .style("font-size", "9px")
+    .attr("x", width)
     .attr("y", height - 5)
     .text("Time (YY)");
 
@@ -179,7 +180,7 @@ d3.csv(
     .attr("class", "y label")
     .attr("text-anchor", "end")
     .attr("y", -36)
-    .attr("x", width)
+    .attr("x", 0)
     .attr("dy", ".75em")
     .attr("transform", "rotate(-90)")
     .style("font-size", "9px")

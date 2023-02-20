@@ -6,7 +6,12 @@ function waffleChart(YY){
   d3.select("#waffleChart").selectAll('g').remove();
   d3.select("#wafflePar").selectAll('text').remove();
 
-  var par = "Year: " + YY;
+
+  if(YY < 1990){
+    var par = "Year: " + YY + ". Missing data for your selection. Select years from 1990.";
+  } else {
+    var par = "Year: " + YY;
+  }
   const leg = d3.select("#wafflePar").append("text").text(par).style("font-size", "28px");
   const myWaffleChart = d3.select("#waffleChart").append("g");
 

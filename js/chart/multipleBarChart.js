@@ -2,12 +2,15 @@ function multipleBarChart(YY) {
   d3.select("#multipleBar").selectAll("g").remove();
   d3.select("#multipleBarPar").selectAll("text").remove();
 
-  var par = "Year: " + YY;
+  if(YY < 1991){
+    var par = "Year: " + YY + ". Missing data for your selection. Select years from 1991.";
+  } else {
+    var par = "Year: " + YY;
+  }
   d3.select("#multipleBarPar").append("text").text(par).style("font-size", "28px");
   const myMultipleBar = d3.select("#multipleBar").append("g");
 
   d3.csv(
-    //"https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/number-of-deaths-by-age-group.csv"
     "../../data/MultiBar.csv"
   ).then(function (data) {
     widthSquares = 20;
@@ -180,7 +183,25 @@ function multipleBarChart(YY) {
         .on("mouseout", function (d,j) {
           tooltipW.html(``).style("visibility", "hidden");
           d3.select(this).attr("fill", (d) => colors[d.continent]);
-        });
+      });
+
+      svgBar.append("text")
+        .attr("class", "y label")
+        .attr("text-anchor", "end")
+        .attr("y", -45)
+        .attr("x", 0)
+        .attr("dy", ".75em")
+        .attr("transform", "rotate(-90)")
+        .style("font-size", "9px")
+        .text("Country");
+      
+      svgBar.append("text")
+        .attr("class", "x label")
+        .attr("text-anchor", "end")
+        .style("font-size", "9px")
+        .attr("x", -5+width/3)
+        .attr("y", -30)
+        .text("Time (YY)");
     }
   });
 

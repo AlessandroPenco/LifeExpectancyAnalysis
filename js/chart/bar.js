@@ -2,7 +2,11 @@
 function barChart1(yy) {
   d3.select("#bar").selectAll('svg').remove()
   d3.select("#barPar").selectAll('text').remove()
-  var par = "Year: " + yy;
+  if(yy < 1961){
+    var par = "Year: " + yy + ". Missing data for your selection. Select years from 1961.";
+  } else {
+    var par = "Year: " + yy;
+  }
   d3.select("#barPar").append("text").text(par).style("font-size", "28px");
   
   // append the svg object to the body of the page
@@ -108,6 +112,16 @@ function barChart1(yy) {
       .on("mouseout", function (d,j) {
         tooltipB.html(``).style("visibility", "hidden");
       });
+    
+      svgbar.append("text")
+      .attr("class", "y label")
+      .attr("text-anchor", "end")
+      .attr("y", -36)
+      .attr("x", 0)
+      .attr("dy", ".75em")
+      .attr("transform", "rotate(-90)")
+      .style("font-size", "9px")
+      .text("Life expectancy at birth (YY)");
 
     d3.selectAll("g.yAxis g.tick")
       .append("line")

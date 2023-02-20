@@ -1,7 +1,11 @@
 function radarChart(yy) {
   d3.select("#radarChart").select("svg").remove();
   d3.select("#radarChart").select("text").remove();
-  var par = "Year: " + yy;
+  if(yy < 2000){
+    var par = "Year: " + yy + ". Missing data for your selection. Select years from 2000.";
+  } else {
+    var par = "Year: " + yy;
+  }
   d3.select("#radarChart").append("text").text(par).style("font-size", "28px");
   var svgRadar = d3
     .select("#radarChart")
