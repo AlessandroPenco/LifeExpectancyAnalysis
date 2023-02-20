@@ -11,7 +11,7 @@ function multipleBarChart(YY) {
   const myMultipleBar = d3.select("#multipleBar").append("g");
 
   d3.csv(
-    "../../data/MultiBar.csv"
+    "https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/MultiBar.csv"
   ).then(function (data) {
     widthSquares = 20;
     heightSquares = 5;

@@ -13,7 +13,7 @@ const svgParallel = d3.select("#parallelChart")
 .attr("transform", `translate(${margin.left-10},${margin.top+10})`);
 
 // Parse the Data
-d3.csv("../../data/parallelData.csv").then( function(data) {
+d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/parallelData.csv").then( function(data) {
   // color palette
   const colors = {
     'AF': '#fc7979',

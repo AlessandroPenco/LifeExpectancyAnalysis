@@ -21,7 +21,7 @@ function radarChart(yy) {
     .append("g")
     .attr("transform", `translate(${margin.left + 100},${margin.top + 100})`);
 
-  d3.csv("../../data/rad.csv").then(function (myData) {
+  d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/rad.csv").then(function (myData) {
     console.log(myData);
     let features = ["All", "Male", "Female", "GDP", "Health"];
 
