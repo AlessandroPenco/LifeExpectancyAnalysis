@@ -673,7 +673,7 @@
               data-aos-duration="1000"
               id="multipleBar"
             >
-              <p>This is section for plot 6</p>
+              <p id="multipleBarPar"></p>
             </g>
           </div>
         </div>
@@ -1009,6 +1009,7 @@
         radarChart(this.value);
         myBox(this.value, document.getElementById("boxviz").value);
         waffleChart(this.value);
+        multipleBarChart(this.value);
       });
       var dropdown = d3.select("#country");
       dropdown.on("input", function () {
