@@ -1,82 +1,57 @@
 function multipleBarChart(YY) {
-  //   d3.select("#multipleBar").selectAll("g").remove();
-  const myBarChart = d3
-    .select("#multipleBar")
-    .append("g")
-    .attr("class", "standard");
+  d3.select("#multipleBar").selectAll("g").remove();
+  d3.select("#barPar").selectAll("text").remove();
 
-  d3.csv("../../data/MultiBar.csv").then(function (data) {
-    // reorganize data
-    data_year = data.filter((d) => d["Year"] == YY);
+  var par = "Year: " + YY;
+  d3.select("#barPar").append("text").text(par).style("font-size", "28px");
+  const myMultipleBar = d3.select("#multipleBar").append("g");
 
-    const continent = data_year.map((d) => d["continent"]);
-    const continentSet = new Set(continent);
+  d3.csv(
+    //"https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/number-of-deaths-by-age-group.csv"
+    "../../data/MultiBar.csv"
+  ).then(function (data) {
+    widthSquares = 20;
+    heightSquares = 5;
+    data_year = data.filter((d) => d.Year == YY);
+
+    const continents = data_year.map((d) => d.continent);
+    const continentSet = new Set(continents);
     const arraycontinent = [...continentSet];
-    console.log(data_year);
+    const datum = Object.keys(data[0]).filter(
+      (d) => (d != "continent") & (d != "Year")
+    );
 
-    console.log(arraycontinent);
+    for (
+      let continent_1 = 0;
+      continent_1 < arraycontinent.length;
+      continent_1++
+    ) {
+      const filteredDataByContinent = arraycontinent.map((continent) => {
+        return {
+          name: arraycontinent[continent_1],
+          data: data_year.filter(
+            (d) => d.continent === arraycontinent[continent_1]
+          ),
+        };
+      });
+      console.log(filteredDataByContinent);
+      /*
+        var values = Object.values(data[continent]).splice(1);
+      var prova = values.slice(7, 12);
+      var values = prova.map((d) => Math.round(d * 100));
+      // var sm_margin = 5;
+      var sm_width = 150;
+      // var sm_height = 170;
+      var datumColor = d3.schemeTableau10;
+      var squareDimension = 10;
+      var squarePadding = 2;
 
-    const filteredDataByContinent = arraycontinent.map((continent) => {
-      return {
-        name: continent,
-        data: data_year.filter((d) => d.continent === continent),
-      };
-    });
-    console.log(filteredDataByContinent);
-
-    const tooltip3 = d3
-      .select("body")
-      .append("div")
-      .attr("class", "d3-tooltip")
-      .style("position", "absolute")
-      .style("z-index", "10")
-      .style("visibility", "hidden")
-      .style("padding", "15px")
-      .style("background", "rgba(0,0,0,0.6)")
-      .style("border-radius", "5px")
-      .style("color", "#fff")
-      .text("a simple tooltip");
-
-    const zip = (a, b) => a.map((k, i) => [k, b[i]]);
-
-    // build small multiples, 1 for each tree name
-    for (let index = 0; index < arraycontinent.length; index++) {
-      var sm_margin = index == 0 ? 150 : 0; // to show scale only on the first one
-      var sm_width = 175;
-      //   const svg3 = d3
-      //     .select("#multipleScatter")
-      //     .append("svg")
-      //     .attr("width", sm_width + sm_margin)
-      //     .attr("height", height + margin.top + margin.bottom)
-      //     .append("g")
-      //     .attr("transform", `translate(${sm_margin + 50},${margin.top + 50})`);
-
-      //   // title of each small multiple, tree name
-      //   svg3
-      //     .append("text")
-      //     .attr(
-      //       "transform",
-      //       "translate(" + sm_width / 2 + " ," + -margin.top + ")"
-      //     )
-      //     .style("text-anchor", "middle")
-      //     .text(arraycontinent[index]);
-
-      //   const x = d3.scaleLinear().domain([0, 100]).nice().range([0, sm_width]);
-      //   svg3.append("g").call(d3.axisTop(x).ticks(5, "~s"));
-
-      var plantColor = d3.schemeTableau10[index];
-    }
-
-    for (let element = 0; element < filteredDataByContinent.length; element++) {
-      console.log(filteredDataByContinent[element].data);
-      var svgBar = d3
-        .select("#multipleBar")
+      var svgBar = myMultipleBar
         .append("svg")
-        .attr("class", "standard")
         .attr(
           "viewBox",
-          `0 0 ${width + margin.left + margin.right} ${
-            height + margin.top + margin.bottom
+          `0 0 ${width + margin.left + margin.right - 250} ${
+            height + margin.top + margin.bottom - 200
           }`
         )
         .attr("preserveAspectRatio", "xMinYMin meet")
@@ -84,40 +59,68 @@ function multipleBarChart(YY) {
         .append("g")
         .attr("transform", `translate(${margin.left},${margin.top + 20})`);
 
-      country = filteredDataByContinent[element].data.map((d) => d.Entity);
-      console.log(country);
-      country[0] = "Others";
-      console.log(country);
-
-      console.log(filteredDataByContinent[element].data);
-      const y = d3.scaleBand().domain(country).range([height, 0]);
-      const x = d3.scaleLinear().domain([0, 100]).nice().range([0, sm_width]);
-      svgBar.append("g").call(d3.axisTop(x).ticks(5, "~s"));
-      svgBar.select("svg").append("g").call(d3.axisLeft(y));
       svgBar
-        .selectAll("myG")
-        .data(filteredDataByContinent[element].data)
+        .append("text")
+        .attr("transform", "translate(" + sm_width / 2 + " ," + -10 + ")")
+        .style("text-anchor", "middle")
+        .style("font-size", "15")
+        .text(continents[continent]); // + " " + values)
+
+      // add tooltip
+      const tooltipW = d3
+        .select("body")
+        .append("div")
+        .attr("class", "d3-tooltip")
+        .style("position", "absolute")
+        .style("z-index", "10")
+        .style("visibility", "hidden")
+        .style("padding", "15px")
+        .style("background", "rgba(0,0,0,0.6)")
+        .style("border-radius", "5px")
+        .style("color", "#fff")
+        .text("a simple tooltip");
+    */
+      var svgBar = myMultipleBar
+        .append("svg")
+        .attr(
+          "viewBox",
+          `0 0 ${width + margin.left + margin.right - 250} ${
+            height + margin.top + margin.bottom - 200
+          }`
+        )
+        .attr("preserveAspectRatio", "xMinYMin meet")
+        .attr("width", "30%")
+        .append("g")
+        .attr("transform", `translate(${margin.left},${margin.top + 20})`);
+
+      // Add X axis
+      const x = d3.scaleLinear().domain([0, 100]).range([0, width]);
+      svgBar
+        .append("g")
+        .attr("transform", `translate(0, ${height})`)
+        .call(d3.axisBottom(x))
+        .selectAll("text")
+        .attr("transform", "translate(-10,0)rotate(-45)")
+        .style("text-anchor", "end");
+
+      // Y axis
+      const y = d3
+        .scaleBand()
+        .range([0, height])
+        .domain(filteredDataByContinent.map((d) => d.data.entity))
+        .padding(0.1);
+      svgBar.append("g").call(d3.axisLeft(y));
+      // build waffle
+
+      svgBar
+        .selectAll("myRect")
+        .data(filteredDataByContinent[continent_1].data)
         .join("rect")
-        .attr("x", (d) => x(d.life))
-        .attr("y", (d) => y(d.Entity))
-        .attr("width", (d) => x(d[1]))
-        .attr("height", y.bandwidth())
-        .attr("fill", plantColor)
-        .on("mouseover", function (d, i) {
-          tooltip3.html(`Count : ${i[1]}`).style("visibility", "visible");
-          d3.select(this).attr("fill", "red");
-        })
-        .on("mousemove", function () {
-          tooltip3
-            .style("top", event.pageY - 10 + "px")
-            .style("left", event.pageX + 10 + "px");
-        })
-        .on("mouseout", function () {
-          tooltip3.html(``).style("visibility", "hidden");
-          d3.select(this).attr("fill", function () {
-            return "" + d3.schemeTableau10[index] + "";
-          });
-        });
+        .attr("x", (d) => x(0))
+        .attr("y", (d) => y(d.entity))
+        .attr("width", (d) => d.life)
+        .attr("height", 10)
+        .attr("fill", "#69b3a2");
     }
   });
 }
