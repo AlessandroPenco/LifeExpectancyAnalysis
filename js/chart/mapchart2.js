@@ -119,7 +119,7 @@ function mapChart2(yy) {
             .style("stroke-width", "2px")
         // and show tooltip
         tooltip.html(`${d.properties.name}<br>
-            Life Expectancy: ${countryData.medianAge}<br>
+            Median age: ${countryData.medianAge}<br>
             Year: ${countryData.year}<br>
             `)
             .style("visibility", "visible");

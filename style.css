@@ -1,3 +1,7 @@
+.row{
+  padding-top: 100px;
+}
+
 .delimiter-line-vertical{
   background-color: #000;
   padding-right: 2px solid #222;

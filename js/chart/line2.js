@@ -272,15 +272,6 @@ d3.csv(
       .attr("stroke", "#9ca5aecf") // line color
       .attr("stroke-dasharray", "4"); // make it dashed;;
 
-    d3.selectAll("g.xAxis g.tick")
-      .append("line")
-      .attr("class", "gridline")
-      .attr("x1", 0)
-      .attr("y1", -height)
-      .attr("x2", 0)
-      .attr("y2", 0)
-      .attr("stroke", "#9ca5aecf") // line color
-      .attr("stroke-dasharray", "4"); // make it dashed;
   }
 
   d3.selectAll("g.yAxis g.tick")
@@ -293,13 +284,4 @@ d3.csv(
     .attr("stroke", "#9ca5aecf") // line color
     .attr("stroke-dasharray", "4"); // make it dashed;;
 
-  d3.selectAll("g.xAxis g.tick")
-    .append("line")
-    .attr("class", "gridline")
-    .attr("x1", 0)
-    .attr("y1", -height)
-    .attr("x2", 0)
-    .attr("y2", 0)
-    .attr("stroke", "#9ca5aecf") // line color
-    .attr("stroke-dasharray", "4"); // make it dashed;
 });
