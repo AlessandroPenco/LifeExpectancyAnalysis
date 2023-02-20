@@ -1,6 +1,9 @@
 
 function barChart1(yy) {
   d3.select("#bar").selectAll('svg').remove()
+  d3.select("#barPar").selectAll('text').remove()
+  var par = "Year: " + yy;
+  d3.select("#barPar").append("text").text(par).style("font-size", "28px");
   
   // append the svg object to the body of the page
   const svgbar = d3
@@ -16,9 +19,8 @@ function barChart1(yy) {
     .attr("width", "100%")
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top+5})`);
-    
-  var par = "Year: " + yy;
-  svgbar.append("text").text(par);
+  
+  
   // Parse the Data
   d3.csv("https://raw.githubusercontent.com/AlessandroPenco/LifeExpectancyAnalysis/main/data/Merge_line.csv").then(function (myData) {
     // List of subgroups = header of the csv files = soil condition here
