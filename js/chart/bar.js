@@ -93,7 +93,7 @@ function barChart1(yy) {
       .attr("fill", (d) => color(d.key))
       .attr("class", d => "lowOpacityOnHover "+d.key)
       .on("mouseover", function (d, j) {
-        tooltipB.html(Math.round(j.value*100)/100)
+        tooltipB.html("Life expectancy: "+Math.round(j.value*100)/100+" years old")
               .style("visibility", "visible");
       })
       // move tooltip on move

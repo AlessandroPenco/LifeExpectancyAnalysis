@@ -118,7 +118,7 @@ function multipleBarChart(YY) {
         .attr("transform", `translate(${margin.left+10},${margin.top + 40})`);
 
       // Add X axis
-      const x = d3.scaleLinear().domain([0,100]).range([0, (width/3)-10]);
+      const x = d3.scaleLinear().domain([20,100]).nice().range([0, (width/3)-10]);
       svgBar
         .append("g")
         .attr("transform", `translate(0, ${0})`)
@@ -152,21 +152,21 @@ function multipleBarChart(YY) {
         .domain(country)
         .padding(0.4);
 
-      svgBar.append("g").call(d3.axisLeft(y));
+      svgBar.append("g").call(d3.axisLeft(y)).selectAll("text").attr("font-size", "7px");
       // build waffle
 
       svgBar
         .selectAll("myRect")
         .data(filteredDataByContinent[continent_1].data)
         .join("rect")
-        .attr("x", (d) => x(0))
+        .attr("x", (d) => x(20))
         .attr("y", (d) => y(d.Entity=="" ? "Others" : d.Entity))
         .attr("width", (d) => d.life)
         .attr("class", (d) => (d.Entity=="" ? "Others" : d.Entity))
         .attr("height", 10)
         .attr("fill", (d) => colors[d.continent])
         .on("mouseover", function (d, j) {
-            tooltipW.html(Math.round(j.life))
+            tooltipW.html("Life Expectancy: "+Math.round(j.life) +" years old")
             .style("visibility", "visible");
             d3.select(this).attr("fill", "red");attr("fill", "red");
         })
