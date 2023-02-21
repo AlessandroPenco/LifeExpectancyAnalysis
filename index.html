@@ -47,13 +47,13 @@
     <!-- include navbar end-->
     <!-- introduction start -->
     <div class="container-fluid bg-light fixed-top">
-      <div class="row" style="padding-top: 0px!important;">
+      <div class="row" style="padding-top: 0px !important">
         <div class="col-12 text-center">
           <h1>Life Expectancy Analysis</h1>
         </div>
       </div>
       <div class="container-fluid bg-light">
-        <div class="row" style="padding-top: 0px!important;">
+        <div class="row" style="padding-top: 0px !important">
           <div id="year-slider-wrapper">
             <div class="col-lg-9">
               <label>1950</label>
@@ -398,11 +398,10 @@
     </div>
 
     <!-- introduction end -->
-    <!-- plot 1 start -->
     <div class="container-fluid">
-      <div class="row" style="padding-top: 0px!important;">
+      <div class="row" style="padding-top: 50px !important">
         <div class="col-lg-4 scrollable-text-container">
-          <h2>Map chart</h2>
+          <h2>Introduction</h2>
           <p class="text-explanation">
             Life expectancy is a critical metric used to determine the average
             length of time a person is expected to live. The value of this
@@ -414,18 +413,32 @@
             expectancy can be much lower, with many factors such as disease,
             poor nutrition, and lack of access to healthcare playing a role.
           </p>
+        </div>
+        <div class="col-lg-4 scrollable-text-container"></div>
+        <div class="col-lg-4 scrollable-text-container"></div>
+      </div>
+    </div>
+    <!-- plot 1 start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 scrollable-text-container">
+          <h2>Map chart</h2>
           <p class="text-explanation">
-            A map chart is an effective way to visualize life expectancy across
-            the world. This type of chart displays data by assigning different
-            colors or shades to different regions of the world. The resulting
-            image can be used to quickly see trends in life expectancy across
-            different countries and regions. For example, a map chart can show
-            that life expectancy is higher in developed regions such as Europe,
-            North America, and parts of Asia, while it is lower in regions such
-            as Africa and South Asia. This type of chart can also be useful in
-            identifying countries or regions where life expectancy is lower than
-            expected, which can help policymakers and healthcare professionals
-            to develop targeted interventions to improve health outcomes.
+            We chose to use a map chart as our first visualization because it
+            provides a comprehensive overview of life expectancy trends
+            worldwide. This type of chart enables us to identify clear patterns
+            in the distribution of life expectancy across the globe. As
+            expected, we observed that life expectancy tends to be higher in
+            more developed countries, while developing nations generally have
+            lower life expectancies.
+          </p>
+          <p class="text-explanation">
+            The map chart also allows us to track changes in life expectancy
+            over time, highlighting the persistence of these trends across
+            different years. With this visualization, we can gain a deeper
+            understanding of how global socioeconomic factors influence life
+            expectancy, and identify areas where targeted interventions may be
+            necessary to improve health outcomes.
           </p>
         </div>
         <div class="col-lg-6 blocked-image-container">
@@ -449,23 +462,17 @@
         <div class="col-lg-4 scrollable-text-container">
           <h2>Line chart</h2>
           <p class="text-explanation">
-            In addition to a map chart, a subsequent line chart that displays
-            the life expectancy during the years for each continent and the
-            world as a whole can provide a deeper understanding of life
-            expectancy trends over time. By using a line chart, we can see how
-            life expectancy has changed in each continent and the world as a
-            whole over a period of time, giving us a better understanding of how
-            healthcare interventions and other factors have affected life
-            expectancy in different regions of the world.
+            To further investigate life expectancy trends, we chose to use a
+            line chart as our next visualization. By plotting average life
+            expectancy over time, we can gain insight into whether life
+            expectancy is increasing, decreasing, or remaining stable.
           </p>
           <p class="text-explanation">
-            For example, a line chart could show that life expectancy has
-            steadily increased over the past few decades in developed regions
-            such as Europe and North America, with a more gradual increase in
-            other regions such as Asia and Latin America. It could also show
-            that there has been a significant increase in life expectancy in
-            certain countries in Africa in recent years, due to improved
-            healthcare and increased access to medicines.
+            To ensure that our line chart is easy to read and interpret, we
+            decided to group the states into continents. This helps to avoid
+            overcrowding the graph and allows us to clearly visualize trends in
+            life expectancy for each continent. By doing so, we can identify
+            patterns and disparities between different regions.
           </p>
         </div>
         <div class="col-lg-6 blocked-image-container">
@@ -513,7 +520,7 @@
               data-aos-duration="1000"
               id="bar"
             >
-            <p id="barPar"></p>
+              <p id="barPar"></p>
             </g>
           </div>
         </div>
