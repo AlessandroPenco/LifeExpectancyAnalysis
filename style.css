@@ -183,3 +183,6 @@ input[type="range"]:focus::-ms-fill-upper {
   fill: #ADD8E6;
   stroke: none;
 } */
+.row {
+  padding-left: 4%;
+}
