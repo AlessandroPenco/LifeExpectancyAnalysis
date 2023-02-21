@@ -527,52 +527,6 @@
       </div>
     </div>
     <!-- plot 3 end -->
-    <!-- plot 4 start -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4 scrollable-text-container">
-          <h2>Bubble chart</h2>
-          <p class="text-explanation">
-            A subsequent bubble chart that displays the relation between GDP per
-            capita and life expectancy for each country can provide further
-            insights into the relationship between economic development and
-            health outcomes. This type of chart can help us to understand how
-            improvements in economic development can lead to better health
-            outcomes and vice versa.
-          </p>
-          <p class="text-explanation">
-            The bubble chart is grouped by continent and for each year, allowing
-            us to see how the relationship between GDP per capita and life
-            expectancy has changed over time in different regions of the world.
-            Ee could see that in some regions, such as Europe and North America,
-            there is a strong positive correlation between GDP per capita and
-            life expectancy, while in other regions, such as Africa, the
-            correlation is weaker.
-          </p>
-          <p class="text-explanation">
-            The size of the bubbles in the chart represent the size of each
-            country's population, allowing us to see which countries have the
-            most significant impact on global trends. We could also use color
-            coding to represent the different continents.
-          </p>
-        </div>
-        <div class="col-lg-6 blocked-image-container">
-          <div class="section-container">
-            <g
-              class="plot"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              id="bubble"
-            >
-            </g>
-            <div id="chart-wrapper">
-              <canvas id="myChart"></canvas>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- plot 4 end -->
     <!-- plot 5 start -->
     <div class="container-fluid">
       <div class="row">
@@ -618,6 +572,54 @@
       </div>
     </div>
     <!-- plot 5 end -->
+    <!-- plot 7 start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 scrollable-text-container">
+          <h2>Line chart</h2>
+          <p class="text-explanation">
+            The linechart depicts the average life expectancy trend for each
+            continent, using real data from 2020 and a statistical model to
+            project the trend up to the year 2100. By visualizing past and
+            potential future growth, this chart offers a means of comparing life
+            expectancy across different continents.
+          </p>
+          <p class="text-explanation">
+            The chart includes a legend on the right side that allows the user
+            to select the desired continent, and the visualization changes by
+            reducing the opacity of the other continents to make the display
+            clearer. This feature is particularly helpful in areas where the
+            plotted lines overlap.
+          </p>
+          <p class="text-explanation">
+            Additionally, the chart offers a zooming feature that allows the
+            user to focus on a specific period of time. From the chart, we can
+            observe a consistent increase in life expectancy for all continents
+            over time, with further improvements projected for the future.
+          </p>
+          <p class="text-explanation">
+            Interestingly, Asia, a continent with many developing countries, is
+            closing the gap in life expectancy with more developed continents
+            like North America and Europe. Overall, this linechart provides an
+            effective tool for analyzing and comparing the trends in life
+            expectancy across different continents and making informed
+            predictions about future growth.
+          </p>
+        </div>
+        <div class="col-lg-6 blocked-image-container">
+          <div class="section-container">
+            <g
+              class="plot"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              id="line2"
+            >
+            </g>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- plot 7 end -->
     <!-- plot 6 start -->
     <div class="container-fluid">
       <div class="row">
@@ -684,38 +686,31 @@
       </div>
     </div>
     <!-- plot 6 end -->
-    <!-- plot 7 start -->
+    <!-- plot 10 start -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 scrollable-text-container">
-          <h2>Line chart</h2>
+          <h2>Parallel line chart</h2>
           <p class="text-explanation">
-            The linechart depicts the average life expectancy trend for each
-            continent, using real data from 2020 and a statistical model to
-            project the trend up to the year 2100. By visualizing past and
-            potential future growth, this chart offers a means of comparing life
-            expectancy across different continents.
+            The parallel line chart displays the trend of life expectancy for
+            each country, represented by four specific years to avoid
+            overwhelming micro-changes and focus on the overall trend. The
+            visualization may seem chaotic at first glance, but the ability to
+            select a specific continent from both the legend and the plot allows
+            for a clearer representation.
           </p>
           <p class="text-explanation">
-            The chart includes a legend on the right side that allows the user
-            to select the desired continent, and the visualization changes by
-            reducing the opacity of the other continents to make the display
-            clearer. This feature is particularly helpful in areas where the
-            plotted lines overlap.
+            This type of plot is helpful in not only highlighting the varying
+            growth rates among different continents, but also the differing
+            variance between them. By observing the parallel lines, we can
+            better understand the trends and patterns of life expectancy for
+            each country and continent over time.
           </p>
           <p class="text-explanation">
-            Additionally, the chart offers a zooming feature that allows the
-            user to focus on a specific period of time. From the chart, we can
-            observe a consistent increase in life expectancy for all continents
-            over time, with further improvements projected for the future.
-          </p>
-          <p class="text-explanation">
-            Interestingly, Asia, a continent with many developing countries, is
-            closing the gap in life expectancy with more developed continents
-            like North America and Europe. Overall, this linechart provides an
-            effective tool for analyzing and comparing the trends in life
-            expectancy across different continents and making informed
-            predictions about future growth.
+            Overall, this parallel line chart is a useful tool for visualizing
+            and comparing the trends of life expectancy across different
+            continents and for understanding the varying variances in life
+            expectancy data.
           </p>
         </div>
         <div class="col-lg-6 blocked-image-container">
@@ -724,14 +719,14 @@
               class="plot"
               data-aos="fade-up"
               data-aos-duration="1000"
-              id="line2"
+              id="parallelChart"
             >
             </g>
           </div>
         </div>
       </div>
     </div>
-    <!-- plot 7 end -->
+    <!-- plot 10 end -->
     <!-- plot 8 start -->
     <div class="container-fluid">
       <div class="row">
@@ -798,6 +793,52 @@
       </div>
     </div>
     <!-- plot 8 end -->
+    <!-- plot 4 start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 scrollable-text-container">
+          <h2>Bubble chart</h2>
+          <p class="text-explanation">
+            A subsequent bubble chart that displays the relation between GDP per
+            capita and life expectancy for each country can provide further
+            insights into the relationship between economic development and
+            health outcomes. This type of chart can help us to understand how
+            improvements in economic development can lead to better health
+            outcomes and vice versa.
+          </p>
+          <p class="text-explanation">
+            The bubble chart is grouped by continent and for each year, allowing
+            us to see how the relationship between GDP per capita and life
+            expectancy has changed over time in different regions of the world.
+            Ee could see that in some regions, such as Europe and North America,
+            there is a strong positive correlation between GDP per capita and
+            life expectancy, while in other regions, such as Africa, the
+            correlation is weaker.
+          </p>
+          <p class="text-explanation">
+            The size of the bubbles in the chart represent the size of each
+            country's population, allowing us to see which countries have the
+            most significant impact on global trends. We could also use color
+            coding to represent the different continents.
+          </p>
+        </div>
+        <div class="col-lg-6 blocked-image-container">
+          <div class="section-container">
+            <g
+              class="plot"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              id="bubble"
+            >
+            </g>
+            <div id="chart-wrapper">
+              <canvas id="myChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- plot 4 end -->
     <!-- plot 9 start -->
     <div class="container-fluid">
       <div class="row">
@@ -845,47 +886,6 @@
       </div>
     </div>
     <!-- plot 9 end -->
-    <!-- plot 10 start -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4 scrollable-text-container">
-          <h2>Parallel line chart</h2>
-          <p class="text-explanation">
-            The parallel line chart displays the trend of life expectancy for
-            each country, represented by four specific years to avoid
-            overwhelming micro-changes and focus on the overall trend. The
-            visualization may seem chaotic at first glance, but the ability to
-            select a specific continent from both the legend and the plot allows
-            for a clearer representation.
-          </p>
-          <p class="text-explanation">
-            This type of plot is helpful in not only highlighting the varying
-            growth rates among different continents, but also the differing
-            variance between them. By observing the parallel lines, we can
-            better understand the trends and patterns of life expectancy for
-            each country and continent over time.
-          </p>
-          <p class="text-explanation">
-            Overall, this parallel line chart is a useful tool for visualizing
-            and comparing the trends of life expectancy across different
-            continents and for understanding the varying variances in life
-            expectancy data.
-          </p>
-        </div>
-        <div class="col-lg-6 blocked-image-container">
-          <div class="section-container">
-            <g
-              class="plot"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              id="parallelChart"
-            >
-            </g>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- plot 10 end -->
     <!-- plot 11 start -->
     <div class="container-fluid">
       <div class="row">
