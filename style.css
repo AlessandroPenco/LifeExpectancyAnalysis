@@ -186,3 +186,6 @@ input[type="range"]:focus::-ms-fill-upper {
 .row {
   padding-left: 4%;
 }
+h2{
+  font-size: 36px;
+}
