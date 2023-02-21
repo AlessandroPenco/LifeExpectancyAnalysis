@@ -62,7 +62,7 @@ function barChart1(yy) {
     const color = d3
       .scaleOrdinal()
       .domain([subgroups])
-      .range(["#e41a1c", "#377eb8", "#4daf4a"]);
+      .range(["#4daf4a", "#377eb8", "#e41a1c"]);
 
       // add tooltip
     const tooltipB = d3.select("body")
